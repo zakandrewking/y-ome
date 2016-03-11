@@ -1,0 +1,6 @@
+*.ini
+*.pyc
+.#*
+.cache/
+env/
+*.egg-info/
