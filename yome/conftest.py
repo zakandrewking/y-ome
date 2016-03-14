@@ -27,7 +27,7 @@ def test_db_create():
     logging.info('Dropped and created database %s' % test_db)
 
 
-@pytest.fixture(scope='session')
+@pytest.fixture(scope='function')
 def test_db(request, test_db_create):
     test_settings = {k: (test_db if k == 'database' else v)
                      for k, v in settings.items()}

@@ -18,6 +18,7 @@ setup(
     packages=['yome'],
     install_requires=[
         'SQLAlchemy>=1.0.12',
+        'psycopg2>=2.6.1',
         'pandas>=0.17.1',
         'pytest>=2.9.0',
     ],

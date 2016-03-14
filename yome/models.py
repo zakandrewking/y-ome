@@ -5,7 +5,7 @@ from sqlalchemy import (create_engine, Integer, String, Sequence, Column, Enum,
 from sqlalchemy.schema import UniqueConstraint
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from ConfigParser import SafeConfigParser
+from configparser import SafeConfigParser
 from os.path import join, dirname, realpath
 
 # get settings
@@ -23,7 +23,7 @@ Session = sessionmaker(bind=engine)
 
 # set up some enums
 _enum_l = [
-    Enum('database_gene', name='synonym_type'),
+    Enum('database_gene', name='synonym_ref_type'),
     Enum('high', 'medium', 'low', name='annotation_quality')
 ]
 enums = {x.name: x for x in _enum_l}
@@ -68,9 +68,9 @@ class DatabaseFeature(Base):
 class Synonym(Base):
     __tablename__ = 'synonym'
     id = Column(Integer, Sequence('wids'), primary_key=True)
-    row_id = Column(Integer)
     synonym = Column(String)
-    type = Column(enums['synonym_type'])
+    ref_id = Column(Integer)
+    ref_type = Column(enums['synonym_ref_type'])
     __table_args__ = (
-        UniqueConstraint('row_id', 'synonym', 'type'),
+        UniqueConstraint('synonym', 'ref_id', 'ref_type'),
     )
