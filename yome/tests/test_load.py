@@ -4,6 +4,7 @@ from yome.models import Gene, Synonym, Database, DatabaseGene, DatabaseFeature
 from yome.load import load_new_database_from_df
 
 import pandas as pd
+import numpy as np
 
 def test_load_new_database_from_df(test_db, session):
     df = pd.DataFrame([{
@@ -13,9 +14,10 @@ def test_load_new_database_from_df(test_db, session):
         'annotation_quality': 'high',
         'description': 'desc',
         'summary': 'sum',
+        'missing': np.nan,
     }])
     load_new_database_from_df(session, df, 'UniProt',
-                              feature_columns=['description', 'summary'])
+                              feature_columns=['description', 'summary', 'missing'])
     res = (
         session
         .query(Gene, Synonym, Database)

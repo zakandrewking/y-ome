@@ -32,7 +32,7 @@ enums = {x.name: x for x in _enum_l}
 class Gene(Base):
     __tablename__ = 'gene'
     id = Column(Integer, Sequence('wids'), primary_key=True)
-    locus_id = Column(String)
+    locus_id = Column(String, nullable=False)
     __table_args__ = (
         UniqueConstraint(locus_id),
     )
@@ -41,16 +41,16 @@ class Gene(Base):
 class Database(Base):
     __tablename__ = 'database'
     id = Column(Integer, Sequence('wids'), primary_key=True)
-    name = Column(String)
+    name = Column(String, nullable=False)
 
 
 class DatabaseGene(Base):
     __tablename__ = 'database_gene'
     id = Column(Integer, Sequence('wids'), primary_key=True)
-    primary_name = Column(String)
-    gene_id = Column(Integer, ForeignKey(Gene.id))
-    database_id = Column(Integer, ForeignKey(Database.id))
-    annotation_quality = Column(enums['annotation_quality'])
+    primary_name = Column(String, nullable=False)
+    gene_id = Column(Integer, ForeignKey(Gene.id), nullable=True)
+    database_id = Column(Integer, ForeignKey(Database.id), nullable=False)
+    annotation_quality = Column(enums['annotation_quality'], nullable=False)
     # TODO any unique constraint for DatabaseGene?
     # __table_args__ = (
     #     UniqueConstraint(),
@@ -60,17 +60,17 @@ class DatabaseGene(Base):
 class DatabaseFeature(Base):
     __tablename__ = 'database_feature'
     id = Column(Integer, Sequence('wids'), primary_key=True)
-    feature_type = Column(String)
-    feature = Column(String)
-    database_gene_id = Column(Integer, ForeignKey(DatabaseGene.id))
+    feature_type = Column(String, nullable=False)
+    feature = Column(String, nullable=False)
+    database_gene_id = Column(Integer, ForeignKey(DatabaseGene.id), nullable=False)
 
 
 class Synonym(Base):
     __tablename__ = 'synonym'
     id = Column(Integer, Sequence('wids'), primary_key=True)
-    synonym = Column(String)
-    ref_id = Column(Integer)
-    ref_type = Column(enums['synonym_ref_type'])
+    synonym = Column(String, nullable=False)
+    ref_id = Column(Integer, nullable=False)
+    ref_type = Column(enums['synonym_ref_type'], nullable=False)
     __table_args__ = (
         UniqueConstraint('synonym', 'ref_id', 'ref_type'),
     )
