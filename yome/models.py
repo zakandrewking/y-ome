@@ -23,7 +23,7 @@ Session = sessionmaker(bind=engine)
 
 # set up some enums
 _enum_l = [
-    Enum('database_gene', name='synonym_ref_type'),
+    Enum('knowledgebase_gene', name='synonym_ref_type'),
     Enum('high', 'medium', 'low', name='annotation_quality')
 ]
 enums = {x.name: x for x in _enum_l}
@@ -38,31 +38,31 @@ class Gene(Base):
     )
 
 
-class Database(Base):
-    __tablename__ = 'database'
+class Knowledgebase(Base):
+    __tablename__ = 'knowledgebase'
     id = Column(Integer, Sequence('wids'), primary_key=True)
     name = Column(String, nullable=False)
 
 
-class DatabaseGene(Base):
-    __tablename__ = 'database_gene'
+class KnowledgebaseGene(Base):
+    __tablename__ = 'knowledgebase_gene'
     id = Column(Integer, Sequence('wids'), primary_key=True)
     primary_name = Column(String, nullable=False)
     gene_id = Column(Integer, ForeignKey(Gene.id), nullable=True)
-    database_id = Column(Integer, ForeignKey(Database.id), nullable=False)
+    knowledgebase_id = Column(Integer, ForeignKey(Knowledgebase.id), nullable=False)
     annotation_quality = Column(enums['annotation_quality'], nullable=False)
-    # TODO any unique constraint for DatabaseGene?
+    # TODO any unique constraint for KnowledgebaseGene?
     # __table_args__ = (
     #     UniqueConstraint(),
     # )
 
 
-class DatabaseFeature(Base):
-    __tablename__ = 'database_feature'
+class KnowledgebaseFeature(Base):
+    __tablename__ = 'knowledgebase_feature'
     id = Column(Integer, Sequence('wids'), primary_key=True)
     feature_type = Column(String, nullable=False)
     feature = Column(String, nullable=False)
-    database_gene_id = Column(Integer, ForeignKey(DatabaseGene.id), nullable=False)
+    knowledgebase_gene_id = Column(Integer, ForeignKey(KnowledgebaseGene.id), nullable=False)
 
 
 class Synonym(Base):

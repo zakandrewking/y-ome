@@ -1,12 +1,15 @@
 # -*- coding: utf-8 -*-
 
-from yome.models import Gene, Synonym, Database, DatabaseGene, DatabaseFeature
-from yome.load import load_new_database_from_df
+from yome.models import (Gene, Synonym, Knowledgebase, KnowledgebaseGene,
+                         KnowledgebaseFeature)
+from yome.load import load_knowledgebase
 
 import pandas as pd
 import numpy as np
+import logging
 
-def test_load_new_database_from_df(test_db, session):
+def test_load_knowledgebase(session):
+    print('load knowledge base')
     df = pd.DataFrame([{
         'bnum': 'b0114',
         'name': 'aceE',
@@ -16,14 +19,14 @@ def test_load_new_database_from_df(test_db, session):
         'summary': 'sum',
         'missing': np.nan,
     }])
-    load_new_database_from_df(session, df, 'UniProt',
-                              feature_columns=['description', 'summary', 'missing'])
+    load_knowledgebase(session, df, 'UniProt',
+                       feature_columns=['description', 'summary', 'missing'])
     res = (
         session
-        .query(Gene, Synonym, Database)
-        .join(DatabaseGene)
-        .join(Synonym, Synonym.ref_id == DatabaseGene.id)
-        .join(Database)
+        .query(Gene, Synonym, Knowledgebase)
+        .join(KnowledgebaseGene)
+        .join(Synonym, Synonym.ref_id == KnowledgebaseGene.id)
+        .join(Knowledgebase)
         .filter(Gene.locus_id == 'b0114')
         .all()
     )
@@ -32,8 +35,8 @@ def test_load_new_database_from_df(test_db, session):
     assert res[0][2].name == 'UniProt'
     res = (
         session
-        .query(DatabaseFeature)
-        .join(DatabaseGene)
+        .query(KnowledgebaseFeature)
+        .join(KnowledgebaseGene)
         .join(Gene)
         .filter(Gene.locus_id == 'b0114')
         .all()
