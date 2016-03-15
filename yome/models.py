@@ -62,7 +62,7 @@ class DatabaseFeature(Base):
     id = Column(Integer, Sequence('wids'), primary_key=True)
     feature_type = Column(String)
     feature = Column(String)
-    database_gene_id = Column(Integer, ForeignKey(Database.id))
+    database_gene_id = Column(Integer, ForeignKey(DatabaseGene.id))
 
 
 class Synonym(Base):
