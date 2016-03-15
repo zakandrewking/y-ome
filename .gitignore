@@ -1,4 +1,4 @@
-*.ini
+settings.ini
 *.pyc
 .#*
 .cache/
