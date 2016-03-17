@@ -4,3 +4,4 @@ settings.ini
 .cache/
 env/
 *.egg-info/
+TAGS

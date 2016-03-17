@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from sqlalchemy import (create_engine, Integer, String, Sequence, Column, Enum,
-                        ForeignKey)
+                        ForeignKey, Float)
 from sqlalchemy.schema import UniqueConstraint
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
@@ -73,4 +73,39 @@ class Synonym(Base):
     ref_type = Column(enums['synonym_ref_type'], nullable=False)
     __table_args__ = (
         UniqueConstraint('synonym', 'ref_id', 'ref_type'),
+    )
+
+
+class Dataset(Base):
+    __tablename__ = 'dataset'
+    id = Column(Integer, Sequence('wids'), primary_key=True)
+    name = Column(String, nullable=False)
+    __table_args__ = (
+        UniqueConstraint('name'),
+    )
+
+
+class DatasetGeneValue(Base):
+    __tablename__ = 'dataset_gene_value'
+    id = Column(Integer, Sequence('wids'), primary_key=True)
+    dataset_id = Column(Integer, ForeignKey(Dataset.id), nullable=False)
+    gene_id = Column(Integer, ForeignKey(Gene.id), nullable=False)
+    value_type = Column(String, nullable=False)
+    value = Column(Float, nullable=True)
+    # only one of each type currently allowed
+    __table_args__ = (
+        UniqueConstraint('dataset_id', 'gene_id', 'value_type'),
+    )
+
+
+class DatasetGeneFeature(Base):
+    __tablename__ = 'dataset_gene_feature'
+    id = Column(Integer, Sequence('wids'), primary_key=True)
+    dataset_id = Column(Integer, ForeignKey(Dataset.id), nullable=False)
+    gene_id = Column(Integer, ForeignKey(Gene.id), nullable=False)
+    feature_type = Column(String, nullable=False)
+    feature = Column(String, nullable=True)
+    # only one of each type currently allowed
+    __table_args__ = (
+        UniqueConstraint('dataset_id', 'gene_id', 'feature_type'),
     )

@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 
 from yome.models import (Gene, Synonym, Knowledgebase, KnowledgebaseGene,
-                         KnowledgebaseFeature)
-from yome.load import load_knowledgebase
+                         KnowledgebaseFeature, Dataset, DatasetGeneValue,
+                         DatasetGeneFeature)
+from yome.load import load_knowledgebase, load_dataset
 
 import pandas as pd
 import numpy as np
 import logging
 
 def test_load_knowledgebase(session):
-    print('load knowledge base')
     df = pd.DataFrame([{
         'bnum': 'b0114',
         'name': 'aceE',
@@ -44,3 +44,38 @@ def test_load_knowledgebase(session):
     feature_dict = {x.feature_type: x.feature for x in res}
     assert feature_dict['description'] == 'desc'
     assert feature_dict['summary'] == 'sum'
+
+def test_load_dataset(session):
+    df = pd.DataFrame([{
+        'bnum': 'b0114',
+        'expr': 103.4,
+        'pval': 1.1e-4,
+        'expr_t2': np.nan,
+        'signif': 't',
+    }])
+    load_dataset(session, df, 'expr_abc', value_columns=['expr', 'pval', 'expr_t2'],
+                 feature_columns=['signif'])
+    res = (
+        session
+        .query(DatasetGeneValue, Dataset, Gene)
+        .join(Dataset)
+        .join(Gene)
+        .filter(DatasetGeneValue.value_type == 'expr')
+        .first()
+    )
+    assert res[0].value_type == 'expr'
+    assert res[0].value == 103.4
+    assert res[1].name == 'expr_abc'
+    assert res[2].locus_id == 'b0114'
+
+    res = (
+        session
+        .query(DatasetGeneFeature, Dataset, Gene)
+        .join(Dataset)
+        .join(Gene)
+        .first()
+    )
+    assert res[0].feature_type == 'signif'
+    assert res[0].feature == 't'
+    assert res[1].name == 'expr_abc'
+    assert res[2].locus_id == 'b0114'
