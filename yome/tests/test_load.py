@@ -3,11 +3,14 @@
 from yome.models import (Gene, Synonym, Knowledgebase, KnowledgebaseGene,
                          KnowledgebaseFeature, Dataset, DatasetGeneValue,
                          DatasetGeneFeature)
-from yome.load import load_knowledgebase, load_dataset
+from yome.load import (load_knowledgebase, drop_knowledgebase, load_dataset,
+                       drop_dataset)
 
 import pandas as pd
 import numpy as np
 import logging
+
+logging.basicConfig(level=logging.INFO)
 
 def test_load_knowledgebase(session):
     df = pd.DataFrame([{
@@ -79,3 +82,14 @@ def test_load_dataset(session):
     assert res[0].feature == 't'
     assert res[1].name == 'expr_abc'
     assert res[2].locus_id == 'b0114'
+
+    drop_dataset(session, 'expr_%')
+    res = (
+        session
+        .query(DatasetGeneValue, Dataset, Gene)
+        .join(Dataset)
+        .join(Gene)
+        .filter(DatasetGeneValue.value_type == 'expr')
+        .first()
+    )
+    assert res is None

@@ -3,11 +3,12 @@
 from yome.models import (Base, Gene, KnowledgebaseGene, Knowledgebase, Synonym,
                          KnowledgebaseFeature, Dataset, DatasetGeneValue,
                          DatasetGeneFeature)
-from yome.util import get_or_create
+from yome.util import get_or_create, create, format_seconds
 
 import logging
 import numpy as np
 import pandas as pd
+import time
 
 def _none_for_nan(df):
     """Replace np.nan with None.
@@ -48,6 +49,7 @@ def load_knowledgebase(session, df, knowledgebase_name, locus_id_column='bnum',
 
     """
     logging.info('Loading knowledgebase %s' % knowledgebase_name)
+    start = time.time()
 
     for col in [locus_id_column, primary_name_column, synonyms_column,
                 annotation_quality_column] + feature_columns:
@@ -56,48 +58,58 @@ def load_knowledgebase(session, df, knowledgebase_name, locus_id_column='bnum',
 
     df = _none_for_nan(df)
 
-    db = get_or_create(session, Knowledgebase, name=knowledgebase_name)
+    db, found = get_or_create(session, Knowledgebase, name=knowledgebase_name)
+    if found:
+        logging.info('Knowledgebase %s already loaded')
+        return
+
     # load genes
     for _, row in df.iterrows():
         # load gene and knowledgebase gene
         locus_id = row[locus_id_column]
         primary_name = row[primary_name_column]
         if locus_id is not None:
-            gene = get_or_create(session, Gene,
-                                 locus_id=locus_id)
+            gene = create(session, Gene, locus_id=locus_id)
             gene_id = gene.id
         else:
             gene_id = None
-        db_gene = get_or_create(session, KnowledgebaseGene,
-                                gene_id=gene_id,
-                                knowledgebase_id=db.id,
-                                primary_name=primary_name,
-                                annotation_quality=row[annotation_quality_column])
+        db_gene = create(session, KnowledgebaseGene,
+                         gene_id=gene_id,
+                         knowledgebase_id=db.id,
+                         primary_name=primary_name,
+                         annotation_quality=row[annotation_quality_column])
         # load synonyms
         all_synonyms = [primary_name]
         if locus_id is not None:
             all_synonyms += [locus_id]
         if row[synonyms_column] is not None:
             all_synonyms += row[synonyms_column]
-        for synonym in all_synonyms:
-            synonym = get_or_create(session, Synonym,
-                                    synonym=synonym,
-                                    ref_id=db_gene.id,
-                                    ref_type='knowledgebase_gene')
+        for synonym in set(all_synonyms):
+            synonym = create(session, Synonym,
+                             synonym=synonym,
+                             ref_id=db_gene.id,
+                             ref_type='knowledgebase_gene')
         # load features
         for col in feature_columns:
             if row[col] is not None:
-                get_or_create(session, KnowledgebaseFeature,
-                              feature_type=col,
-                              feature=row[col],
-                              knowledgebase_gene_id=db_gene.id)
+                create(session, KnowledgebaseFeature,
+                       feature_type=col,
+                       feature=row[col],
+                       knowledgebase_gene_id=db_gene.id)
     session.commit()
 
-    logging.info('Finished loading knowledgebase %s' % knowledgebase_name)
+    logging.info('Finished loading knowledgebase %s in %s' %
+                 (knowledgebase_name, format_seconds(time.time() - start)))
 
+def drop_knowledgebase(session, like):
+    res = session.query(Knowledgebase).filter(Knowledgebase.name.like(like))
+    res.delete(synchronize_session=False)
+    session.commit()
+
+# dataset
 
 def load_dataset(session, df, dataset_name, locus_id_column='bnum',
-                 value_columns=[], feature_columns=['description']):
+                 value_columns=[], feature_columns=[]):
     """Load a new dataset.
 
     Arguments
@@ -118,6 +130,7 @@ def load_dataset(session, df, dataset_name, locus_id_column='bnum',
 
     """
     logging.info('Loading dataset %s' % dataset_name)
+    start = time.time()
 
     for col in [locus_id_column] + value_columns + feature_columns:
         if not col in df.columns:
@@ -125,28 +138,35 @@ def load_dataset(session, df, dataset_name, locus_id_column='bnum',
 
     df = _none_for_nan(df)
 
-    ds = get_or_create(session, Dataset, name=dataset_name)
-
-    # probably quicker to get all the genes at once
-    gene_dict = {gene.locus_id: gene.id for gene in session.query(Gene)}
+    ds, found = get_or_create(session, Dataset, name=dataset_name)
+    if found:
+        logging.info('Dataset %s already exists' % dataset_name)
+        return
 
     # load values
     for _, row in df.iterrows():
         # load gene and knowledgebase gene
         locus_id = row[locus_id_column]
-        gene_id = gene_dict[locus_id]
+        gene, _ = get_or_create(session, Gene, locus_id=locus_id)
         for col in value_columns:
-            get_or_create(session, DatasetGeneValue,
-                          dataset_id=ds.id,
-                          gene_id=gene_id,
-                          value_type=col,
-                          value=row[col])
+            # speed up by taking out the check here
+            create(session, DatasetGeneValue,
+                   dataset_id=ds.id,
+                   gene_id=gene.id,
+                   value_type=col,
+                   value=row[col])
         for col in feature_columns:
-            get_or_create(session, DatasetGeneFeature,
-                          dataset_id=ds.id,
-                          gene_id=gene_id,
-                          feature_type=col,
-                          feature=row[col])
+            create(session, DatasetGeneFeature,
+                   dataset_id=ds.id,
+                   gene_id=gene.id,
+                   feature_type=col,
+                   feature=row[col])
     session.commit()
 
-    logging.info('Finished loading dataset %s' % dataset_name)
+    logging.info('Finished loading dataset %s in %s' %
+                 (dataset_name, format_seconds(time.time() - start)))
+
+def drop_dataset(session, like):
+    res = session.query(Dataset).filter(Dataset.name.like(like))
+    res.delete(synchronize_session=False)
+    session.commit()

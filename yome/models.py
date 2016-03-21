@@ -48,8 +48,8 @@ class KnowledgebaseGene(Base):
     __tablename__ = 'knowledgebase_gene'
     id = Column(Integer, Sequence('wids'), primary_key=True)
     primary_name = Column(String, nullable=False)
-    gene_id = Column(Integer, ForeignKey(Gene.id), nullable=True)
-    knowledgebase_id = Column(Integer, ForeignKey(Knowledgebase.id), nullable=False)
+    gene_id = Column(Integer, ForeignKey(Gene.id, ondelete='CASCADE'), nullable=True)
+    knowledgebase_id = Column(Integer, ForeignKey(Knowledgebase.id, ondelete='CASCADE'), nullable=False)
     annotation_quality = Column(enums['annotation_quality'], nullable=False)
     # TODO any unique constraint for KnowledgebaseGene?
     # __table_args__ = (
@@ -62,7 +62,7 @@ class KnowledgebaseFeature(Base):
     id = Column(Integer, Sequence('wids'), primary_key=True)
     feature_type = Column(String, nullable=False)
     feature = Column(String, nullable=False)
-    knowledgebase_gene_id = Column(Integer, ForeignKey(KnowledgebaseGene.id), nullable=False)
+    knowledgebase_gene_id = Column(Integer, ForeignKey(KnowledgebaseGene.id, ondelete='CASCADE'), nullable=False)
 
 
 class Synonym(Base):
@@ -88,8 +88,8 @@ class Dataset(Base):
 class DatasetGeneValue(Base):
     __tablename__ = 'dataset_gene_value'
     id = Column(Integer, Sequence('wids'), primary_key=True)
-    dataset_id = Column(Integer, ForeignKey(Dataset.id), nullable=False)
-    gene_id = Column(Integer, ForeignKey(Gene.id), nullable=False)
+    dataset_id = Column(Integer, ForeignKey(Dataset.id, ondelete='CASCADE'), nullable=False)
+    gene_id = Column(Integer, ForeignKey(Gene.id, ondelete='CASCADE'), nullable=False)
     value_type = Column(String, nullable=False)
     value = Column(Float, nullable=True)
     # only one of each type currently allowed
@@ -101,8 +101,8 @@ class DatasetGeneValue(Base):
 class DatasetGeneFeature(Base):
     __tablename__ = 'dataset_gene_feature'
     id = Column(Integer, Sequence('wids'), primary_key=True)
-    dataset_id = Column(Integer, ForeignKey(Dataset.id), nullable=False)
-    gene_id = Column(Integer, ForeignKey(Gene.id), nullable=False)
+    dataset_id = Column(Integer, ForeignKey(Dataset.id, ondelete='CASCADE'), nullable=False)
+    gene_id = Column(Integer, ForeignKey(Gene.id, ondelete='CASCADE'), nullable=False)
     feature_type = Column(String, nullable=False)
     feature = Column(String, nullable=True)
     # only one of each type currently allowed

@@ -19,7 +19,8 @@ setup(
     install_requires=[
         'SQLAlchemy>=1.0.12',
         'psycopg2>=2.6.1',
-        'pandas>=0.17.1',
+        'pandas>=0.18.0',
         'pytest>=2.9.0',
+        'xlrd>=0.9.4',
     ],
 )
