@@ -69,7 +69,7 @@ def load_knowledgebase(session, df, knowledgebase_name, locus_id_column='bnum',
         locus_id = row[locus_id_column]
         primary_name = row[primary_name_column]
         if locus_id is not None:
-            gene = create(session, Gene, locus_id=locus_id)
+            gene, _ = get_or_create(session, Gene, locus_id=locus_id)
             gene_id = gene.id
         else:
             gene_id = None
