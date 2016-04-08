@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from datetime import timedelta
+import pandas as pd
 
 def create(session, query_class, commit=False, **kwargs):
     """Add a new row to the database and return.
@@ -60,3 +61,10 @@ def format_seconds(total_sec):
     if days:
         s = '%d d ' % days + s
     return s
+
+def to_df(res, cols):
+    """Convert a SQLAlchemy query result to a DataFrame."""
+    data = [{k: v for k, v in zip(cols, x)} for x in res]
+    if len(data) == 0:
+        return pd.DataFrame()
+    return pd.DataFrame(data).loc[:, cols]
