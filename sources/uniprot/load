@@ -1,0 +1,104 @@
+#!/usr/bin/env python3
+
+from yome import Session
+from yome.load import load_knowledgebase
+
+import pandas as pd
+from os.path import dirname, realpath, join
+import glob
+
+# Load knowledgebase into dataframe
+directory = realpath(dirname(__file__))
+
+raw = pd.read_table(join(directory, 'uniprot_raw.tsv'), sep='\t')
+man = pd.read_table(join(directory, 'manual_uniprot.tsv'), sep='\t')
+
+# Format raw knowlegebase entries
+raw.columns = ['raw_upid', 'gene_name', 'raw_syn', 'raw_bnums', 'protein', 'ec', 'reaction', 'function', 'raw_ann_score', 'features', 'misc']
+
+raw['ann_score'] = raw.raw_ann_score.str.replace('out of 5', '')
+
+raw.raw_bnums = raw.raw_bnums.str.split(' ', )
+raw['bnum']= raw.raw_bnums.str[0]
+
+raw.raw_syn = raw.raw_syn.fillna('')
+raw.gene_name = raw.gene_name.fillna('')
+raw['syn'] = ''
+for index, row in raw.iterrows():
+    if row.raw_syn == '':
+        raw.loc[index, 'syn'] = [row.raw_upid]
+    else:
+        raw.loc[index, 'syn'] = [row.raw_upid, row.raw_syn]
+    if row.gene_name == '':
+        raw.loc[index, 'gene_name'] = 'protein_'+row.bnum
+
+cols = raw.columns
+delcols = cols[cols.str.startswith('raw')]
+df = raw.drop(delcols,1)
+
+df.ann_score = df.ann_score.astype(float)
+df.reaction = df.reaction.fillna('')
+
+#add annotation quality scores
+lowwords_protein = ['Probable', 'Uncharacterized', 'Putative']
+lowwords_function = ['unknown', 'not known']
+lowwords_function2 = ['could', 'Could']
+highwords_function = ['transport system', 'part of', 'binding-protein-', 'Repressor of', 'repressor of', 'repressor for', 'Repressor for', 'regulator of', 'required for']
+highwords_protein = ['repressor', 'regulator']
+
+df.loc[:, 'ann_quality'] = 'tbd'
+
+for index, row in df.iterrows():
+    if type(row.reaction) == float:
+        row.reaction = repr(row.reaction)
+    if type(row.function) == float:
+        row.function = repr(row.function)
+    for key in lowwords_function2:
+        if key in row.function:
+            df.loc[index, 'ann_quality'] = 'low'
+    if row.ann_score == 5:
+        df.loc[index, 'ann_quality'] = 'high'
+    if row.ann_score < 3:
+        df.loc[index, 'ann_quality'] = 'low'
+    for key in lowwords_protein:
+        if key in row.protein:
+            df.loc[index, 'ann_quality'] = 'low'
+    for key in lowwords_function:
+        if key in row.function:
+            df.loc[index, 'ann_quality'] = 'low'
+
+for index, row in df.iterrows():
+    if type(row.function) == float:
+        row.function = repr(row.function)
+    if type(row.reaction) == float:
+        row.reaction = repr(row.reaction)
+    if row.ann_quality == 'tbd':
+        if row.reaction != '':
+            df.loc[index, 'ann_quality'] = 'high'
+        for key in highwords_function:
+            if key in row.function:
+                df.loc[index, 'ann_quality'] = 'high'
+        for key in highwords_protein:
+            if key in row.protein:
+                df.loc[index, 'ann_quality'] = 'high'
+
+manhigh = man[man.new_ann_quality=='high']
+manlow = man[man.new_ann_quality=='low']
+dfmanhigh = df[df.gene_name.isin(manhigh.gene_name)]
+dfmanlow = df[df.gene_name.isin(manlow.gene_name)]
+df.loc[dfmanhigh.index, 'ann_quality'] = 'high'
+df.loc[dfmanlow.index, 'ann_quality'] = 'low'
+
+for index, row in df.iterrows():
+    if row.ann_quality == 'tbd':
+        df.loc[index, 'ann_quality'] = 'high'
+
+#import knowledgebase
+session = Session()
+load_knowledgebase(session, df, 'UniProt',
+                   locus_id_column='bnum',
+                   primary_name_column='gene_name',
+                   synonyms_column='syn',
+                   feature_columns=['protein', 'ec', 'reaction', 'function', 'features', 'misc', 'ann_score'],
+                   annotation_quality_column='ann_quality')
+session.close()

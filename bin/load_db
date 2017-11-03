@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd "$(dirname "$0")"
+
+dropdb yome
+createdb yome
+./create_tables
+../sources/ecocyc/load
+../sources/ecogene/load
+../sources/uniprot/load
+../sources/manual/load

@@ -1,0 +1,143 @@
+#!/usr/bin/env python3
+
+from yome import Session
+from yome.load import load_knowledgebase
+from yome.util import to_df
+from yome.models import *
+
+import pandas as pd
+import json
+from os.path import dirname, realpath, join
+
+# load manual annotations into dataframe
+directory = realpath(dirname(__file__))
+
+manual = pd.read_table(join(directory, 'disagreeing_annotations_edited.tsv'), sep='\t')
+
+manual = manual.drop(['knowledgebase', 'ann_quality'], 1)
+manual.columns = ['bnum', 'gene_name', 'ann_quality']
+
+#load uniprot revisions into dataframe
+uniprot = pd.read_table(join(directory, 'uniprot_revisions.tab'), sep='\t')
+
+# find all entries already in database that don't require manual annotation, also get synonyms in db
+session = Session()
+genes = to_df(
+    session.query(Gene.locus_id, KnowledgebaseGene.primary_name, Knowledgebase.name, KnowledgebaseGene.annotation_quality)
+    .join(KnowledgebaseGene)
+    .join(Knowledgebase)
+    , ['bnum', 'gene_name','knowledgebase', 'ann_quality']
+)
+
+syn = to_df(
+    session.query(Gene.locus_id, KnowledgebaseGene.primary_name, Synonym.synonym, )
+    .join(KnowledgebaseGene)
+    .join(Synonym, KnowledgebaseGene.id == Synonym.ref_id)
+    , ['bnum', 'gene_name', 'syn']
+)
+
+syn_d1 = syn[syn.syn.isin(syn.bnum)]
+syn_d2 = syn[syn.syn.isin(syn.gene_name)]
+syn_d = pd.concat([syn_d1, syn_d2],0)
+syn = syn.drop(syn.index[[syn_d.index]])
+syn.index = range(0,len(syn))
+
+ec = genes[genes.knowledgebase == 'EcoCyc']
+eg = genes[genes.knowledgebase == 'EcoGene']
+
+sub1 = ec[ec.bnum.isin(eg.bnum)]
+sub2 = eg[eg.bnum.isin(ec.bnum)]
+sub3 = ec[ec.gene_name.isin(eg.gene_name)]
+sub4 = eg[eg.gene_name.isin(ec.gene_name)]
+match1 = pd.concat([sub1, sub3], 0)
+match1 = match1.drop_duplicates()
+match2 = pd.concat([sub2, sub4], 0)
+match2 = match2.drop_duplicates()
+
+echigh = match1[match1.ann_quality == 'high']
+eclow = match1[match1.ann_quality == 'low']
+eghigh = match2[match2.ann_quality == 'high']
+eglow = match2[match2.ann_quality == 'low']
+
+matchhigh1 = echigh[echigh.bnum.isin(eghigh.bnum)]
+matchhigh2 = echigh[echigh.gene_name.isin(eghigh.gene_name)]
+matchlow1 = eclow[eclow.bnum.isin(eglow.bnum)]
+matchlow2 = eclow[eclow.gene_name.isin(eglow.gene_name)]
+
+matchhigh = pd.concat([matchhigh1, matchhigh2], 0)
+matchlow = pd.concat([matchlow1, matchlow2], 0)
+matchhigh = matchhigh.drop_duplicates() #genes that are high in both kbs
+matchlow = matchlow.drop_duplicates() #genes that are low in both kbs
+
+matchhigh = matchhigh.drop(['knowledgebase'], 1)
+matchlow = matchlow.drop(['knowledgebase'], 1)
+
+redundant1 = manual[manual.bnum.isin(matchhigh.bnum)]
+redundant2 = manual[manual.bnum.isin(matchlow.bnum)]
+redundant3 = manual[manual.gene_name.isin(matchhigh.gene_name)]
+redundant4 = manual[manual.gene_name.isin(matchlow.gene_name)]
+redundant = pd.concat([redundant1, redundant2, redundant3, redundant4],0)
+redundant = redundant.drop_duplicates()
+
+manual = manual.drop(manual.index[[redundant.index]])
+
+df = pd.concat([matchhigh, matchlow, manual],0)
+df.index = range(0, len(df))
+df.columns = ['bnum', 'gene_name', 'annotation_quality']
+
+#add uniprot revisions for annotation quality
+uphigh = uniprot[uniprot.correct_ann_quality == 'high']
+uplow = uniprot[uniprot.correct_ann_quality == 'low']
+revhigh = df[df.bnum.isin(uphigh.bnum)]
+revlow = df[df.bnum.isin(uplow.bnum)]
+df.loc[revlow.index, 'annotation_quality'] = 'low'
+df.loc[revhigh.index, 'annotation_quality'] = 'high'
+
+#get rid of misleading synonyms before adding them
+high = df[df.annotation_quality == 'high']
+low = df[df.annotation_quality == 'low']
+
+high.index = range(0, len(high))
+low.index = range(0, len(low))
+syn.index = range(0,len(syn))
+
+synhigh1 = syn[syn.bnum.isin(high.bnum)]
+synhigh2 = syn[syn.gene_name.isin(high.gene_name)]
+synhigh = pd.concat([synhigh1, synhigh2], 0)
+synlow1 = syn[syn.bnum.isin(low.bnum)]
+synlow2 = syn[syn.gene_name.isin(low.gene_name)]
+synlow = pd.concat([synlow1, synlow2],0)
+
+sub1 = synlow[synlow.syn.isin(high.gene_name)]
+sub2 = synlow[synlow.syn.isin(high.bnum)]
+sub3 = synhigh[synhigh.syn.isin(low.bnum)]
+sub4 = synhigh[synhigh.syn.isin(low.gene_name)]
+
+contra = pd.concat([sub1, sub2, sub3, sub4],0)
+syn_drop1 = syn[syn.syn.isin(contra.syn)]
+syn_drop = pd.concat([contra, syn_drop1],0)
+
+syn = syn.drop(syn.index[[syn_drop.index]])
+syn.index = range(0, len(syn))
+
+#add/format synonyms to dataframe
+df['syn'] = ''
+for index, row in df.iterrows():
+    syn_test = syn[syn.bnum == row.bnum]
+    synonym = syn_test.syn.str.cat(sep=', ')
+    df.loc[index, 'syn'] = synonym
+df['syn'] = df['syn'].apply(lambda x: x.replace(',', ' ').split())
+
+
+
+#format final dataframe for import into psql
+df['feat'] = ''
+
+#import knowledgebase into psql database
+load_knowledgebase(session, df, 'Y-ome',
+                   locus_id_column='bnum',
+                   primary_name_column='gene_name',
+                   synonyms_column='syn',
+                   feature_columns= ['feat'],
+                   annotation_quality_column= 'annotation_quality')
+session.close()

@@ -1,0 +1,130 @@
+#!/usr/bin/env python3
+
+from yome import Session
+from yome.load import load_knowledgebase
+
+import pandas as pd
+import json
+from os.path import dirname, realpath, join
+
+#create dataframe from knowledgebase
+directory = realpath(dirname(__file__))
+
+with open(join(directory, 'results.json'), 'r') as f:
+    results = json.load(f)
+df = pd.DataFrame(results)
+
+# Import manual annotations
+man = pd.read_table(join(directory, 'manual_genes.tsv'), sep='\t')
+man = man[man.knowledgebase == 'EcoCyc']
+man = man.drop_duplicates()
+manhigh = man[man.new_ann_quality == 'high']
+manlow = man[man.new_ann_quality != 'high']
+
+# make html column compatible with keyword search
+sep = '</h3>'
+sep2 = '<a href='
+sep3 = '</a>'
+
+for i in range(0,len(df)):
+    output = ''
+    test = df.summary_html[i].split(sep, 1)
+    if len(test) > 1:
+        test = test[1]
+    if len(test) < 2:
+        test = test[0]
+    test2 = test.split(sep2)
+
+    for x in range(0,len(test2)):
+        test3 = test2[x].split(sep3)
+        if len(test3) > 1:
+            output = output + test3[1]
+        if len(test3) < 2:
+            output = output + test3[0]
+    df.loc[i, 'summary_html'] = output
+
+# add annotation_quality
+df.loc[:, 'annotation_quality'] = 'medium'
+keywords_desc = ['possibly', 'IS', 'insertion element', 'element protein', 'split',
+                 'interrupted', 'family protein', 'predicted', 'hypothetical', 'putative', 'conserved']
+highwords_desc = ['transporter', 'transcriptional', 'subunit', 'component', 'of the']
+keywords_summ = ['is a putative', 'an unknown mechanism', 'is a predicted', 'is an uncharacterized', 'is predicted to encode', 'is still unknown', 'putative missing', 'is unknown', 'No information about this', 'is not yet known']
+highwords_summ = ['is a component of']
+keywords_bnum = ['nan']
+keywords_rxn = ['nan']
+keywords_tRNA = ['tRNA']
+low2summ = ['has not been determined']
+low2desc = ['-like']
+high2desc = ['chaperone', 'factor']
+
+for index, row in df.iterrows():
+    if type(row.description) == float:
+        row.description = repr(row.description)
+    if type(row.summary_html) == float:
+        row.summary_html = repr(row.description)
+    if type(row.b_number) == float:
+        row.b_number = repr(row.b_number)
+    if type(row.reaction_equation) == float:
+        row.reaction_equation = repr(row.reaction_equation)
+    if row.is_pseudogene == True:
+        df.loc[index,'annotation_quality'] = 'low'
+    for key in highwords_desc:
+        if key in row.description:
+            df.loc[index,'annotation_quality'] = 'high'
+    for key in highwords_summ:
+        if key in row.summary_html:
+            df.loc[index,'annotation_quality'] = 'high'
+    if type(row.ec_number) == str:
+        df.loc[index,'annotation_quality'] = 'high'
+    for key in keywords_desc:
+        if key in row.description:
+            df.loc[index,'annotation_quality'] = 'low'
+    for key in keywords_summ:
+        if key in row.summary_html:
+            df.loc[index,'annotation_quality'] = 'low'
+    if row.product_type == '':
+        df.loc[index,'annotation_quality'] = 'low'
+    for key in keywords_bnum:
+        if key in row.b_number:
+            df.loc[index,'annotation_quality'] = 'low'
+    for key in keywords_tRNA:
+        if key == row.description:
+           df.loc[index, 'annotation_quality'] = 'high'
+
+for index, row in df.iterrows():
+    if type(row.description) == float:
+        row.description = repr(row.description)
+    if type(row.summary_html) == float:
+        row.summary_html = repr(row.description)
+    if type(row.b_number) == float:
+        row.b_number = repr(row.b_number)
+    if type(row.reaction_equation) == float:
+        row.reaction_equation = repr(row.reaction_equation)
+    if row.annotation_quality == 'medium':
+        for key in low2summ:
+            if key in row.summary_html:
+                df.loc[index,'annotation_quality'] = 'low'
+        for key in keywords_rxn:
+            if key not in row.reaction_equation:
+                df.loc[index,'annotation_quality'] = 'high'
+        for key in low2desc:
+            if key in row.description:
+                df.loc[index, 'annotation_quality'] = 'low'
+        for key in high2desc:
+            if key in row.description:
+                df.loc[index, 'annotation_quality'] = 'high'
+
+matchhigh = df[df.b_number.isin(manhigh.bnum)]
+matchlow = df[df.b_number.isin(manlow.bnum)]
+df.loc[matchhigh.index, 'annotation_quality'] = 'high'
+df.loc[matchlow.index, 'annotation_quality'] = 'low'
+
+# Import knowledgebase
+session = Session()
+load_knowledgebase(session, df, 'EcoCyc',
+                   locus_id_column='b_number',
+                   primary_name_column='name',
+                   synonyms_column='synonyms',
+                   feature_columns=['description', 'summary_html', 'product_type', 'ec_number', 'reaction_equation'],
+                   annotation_quality_column='annotation_quality')
+session.close()

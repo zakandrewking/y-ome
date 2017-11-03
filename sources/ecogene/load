@@ -1,0 +1,91 @@
+#!/usr/bin/env python3
+
+from yome import Session
+from yome.load import load_knowledgebase
+
+import pandas as pd
+from os.path import dirname, realpath, join
+
+# Load knowledgebase into dataframe
+directory = realpath(dirname(__file__))
+
+df = pd.read_table(join(directory, 'EcoData070116-195229.txt'), sep='\t')
+
+#format columns and column names
+df['Syn'] = df['Syn'].apply(lambda x: x.replace(',', ' ').split())
+df = df.drop(['Unnamed: 7'],1)
+df.columns = ['gene', 'syn', 'protein', 'function', 'desc', 'comments', 'bnum']
+
+#load manual annotations
+man = pd.read_table(join(directory, 'manual_genes.tsv'), sep = '\t')
+
+man = man[man.knowledgebase == 'EcoGene']
+man = man.drop_duplicates()
+manhigh = man[man.new_ann_quality.str.startswith('h')]
+manlow = man[man.new_ann_quality.str.startswith('l')]
+
+# add annotation_quality
+df.loc[:, 'annotation_quality'] = 'medium'
+pseudowords = ['pseudogene','Pseudogene']
+highwords_func = ['Carrier', 'Structural', 'Enzyme', 'Transport','Regulator', 'Membrane']
+lowwords_desc = ['physiological substrate', 'physiological role unknown', 'may have', 'probable', 'Probable', 'Uncharacterized', 'predicted', 'Predicted', 'putative', 'function unknown', 'Function unknown', 'Putative']
+lowwords_func = ['IS']
+highwords_prot = ['subunit']
+lowwords_prot = ['putative', 'uncharacterized']
+lowwords_comm = ['is a predicted', 'are predicted','function has not been', 'is unknown']
+highwords_rna = ['tRNA', 'Origin', 'regulator of', 'activator of', 'mediates']
+high2desc = ['ase']
+low2comm = ['The predicted']
+
+for index, row in df.iterrows():
+    for key in pseudowords:
+        if key in row.desc:
+            df.loc[index,'annotation_quality'] = 'low'
+        if key in row.protein:
+            df.loc[index,'annotation_quality'] = 'low'
+    if 'Null' in row.protein:
+        for key in highwords_rna:
+            if key in row.desc:
+                df.loc[index,'annotation_quality'] = 'high'
+    for key in highwords_prot:
+        if key in row.protein:
+            df.loc[index,'annotation_quality'] = 'high'
+    for key in highwords_func:
+        if key in row.function:
+            df.loc[index,'annotation_quality'] = 'high'
+    for key in lowwords_desc:
+        if key in row.desc:
+            df.loc[index,'annotation_quality'] = 'low'
+    for key in lowwords_func:
+        if key in row.function:
+            df.loc[index,'annotation_quality'] = 'low'
+    for key in lowwords_prot:
+        if key in row.protein:
+            df.loc[index,'annotation_quality'] = 'low'
+    for key in lowwords_comm:
+        if key in row.comments:
+            df.loc[index,'annotation_quality'] = 'low'
+
+for index, row in df.iterrows():
+    if row.annotation_quality == 'medium':
+        for key in high2desc:
+            if key in row.protein:
+                df.loc[index,'annotation_quality'] = 'high'
+        for key in low2comm:
+            if key in row.comments:
+                df.loc[index,'annotation_quality'] = 'low'
+
+matchhigh = df[df.bnum.isin(manhigh.bnum)]
+matchlow = df[df.bnum.isin(manlow.bnum)]
+df.loc[matchhigh.index, 'annotation_quality'] = 'high'
+df.loc[matchlow.index, 'annotation_quality'] = 'low'
+
+#import knowledgebase
+session = Session()
+load_knowledgebase(session, df, 'EcoGene',
+                   locus_id_column='bnum',
+                   primary_name_column='gene',
+                   synonyms_column='syn',
+                   feature_columns=['protein', 'function', 'desc', 'comments'],
+                   annotation_quality_column='annotation_quality')
+session.close()
