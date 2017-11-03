@@ -9,6 +9,7 @@
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.17"
   },
+  "homepage": "https://zakandrewking.github.io/y-ome",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
