@@ -1,1 +1,24 @@
+#!/usr/bin/env python3
+
 # TODO db queries to generate static data in public/data from the database
+
+from yome import Session
+from yome.models import *
+
+from os.path import join, realpath, dirname
+import json
+
+data_directory = realpath(join(dirname(__file__), '..', 'public', 'data'))
+
+session = Session()
+
+# Gene list
+gene_list = {
+    'locus_ids': [
+        x[0] for x in session.query(Gene.locus_id).all()
+    ]
+}
+with open(join(data_directory, 'genes.json'), 'w') as f:
+    json.dump(gene_list, f)
+
+session.close()
