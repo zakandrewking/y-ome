@@ -1,14 +1,17 @@
 import React, { Component } from 'react'
+import { Route } from 'react-router-dom'
 import './App.css'
-
-import { locusIds } from './data/index.json'
+import GeneList from './GeneList'
+import Gene from './Gene'
 
 class App extends Component {
   render () {
-    const divs = locusIds.map(locusId => {
-      return <div style={{width: '100%'}}>{locusId}</div>
-    })
-    return <div>{divs}</div>
+    return (
+      <div>
+        <Route exact path='/' component={GeneList} />
+        <Route path='/gene/:locusId' component={Gene} />
+      </div>
+    )
   }
 }
 
