@@ -10,8 +10,16 @@ import glob
 # Load knowledgebase into dataframe
 directory = realpath(dirname(__file__))
 
+# Load knowledgebase into dataframe
 raw = pd.read_table(join(directory, 'uniprot_raw.tsv'), sep='\t')
+
+# Import manual annotations
 man = pd.read_table(join(directory, 'manual_uniprot.tsv'), sep='\t')
+manhigh = man[man.new_ann_quality == 'high']
+manlow = man[man.new_ann_quality == 'low']
+
+# Make sure there are no invalid ann qualities
+assert(len(manhigh) + len(manlow) == len(man))
 
 # Format raw knowlegebase entries
 raw.columns = ['raw_upid', 'gene_name', 'raw_syn', 'raw_bnums', 'protein', 'ec', 'reaction', 'function', 'raw_ann_score', 'features', 'misc']
@@ -82,8 +90,6 @@ for index, row in df.iterrows():
             if key in row.protein:
                 df.loc[index, 'ann_quality'] = 'high'
 
-manhigh = man[man.new_ann_quality=='high']
-manlow = man[man.new_ann_quality=='low']
 dfmanhigh = df[df.gene_name.isin(manhigh.gene_name)]
 dfmanlow = df[df.gene_name.isin(manlow.gene_name)]
 df.loc[dfmanhigh.index, 'ann_quality'] = 'high'

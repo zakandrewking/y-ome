@@ -17,7 +17,7 @@ manual = pd.read_table(join(directory, 'disagreeing_annotations_edited.tsv'), se
 manual = manual.drop(['knowledgebase', 'ann_quality'], 1)
 manual.columns = ['bnum', 'gene_name', 'ann_quality']
 
-#load uniprot revisions into dataframe
+# Load uniprot revisions into dataframe
 uniprot = pd.read_table(join(directory, 'uniprot_revisions.tab'), sep='\t')
 
 # find all entries already in database that don't require manual annotation, also get synonyms in db
