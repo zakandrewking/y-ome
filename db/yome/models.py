@@ -8,26 +8,25 @@ from sqlalchemy.orm import sessionmaker
 from configparser import SafeConfigParser
 from os.path import join, dirname, realpath
 
-# get settings
+# Get settings
 config = SafeConfigParser()
 directory = dirname(realpath(__file__))
 config.read(join(directory, '..', 'settings.ini'))
 database_keys = ['user', 'password', 'host', 'port', 'database']
 settings = {k: config.get('DATABASE', k) for k in database_keys}
 
-# create the engine, Base, and Session
+# Create the engine, Base, and Session
 engine = create_engine('postgresql://{user}:{password}@{host}:{port}/{database}'
                        .format(**settings))
 Base = declarative_base(bind=engine)
 Session = sessionmaker(bind=engine)
 
-# set up some enums
+# Set up some enums
 _enum_l = [
     Enum('knowledgebase_gene', name='synonym_ref_type'),
-    Enum('high', 'medium', 'low', name='annotation_quality')
+    Enum('high', 'low', 'tbd', 'excluded', name='annotation_quality')
 ]
 enums = {x.name: x for x in _enum_l}
-
 
 class Gene(Base):
     __tablename__ = 'gene'

@@ -2,148 +2,120 @@
 
 from yome import Session
 from yome.load import load_knowledgebase
+from yome.util import apply_keyword
 
 import pandas as pd
 import json
 from os.path import dirname, realpath, join
+import re
+import numpy as np
 
 directory = realpath(dirname(__file__))
 
 # Create dataframe from knowledgebase
 with open(join(directory, 'results.json'), 'r') as f:
     results = json.load(f)
-df = pd.DataFrame(results)
+df = pd.DataFrame(results).rename(columns={'b_number': 'locus_id'})
 
-# Import manual annotations
-man = pd.read_table(join(directory, 'manual_genes.tsv'), sep='\t')
-manhigh = man[man.new_ann_quality == 'high']
-manlow = man[man.new_ann_quality == 'low']
+# Strip columns
+df['name'] = df['name'].str.strip()
+df.locus_id = df.locus_id.str.strip()
 
-# Make sure there are no invalid ann qualities
-assert(len(manhigh) + len(manlow) == len(man))
+# If the b-number wound up as the name, then fix that
+# e.g. https://ecocyc.org/gene?orgid=ECOLI&id=G6272
+def fix_locus_id(row):
+    name = row['name'].strip()
+    if pd.isnull(row.locus_id) and re.match(r'b\d{4}', name):
+        return name
+    else:
+        return row['locus_id']
+df.locus_id = df.apply(fix_locus_id, axis=1)
 
-# Make html column compatible with keyword search
-# TODO Why?
-sep = '</h3>'
-sep2 = '<a href='
-sep3 = '</a>'
+# # Import manual annotations
+# man = pd.read_table(join(directory, 'manual_genes.tsv'), sep='\t')
+# man_high = man[man.new_ann_quality == 'high']
+# man_low = man[man.new_ann_quality == 'low']
 
-for i in range(0,len(df)):
-    output = ''
-    test = df.summary_html[i].split(sep, 1)
-    if len(test) > 1:
-        from IPython import embed; embed()
-        test = test[1]
-    if len(test) < 2:
-        test = test[0]
-    test2 = test.split(sep2)
-
-    for x in range(0,len(test2)):
-        test3 = test2[x].split(sep3)
-        if len(test3) > 1:
-            output = output + test3[1]
-        if len(test3) < 2:
-            output = output + test3[0]
-    df.loc[i, 'summary_html'] = output
+# # Make sure there are no invalid ann qualities
+# assert(len(man_high) + len(man_low) == len(man))
 
 # Add annotation_quality
 df.loc[:, 'annotation_quality'] = 'tbd'
 
+# The following annotation methods override each other, so they go from least to
+# most important
+
 # Define keywords
-keywords_desc = ['possibly', 'IS', 'insertion element', 'element protein',
-                 'split', 'interrupted', 'family protein', 'predicted',
-                 'hypothetical', 'putative', 'conserved']
-highwords_desc = ['transporter', 'transcriptional', 'subunit', 'component',
-                  'of the']
-keywords_summ = ['is a putative', 'an unknown mechanism', 'is a predicted',
-                 'is an uncharacterized', 'is predicted to encode',
-                 'is still unknown', 'putative missing', 'is unknown',
-                 'No information about this', 'is not yet known']
-highwords_summ = ['is a component of']
-keywords_bnum = ['nan']
-keywords_rxn = ['nan']
-keywords_tRNA = ['tRNA']
-low2summ = ['has not been determined']
-low2desc = ['-like']
-high2desc = ['chaperone', 'factor']
+low_keywords_description = [
+    'possibly', 'element protein', 'split', 'interrupted', 'family protein',
+    'predicted', 'hypothetical', 'putative', 'conserved',
+    'uncharacterized protein',
+]
+low_keywords_summary = [
+    'is a putative', 'an unknown mechanism', 'is a predicted',
+    'is an uncharacterized', 'is predicted to encode',
+    'is still unknown', 'putative missing', 'is unknown',
+    'No information about this', 'is not yet known',
+]
+high_keywords_evidence = [
+    'inferred from experiment',
+    'inferred from direct assay',
+    'inferred from expression pattern',
+    'assay',
+]
 
-for index, row in df.iterrows():
-    if type(row.description) == float:
-        from IPython import embed; embed()
-        row.description = repr(row.description)
-    if type(row.summary_html) == float:
-        from IPython import embed; embed()
-        row.summary_html = repr(row.description)
-    if type(row.b_number) == float:
-        from IPython import embed; embed()
-        row.b_number = repr(row.b_number)
-    if type(row.reaction_equation) == float:
-        from IPython import embed; embed()
-        row.reaction_equation = repr(row.reaction_equation)
-    if row.is_pseudogene == True:
-        df.loc[index,'annotation_quality'] = 'low'
-    for key in highwords_desc:
-        if key in row.description:
-            df.loc[index, 'annotation_quality'] = 'high'
-    for key in highwords_summ:
-        if key in row.summary_html:
-            df.loc[index, 'annotation_quality'] = 'high'
-    if type(row.ec_number) == str:
-        from IPython import embed; embed()
-        df.loc[index, 'annotation_quality'] = 'high'
-    for key in keywords_desc:
-        if key in row.description:
-            df.loc[index, 'annotation_quality'] = 'low'
-    for key in keywords_summ:
-        if key in row.summary_html:
-            df.loc[index, 'annotation_quality'] = 'low'
-    if row.product_type == '':
-        df.loc[index, 'annotation_quality'] = 'low'
-    for key in keywords_bnum:
-        if key in row.b_number:
-            df.loc[index, 'annotation_quality'] = 'low'
-    for key in keywords_tRNA:
-        if key == row.description:
-           df.loc[index, 'annotation_quality'] = 'high'
+# Apply keyword annotations; description
+for keyword in low_keywords_description:
+    apply_keyword(df, keyword, 'description', False)
 
-for index, row in df.iterrows():
-    if type(row.description) == float:
-        from IPython import embed; embed()
-        row.description = repr(row.description)
-    if type(row.summary_html) == float:
-        from IPython import embed; embed()
-        row.summary_html = repr(row.description)
-    if type(row.b_number) == float:
-        from IPython import embed; embed()
-        row.b_number = repr(row.b_number)
-    if type(row.reaction_equation) == float:
-        from IPython import embed; embed()
-        row.reaction_equation = repr(row.reaction_equation)
-    if row.annotation_quality == 'tbd':
-        for key in low2summ:
-            if key in row.summary_html:
-                df.loc[index,'annotation_quality'] = 'low'
-        for key in keywords_rxn:
-            if key not in row.reaction_equation:
-                df.loc[index,'annotation_quality'] = 'high'
-        for key in low2desc:
-            if key in row.description:
-                df.loc[index, 'annotation_quality'] = 'low'
-        for key in high2desc:
-            if key in row.description:
-                df.loc[index, 'annotation_quality'] = 'high'
+# Apply keyword annotations; summary
+for keyword in low_keywords_summary:
+    apply_keyword(df, keyword, 'summary_html', False)
 
-matchhigh = df[df.b_number.isin(manhigh.bnum)]
-matchlow = df[df.b_number.isin(manlow.bnum)]
-df.loc[matchhigh.index, 'annotation_quality'] = 'high'
-df.loc[matchlow.index, 'annotation_quality'] = 'low'
+# Apply keyword annotations; evidence
+for keyword in high_keywords_evidence:
+    apply_keyword(df, keyword, 'evidence_html', True)
 
-# Import knowledgebase
+# Phantom genes are excluded from y-ome description
+df.loc[df.is_phantom_gene | df.is_pseudogene, 'annotation_quality'] = 'excluded'
+
+# Genes with reaction_equation
+df.loc[~df.reaction_equation.isnull(), 'annotation_quality'] = 'high'
+
+# Genes with EC number are high
+df.loc[~df.ec_number.isnull(), 'annotation_quality'] = 'high'
+
+# # Warn for genes that have automated & manual annotations
+# print('The following have automated and manual annotations')
+# auto_and_manual = df[(df.annotation_quality != 'tbd')
+#                      & (df.locus_id.isin(man.locus_id))]
+# print(', '.join(f'{locus_id}/{name} ({annotation_quality}/{man[man.locus_id == locus_id].new_ann_quality.iloc[0]})'
+#                 for locus_id, name, annotation_quality in
+#                 auto_and_manual[['locus_id', 'name', 'annotation_quality']].itertuples(index=False)))
+# print()
+
+# Apply manual annotations
+# df.loc[df.locus_id.isin(man_high.locus_id), 'annotation_quality'] = 'high'
+# df.loc[df.locus_id.isin(man_low.locus_id), 'annotation_quality'] = 'low'
+
+# Pseudogenes and phantom genes to string type
+def bool_to_str(val): return 't' if val else 'f'
+df.is_pseudogene = df.is_pseudogene.map(bool_to_str)
+df.is_phantom_gene = df.is_phantom_gene.map(bool_to_str)
+
+# Load knowledgebase
 session = Session()
 load_knowledgebase(session, df, 'EcoCyc',
-                   locus_id_column='b_number',
+                   locus_id_column='locus_id',
                    primary_name_column='name',
                    synonyms_column='synonyms',
-                   feature_columns=['description', 'summary_html', 'product_type', 'ec_number', 'reaction_equation'],
+                   feature_columns=['description', 'summary_html',
+                                    'product_type', 'ec_number',
+                                    'reaction_equation', 'is_pseudogene',
+                                    'is_phantom_gene', 'evidence_html'],
                    annotation_quality_column='annotation_quality')
 session.close()
+
+print()
+print('EcoCyc')
+print(df.annotation_quality.value_counts())

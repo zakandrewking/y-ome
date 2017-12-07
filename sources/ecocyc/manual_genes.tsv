@@ -1,601 +1,584 @@
-bnum	gene_name	knowledgebase	ann_quality	new_ann_quality	comments
-b0481	ybaK	EcoCyc	medium	high	
-b1715	pheM	EcoCyc	medium	high	
-b1035	ycdY	EcoCyc	medium	low	
-b4209	ytfE	EcoCyc	medium	high	
-b2524	iscX	EcoCyc	medium	high	
-b2186	yejK	EcoCyc	medium	low	
-b4391	ettA	EcoCyc	medium	high	
-b3486	rbbA	EcoCyc	medium	high	
-b0659	ybeY	EcoCyc	medium	high	
-b1787	yeaK	EcoCyc	medium	high	
-b0416	nusB	EcoCyc	medium	high	
-b4625	symR	EcoCyc	medium	high	
-b4446	sibC	EcoCyc	medium	low	
-b4447	sibD	EcoCyc	medium	low	
-b4444	omrA	EcoCyc	medium	high	
-b4437	sibB	EcoCyc	medium	low	
-b4611	sibE	EcoCyc	medium	low	
-b4436	sibA	EcoCyc	medium	low	
-b4608	ohsC	EcoCyc	medium	low	
-b4452	gadY	EcoCyc	medium	high	
-b4445	omrB	EcoCyc	medium	high	
-b0969	tusE	EcoCyc	medium	high	
-b1413	hrpA	EcoCyc	medium	high	
-b4624	ryjB	EcoCyc	medium	low	
-b4691	sroH	EcoCyc	medium	low	
-b4449	psrO	EcoCyc	medium	low	
-b4459	ryjA	EcoCyc	medium	low	
-b4417	rybB	EcoCyc	medium	high	
-b4609	ryfD	EcoCyc	medium	low	
-b4585	chiX	EcoCyc	medium	high	
-b4690	eyeA	EcoCyc	medium	low	
-b4432	ryeA	EcoCyc	medium	low	
-b4457	csrC	EcoCyc	medium	high	
-b4435	isrC	EcoCyc	medium	low	
-b0797	rhlE	EcoCyc	medium	high	
-b4440	ryfA	EcoCyc	medium	low	
-b4433	sdsR	EcoCyc	medium	low	
-b4701	sokX	EcoCyc	medium	low	
-b4418	sraB	EcoCyc	medium	low	
-b4450	arcZ	EcoCyc	medium	high	
-b4434	isrB	EcoCyc	medium	low	
-b4430	rydB	EcoCyc	medium	low	
-b0962	helD	EcoCyc	medium	high	
-b2894	xerD	EcoCyc	medium	high	"clicking the link for the system listed under the ""component of"" section reveals the function of this gene in a big text blurb"
-b0687	seqA	EcoCyc	medium	high	
-b0467	priC	EcoCyc	medium	high	
-b0393	rdgC	EcoCyc	medium	low	
-b1610	tus	EcoCyc	medium	high	
-b3322	gspB	EcoCyc	medium	low	
-b0454	atl	EcoCyc	medium	low	
-b3645	dinD	EcoCyc	medium	low	
-b4389	radA	EcoCyc	medium	low	
-b0836	bssR	EcoCyc	medium	low	
-b1060	bssS	EcoCyc	medium	low	
-b0947	ycbX	EcoCyc	medium	low	
-b1407	ydbD	EcoCyc	medium	low	
-b0192	nlpE	EcoCyc	medium	high	
-b3441	yhhY	EcoCyc	medium	low	
-b3910	yiiM	EcoCyc	medium	low	
-b3048	yqiI	EcoCyc	medium	low	
-b2259	pmrD	EcoCyc	medium	high	
-b4428	hokB	EcoCyc	medium	high	
-b4412	hokC	EcoCyc	medium	high	
-b4423	ldrC	EcoCyc	medium	low	
-b4421	ldrB	EcoCyc	medium	low	
-b0018	mokC	EcoCyc	medium	high	
-b4455	hokA	EcoCyc	medium	high	
-b4235	pmbA	EcoCyc	medium	high	
-b4419	ldrA	EcoCyc	medium	low	
-b1182	hlyE	EcoCyc	medium	high	
-b1178	pliG	EcoCyc	medium	high	
-b2520	yfhM	EcoCyc	medium	high	
-b4706	iroK	EcoCyc	medium	low	
-b3251	mreB	EcoCyc	medium	high	
-b0922	mukF	EcoCyc	medium	low	
-b3933	ftsN	EcoCyc	medium	high	
-b2748	ftsB	EcoCyc	medium	high	
-b3811	xerC	EcoCyc	medium	high	more key datails can be found in the systems link
-b0083	ftsL	EcoCyc	medium	high	
-b3361	fic	EcoCyc	medium	low	
-b4142	groS	EcoCyc	medium	high	more key details can be found in the component of link
-b3641	slmA	EcoCyc	medium	high	
-b3129	prlF	EcoCyc	medium	high	
-b4361	dnaC	EcoCyc	medium	high	
-b4143	groL	EcoCyc	medium	high	more key details can be found in the component of link
-b0956	matP	EcoCyc	medium	high	
-b0093	ftsQ	EcoCyc	medium	high	
-b0095	ftsZ	EcoCyc	medium	high	
-b0924	mukB	EcoCyc	medium	high	
-b4520	ymgF	EcoCyc	medium	low	
-b2566	era	EcoCyc	medium	low	
-b0990	cspG	EcoCyc	medium	low	
-b3400	hslR	EcoCyc	medium	high	
-b4410	ecnA	EcoCyc	medium	high	
-b1283	osmB	EcoCyc	medium	low	
-b4411	ecnB	EcoCyc	medium	low	language seems to indicate speculation rather than assurance
-b3491	yhiM	EcoCyc	medium	low	
-b0287	yagU	EcoCyc	medium	low	
-b2237	inaA	EcoCyc	medium	low	
-b1824	yobF	EcoCyc	medium	low	
-b2939	yqgB	EcoCyc	medium	low	
-b3511	hdeD	EcoCyc	medium	low	
-b1058	yceO	EcoCyc	medium	low	
-b1597	asr	EcoCyc	medium	low	
-b4367	fhuF	EcoCyc	medium	high	
-b1581	rspA	EcoCyc	medium	high	
-b3687	ibpA	EcoCyc	medium	low	
-b3506	slp	EcoCyc	medium	low	
-b1445	ortT	EcoCyc	medium	high	
-b4011	yjaA	EcoCyc	medium	low	
-b2962	yggX	EcoCyc	medium	low	
-b3238	yhcN	EcoCyc	medium	low	
-b1205	ychH	EcoCyc	medium	low	
-b1536	ydeI	EcoCyc	medium	low	stress response protein may be a keyphrase
-b4137	cutA	EcoCyc	medium	high	
-b0006	yaaA	EcoCyc	medium	low	
-b1953	yodD	EcoCyc	medium	low	
-b3686	ibpB	EcoCyc	medium	high	
-b3024	ygiW	EcoCyc	medium	low	
-b3029	ygiN	EcoCyc	medium	high	pathway is not known, but function is...
-b4409	blr	EcoCyc	medium	low	
-b1333	uspE	EcoCyc	medium	low	
-b3923	uspD	EcoCyc	medium	low 	
-b1895	uspC	EcoCyc	medium	low	
-b1973	zinT	EcoCyc	medium	high	
-b4682	yqcG	EcoCyc	medium	low	
-b4252	tabA	EcoCyc	medium	low	
-b3398	yrfF	EcoCyc	medium	high	
-b0762	acrZ	EcoCyc	medium	high	
-b0466	ybaM	EcoCyc	medium	low	
-b1112	bhsA	EcoCyc	medium	low	
-b4618	tisB	EcoCyc	medium	high	
-b4059	ssb	EcoCyc	medium	high	
-b1061	dinI	EcoCyc	medium	high	
-b3813	uvrD	EcoCyc	medium	high	
-b0685	ybfE	EcoCyc	medium	low	
-b2616	recN	EcoCyc	medium	low	
-b1741	cho	EcoCyc	medium	high	
-b0607	uspG	EcoCyc	medium	high	
-b2761	cas3	EcoCyc	medium	high	
-b4050	pspG	EcoCyc	medium	low	
-b2754	cas2	EcoCyc	medium	high	
-b2755	cas1	EcoCyc	medium	high	
-b1881	cheZ	EcoCyc	medium	high	
-b1481	bdm	EcoCyc	medium	low	
-b1888	cheA	EcoCyc	medium	high	"pathways"" field might be useful in ecocyc
-b4665	ibsC	EcoCyc	medium	low	
-b4687	shoB	EcoCyc	medium	low	
-b0461	tomB	EcoCyc	medium	low	
-b4667	ibsA	EcoCyc	medium	low	
-b4666	ibsE	EcoCyc	medium	low	
-b1844	exoX	EcoCyc	medium	high	
-b3470	tusA	EcoCyc	medium	high	
-b0782	moaB	EcoCyc	medium	low	
-b0783	moaC	EcoCyc	medium	high	
-b3742	mioC	EcoCyc	medium	low	
-b3856	mobB	EcoCyc	medium	high	
-b4246	pyrL	EcoCyc	medium	high	
-b2598	pheL	EcoCyc	medium	high	
-b2018	hisL	EcoCyc	medium	high	
-b0075	leuL	EcoCyc	medium	high	
-b1265	trpL	EcoCyc	medium	high	
-b3672	ivbL	EcoCyc	medium	high	
-b3766	ilvL	EcoCyc	medium	high	
-b1007	rutF	EcoCyc	medium	high	
-b2522	sseB	EcoCyc	medium	low	
-b2811	csdE	EcoCyc	medium	high	
-b4309	nanS	EcoCyc	medium	low	description has ""probable""...this should've been filtered out
-b2788	gudX	EcoCyc	medium	low	
-b1391	paaD	EcoCyc	medium	low	
-b3707	tnaC	EcoCyc	medium	high	
-b3394	hofN	EcoCyc	medium	low	
-b3393	hofO	EcoCyc	medium	low	
-b3413	gntX	EcoCyc	medium	low	
-b3392	hofP	EcoCyc	medium	low	
-b3395	hofM	EcoCyc	medium	low	
-b2895	fldB	EcoCyc	medium	low	
-b1591	dmsD	EcoCyc	medium	high	
-b2528	iscA	EcoCyc	medium	high	
-b3414	nfuA	EcoCyc	medium	high	
-b1684	sufA	EcoCyc	medium	high	
-b3807	cyaY	EcoCyc	medium	low	""function still not understood"
-b2214	ftp	EcoCyc	medium	high	
-b2042	galF	EcoCyc	medium	high	
-b4331	kptA	EcoCyc	medium	low	not likely to have physiological relevance
-b0239	frsA	EcoCyc	medium	high	
-b2718	hycH	EcoCyc	medium	high	
-b3891	fdhE	EcoCyc	medium	high	
-b2990	hybG	EcoCyc	medium	high	
-b0977	hyaF	EcoCyc	medium	low	
-b0976	hyaE	EcoCyc	medium	low	
-b2728	hypC	EcoCyc	medium	high	
-b0975	hyaD	EcoCyc	medium	high	
-b2991	hybF	EcoCyc	medium	high	
-b2726	hypA	EcoCyc	medium	high	
-b2208	napF	EcoCyc	medium	low	
-b3951	pflD	EcoCyc	medium	low	
-b0156	erpA	EcoCyc	medium	high	
-b1654	grxD	EcoCyc	medium	high	
-b4075	nrfF	EcoCyc	medium	high	
-b4076	nrfG	EcoCyc	medium	high	
-b1043	csgC	EcoCyc	medium	low	
-b1279	lapA	EcoCyc	medium	low	
-b1280	lapB	EcoCyc	medium	low	
-b1048	opgG	EcoCyc	medium	low	
-b1090	plsX	EcoCyc	medium	low	
-b3049	glgS	EcoCyc	medium	high	
-b3250	mreC	EcoCyc	medium	low	
-b1501	ydeP	EcoCyc	medium	low	
-b1461	pptA	EcoCyc	medium	low	
-b0581	ybdK	EcoCyc	medium	high	
-b3351	kefG	EcoCyc	medium	low	
-b3408	feoA	EcoCyc	medium	high	
-b3522	yhjD	EcoCyc	medium	low	
-b3720	bglH	EcoCyc	medium	low	
-b1256	ompW	EcoCyc	medium	high	
-b1592	clcB	EcoCyc	medium	high	
-b3391	hofQ	EcoCyc	medium	low	
-b0098	secA	EcoCyc	medium	high	
-b1484	ddpD	EcoCyc	medium	low	
-b1117	lolD	EcoCyc	medium	high	
-b1483	ddpF	EcoCyc	medium	low	
-b1291	sapD	EcoCyc	medium	high	
-b0863	artI	EcoCyc	medium	low	
-b1487	ddpA	EcoCyc	medium	low	
-b0808	ybiO	EcoCyc	medium	high	
-b0129	yadI	EcoCyc	medium	low	
-b2144	sanA	EcoCyc	medium	low	
-b1532	marB	EcoCyc	medium	low	
-b2142	yohK	EcoCyc	medium	low	
-b3472	dcrB	EcoCyc	medium	low	
-b2063	yegH	EcoCyc	medium	low	
-b3819	rarD	EcoCyc	medium	low	
-b1750	ydjX	EcoCyc	medium	low	
-b4332	yjiJ	EcoCyc	medium	low	
-b2062	wza	EcoCyc	medium	high	
-b0845	ybjJ	EcoCyc	medium	low	
-b1115	ycfT	EcoCyc	medium	low	
-b4210	ytfF	EcoCyc	medium	low	
-b1051	msyB	EcoCyc	medium	low	
-b3661	nlpA	EcoCyc	medium	low	
-b1375	ynaE	EcoCyc	medium	low	"function unknown""; how did this escape the classifier? 
-b0560	nohB	EcoCyc	medium	high	
-b2622	intA	EcoCyc	medium	high	
-b1347	ydaC	EcoCyc	medium	low	
-b2627	abpB	EcoCyc	medium	low	
-b1562	hokD	EcoCyc	medium	low	
-b0547	ybcN	EcoCyc	medium	high	
-b1353	sieB	EcoCyc	medium	low	
-b1307	pspD	EcoCyc	medium	low	
-b1558	cspF	EcoCyc	medium	low	
-b0550	rusA	EcoCyc	medium	high	
-b1355	ydaG	EcoCyc	medium	low	
-b2349	intS	EcoCyc	medium	high	
-b0568	nfrA	EcoCyc	medium	low	
-b1552	cspI	EcoCyc	medium	low	
-b0814	ompX	EcoCyc	medium	high	
-b1572	ydfB	EcoCyc	medium	low	
-b1346	xisR	EcoCyc	medium	high	
-b2351	yfdH	EcoCyc	medium	high	
-b1349	recT	EcoCyc	medium	high	
-b4509	ylcG	EcoCyc	medium	low	
-b1575	dicB	EcoCyc	medium	low	
-b2628	abpA	EcoCyc	medium	high	
-b3717	cbrC	EcoCyc	medium	low	
-b3690	cbrA	EcoCyc	medium	low	
-b0228	rayT	EcoCyc	medium	high	
-b2009	sbmC	EcoCyc	medium	high	
-b2107	rcnB	EcoCyc	medium	high	
-b3214	gltF	EcoCyc	medium	low	
-b1020	phoH	EcoCyc	medium	low	
-b0460	hha	EcoCyc	medium	high	
-b1739	osmE	EcoCyc	medium	low	
-b4327	hypT	EcoCyc	medium	high	
-b4292	fecR	EcoCyc	medium	high	
-b0357	frmR	EcoCyc	medium	high	
-b3995	rsd	EcoCyc	medium	high	
-b3229	sspA	EcoCyc	medium	high	
-b0623	cspE	EcoCyc	medium	high	
-b2911	ssrS	EcoCyc	medium	high	
-b0189	rof	EcoCyc	medium	high	
-b4351	mrr	EcoCyc	medium	high	
-b0799	dinG	EcoCyc	medium	high	
-b2295	yfbV	EcoCyc	medium	low	
-b0880	cspD	EcoCyc	medium	high	
-b3337	bfd	EcoCyc	medium	low	
-b1166	ariR	EcoCyc	medium	high	
-b1731	cedA	EcoCyc	medium	high	
-b0923	mukE	EcoCyc	medium	low	
-b3244	tldD	EcoCyc	medium	high	
-b4017	arpA	EcoCyc	medium	high	
-b0610	rnk	EcoCyc	medium	high	
-b1703	ppsR	EcoCyc	medium	high	
-b2696	csrA	EcoCyc	medium	high	
-b0097	secM	EcoCyc	medium	high	
-b1139	lit	EcoCyc	medium	high	
-b2699	recA	EcoCyc	medium	high	
-b0176	rseP	EcoCyc	medium	high	
-b2496	hda	EcoCyc	medium	high	
-b1304	pspA	EcoCyc	medium	high	
-b0545	ybcL	EcoCyc	medium	high	
-b0958	sulA	EcoCyc	medium	low	
-b2698	recX	EcoCyc	medium	high	
-b1887	cheW	EcoCyc	medium	high	
-b3952	pflC	EcoCyc	medium	low	
-b0101	yacG	EcoCyc	medium	high	
-b1679	sufE	EcoCyc	medium	high	
-b2209	eco	EcoCyc	medium	high	
-b0742	cpoB	EcoCyc	medium	high	
-b1574	dicF	EcoCyc	medium	high	
-b4458	oxyS	EcoCyc	medium	high	
-b4439	micF	EcoCyc	medium	high	
-b4438	cyaR	EcoCyc	medium	high	
-b3864	spf	EcoCyc	medium	high	
-b4422	rdlB	EcoCyc	medium	low	
-b4577	sgrS	EcoCyc	medium	high	
-b4431	rprA	EcoCyc	medium	high	
-b4456	glmZ	EcoCyc	medium	high	
-b4427	micC	EcoCyc	medium	high	
-b4699	fnrS	EcoCyc	medium	high	
-b4451	ryhB	EcoCyc	medium	high	
-b4426	mcaS	EcoCyc	medium	high	
-b4413	sokC	EcoCyc	medium	high	
-b4424	rdlC	EcoCyc	medium	low	
-b4698	mgrR	EcoCyc	medium	low	
-b4442	micA	EcoCyc	medium	high	
-b4326	iraD	EcoCyc	medium	high	
-b0382	iraP	EcoCyc	medium	high	
-b1160	iraM	EcoCyc	medium	high	
-b3096	mzrA	EcoCyc	medium	high	
-b4408	csrB	EcoCyc	medium	high	
-b3929	rraA	EcoCyc	medium	high	
-b4662	sgrT	EcoCyc	medium	high	
-b4441	glmY	EcoCyc	medium	high	
-b3745	viaA	EcoCyc	medium	high	
-b3205	rapZ	EcoCyc	medium	high	
-b4637	uof	EcoCyc	medium	high	
-b4255	rraB	EcoCyc	medium	high	
-b3252	csrD	EcoCyc	medium	high	
-b4443	gcvB	EcoCyc	medium	high	
-b1163	bluF	EcoCyc	medium	high	
-b4597	rydC	EcoCyc	medium	high	
-b4616	istR-2	EcoCyc	medium	high	
-b0966	hspQ	EcoCyc	medium	low	
-b1194	ycgR	EcoCyc	medium	high	
-b1625	cnu	EcoCyc	medium	high	
-b0001	thrL	EcoCyc	medium	high	
-b4603	rseX	EcoCyc	medium	high	
-b1782	mipA	EcoCyc	medium	high	
-b0107	hofB	EcoCyc	medium	low	
-b0108	ppdD	EcoCyc	medium	low	
-b4318	fimF	EcoCyc	medium	high	
-b4313	fimE	EcoCyc	medium	high	
-b4317	fimD	EcoCyc	medium	high	
-b4319	fimG	EcoCyc	medium	high	
-b2313	cvpA	EcoCyc	medium	low	
-b4140	fxsA	EcoCyc	medium	high	http://www.ncbi.nlm.nih.gov/pubmed/15302217
-b1529	marC	EcoCyc	medium	low	
-b2196	ccmF	EcoCyc	medium	high	
-b1628	rsxB	EcoCyc	medium	high	
-b4074	nrfE	EcoCyc	medium	high	
-b0587	fepE	EcoCyc	medium	high	
-b1047	opgC	EcoCyc	medium	low	
-b1485	ddpC	EcoCyc	medium	low	
-b1631	rsxG	EcoCyc	medium	high	
-b3249	mreD	EcoCyc	medium	low	
-b0957	ompA	EcoCyc	medium	high	
-b1421	trg	EcoCyc	medium	high	
-b1049	opgH	EcoCyc	medium	high	
-b0094	ftsA	EcoCyc	medium	high	
-b0577	ybdG	EcoCyc	medium	high	
-b2493	yfgO	EcoCyc	medium	low	
-b3388	damX	EcoCyc	medium	low	
-b3175	secG	EcoCyc	medium	low	
-b3739	atpI	EcoCyc	medium	low	
-b0378	yaiW	EcoCyc	medium	low	
-b3464	ftsY	EcoCyc	medium	high	
-b0890	ftsK	EcoCyc	medium	high	
-b0409	secF	EcoCyc	medium	high	
-b3095	yqjA	EcoCyc	medium	high	
-b2195	ccmG	EcoCyc	medium	high	
-b1627	rsxA	EcoCyc	medium	high	
-b1886	tar	EcoCyc	medium	high	
-b4602	ynhF	EcoCyc	medium	low	
-b1630	rsxD	EcoCyc	medium	high	
-b2412	zipA	EcoCyc	medium	high	
-b0407	yajC	EcoCyc	medium	high	
-b0634	mrdB	EcoCyc	medium	low	
-b0920	elyC	EcoCyc	medium	low	
-b1118	lolE	EcoCyc	medium	high	
-b3184	yhbE	EcoCyc	medium	low	
-b3981	secE	EcoCyc	medium	high	
-b3072	aer	EcoCyc	medium	high	
-b3009	yghB	EcoCyc	medium	high	
-b2194	ccmH	EcoCyc	medium	high	
-b1330	ynaI	EcoCyc	medium	low	
-b1885	tap	EcoCyc	medium	high	
-b2570	rseC	EcoCyc	medium	high	
-b1629	rsxC	EcoCyc	medium	high	
-b1486	ddpB	EcoCyc	medium	low	
-b1632	rsxE	EcoCyc	medium	high	
-b1829	htpX	EcoCyc	medium	low	
-b1116	lolC	EcoCyc	medium	high	
-b0106	hofC	EcoCyc	medium	low	
-b2008	yeeA	EcoCyc	medium	low	
-b3300	secY	EcoCyc	medium	high	
-b0408	secD	EcoCyc	medium	high	
-b4355	tsr	EcoCyc	medium	high	
-b1923	fliC	EcoCyc	medium	high	
-b4159	mscM	EcoCyc	medium	high	
-b1948	fliP	EcoCyc	medium	high	all these are flagellar and structural genes from here on out
-b1946	fliN	EcoCyc	medium	high	
-b1072	flgA	EcoCyc	medium	high	
-b1942	fliJ	EcoCyc	medium	high	
-b1947	fliO	EcoCyc	medium	high	
-b1075	flgD	EcoCyc	medium	high	
-b1880	flhB	EcoCyc	medium	high	
-b1078	flgG	EcoCyc	medium	high	
-b1083	flgL	EcoCyc	medium	high	
-b1082	flgK	EcoCyc	medium	high	
-b1081	flgJ	EcoCyc	medium	high	
-b1945	fliM	EcoCyc	medium	high	
-b1950	fliR	EcoCyc	medium	high	
-b1941	fliI	EcoCyc	medium	high	
-b1924	fliD	EcoCyc	medium	high	
-b1938	fliF	EcoCyc	medium	high	
-b1074	flgC	EcoCyc	medium	high	
-b1070	flgN	EcoCyc	medium	high	
-b1077	flgF	EcoCyc	medium	high	
-b1926	fliT	EcoCyc	medium	high	
-b1940	fliH	EcoCyc	medium	high	
-b1080	flgI	EcoCyc	medium	high	
-b1944	fliL	EcoCyc	medium	high	
-b1949	fliQ	EcoCyc	medium	high	
-b1879	flhA	EcoCyc	medium	high	
-b1889	motB	EcoCyc	medium	high	
-b1073	flgB	EcoCyc	medium	high	
-b1076	flgE	EcoCyc	medium	high	
-b1943	fliK	EcoCyc	medium	high	
-b1925	fliS	EcoCyc	medium	high	
-b1079	flgH	EcoCyc	medium	high	
-b1939	fliG	EcoCyc	medium	high	
-b0196	rcsF	EcoCyc	medium	high	
-b3618	htrL	EcoCyc	medium	low	the function of ... is currently unknown
-b3785	wzzE	EcoCyc	medium	high	
-b1954	dsrA	EcoCyc	medium	high	
-b3561	wecH	EcoCyc	medium	high	
-b3162	deaD	EcoCyc	medium	high	
-b2576	srmB	EcoCyc	medium	high	
-b2608	rimM	EcoCyc	medium	high	
-b3530	bcsC	EcoCyc	medium	low	
-b3597	yibH	EcoCyc	medium	high	
-b4707	esrE	EcoCyc	medium	low	
-b2636	yfjS	EcoCyc	medium	low	
-b1132	hflD	EcoCyc	medium	high	
-b3482	rhsB	EcoCyc	medium	high	
-b4425	rttR	EcoCyc	medium	low	
-b1978	yeeJ	EcoCyc	medium	low	
-b4704	arrS	EcoCyc	medium	low	
-b2300	yfcE	EcoCyc	medium	low	
-b3031	yqiA	EcoCyc	medium	low	
-b1653	lhr	EcoCyc	medium	low	
-b2314	dedD	EcoCyc	medium	low	
-b0772	ybhC	EcoCyc	medium	low	
-b1641	slyB	EcoCyc	medium	low	
-b1209	lolB	EcoCyc	medium	high	
-b2793	syd	EcoCyc	medium	high	
-b4149	blc	EcoCyc	medium	high	
-b3593	rhsA	EcoCyc	medium	high	
-b4415	hokE	EcoCyc	medium	high	
-b0951	pqiB	EcoCyc	medium	low	
-b1874	cutC	EcoCyc	medium	low	
-b0633	rlpA	EcoCyc	medium	low	
-b0164	yaeI	EcoCyc	medium	low	
-b0251	yafY	EcoCyc	medium	high	
-b0736	ybgC	EcoCyc	medium	low	
-b0442	ybaV	EcoCyc	medium	low	
-b1424	opgD	EcoCyc	medium	high	
-b2473	ypfH	EcoCyc	medium	low	
-b0686	ybfF	EcoCyc	medium	low	
-b3508	yhiD	EcoCyc	medium	low	
-b0950	pqiA	EcoCyc	medium	low	
-b0497	rhsD	EcoCyc	medium	low	
-b3818	yigG	EcoCyc	medium	low	
-b4387	ytjB	EcoCyc	medium	low	
-b0358	yaiO	EcoCyc	medium	low	
-b1376	uspF	EcoCyc	medium	high	
-b2346	mlaA	EcoCyc	medium	low	
-b3090	ygjV	EcoCyc	medium	low	
-b2233	yfaL	EcoCyc	medium	high	
-b3150	yraP	EcoCyc	medium	low	
-b3536	bcsE	EcoCyc	medium	high	
-b4680	ypdK	EcoCyc	medium	low	
-b0426	yajQ	EcoCyc	medium	low	
-b1254	yciB	EcoCyc	medium	low	
-b4685	yrbN	EcoCyc	medium	low	
-b2513	yfgM	EcoCyc	medium	low	
-b4673	ymjD	EcoCyc	medium	low	
-b4676	yoaK	EcoCyc	medium	low	
-b1878	flhE	EcoCyc	medium	low	
-b3098	yqjD	EcoCyc	medium	low	
-b4678	yoeI	EcoCyc	medium	low	
-b1034	ycdX	EcoCyc	medium	low	
-b2252	ais	EcoCyc	medium	low	
-b3106	yhaK	EcoCyc	medium	low	
-b4109	crfC	EcoCyc	medium	high	
-b4675	yoaJ	EcoCyc	medium	low	
-b4679	yohP	EcoCyc	medium	low	
-b4705	mntS	EcoCyc	medium	high	
-b1585	ynfC	EcoCyc	medium	low	
-b4613	dinQ	EcoCyc	medium	low	
-b4669	ilvX	EcoCyc	medium	low	
-b1165	ymgA	EcoCyc	medium	low	
-b4674	ynbG	EcoCyc	medium	low	
-b4249	bdcA	EcoCyc	medium	low	
-b4671	ykgR	EcoCyc	medium	low	
-b0700	rhsC	EcoCyc	medium	low	
-b0800	ybiB	EcoCyc	medium	low	
-b4606	ypfM	EcoCyc	medium	low	
-b4572	ylbE	EcoCyc	medium	low	
-b0991	ymcE	EcoCyc	medium	low	
-b2832	ygdQ	EcoCyc	medium	low	
-b2347	yfdC	EcoCyc	medium	low	
-b4677	yobI	EcoCyc	medium	low	
-b4592	appX	EcoCyc	medium	low	
-b4663	azuC	EcoCyc	medium	low	
-b4598	yncL	EcoCyc	medium	low	
-b2535	csiE	EcoCyc	medium	low	
-b4526	ydaE	EcoCyc	medium	low	
-b1802	yeaW	EcoCyc	medium	low	
-b4670	yjeV	EcoCyc	medium	low	
-b1167	ymgC	EcoCyc	medium	low	
-b4683	yqeL	EcoCyc	medium	low	
-b0379	yaiY	EcoCyc	medium	low	
-b4599	yneM	EcoCyc	medium	low	
-b4713	agrB	EcoCyc	medium	low	
-b4712	agrA	EcoCyc	medium	low	
-b2913	serA	EcoCyc	medium	high	
-b4665	ibsC	EcoCyc	medium	low	
-b4687	shoB	EcoCyc	medium	low	
-b0461	tomB	EcoCyc	medium	low	
-b4667	ibsA	EcoCyc	medium	low	
-b4666	ibsE	EcoCyc	medium	low	
-b1844	exoX	EcoCyc	medium	high	
-b3470	tusA	EcoCyc	medium	high	
-b0782	moaB	EcoCyc	medium	low	
-b0783	moaC	EcoCyc	medium	high	
-b3742	mioC	EcoCyc	medium	low	
-b3856	mobB	EcoCyc	medium	low	
-b4246	pyrL	EcoCyc	medium	high	
-b2598	pheL	EcoCyc	medium	high	
-b2018	hisL	EcoCyc	medium	high	
-b0075	leuL	EcoCyc	medium	low	
-b1265	trpL	EcoCyc	medium	high	
-b3672	ivbL	EcoCyc	medium	high	
-b3766	ilvL	EcoCyc	medium	high	
-b1007	rutF	EcoCyc	medium	high	
-b2522	sseB	EcoCyc	medium	low	
-b2811	csdE	EcoCyc	medium	low	
-b4309	nanS	EcoCyc	medium	low	
-b2788	gudX	EcoCyc	medium	low	
-b1391	paaD	EcoCyc	medium	low	
-b3707	tnaC	EcoCyc	medium	high	
-b3394	hofN	EcoCyc	medium	low	
-b3393	hofO	EcoCyc	medium	low	
-b3413	gntX	EcoCyc	medium	low	
-b3392	hofP	EcoCyc	medium	low	
-b3395	hofM	EcoCyc	medium	low	
-b2895	fldB	EcoCyc	medium	low	
-b1591	dmsD	EcoCyc	medium	high	
-b2528	iscA	EcoCyc	medium	high	
-b3414	nfuA	EcoCyc	medium	low	
-b3807	cyaY	EcoCyc	medium	low	
-b0560	nohB	EcoCyc	medium	low	
-b0547	ybcN	EcoCyc	medium	low	
-b0550	rusA	EcoCyc	medium	low	
-b0814	ompX	EcoCyc	medium	low	
-b2351	yfdH	EcoCyc	medium	low	
-b1575	dicB	EcoCyc	medium	high	
-b2628	abpA	EcoCyc	medium	low	
-b2107	rcnB	EcoCyc	medium	low	
-b3229	sspA	EcoCyc	medium	low	
-b0799	dinG	EcoCyc	medium	low	
-b1731	cedA	EcoCyc	medium	low	
-b3244	tldD	EcoCyc	medium	low	
-b4017	arpA	EcoCyc	medium	low	
-b0610	rnk	EcoCyc	medium	low	
-b1139	lit	EcoCyc	medium	low	
-b0545	ybcL	EcoCyc	medium	low	
-b4413	sokC	EcoCyc	medium	low	
-b4662	sgrT	EcoCyc	medium	low	
-b4637	uof	EcoCyc	medium	low	
-b3252	csrD	EcoCyc	medium	low	
-b4616	istR-2	EcoCyc	medium	low	
-b1625	cnu	EcoCyc	medium	low	
-b0108	ppdD	EcoCyc	medium	high	
-b4140	fxsA	EcoCyc	medium	low	
-b4074	nrfE	EcoCyc	medium	low	
-b0587	fepE	EcoCyc	medium	low	
-b1049	opgH	EcoCyc	medium	high	
+locus_id	gene_name	new_ann_quality	comments
+b0481	ybaK	high	
+b1715	pheM	high	
+b1035	ycdY	low	
+b4209	ytfE	high	
+b2524	iscX	high	
+b2186	yejK	high	
+b4391	ettA	high	
+b3486	rbbA	high	
+b0659	ybeY	high	
+b1787	yeaK	high	
+b0416	nusB	high	
+b4625	symR	high	
+b4444	omrA	high	
+b4452	gadY	high	
+b4445	omrB	high	
+b0969	tusE	high	
+b1413	hrpA	high	
+b4624	ryjB	low	
+b4691	sroH	low	
+b4459	ryjA	low	
+b4609	ryfD	low	
+b4690	eyeA	low	
+b4432	ryeA	low	
+b4457	csrC	high	
+b4435	isrC	low	
+b0797	rhlE	high	
+b4440	ryfA	low	
+b4433	sdsR	low	
+b4701	sokX	low	
+b4418	sraB	low	
+b4450	arcZ	high	
+b4434	isrB	low	
+b4430	rydB	low	
+b0962	helD	high	
+b3322	gspB	low	
+b0454	atl	low	
+b3645	dinD	low	
+b4389	radA	low	
+b0836	bssR	low	
+b1060	bssS	low	
+b0947	ycbX	low	
+b1407	ydbD	low	
+b3441	yhhY	low	
+b3910	yiiM	low	
+b3048	yqiI	low	
+b2259	pmrD	high	
+b4428	hokB	high	
+b4412	hokC	high	
+b4423	ldrC	low	
+b4421	ldrB	low	
+b0018	mokC	high	
+b4455	hokA	high	
+b4235	pmbA	high	
+b4419	ldrA	low	
+b1182	hlyE	high	
+b1178	pliG	high	
+b2520	yfhM	high	
+b4706	iroK	low	
+b3251	mreB	high	
+b0922	mukF	low	
+b3933	ftsN	high	
+b2748	ftsB	high	
+b3811	xerC	high	more key datails can be found in the systems link
+b0083	ftsL	high	
+b3361	fic	low	
+b4142	groS	high	more key details can be found in the component of link
+b3641	slmA	high	
+b3129	prlF	high	
+b4361	dnaC	high	
+b4143	groL	high	more key details can be found in the component of link
+b0956	matP	high	
+b0093	ftsQ	high	
+b0095	ftsZ	high	
+b0924	mukB	high	
+b4520	ymgF	low	
+b2566	era	low	
+b0990	cspG	low	
+b3400	hslR	high	
+b4410	ecnA	high	
+b1283	osmB	low	
+b4411	ecnB	low	language seems to indicate speculation rather than assurance
+b3491	yhiM	low	
+b0287	yagU	low	
+b2237	inaA	low	
+b1824	yobF	low	
+b2939	yqgB	low	
+b3511	hdeD	low	
+b1058	yceO	low	
+b1597	asr	low	
+b4367	fhuF	high	
+b1581	rspA	high	
+b3687	ibpA	low	
+b3506	slp	low	
+b1445	ortT	high	
+b4011	yjaA	low	
+b2962	yggX	low	
+b3238	yhcN	low	
+b1205	ychH	low	
+b1536	ydeI	low	stress response protein may be a keyphrase
+b4137	cutA	high	
+b0006	yaaA	low	
+b1953	yodD	low	
+b3686	ibpB	high	
+b3024	ygiW	low	
+b3029	ygiN	high	pathway is not known, but function is...
+b4409	blr	low	
+b1333	uspE	low	
+b3923	uspD	low	
+b1895	uspC	low	
+b1973	zinT	high	
+b4682	yqcG	low	
+b4252	tabA	low	
+b3398	yrfF	high	
+b0762	acrZ	high	
+b0466	ybaM	low	
+b1112	bhsA	low	
+b4618	tisB	high	
+b4059	ssb	high	
+b1061	dinI	high	
+b3813	uvrD	high	
+b0685	ybfE	low	
+b2616	recN	low	
+b1741	cho	high	
+b0607	uspG	high	
+b2761	cas3	high	
+b4050	pspG	low	
+b2754	cas2	high	
+b2755	cas1	high	
+b1881	cheZ	high	
+b1481	bdm	low	
+b1888	cheA	high	"pathways" field might be useful in ecocyc
+b4665	ibsC	low	
+b4687	shoB	low	
+b0461	tomB	low	
+b4667	ibsA	low	
+b4666	ibsE	low	
+b1844	exoX	high	
+b3470	tusA	high	
+b0782	moaB	low	
+b0783	moaC	high	
+b3742	mioC	low	
+b3856	mobB	high	
+b4246	pyrL	high	
+b2598	pheL	high	
+b2018	hisL	high	
+b0075	leuL	high	
+b1265	trpL	high	
+b3672	ivbL	high	
+b3766	ilvL	high	
+b1007	rutF	high	
+b2522	sseB	low	
+b2811	csdE	high	
+b4309	nanS	low	description has "probable"...this should have been filtered out
+b2788	gudX	low	
+b1391	paaD	low	
+b3707	tnaC	high	
+b3394	hofN	low	
+b3393	hofO	low	
+b3413	gntX	low	
+b3392	hofP	low	
+b3395	hofM	low	
+b2895	fldB	low	
+b1591	dmsD	high	
+b2528	iscA	high	
+b3414	nfuA	high	
+b1684	sufA	high	
+b3807	cyaY	low	"function still not understood"
+b2214	ftp	high	
+b2042	galF	high	
+b4331	kptA	low	not likely to have physiological relevance
+b0239	frsA	high	
+b2718	hycH	high	
+b3891	fdhE	high	
+b2990	hybG	high	
+b0977	hyaF	low	
+b0976	hyaE	low	
+b2728	hypC	high	
+b0975	hyaD	high	
+b2991	hybF	high	
+b2726	hypA	high	
+b2208	napF	low	
+b3951	pflD	low	
+b0156	erpA	high	
+b1654	grxD	high	
+b4075	nrfF	high	
+b4076	nrfG	high	
+b1043	csgC	low	
+b1279	lapA	low	
+b1280	lapB	low	
+b1048	opgG	low	
+b1090	plsX	low	
+b3049	glgS	high	
+b3250	mreC	low	
+b1501	ydeP	low	
+b1461	pptA	low	
+b0581	ybdK	high	
+b3351	kefG	low	
+b3408	feoA	high	
+b3522	yhjD	low	
+b3720	bglH	low	
+b1256	ompW	high	
+b1592	clcB	high	
+b3391	hofQ	low	
+b0098	secA	high	
+b1117	lolD	high	
+b1483	ddpF	low	
+b1291	sapD	high	
+b0863	artI	low	
+b1487	ddpA	low	
+b0808	ybiO	high	
+b0129	yadI	low	
+b2144	sanA	low	
+b1532	marB	low	
+b2142	yohK	low	
+b3472	dcrB	low	
+b2063	yegH	low	
+b3819	rarD	low	
+b1750	ydjX	low	
+b4332	yjiJ	low	
+b2062	wza	high	
+b0845	ybjJ	low	
+b1115	ycfT	low	
+b4210	ytfF	low	
+b1051	msyB	low	
+b3661	nlpA	low	
+b1375	ynaE	low	"function unknown"; how did this escape the classifier? 
+b0560	nohB	high	
+b2622	intA	high	
+b1347	ydaC	low	
+b2627	abpB	low	
+b1562	hokD	low	
+b0547	ybcN	high	
+b1353	sieB	low	
+b1307	pspD	low	
+b1558	cspF	low	
+b0550	rusA	high	
+b1355	ydaG	low	
+b2349	intS	high	
+b0568	nfrA	low	
+b1552	cspI	low	
+b0814	ompX	high	
+b1572	ydfB	low	
+b1346	xisR	high	
+b2351	yfdH	high	
+b1349	recT	high	
+b4509	ylcG	low	
+b1575	dicB	low	
+b2628	abpA	high	
+b3717	cbrC	low	
+b3690	cbrA	low	
+b0228	rayT	high	
+b2009	sbmC	high	
+b2107	rcnB	high	
+b3214	gltF	low	
+b1020	phoH	low	
+b0460	hha	high	
+b1739	osmE	low	
+b4327	hypT	high	
+b4292	fecR	high	
+b0357	frmR	high	
+b3995	rsd	high	
+b3229	sspA	high	
+b0623	cspE	high	
+b2911	ssrS	high	
+b0189	rof	high	
+b4351	mrr	high	
+b0799	dinG	high	
+b2295	yfbV	low	
+b0880	cspD	high	
+b3337	bfd	low	
+b1166	ariR	high	
+b1731	cedA	high	
+b0923	mukE	low	
+b3244	tldD	high	
+b4017	arpA	high	
+b0610	rnk	high	
+b1703	ppsR	high	
+b2696	csrA	high	
+b0097	secM	high	
+b1139	lit	high	
+b2699	recA	high	
+b0176	rseP	high	
+b2496	hda	high	
+b1304	pspA	high	
+b0545	ybcL	high	
+b0958	sulA	low	
+b2698	recX	high	
+b1887	cheW	high	
+b3952	pflC	low	
+b0101	yacG	high	
+b1679	sufE	high	
+b2209	eco	high	
+b0742	cpoB	high	
+b1574	dicF	high	
+b4458	oxyS	high	
+b4439	micF	high	
+b4438	cyaR	high	
+b3864	spf	high	
+b4422	rdlB	low	
+b4577	sgrS	high	
+b4431	rprA	high	
+b4456	glmZ	high	
+b4427	micC	high	
+b4699	fnrS	high	
+b4451	ryhB	high	
+b4426	mcaS	high	
+b4413	sokC	high	
+b4424	rdlC	low	
+b4698	mgrR	low	
+b4442	micA	high	
+b4326	iraD	high	
+b0382	iraP	high	
+b1160	iraM	high	
+b3096	mzrA	high	
+b4408	csrB	high	
+b3929	rraA	high	
+b4662	sgrT	high	
+b4441	glmY	high	
+b3745	viaA	high	
+b3205	rapZ	high	
+b4637	uof	high	
+b4255	rraB	high	
+b3252	csrD	high	
+b4443	gcvB	high	
+b1163	bluF	high	
+b4597	rydC	high	
+b4616	istR-2	high	
+b0966	hspQ	low	
+b1194	ycgR	high	
+b1625	cnu	high	
+b0001	thrL	high	
+b4603	rseX	high	
+b1782	mipA	high	
+b0107	hofB	low	
+b0108	ppdD	low	
+b4318	fimF	high	
+b4313	fimE	high	
+b4317	fimD	high	
+b4319	fimG	high	
+b2313	cvpA	low	
+b4140	fxsA	high	http://www.ncbi.nlm.nih.gov/pubmed/15302217
+b1529	marC	low	
+b2196	ccmF	high	
+b1628	rsxB	high	
+b4074	nrfE	high	
+b0587	fepE	high	
+b1047	opgC	low	
+b1485	ddpC	low	
+b1631	rsxG	high	
+b3249	mreD	low	
+b0957	ompA	high	
+b1421	trg	high	
+b1049	opgH	high	
+b0094	ftsA	high	
+b0577	ybdG	high	
+b2493	yfgO	low	
+b3388	damX	low	
+b3175	secG	low	
+b3739	atpI	low	
+b0378	yaiW	low	
+b3464	ftsY	high	
+b0890	ftsK	high	
+b0409	secF	high	
+b3095	yqjA	high	
+b2195	ccmG	high	
+b1627	rsxA	high	
+b1886	tar	high	
+b4602	ynhF	low	
+b1630	rsxD	high	
+b2412	zipA	high	
+b0407	yajC	high	
+b0634	mrdB	low	
+b0920	elyC	low	
+b1118	lolE	high	
+b3184	yhbE	low	
+b3981	secE	high	
+b3072	aer	high	
+b3009	yghB	high	
+b2194	ccmH	high	
+b1330	ynaI	low	
+b1885	tap	high	
+b2570	rseC	high	
+b1629	rsxC	high	
+b1486	ddpB	low	
+b1632	rsxE	high	
+b1829	htpX	low	
+b1116	lolC	high	
+b0106	hofC	low	
+b2008	yeeA	low	
+b3300	secY	high	
+b0408	secD	high	
+b4355	tsr	high	
+b1923	fliC	high	
+b4159	mscM	high	
+b1948	fliP	high	all these are flagellar and structural genes from here on out
+b1946	fliN	high	
+b1072	flgA	high	
+b1942	fliJ	high	
+b1947	fliO	high	
+b1075	flgD	high	
+b1880	flhB	high	
+b1078	flgG	high	
+b1083	flgL	high	
+b1082	flgK	high	
+b1081	flgJ	high	
+b1945	fliM	high	
+b1950	fliR	high	
+b1941	fliI	high	
+b1924	fliD	high	
+b1938	fliF	high	
+b1074	flgC	high	
+b1070	flgN	high	
+b1077	flgF	high	
+b1926	fliT	high	
+b1940	fliH	high	
+b1080	flgI	high	
+b1944	fliL	high	
+b1949	fliQ	high	
+b1879	flhA	high	
+b1889	motB	high	
+b1073	flgB	high	
+b1076	flgE	high	
+b1943	fliK	high	
+b1925	fliS	high	
+b1079	flgH	high	
+b1939	fliG	high	
+b0196	rcsF	high	
+b3618	htrL	low	the function of ... is currently unknown
+b3785	wzzE	high	
+b1954	dsrA	high	
+b3561	wecH	high	
+b3162	deaD	high	
+b2576	srmB	high	
+b2608	rimM	high	
+b3530	bcsC	low	
+b3597	yibH	high	
+b4707	esrE	low	
+b2636	yfjS	low	
+b1132	hflD	high	
+b3482	rhsB	high	
+b4425	rttR	low	
+b1978	yeeJ	low	
+b4704	arrS	low	
+b2300	yfcE	low	
+b3031	yqiA	low	
+b1653	lhr	low	
+b2314	dedD	low	
+b0772	ybhC	low	
+b1641	slyB	low	
+b1209	lolB	high	
+b2793	syd	high	
+b4149	blc	high	
+b3593	rhsA	high	
+b4415	hokE	high	
+b0951	pqiB	low	
+b1874	cutC	low	
+b0633	rlpA	low	
+b0164	yaeI	low	
+b0251	yafY	high	
+b0736	ybgC	low	
+b0442	ybaV	low	
+b1424	opgD	high	
+b2473	ypfH	low	
+b0686	ybfF	low	
+b3508	yhiD	low	
+b0950	pqiA	low	
+b0497	rhsD	low	
+b3818	yigG	low	
+b4387	ytjB	low	
+b0358	yaiO	low	
+b1376	uspF	high	
+b2346	mlaA	low	
+b3090	ygjV	low	
+b3150	yraP	low	
+b3536	bcsE	high	
+b4680	ypdK	low	
+b0426	yajQ	low	
+b1254	yciB	low	
+b4685	yrbN	low	
+b2513	yfgM	low	
+b4673	ymjD	low	
+b4676	yoaK	low	
+b1878	flhE	low	
+b3098	yqjD	low	
+b4678	yoeI	low	
+b1034	ycdX	low	
+b2252	ais	low	
+b3106	yhaK	low	
+b4109	crfC	high	
+b4675	yoaJ	low	
+b4679	yohP	low	
+b4705	mntS	high	
+b1585	ynfC	low	
+b4613	dinQ	low	
+b4669	ilvX	low	
+b1165	ymgA	low	
+b4674	ynbG	low	
+b4249	bdcA	low	
+b4671	ykgR	low	
+b0700	rhsC	low	
+b0800	ybiB	low	
+b4606	ypfM	low	
+b4572	ylbE	low	
+b0991	ymcE	low	
+b2832	ygdQ	low	
+b2347	yfdC	low	
+b4677	yobI	low	
+b4592	appX	low	
+b4663	azuC	low	
+b4598	yncL	low	
+b2535	csiE	low	
+b4526	ydaE	low	
+b1802	yeaW	low	
+b4670	yjeV	low	
+b1167	ymgC	low	
+b4683	yqeL	low	
+b0379	yaiY	low	
+b4599	yneM	low	
+b4713	agrB	low	
+b4712	agrA	low	
+b2913	serA	high	
+b4665	ibsC	low	
+b4687	shoB	low	
+b0461	tomB	low	
+b4667	ibsA	low	
+b4666	ibsE	low	
+b1844	exoX	high	
+b3470	tusA	high	
+b0782	moaB	low	
+b0783	moaC	high	
+b3742	mioC	low	
+b3856	mobB	low	
+b4246	pyrL	high	
+b2598	pheL	high	
+b2018	hisL	high	
+b0075	leuL	low	
+b1265	trpL	high	
+b3672	ivbL	high	
+b3766	ilvL	high	
+b1007	rutF	high	
+b2522	sseB	low	
+b2811	csdE	low	
+b4309	nanS	low	
+b2788	gudX	low	
+b1391	paaD	low	
+b3707	tnaC	high	
+b3394	hofN	low	
+b3393	hofO	low	
+b3413	gntX	low	
+b3392	hofP	low	
+b3395	hofM	low	
+b2895	fldB	low	
+b1591	dmsD	high	
+b2528	iscA	high	
+b3414	nfuA	low	
+b3807	cyaY	low	
+b0560	nohB	low	
+b0547	ybcN	low	
+b0550	rusA	low	
+b0814	ompX	low	
+b2351	yfdH	low	
+b1575	dicB	high	
+b2628	abpA	low	
+b2107	rcnB	low	
+b3229	sspA	low	
+b0799	dinG	low	
+b1731	cedA	low	
+b3244	tldD	low	
+b4017	arpA	low	
+b0610	rnk	low	
+b1139	lit	low	
+b0545	ybcL	low	
+b4413	sokC	low	
+b4662	sgrT	low	
+b4637	uof	low	
+b3252	csrD	low	
+b4616	istR-2	low	
+b1625	cnu	low	
+b0108	ppdD	high	
+b4140	fxsA	low	
+b4074	nrfE	low	
+b0587	fepE	low	
+b1049	opgH	high	

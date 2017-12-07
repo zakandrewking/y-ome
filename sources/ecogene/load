@@ -2,6 +2,7 @@
 
 from yome import Session
 from yome.load import load_knowledgebase
+from yome.util import apply_keyword
 
 import pandas as pd
 from os.path import dirname, realpath, join
@@ -9,95 +10,67 @@ from os.path import dirname, realpath, join
 directory = realpath(dirname(__file__))
 
 # Load knowledgebase into dataframe
-df = pd.read_table(join(directory, 'EcoData070116-195229.txt'), sep='\t')
+names = ['name', 'synonyms', 'protein', 'function', 'description', 'comments',
+         'locus_id', '']
+df = pd.read_table(join(directory, 'EcoData070116-195229.txt'), sep='\t',
+                   header=0, names=names).iloc[:, :7]
 
-#format columns and column names
-df['Syn'] = df['Syn'].apply(lambda x: x.replace(',', ' ').split())
-df = df.drop(['Unnamed: 7'],1)
-df.columns = ['gene', 'syn', 'protein', 'function', 'desc', 'comments', 'bnum']
+# Split synonyms
+def split_synonym(s):
+   return [y for y in (x.strip() for x in s.split(',')) if y != 'None']
+df.synonyms = df.synonyms.apply(split_synonym)
 
-# Import manual annotations
-man = pd.read_table(join(directory, 'manual_genes.tsv'), sep = '\t')
-manhigh = man[man.new_ann_quality == 'high']
-manlow = man[man.new_ann_quality == 'low']
-
-# Make sure there are no invalid ann qualities
-assert(len(manhigh) + len(manlow) == len(man))
+# Strip columns
+df['name'] = df['name'].str.strip()
+df.locus_id = df.locus_id.str.strip()
 
 # Add annotation_quality
 df.loc[:, 'annotation_quality'] = 'tbd'
 
 # Define keywords
-pseudowords = ['pseudogene','Pseudogene']
-highwords_func = ['Carrier', 'Structural', 'Enzyme', 'Transport','Regulator',
-                  'Membrane']
-lowwords_desc = ['physiological substrate', 'physiological role unknown',
-                 'may have', 'probable', 'Probable', 'Uncharacterized',
-                 'predicted', 'Predicted', 'putative', 'function unknown',
-                 'Function unknown', 'Putative']
-lowwords_func = ['IS']
-highwords_prot = ['subunit']
-lowwords_prot = ['putative', 'uncharacterized']
-lowwords_comm = ['is a predicted', 'are predicted','function has not been', 'is unknown']
-highwords_rna = ['tRNA', 'Origin', 'regulator of', 'activator of', 'mediates']
-high2desc = ['ase']
-low2comm = ['The predicted']
+low_keywords_description = [
+    'physiological substrate', 'physiological role unknown', 'may have',
+    'probable', 'probable', 'uncharacterized', 'predicted', 'predicted',
+    'putative', 'function unknown', 'function unknown', 'putative'
+]
+low_keywords_protein = [
+    'putative', 'uncharacterized'
+]
+low_keywords_comments = [
+    'is a predicted', 'are predicted','function has not been', 'is unknown'
+]
 
-for index, row in df.iterrows():
-    for key in pseudowords:
-        if key in row.desc:
-            df.loc[index,'annotation_quality'] = 'low'
-        if key in row.protein:
-            df.loc[index,'annotation_quality'] = 'low'
-    if 'Null' in row.protein:
-        for key in highwords_rna:
-            if key in row.desc:
-                df.loc[index,'annotation_quality'] = 'high'
-    for key in highwords_prot:
-        if key in row.protein:
-            df.loc[index,'annotation_quality'] = 'high'
-    for key in highwords_func:
-        if key in row.function:
-            df.loc[index,'annotation_quality'] = 'high'
-    for key in lowwords_desc:
-        if key in row.desc:
-            df.loc[index,'annotation_quality'] = 'low'
-    for key in lowwords_func:
-        if key in row.function:
-            df.loc[index,'annotation_quality'] = 'low'
-    for key in lowwords_prot:
-        if key in row.protein:
-            df.loc[index,'annotation_quality'] = 'low'
-    for key in lowwords_comm:
-        if key in row.comments:
-            df.loc[index,'annotation_quality'] = 'low'
+# Apply keyword annotations; description
+for keyword in low_keywords_description:
+    apply_keyword(df, keyword, 'description', False)
 
-for index, row in df.iterrows():
-    if row.annotation_quality == 'tbd':
-        for key in high2desc:
-            if key in row.protein:
-                df.loc[index,'annotation_quality'] = 'high'
-        for key in low2comm:
-            if key in row.comments:
-                df.loc[index,'annotation_quality'] = 'low'
+# Apply keyword annotations; protein
+for keyword in low_keywords_protein:
+    apply_keyword(df, keyword, 'protein', False)
 
-matchhigh = df[df.bnum.isin(manhigh.bnum)]
-matchlow = df[df.bnum.isin(manlow.bnum)]
-df.loc[matchhigh.index, 'annotation_quality'] = 'high'
-df.loc[matchlow.index, 'annotation_quality'] = 'low'
+# Apply keyword annotations; comments
+for keyword in low_keywords_comments:
+    apply_keyword(df, keyword, 'comments', False)
 
 # Define pseudogenes (must be a string type)
 def is_pseudogene_cat(row):
-    return 't' if row['gene'].endswith("'") else 'f'
+    return 't' if row['name'].endswith("'") else 'f'
 df['is_pseudogene'] = df.apply(is_pseudogene_cat, axis=1)
+
+# Phantom genes are excluded from y-ome description
+df.loc[df.is_pseudogene == 't', 'annotation_quality'] = 'excluded'
 
 # Import knowledgebase
 session = Session()
 load_knowledgebase(session, df, 'EcoGene',
-                   locus_id_column='bnum',
-                   primary_name_column='gene',
-                   synonyms_column='syn',
-                   feature_columns=['protein', 'function', 'desc', 'comments',
-                                    'is_pseudogene'],
+                   locus_id_column='locus_id',
+                   primary_name_column='name',
+                   synonyms_column='synonyms',
+                   feature_columns=['protein', 'function', 'description',
+                                    'comments', 'is_pseudogene'],
                    annotation_quality_column='annotation_quality')
 session.close()
+
+print()
+print('EcoGene')
+print(df.annotation_quality.value_counts())

@@ -2,109 +2,81 @@
 
 from yome import Session
 from yome.load import load_knowledgebase
+from yome.util import apply_keyword
 
 import pandas as pd
 from os.path import dirname, realpath, join
-import glob
+import re
 
 # Load knowledgebase into dataframe
 directory = realpath(dirname(__file__))
 
 # Load knowledgebase into dataframe
-raw = pd.read_table(join(directory, 'uniprot_raw.tsv'), sep='\t')
+names = ['upid', 'name', 'synonyms', 'locus_id', 'protein', 'ec_number',
+         'reaction', 'function', 'annotation_score', 'features', 'misc']
+df = pd.read_table(join(directory, 'uniprot_raw.tsv'), sep='\t', header=0,
+                   names=names)
 
-# Import manual annotations
-man = pd.read_table(join(directory, 'manual_uniprot.tsv'), sep='\t')
-manhigh = man[man.new_ann_quality == 'high']
-manlow = man[man.new_ann_quality == 'low']
+# Strip columns
+df['name'] = df['name'].str.strip()
+df.locus_id = df.locus_id.str.strip()
+df.upid = df.upid.str.strip()
 
-# Make sure there are no invalid ann qualities
-assert(len(manhigh) + len(manlow) == len(man))
+# Keep annotation scores as numbers
+df.annotation_score = df.annotation_score.map(lambda s: int(s.replace('out of 5', '')))
 
-# Format raw knowlegebase entries
-raw.columns = ['raw_upid', 'gene_name', 'raw_syn', 'raw_bnums', 'protein', 'ec', 'reaction', 'function', 'raw_ann_score', 'features', 'misc']
+# Pull out locus IDs
+df.locus_id = df.locus_id.apply(lambda s: s.split()[0])
 
-raw['ann_score'] = raw.raw_ann_score.str.replace('out of 5', '')
+# If primary name is null, use locus ID
+def locus_for_name(row):
+    return row['locus_id'] if pd.isnull(row['name']) else row['name']
+df.name = df.apply(locus_for_name, axis=1)
 
-raw.raw_bnums = raw.raw_bnums.str.split(' ', )
-raw['bnum']= raw.raw_bnums.str[0]
+# Format synonyms
+df.synonyms = df.synonyms.map(lambda s: [x.strip() for x in s.split()]
+                                        if type(s) is str else [])
 
-raw.raw_syn = raw.raw_syn.fillna('')
-raw.gene_name = raw.gene_name.fillna('')
-raw['syn'] = ''
-for index, row in raw.iterrows():
-    if row.raw_syn == '':
-        raw.loc[index, 'syn'] = [row.raw_upid]
-    else:
-        raw.loc[index, 'syn'] = [row.raw_upid, row.raw_syn]
-    if row.gene_name == '':
-        raw.loc[index, 'gene_name'] = 'protein_'+row.bnum
-
-cols = raw.columns
-delcols = cols[cols.str.startswith('raw')]
-df = raw.drop(delcols,1)
-
-df.ann_score = df.ann_score.astype(float)
-df.reaction = df.reaction.fillna('')
+# Add annotation_quality
+df.loc[:, 'annotation_quality'] = 'tbd'
 
 #add annotation quality scores
-lowwords_protein = ['Probable', 'Uncharacterized', 'Putative']
-lowwords_function = ['unknown', 'not known']
-lowwords_function2 = ['could', 'Could']
-highwords_function = ['transport system', 'part of', 'binding-protein-', 'Repressor of', 'repressor of', 'repressor for', 'Repressor for', 'regulator of', 'required for']
-highwords_protein = ['repressor', 'regulator']
+low_keywords_protein = [
+    'probable', 'uncharacterized', 'putative'
+]
+low_keywords_function = [
+    'unknown', 'not known'
+]
 
-df.loc[:, 'ann_quality'] = 'tbd'
+# Apply keyword annotations; protein
+for keyword in low_keywords_protein:
+    apply_keyword(df, keyword, 'protein', False)
 
-for index, row in df.iterrows():
-    if type(row.reaction) == float:
-        row.reaction = repr(row.reaction)
-    if type(row.function) == float:
-        row.function = repr(row.function)
-    for key in lowwords_function2:
-        if key in row.function:
-            df.loc[index, 'ann_quality'] = 'low'
-    if row.ann_score == 5:
-        df.loc[index, 'ann_quality'] = 'high'
-    if row.ann_score < 3:
-        df.loc[index, 'ann_quality'] = 'low'
-    for key in lowwords_protein:
-        if key in row.protein:
-            df.loc[index, 'ann_quality'] = 'low'
-    for key in lowwords_function:
-        if key in row.function:
-            df.loc[index, 'ann_quality'] = 'low'
+# Apply keyword annotations; function
+for keyword in low_keywords_function:
+    apply_keyword(df, keyword, 'function', False)
 
-for index, row in df.iterrows():
-    if type(row.function) == float:
-        row.function = repr(row.function)
-    if type(row.reaction) == float:
-        row.reaction = repr(row.reaction)
-    if row.ann_quality == 'tbd':
-        if row.reaction != '':
-            df.loc[index, 'ann_quality'] = 'high'
-        for key in highwords_function:
-            if key in row.function:
-                df.loc[index, 'ann_quality'] = 'high'
-        for key in highwords_protein:
-            if key in row.protein:
-                df.loc[index, 'ann_quality'] = 'high'
+# Genes with EC number are high
+df.loc[~df.ec_number.isnull(), 'annotation_quality'] = 'high'
 
-dfmanhigh = df[df.gene_name.isin(manhigh.gene_name)]
-dfmanlow = df[df.gene_name.isin(manlow.gene_name)]
-df.loc[dfmanhigh.index, 'ann_quality'] = 'high'
-df.loc[dfmanlow.index, 'ann_quality'] = 'low'
+# Genes with annotation_score 4 or 5 are high
+df.loc[df.annotation_score >= 4, 'annotation_quality'] = 'high'
 
-for index, row in df.iterrows():
-    if row.ann_quality == 'tbd':
-        df.loc[index, 'ann_quality'] = 'high'
+# Genes with annotation_score 1 or 2 are low
+df.loc[df.annotation_score <= 2, 'annotation_quality'] = 'low'
 
-#import knowledgebase
+# Import knowledgebase
 session = Session()
 load_knowledgebase(session, df, 'UniProt',
-                   locus_id_column='bnum',
-                   primary_name_column='gene_name',
-                   synonyms_column='syn',
-                   feature_columns=['protein', 'ec', 'reaction', 'function', 'features', 'misc', 'ann_score'],
-                   annotation_quality_column='ann_quality')
+                   locus_id_column='locus_id',
+                   primary_name_column='name',
+                   synonyms_column='synonyms',
+                   feature_columns=['upid', 'protein', 'ec_number', 'reaction',
+                                    'function', 'features', 'misc',
+                                    'annotation_score'],
+                   annotation_quality_column='annotation_quality')
 session.close()
+
+print()
+print('UniProt')
+print(df.annotation_quality.value_counts())
