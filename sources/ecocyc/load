@@ -8,7 +8,6 @@ import pandas as pd
 import json
 from os.path import dirname, realpath, join
 import re
-import numpy as np
 
 directory = realpath(dirname(__file__))
 

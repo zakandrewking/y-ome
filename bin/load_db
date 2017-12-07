@@ -9,6 +9,7 @@ createdb yome \
     && ../sources/ecocyc/load \
     && ../sources/ecogene/load \
     && ../sources/uniprot/load \
-    && ../sources/refseq/load
+    && ../sources/refseq/load \
+    && ../sources/ecolime/load
 
     # && ../sources/manual/load

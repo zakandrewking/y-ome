@@ -29,14 +29,18 @@ for feature in gb_file.features:
     d['name'] = feature.qualifiers['gene'][0]
     d['synonyms'] = [x.strip() for x in
                      feature.qualifiers['gene_synonym'][0].split(';')]
+    d['ec_numbers'] = feature.qualifiers.get('EC_number', [])
 
     # TODO pseudogenes, ec numbers, etc
     data_list.append(d)
 
 df = pd.DataFrame(data_list)
 
-from IPython import embed; embed()
-import sys; sys.exit()
+# Add annotation_quality
+df['annotation_quality'] = 'tbd'
+
+# Genes with EC number are high
+df.loc[df.ec_numbers.apply(lambda x: len(x) > 0), 'annotation_quality'] = 'high'
 
 # Load knowledgebase
 session = Session()
@@ -49,5 +53,5 @@ load_knowledgebase(session, df, 'RefSeq',
 session.close()
 
 print()
-print('EcoCyc')
+print('RefSeq')
 print(df.annotation_quality.value_counts())
