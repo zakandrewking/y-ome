@@ -10,10 +10,18 @@ from os.path import dirname, realpath, join
 directory = realpath(dirname(__file__))
 
 # Load knowledgebase into dataframe
-names = ['name', 'synonyms', 'protein', 'function', 'description', 'comments',
-         'locus_id', '']
-df = pd.read_table(join(directory, 'EcoData070116-195229.txt'), sep='\t',
-                   header=0, names=names).iloc[:, :7]
+rename = {
+   'EG': 'ecogene_id',
+   'Gene': 'primary_name',
+   'Syn': 'synonyms',
+   'Protein': 'protein',
+   'Function': 'function',
+   'Description': 'description',
+   'Comments': 'comments',
+   'b#': 'locus_tag',
+}
+df = (pd.read_table(join(directory, 'EcoData110917-163845.tsv'), sep='\t', header=0)
+      .rename(columns=rename))
 
 # Split synonyms
 def split_synonym(s):
@@ -21,8 +29,8 @@ def split_synonym(s):
 df.synonyms = df.synonyms.apply(split_synonym)
 
 # Strip columns
-df['name'] = df['name'].str.strip()
-df.locus_id = df.locus_id.str.strip()
+df['primary_name'] = df['primary_name'].str.strip()
+df.locus_tag = df.locus_tag.str.strip()
 
 # Add annotation_quality
 df.loc[:, 'annotation_quality'] = 'tbd'
@@ -54,17 +62,19 @@ for keyword in low_keywords_comments:
 
 # Define pseudogenes (must be a string type)
 def is_pseudogene_cat(row):
-    return 't' if row['name'].endswith("'") else 'f'
+    return 't' if row['primary_name'].endswith("'") else 'f'
 df['is_pseudogene'] = df.apply(is_pseudogene_cat, axis=1)
 
 # Phantom genes are excluded from y-ome description
 df.loc[df.is_pseudogene == 't', 'annotation_quality'] = 'excluded'
 
+from IPython import embed; embed()
+
 # Import knowledgebase
 session = Session()
 load_knowledgebase(session, df, 'EcoGene',
-                   locus_id_column='locus_id',
-                   primary_name_column='name',
+                   locus_id_column='locus_tag',
+                   primary_name_column='primary_name',
                    synonyms_column='synonyms',
                    feature_columns=['protein', 'function', 'description',
                                     'comments', 'is_pseudogene'],
