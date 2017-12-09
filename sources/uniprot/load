@@ -12,26 +12,36 @@ import re
 directory = realpath(dirname(__file__))
 
 # Load knowledgebase into dataframe
-names = ['upid', 'name', 'synonyms', 'locus_id', 'protein', 'ec_number',
-         'reaction', 'function', 'annotation_score', 'features', 'misc']
-df = pd.read_table(join(directory, 'uniprot_raw.tsv'), sep='\t', header=0,
-                   names=names)
+rename = {
+    'Entry': 'upid',
+    'Gene names  (primary )': 'primary_name',
+    'Gene names  (synonym )': 'synonyms',
+    'Gene names  (ordered locus )': 'locus_tag',
+    'Protein names': 'protein',
+    'EC number': 'ec_number',
+    'Catalytic activity': 'reaction',
+    'Function [CC]': 'function',
+    'Annotation': 'annotation_score',
+    'Features': 'features',
+    'Miscellaneous [CC]': 'misc',
+}
+df = (pd.read_table(join(directory, 'proteome_UP000000625_120817.tsv'), sep='\t', header=0)
+      .rename(columns=rename))
 
 # Strip columns
-df['name'] = df['name'].str.strip()
-df.locus_id = df.locus_id.str.strip()
+df.primary_name = df.primary_name.str.strip()
 df.upid = df.upid.str.strip()
 
-# Keep annotation scores as numbers
-df.annotation_score = df.annotation_score.map(lambda s: int(s.replace('out of 5', '')))
-
 # Pull out locus IDs
-df.locus_id = df.locus_id.apply(lambda s: s.split()[0])
+df.locus_tag = df.locus_tag.apply(lambda s: s.split()[0].strip() if not pd.isnull(s) else s)
 
 # If primary name is null, use locus ID
 def locus_for_name(row):
-    return row['locus_id'] if pd.isnull(row['name']) else row['name']
-df.name = df.apply(locus_for_name, axis=1)
+    return row['locus_tag'] if pd.isnull(row['primary_name']) else row['primary_name']
+df.primary_name = df.apply(locus_for_name, axis=1)
+
+# Keep annotation scores as numbers
+df.annotation_score = df.annotation_score.map(lambda s: int(s.replace('out of 5', '')))
 
 # Format synonyms
 df.synonyms = df.synonyms.map(lambda s: [x.strip() for x in s.split()]
@@ -59,17 +69,17 @@ for keyword in low_keywords_function:
 # Genes with EC number are high
 df.loc[~df.ec_number.isnull(), 'annotation_quality'] = 'high'
 
-# Genes with annotation_score 4 or 5 are high
-df.loc[df.annotation_score >= 4, 'annotation_quality'] = 'high'
+# Genes with annotation_score 5 are high
+df.loc[df.annotation_score >= 5, 'annotation_quality'] = 'high'
 
-# Genes with annotation_score 1 or 2 are low
-df.loc[df.annotation_score <= 2, 'annotation_quality'] = 'low'
+# Genes with annotation_score 1 are low
+df.loc[df.annotation_score <= 1, 'annotation_quality'] = 'low'
 
 # Import knowledgebase
 session = Session()
 load_knowledgebase(session, df, 'UniProt',
-                   locus_id_column='locus_id',
-                   primary_name_column='name',
+                   locus_id_column='locus_tag',
+                   primary_name_column='primary_name',
                    synonyms_column='synonyms',
                    feature_columns=['upid', 'protein', 'ec_number', 'reaction',
                                     'function', 'features', 'misc',

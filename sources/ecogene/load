@@ -68,8 +68,6 @@ df['is_pseudogene'] = df.apply(is_pseudogene_cat, axis=1)
 # Phantom genes are excluded from y-ome description
 df.loc[df.is_pseudogene == 't', 'annotation_quality'] = 'excluded'
 
-from IPython import embed; embed()
-
 # Import knowledgebase
 session = Session()
 load_knowledgebase(session, df, 'EcoGene',
