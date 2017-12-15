@@ -66,14 +66,16 @@ for keyword in low_keywords_protein:
 for keyword in low_keywords_function:
     apply_keyword(df, keyword, 'function', False)
 
-# Genes with EC number are high
-df.loc[~df.ec_number.isnull(), 'annotation_quality'] = 'high'
+# Genes with EC number not necessarily high. Some (e.g. yadI) have ec info event
+# with minimal annotation
+# df.loc[~df.ec_number.isnull(), 'annotation_quality'] = 'high'
 
-# Genes with annotation_score 5 are high
-df.loc[df.annotation_score >= 5, 'annotation_quality'] = 'high'
+# Genes with annotation_score 5 are not given "high" annotation because putative
+# annotations can have this score (e.g. dgcJ)
+# df.loc[df.annotation_score >= 5, 'annotation_quality'] = 'high'
 
-# Genes with annotation_score 1 are low
-df.loc[df.annotation_score <= 1, 'annotation_quality'] = 'low'
+# Genes with annotation_score 2 are low
+df.loc[df.annotation_score <= 2, 'annotation_quality'] = 'low'
 
 # Import knowledgebase
 session = Session()

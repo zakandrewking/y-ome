@@ -31,6 +31,8 @@ for feature in gb_file.features:
                      feature.qualifiers['gene_synonym'][0].split(';')]
     d['ec_numbers'] = feature.qualifiers.get('EC_number', [])
 
+    from IPython import embed; embed()
+
     # TODO pseudogenes, ec numbers, etc
     data_list.append(d)
 
@@ -48,7 +50,7 @@ load_knowledgebase(session, df, 'RefSeq',
                    locus_id_column='locus_tag',
                    primary_name_column='name',
                    synonyms_column='synonyms',
-                   feature_columns=[],
+                   feature_columns=['ec_numbers'],
                    annotation_quality_column='annotation_quality')
 session.close()
 

@@ -46,16 +46,19 @@ df.loc[:, 'annotation_quality'] = 'tbd'
 
 # Define keywords
 low_keywords_description = [
-    'possibly', 'element protein', 'split', 'interrupted', 'family protein',
+    'possibly', 'element protein', 'split', 'interrupted',
     'predicted', 'hypothetical', 'putative', 'conserved',
     'uncharacterized protein',
 ]
+# don't use: 'family protein' (see mrdB)
+
 low_keywords_summary = [
     'is a putative', 'an unknown mechanism', 'is a predicted',
     'is an uncharacterized', 'is predicted to encode',
     'is still unknown', 'putative missing', 'is unknown',
     'No information about this', 'is not yet known',
 ]
+
 high_keywords_evidence = [
     'inferred from experiment',
     'inferred from direct assay',
