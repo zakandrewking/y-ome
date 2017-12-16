@@ -37,16 +37,13 @@ df.loc[:, 'annotation_quality'] = 'tbd'
 
 # Define keywords
 low_keywords_description = [
-    'physiological substrate', 'physiological role unknown', 'may have',
-    'probable', 'probable', 'uncharacterized', 'predicted', 'predicted',
-    'putative', 'function unknown', 'function unknown', 'putative'
+   'physiological role unknown', 'uncharacterized', 'putative',
+   'function unknown',
 ]
 low_keywords_protein = [
     'putative', 'uncharacterized'
 ]
-low_keywords_comments = [
-    'is a predicted', 'are predicted','function has not been', 'is unknown'
-]
+low_keywords_comments = []
 
 # Apply keyword annotations; description
 for keyword in low_keywords_description:

@@ -22,5 +22,6 @@ setup(
         'pandas>=0.18.0',
         'pytest>=2.9.0',
         'xlrd>=0.9.4',
+        'beautifulsoup4>=4.6.0',
     ],
 )

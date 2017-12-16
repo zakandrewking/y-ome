@@ -3,6 +3,7 @@
 from datetime import timedelta
 import pandas as pd
 import re
+from bs4 import BeautifulSoup
 
 def create(session, query_class, commit=False, **kwargs):
     """Add a new row to the database and return.
@@ -75,7 +76,7 @@ def to_df(query, cols=None):
 
 def apply_keyword(df, keyword, field, is_high):
     """Apply a keyword to the dataframe, and warn if it already has an
-    annotation_quality.
+    annotation_quality. Give mismatches a 'tbd' label.
 
     """
     add, other = ('high', 'low') if is_high else ('low', 'high')
@@ -83,8 +84,15 @@ def apply_keyword(df, keyword, field, is_high):
         df[field].str.contains(keyword, flags=re.IGNORECASE) & (df.annotation_quality != other),
         'annotation_quality'
     ] = add
+    # give mismatches a tbd label
     mismatch = df.loc[
-        df[field].str.contains(keyword, flags=re.IGNORECASE) & (df.annotation_quality == other)
-    ]
-    if len(mismatch > 0):
-        print(f'Mismatches for keyword {keyword} in {", ".join(mismatch.locus_id.values)}')
+        df[field].str.contains(keyword, flags=re.IGNORECASE) & (df.annotation_quality == other),
+        'annotation_quality'
+    ] = 'tbd'
+    # if len(mismatch > 0):
+    #     print(f'Mismatches for keyword {keyword} in {", ".join(mismatch.locus_tag.values)}')
+
+# Based on https://stackoverflow.com/questions/753052/strip-html-from-strings-in-python
+def html_to_text(text):
+    soup = BeautifulSoup(text, 'lxml')
+    return soup.get_text()

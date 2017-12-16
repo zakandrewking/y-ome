@@ -50,7 +50,16 @@ df.synonyms = df.synonyms.map(lambda s: [x.strip() for x in s.split()]
 # Add annotation_quality
 df.loc[:, 'annotation_quality'] = 'tbd'
 
-#add annotation quality scores
+# Genes with annotation_score 4 are "high"
+df.loc[df.annotation_score >= 4, 'annotation_quality'] = 'high'
+
+# Genes with annotation_score 2 are low
+df.loc[df.annotation_score <= 2, 'annotation_quality'] = 'low'
+
+# Genes with 3 are sometimes "high" with "experimental evidence at protein
+# level", sometimes low with "Predicted protein"
+
+# Add keywords, marking tbd for mismatches to annotation_score
 low_keywords_protein = [
     'probable', 'uncharacterized', 'putative'
 ]
@@ -69,13 +78,6 @@ for keyword in low_keywords_function:
 # Genes with EC number not necessarily high. Some (e.g. yadI) have ec info event
 # with minimal annotation
 # df.loc[~df.ec_number.isnull(), 'annotation_quality'] = 'high'
-
-# Genes with annotation_score 5 are not given "high" annotation because putative
-# annotations can have this score (e.g. dgcJ)
-# df.loc[df.annotation_score >= 5, 'annotation_quality'] = 'high'
-
-# Genes with annotation_score 2 are low
-df.loc[df.annotation_score <= 2, 'annotation_quality'] = 'low'
 
 # Import knowledgebase
 session = Session()

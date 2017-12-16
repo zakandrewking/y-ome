@@ -30,10 +30,9 @@ for feature in gb_file.features:
     d['synonyms'] = [x.strip() for x in
                      feature.qualifiers['gene_synonym'][0].split(';')]
     d['ec_numbers'] = feature.qualifiers.get('EC_number', [])
+    d['product'] = feature.qualifiers.get('product', [None])[0]
+    d['function'] = feature.qualifiers.get('function', [None])[0]
 
-    from IPython import embed; embed()
-
-    # TODO pseudogenes, ec numbers, etc
     data_list.append(d)
 
 df = pd.DataFrame(data_list)
@@ -50,7 +49,7 @@ load_knowledgebase(session, df, 'RefSeq',
                    locus_id_column='locus_tag',
                    primary_name_column='name',
                    synonyms_column='synonyms',
-                   feature_columns=['ec_numbers'],
+                   feature_columns=['ec_numbers', 'product', 'function'],
                    annotation_quality_column='annotation_quality')
 session.close()
 
