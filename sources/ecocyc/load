@@ -64,9 +64,9 @@ low_keywords_summary = [
 ]
 
 high_keywords_evidence = [
-    'inferred from mutant phenotype',
-    'inferred from experiment',
-    'inferred from expression pattern',
+    # 'inferred from mutant phenotype',
+    # 'inferred from experiment',
+    # 'inferred from expression pattern',
     'assay',
 ]
 
