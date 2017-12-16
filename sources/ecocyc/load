@@ -30,6 +30,9 @@ def fix_locus_tag(row):
         return row['locus_tag']
 df.locus_tag = df.apply(fix_locus_tag, axis=1)
 
+# TODO standardize HTML columns. Are they lists? np.nan is better for empty; can
+# load_knowledgebase handle it?
+
 # Strip tags from summary
 df.summary_html = df.summary_html.apply(html_to_text)
 
@@ -37,6 +40,8 @@ df.summary_html = df.summary_html.apply(html_to_text)
 # there are some cases where the wrong value is listed in an alt attribute,
 # e.g. alt="Inferred from experiment"
 df.evidence_html = df.evidence_html.apply(lambda x: html_to_text(x[0]) if len(x) > 0 else '')
+
+df.component_html = df.component_html.apply(lambda x: html_to_text(x) if not pd.isnull(x) else '')
 
 # # Import manual annotations
 # man = pd.read_table(join(directory, 'manual_genes.tsv'), sep='\t')
@@ -69,6 +74,9 @@ high_keywords_evidence = [
     # 'inferred from expression pattern',
     'assay',
 ]
+
+# Genes with complexes are high
+df.loc[df.component_html != '', 'annotation_quality'] = 'high'
 
 # Apply keyword annotations; description
 for keyword in low_keywords_description:
@@ -118,7 +126,8 @@ load_knowledgebase(session, df, 'EcoCyc',
                    feature_columns=['description', 'summary_html',
                                     'product_type', 'ec_number',
                                     'reaction_equation', 'is_pseudogene',
-                                    'is_phantom_gene', 'evidence_html'],
+                                    'is_phantom_gene', 'evidence_html',
+                                    'component_html'],
                    annotation_quality_column='annotation_quality')
 session.close()
 
