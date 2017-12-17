@@ -40,6 +40,17 @@ b0798	low	few details
 b0808	high	clear evidence on EcoCyc
 b0814	low	lots of interesting details on EcoCyc but not clear mechanistic function
 b0832	high	part of well annotated complex
+b0920	low	few details
+b0934	high	EcoCyc complex has details
+b0936	high	EcoCyc complex has details
+b0998	high	see EcoCyc summary
+b1034	low	few details
+b1035	high	experimental evidence of chaperone activity
+b1038	high	see EcoCyc summary
+b1047	high	see EcoCyc summary
+b1069	high	see EcoCyc summary
+b1071	high	see EcoCyc summary
+
 b0139	read	
 b0341	read	is co-expression under a clear condition + sequence similarity enough?
 b0426	read	EcoGene; Qiao, 2008
@@ -68,4 +79,6 @@ b0650	read	does a chaperone need known targets?
 b0792	read	is mutant growth enough to call this transporter activity?
 b0793	read	is mutant growth enough to call this transporter activity?
 b0794	read	is mutant growth enough to call this transporter activity?
+b1053	read	is mutant growth enough to call this transporter activity?
+b1065	read	is mutant growth enough to call this transporter activity?
 b0260	read	enough evidence of transporter activity?
