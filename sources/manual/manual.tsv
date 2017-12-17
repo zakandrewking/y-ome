@@ -1,0 +1,35 @@
+locus_tag	new_annotation_quality	notes
+b1461	high	see literature validation (correct in UniProt)
+b0129	low	
+b1786	low	
+b0260	high	
+b0022	high	I think we know enough by this insertion element to call it "high"
+b4354	high	new evidence in Y-ome Updates
+b0022	high	see EcoCyc
+b0001	high	see EcoCyc
+b0020	high	see EcoCyc
+b0034	high	see EcoCyc
+b0037	high	see EcoCyc
+b0040	high	see EcoCyc
+b1074	high	fix with complex info from EcoCyc
+b0089	high	EcoCyc assay evidence
+b4116	low	EcoCyc: conditions under which it is expressed remain unknown
+b2163	low	EcoCyc: The genes that the YeiL transcriptional activator regulates have not been identified yet
+b2952	low	EcoCyc
+b0598	high	EcoCyc
+b0162	low	EcoCyc / RegulonDB
+b0240	high	see notes above
+b0284	high	see EcoCyc complex
+b0285	high	see EcoCyc complex
+b0286	high	see EcoCyc complex
+b0287	low	few details
+b0301	low	few details
+b0461	low	few details
+b0479	high	see EcoCyc
+
+b0139	read	
+b0341	read	is co-expression under a clear condition + sequence similarity enough?
+b0426	read	EcoGene; Qiao, 2008
+b0006	read	
+b0268	read	are co-crystal structures enough to confirm enzyme activity?
+b0269	read	is complementation assay enough to confirm activity?
