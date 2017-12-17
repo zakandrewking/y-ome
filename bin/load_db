@@ -10,6 +10,5 @@ createdb yome \
     && ../sources/ecogene/load \
     && ../sources/uniprot/load \
     && ../sources/refseq/load \
+    && ../sources/regulondb/load \
     && ../sources/ecolime/load
-
-    # && ../sources/manual/load

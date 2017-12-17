@@ -1,11 +1,9 @@
-locus_tag	new_annotation_quality	notes
+locus_tag	new_qual	notes
 b1461	high	see literature validation (correct in UniProt)
-b0129	low	
-b1786	low	
-b0260	high	
-b0022	high	I think we know enough by this insertion element to call it "high"
+b0129	low	few details
+b1786	low	predicted function based on sequence
+b0260	low	no direct evidence of transporter activity
 b4354	high	new evidence in Y-ome Updates
-b0022	high	see EcoCyc
 b0001	high	see EcoCyc
 b0020	high	see EcoCyc
 b0034	high	see EcoCyc
@@ -13,11 +11,11 @@ b0037	high	see EcoCyc
 b0040	high	see EcoCyc
 b1074	high	fix with complex info from EcoCyc
 b0089	high	EcoCyc assay evidence
-b4116	low	EcoCyc: conditions under which it is expressed remain unknown
-b2163	low	EcoCyc: The genes that the YeiL transcriptional activator regulates have not been identified yet
+b4116	high	has regulated genes in RegulonDB
+b2163	low	EcoCyc: The genes that the YeiL transcriptional activator regulates have not been identified yet; RegulonDB no strong connections
 b2952	low	EcoCyc
 b0598	high	EcoCyc
-b0162	low	EcoCyc / RegulonDB
+b0162	high	EcoCyc / RegulonDB
 b0240	high	see notes above
 b0284	high	see EcoCyc complex
 b0285	high	see EcoCyc complex
@@ -26,10 +24,36 @@ b0287	low	few details
 b0301	low	few details
 b0461	low	few details
 b0479	high	see EcoCyc
-
+b0260	high	pretty clear explanation on EcoCyc (https://ecocyc.org/gene?orgid=ECOLI&id=G6135) and EcoGene (http://ecogene.org/?q=gene/EG13342). Miscategorized because the descriptions say "putative".
+b4354	high	New evidence, now BtsT: http://jb.asm.org/content/early/2017/10/18/JB.00599-17.abstract
+b0261	high	pretty clear explanation on EcoCyc (https://ecocyc.org/gene?orgid=ECOLI&id=G6136) and EcoGene (http://www.ecogene.org/gene/EG13343). Miscategorized because the descriptions say "putative".
+b2302	high	https://ecocyc.org/gene?orgid=ECOLI&id=G7194
+b3003	high	https://ecocyc.org/gene?orgid=ECOLI&id=EG11292
+b3127	high	https://ecocyc.org/gene?orgid=ECOLI&id=EG12760
+b0545	low	few details
+b0081	high	see EcoCyc summary
+b2163	low	targets not identified for TF on EcoCyc or RegulonDB (except self)
+b0587	low	few details
 b0139	read	
 b0341	read	is co-expression under a clear condition + sequence similarity enough?
 b0426	read	EcoGene; Qiao, 2008
 b0006	read	
 b0268	read	are co-crystal structures enough to confirm enzyme activity?
 b0269	read	is complementation assay enough to confirm activity?
+b1072	read	https://ecocyc.org/gene?orgid=ECOLI&id=G357
+b1878	read	https://ecocyc.org/gene?orgid=ECOLI&id=G7027
+b2130	read	https://ecocyc.org/gene?orgid=ECOLI&id=EG12011
+b3679	read	10.15252/msb.20167150
+b3689	read	10.15252/msb.20167150
+b0362	read	10.1371/journal.pgen.1004120
+b0736	read	10.1021/sb3000782
+b1378	read	10.1021/sb3000782
+b1695	read	10.1021/sb3000782
+b2844	read	10.1021/sb3000782
+b2958	read	10.1074/jbc.M100464200
+b3150	read	10.1074/jbc.M100464200
+b3688	read	10.1074/jbc.M100464200
+b4216	read	10.1074/jbc.M100464200
+b0022	read	what does it mean to have a validated insertion element?
+b0265	read	what does it mean to have a validated insertion element?
+b0275	read	what does it mean to have a validated insertion element?

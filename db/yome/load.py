@@ -53,7 +53,7 @@ def load_knowledgebase(session, df, knowledgebase_name, locus_id_column='bnum',
 
     for col in [locus_id_column, primary_name_column, synonyms_column,
                 annotation_quality_column] + feature_columns:
-        if not col in df.columns:
+        if col is not None and col not in df.columns:
             raise Exception('Could not find column %s' % col)
 
     df = _none_for_nan(df)
@@ -82,7 +82,7 @@ def load_knowledgebase(session, df, knowledgebase_name, locus_id_column='bnum',
         all_synonyms = [primary_name]
         if locus_id is not None:
             all_synonyms += [locus_id]
-        if row[synonyms_column] is not None:
+        if synonyms_column is not None and row[synonyms_column] is not None:
             all_synonyms += row[synonyms_column]
         for synonym in set(all_synonyms):
             synonym = create(session, Synonym,
