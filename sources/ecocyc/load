@@ -30,18 +30,14 @@ def fix_locus_tag(row):
         return row['locus_tag']
 df.locus_tag = df.apply(fix_locus_tag, axis=1)
 
-# TODO standardize HTML columns. Are they lists? np.nan is better for empty; can
-# load_knowledgebase handle it?
-
 # Strip tags from summary
 df.summary_html = df.summary_html.apply(html_to_text)
 
 # Make sure evidence_html is a string, and strip tags. This is important because
 # there are some cases where the wrong value is listed in an alt attribute,
 # e.g. alt="Inferred from experiment"
-df.evidence_html = df.evidence_html.apply(lambda x: html_to_text(x[0]) if len(x) > 0 else '')
-
-df.component_html = df.component_html.apply(lambda x: html_to_text(x) if not pd.isnull(x) else '')
+df.evidence_html = df.evidence_html.apply(lambda x: html_to_text(x) if not pd.isnull(x) else None)
+df.component_html = df.component_html.apply(lambda x: html_to_text(x) if not pd.isnull(x) else None)
 
 # # Import manual annotations
 # man = pd.read_table(join(directory, 'manual_genes.tsv'), sep='\t')
@@ -69,14 +65,22 @@ low_keywords_summary = [
 ]
 
 high_keywords_evidence = [
-    # 'inferred from mutant phenotype',
-    # 'inferred from experiment',
-    # 'inferred from expression pattern',
     'assay',
+    'traceable author statement to experimental support',
 ]
+# Don't use: ['inferred from mutant phenotype', 'inferred from experiment',
+#             'inferred from expression pattern', 'gene expression analysis',
+#             'inferred by functional complementation', 'binding of purified proteins']
+# See Categories notebook
 
 # Genes with complexes are high
-df.loc[df.component_html != '', 'annotation_quality'] = 'high'
+df.loc[~df.component_html.isnull(), 'annotation_quality'] = 'high'
+
+# Genes with reaction_equation
+df.loc[~df.reaction_equation.isnull(), 'annotation_quality'] = 'high'
+
+# Genes with EC number are high
+df.loc[~df.ec_number.isnull(), 'annotation_quality'] = 'high'
 
 # Apply keyword annotations; description
 for keyword in low_keywords_description:
@@ -92,12 +96,6 @@ for keyword in high_keywords_evidence:
 
 # Phantom genes are excluded from y-ome description
 df.loc[df.is_phantom_gene | df.is_pseudogene, 'annotation_quality'] = 'excluded'
-
-# Genes with reaction_equation
-df.loc[~df.reaction_equation.isnull(), 'annotation_quality'] = 'high'
-
-# Genes with EC number are high
-df.loc[~df.ec_number.isnull(), 'annotation_quality'] = 'high'
 
 # # Warn for genes that have automated & manual annotations
 # print('The following have automated and manual annotations')
