@@ -2,7 +2,6 @@ locus_tag	new_qual	notes
 b1461	high	see literature validation (correct in UniProt)
 b0129	low	few details
 b1786	low	predicted function based on sequence
-b0260	low	no direct evidence of transporter activity
 b4354	high	new evidence in Y-ome Updates
 b0001	high	see EcoCyc
 b0020	high	see EcoCyc
@@ -24,7 +23,6 @@ b0287	low	few details
 b0301	low	few details
 b0461	low	few details
 b0479	high	see EcoCyc
-b0260	high	pretty clear explanation on EcoCyc (https://ecocyc.org/gene?orgid=ECOLI&id=G6135) and EcoGene (http://ecogene.org/?q=gene/EG13342). Miscategorized because the descriptions say "putative".
 b4354	high	New evidence, now BtsT: http://jb.asm.org/content/early/2017/10/18/JB.00599-17.abstract
 b0261	high	pretty clear explanation on EcoCyc (https://ecocyc.org/gene?orgid=ECOLI&id=G6136) and EcoGene (http://www.ecogene.org/gene/EG13343). Miscategorized because the descriptions say "putative".
 b2302	high	https://ecocyc.org/gene?orgid=ECOLI&id=G7194
@@ -34,6 +32,14 @@ b0545	low	few details
 b0081	high	see EcoCyc summary
 b2163	low	targets not identified for TF on EcoCyc or RegulonDB (except self)
 b0587	low	few details
+b0652	high	similarity prediction plus knowledge of complex in EcoCyc
+b0711	low	pxpBCA complex is not well characterized
+b0712	low	pxpBCA complex is not well characterized
+b0713	low	pxpBCA complex is not well characterized
+b0798	low	few details
+b0808	high	clear evidence on EcoCyc
+b0814	low	lots of interesting details on EcoCyc but not clear mechanistic function
+b0832	high	part of well annotated complex
 b0139	read	
 b0341	read	is co-expression under a clear condition + sequence similarity enough?
 b0426	read	EcoGene; Qiao, 2008
@@ -57,3 +63,9 @@ b4216	read	10.1074/jbc.M100464200
 b0022	read	what does it mean to have a validated insertion element?
 b0265	read	what does it mean to have a validated insertion element?
 b0275	read	what does it mean to have a validated insertion element?
+b0624	read	enough evidence?
+b0650	read	does a chaperone need known targets?
+b0792	read	is mutant growth enough to call this transporter activity?
+b0793	read	is mutant growth enough to call this transporter activity?
+b0794	read	is mutant growth enough to call this transporter activity?
+b0260	read	enough evidence of transporter activity?

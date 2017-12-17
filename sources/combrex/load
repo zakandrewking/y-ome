@@ -1,0 +1,45 @@
+#!/usr/bin/env python3
+
+from yome import Session
+from yome.load import load_knowledgebase
+from yome.util import apply_keyword, html_to_text
+
+import pandas as pd
+import json
+from os.path import dirname, realpath, join
+import re
+
+directory = realpath(dirname(__file__))
+
+# Create dataframe from knowledgebase
+rename = {
+    'GeneSymbol': 'primary_name',
+    'LocusTag': 'locus_tag',
+    'IsExpValidated': 'experimental_validation_raw',
+}
+df = (pd.read_table(join(directory, 'combrex_ecoli_genes.csv'), sep=',')
+      .rename(columns=rename))
+df.experimental_validation = df.experimental_validation_raw.apply(
+    lambda x: 't' if x == 1 else 'f'
+)
+
+# add annotation_quality
+df.loc[df.experimental_validation == 't', 'annotation_quality'] = 'high'
+df.loc[df.experimental_validation == 'f', 'annotation_quality'] = 'low'
+
+from IPython import embed; embed()
+
+# RESULT: none of these are marke experimental_validation true!
+
+# session = Session()
+# load_knowledgebase(session, df, 'COMBREX',
+#                    locus_id_column='locus_tag',
+#                    primary_name_column='primary_name',
+#                    synonyms_column=None,
+#                    feature_columns=[],
+#                    annotation_quality_column='annotation_quality')
+# session.close()
+
+# print()
+# print('COMBREX')
+# print(df.annotation_quality.value_counts())

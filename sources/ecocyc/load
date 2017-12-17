@@ -67,6 +67,7 @@ low_keywords_summary = [
 high_keywords_evidence = [
     'assay',
     'traceable author statement to experimental support',
+    'reaction blocked in mutant',
 ]
 # Don't use: ['inferred from mutant phenotype', 'inferred from experiment',
 #             'inferred from expression pattern', 'gene expression analysis',
