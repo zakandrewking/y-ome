@@ -50,11 +50,49 @@ b1038	high	see EcoCyc summary
 b1047	high	see EcoCyc summary
 b1069	high	see EcoCyc summary
 b1071	high	see EcoCyc summary
+b1073	high	EcoCyc complex has details
+b1076	high	EcoCyc complex has details
+b1077	high	EcoCyc complex has details
+b1080	high	EcoCyc complex has details
+b1082	high	EcoCyc complex has details
+b1083	high	EcoCyc complex has details
+b3361	low	no experimental validation of toxin/antitoxin activity
+b3362	low	no experimental validation of toxin/antitoxin activity
+b2144	low	few details
+b1088	low	few details
+b1112	high	experimental study of effect on copper uptake
+b1132	high	interacts with lambda phage protein
+b1139	high	see EcoCyc summary
+b1159	high	see EcoCyc summary
+b1256	low	no experimental evidence of mechanism
+b1305	high	see EcoCyc summary
+b1306	high	see EcoCyc summary
+b1307	low	few details
+b1333	low	few details
+b1352	high	experimental and sequence evidence that this is a kil gene
+b1389	low	no experimental evidence
+b1438	high	see EcoCyc summary
+b1453	low	annotation inferred from sequence
+b1466	low	few details
+b1516	low	annotation inferred from sequence
+b1533	high	see EcoCyc summary
+b1562	high	experimental validation of killing ability
+b1574	high	see EcoCyc summary
+b1590	high	experimental evidence of growth rescue
+b1627	high	see EcoCyc summary
+b1632	high	see EcoCyc summary
+b1707	high	see EcoCyc summary
+b1802	high	see EcoCyc summary
+b1803	high	see EcoCyc summary
+b1821	high	see EcoCyc summary
+b1879	high	see EcoCyc summary
+b1937	high	see EcoCyc summary
+b1947	high	see EcoCyc summary
+b1949	high	see EcoCyc summary
+b1954	high	regulatory role
 
-b0139	read	
 b0341	read	is co-expression under a clear condition + sequence similarity enough?
 b0426	read	EcoGene; Qiao, 2008
-b0006	read	
 b0268	read	are co-crystal structures enough to confirm enzyme activity?
 b0269	read	is complementation assay enough to confirm activity?
 b1072	read	https://ecocyc.org/gene?orgid=ECOLI&id=G357
@@ -74,6 +112,7 @@ b4216	read	10.1074/jbc.M100464200
 b0022	read	what does it mean to have a validated insertion element?
 b0265	read	what does it mean to have a validated insertion element?
 b0275	read	what does it mean to have a validated insertion element?
+b1370	read	what does it mean to have a validated insertion element?
 b0624	read	enough evidence?
 b0650	read	does a chaperone need known targets?
 b0792	read	is mutant growth enough to call this transporter activity?
