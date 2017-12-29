@@ -22,10 +22,9 @@ def make_tables():
     logging.info('Creating tables')
     Base.metadata.create_all()
 
-def load_knowledgebase(session, df, knowledgebase_name, locus_id_column='bnum',
-                       primary_name_column='name', synonyms_column='synonyms',
-                       feature_columns=['description'],
-                       annotation_quality_column='annotation_quality'):
+def load_knowledgebase(session, df, knowledgebase_name, locus_id_column=None,
+                       primary_name_column=None, synonyms_column=None,
+                       feature_columns=[], annotation_quality_column=None):
     """Load a new knowledgebase.
 
     Arguments
@@ -51,6 +50,9 @@ def load_knowledgebase(session, df, knowledgebase_name, locus_id_column='bnum',
     logging.info('Loading knowledgebase %s' % knowledgebase_name)
     start = time.time()
 
+    if locus_id_column is None:
+        raise Exception('locus_id_column required')
+
     for col in [locus_id_column, primary_name_column, synonyms_column,
                 annotation_quality_column] + feature_columns:
         if col is not None and col not in df.columns:
@@ -67,19 +69,21 @@ def load_knowledgebase(session, df, knowledgebase_name, locus_id_column='bnum',
     for _, row in df.iterrows():
         # load gene and knowledgebase gene
         locus_id = row[locus_id_column]
-        primary_name = row[primary_name_column]
         if locus_id is not None:
             gene, _ = get_or_create(session, Gene, locus_id=locus_id)
             gene_id = gene.id
         else:
             gene_id = None
+
+        primary_name = row[primary_name_column] if primary_name_column else None
+
         db_gene = create(session, KnowledgebaseGene,
                          gene_id=gene_id,
                          knowledgebase_id=db.id,
                          primary_name=primary_name,
                          annotation_quality=row[annotation_quality_column])
         # load synonyms
-        all_synonyms = [primary_name]
+        all_synonyms = [primary_name] if primary_name else []
         if locus_id is not None:
             all_synonyms += [locus_id]
         if synonyms_column is not None and row[synonyms_column] is not None:

@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+
+from yome import Session
+from yome.load import load_knowledgebase
+from yome.util import to_df
+from yome.models import *
+
+import pandas as pd
+import re
+
+session = Session()
+
+# Get kbases with annotation scores to calculate the Y-ome
+df = to_df(
+    session.query(Gene.locus_id,
+                  KnowledgebaseGene.primary_name,
+                  KnowledgebaseGene.annotation_quality,
+                  Knowledgebase.name.label('knowledgebase_name'))
+    .join(KnowledgebaseGene)
+    .join(Knowledgebase)
+)
+
+# high quality EcoCyc evidence should override everything, e.g. b0089 / ftsW
+ecocyc_evidence = to_df(
+    session.query(Gene.locus_id,
+                  KnowledgebaseFeature.feature)
+    .join(KnowledgebaseGene)
+    .join(Knowledgebase)
+    .join(KnowledgebaseFeature)
+    .filter(Knowledgebase.name == 'EcoCyc')
+    .filter(KnowledgebaseFeature.feature_type == 'evidence_html')
+)
+ecocyc_evidence_has_assay = ecocyc_evidence[ecocyc_evidence.feature.str.contains('assay', flags=re.IGNORECASE)
+                                            | ecocyc_evidence.feature.str.contains('reaction blocked in mutant', flags=re.IGNORECASE)
+                                            | ecocyc_evidence.feature.str.contains('traceable author statement to experimental support', flags=re.IGNORECASE)]
+
+# high quality EcoCyc evidence should override everything, e.g. b0089 / ftsW
+ecocyc_insertion = to_df(
+    session.query(Gene.locus_id,
+                  KnowledgebaseFeature.feature)
+    .join(KnowledgebaseGene)
+    .join(Knowledgebase)
+    .join(KnowledgebaseFeature)
+    .filter(Knowledgebase.name == 'EcoCyc')
+    .filter(KnowledgebaseFeature.feature_type == 'is_insertion_element')
+)
+ecocyc_is_insertion = ecocyc_insertion[ecocyc_insertion.feature == 't']
+
+def calculate_yome(row_all):
+    # Don't use ME-model or manual for these decisions
+    row = row_all.drop(['iJL1678b', 'Manual'])
+    manual = row_all['Manual']
+
+    any_high =     any(x == 'high'     for x in row)
+    any_low =      any(x == 'low'      for x in row)
+    any_excluded = any(x == 'excluded' for x in row)
+
+    # good results when EcoCyc and UniProt agree
+    ecocyc_uniprot_high = (row['EcoCyc'] == 'high' and row['UniProt'] == 'high')
+    # high quality EcoCyc evidence should override everything, e.g. b0089 / ftsW
+    has_experimental_assay = row.name in ecocyc_evidence_has_assay.locus_id.values
+    # RegulonDB should override everything
+    regulon_db_high = row['RegulonDB'] == 'high'
+    # Insertion element call overrides everything
+    is_insertion = row.name in ecocyc_is_insertion.locus_id.values
+
+    return (
+             # First choice is manual
+              manual    if not pd.isnull(manual)
+        else 'high'     if ( has_experimental_assay or
+                             regulon_db_high or
+                             ecocyc_uniprot_high or
+                             is_insertion or
+                            (any_high     and not any_low  and not any_excluded))
+        else 'low'      if ( any_low      and not any_high and not any_excluded)
+        else 'excluded' if ( any_excluded )
+        else 'tbd'
+    )
+
+# remove duplicate genes
+df = df.set_index(['locus_id', 'knowledgebase_name'])
+df = df[~df.index.duplicated(keep='first')]
+df = df.drop('primary_name', axis=1).unstack()
+df.columns = df.columns.droplevel(0)
+
+# calculate Y-ome; don't rely on ME-model
+df['annotation_quality'] = df.apply(calculate_yome, axis=1)
+df = df.reset_index()
+
+load_knowledgebase(session, df, 'Y-ome',
+                   locus_id_column='locus_id',
+                   annotation_quality_column='annotation_quality')
+session.close()
+
+print()
+print('Y-ome')
+print(df.annotation_quality.value_counts())

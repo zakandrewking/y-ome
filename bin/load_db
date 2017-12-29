@@ -11,4 +11,6 @@ createdb yome \
     && ../sources/uniprot/load \
     && ../sources/refseq/load \
     && ../sources/regulondb/load \
-    && ../sources/ecolime/load
+    && ../sources/ecolime/load \
+    && ../sources/manual/load \
+    && ./load_yome

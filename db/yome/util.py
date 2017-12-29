@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 
+from yome.models import Gene, Knowledgebase, KnowledgebaseGene, KnowledgebaseFeature
+
 from datetime import timedelta
 import pandas as pd
 import re
 from bs4 import BeautifulSoup
+from IPython.display import HTML
 
 def create(session, query_class, commit=False, **kwargs):
     """Add a new row to the database and return.
@@ -96,3 +99,27 @@ def apply_keyword(df, keyword, field, is_high):
 def html_to_text(text):
     soup = BeautifulSoup(text, 'lxml')
     return soup.get_text()
+
+
+def report(session, locus_tag):
+    """Print a report of all features for a gene"""
+    report = to_df(
+        session.query(Gene.locus_id,
+                      KnowledgebaseGene.primary_name,
+                      KnowledgebaseGene.annotation_quality,
+                      Knowledgebase.name.label('knowledgebase_name'),
+                      KnowledgebaseFeature.feature_type,
+                      KnowledgebaseFeature.feature)
+        .join(KnowledgebaseGene)
+        .join(Knowledgebase)
+        .join(KnowledgebaseFeature)
+        .filter(Gene.locus_id == locus_tag)
+    )
+
+    print(report.iloc[0, 0:2])
+
+    report.knowledgebase_name = report.apply(lambda row: f"{row['knowledgebase_name']} ({row['annotation_quality']})", axis=1)
+    report = report.drop(['locus_id', 'primary_name', 'annotation_quality'], axis=1)
+    report = report.set_index(['knowledgebase_name', 'feature_type'])
+    s = report.style.set_properties(**{'text-align': 'left'})
+    return HTML(s.render())

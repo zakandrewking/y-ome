@@ -46,7 +46,7 @@ class Knowledgebase(Base):
 class KnowledgebaseGene(Base):
     __tablename__ = 'knowledgebase_gene'
     id = Column(Integer, Sequence('wids'), primary_key=True)
-    primary_name = Column(String, nullable=False)
+    primary_name = Column(String, nullable=True)
     gene_id = Column(Integer, ForeignKey(Gene.id, ondelete='CASCADE'), nullable=True)
     knowledgebase_id = Column(Integer, ForeignKey(Knowledgebase.id, ondelete='CASCADE'), nullable=False)
     annotation_quality = Column(enums['annotation_quality'], nullable=False)

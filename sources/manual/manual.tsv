@@ -1,4 +1,4 @@
-locus_tag	new_qual	notes
+locus_tag	annotation_quality	notes
 b1461	high	see literature validation (correct in UniProt)
 b0129	low	few details
 b1786	low	predicted function based on sequence
