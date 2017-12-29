@@ -2,7 +2,6 @@ locus_tag	annotation_quality	notes
 b1461	high	see literature validation (correct in UniProt)
 b0129	low	few details
 b1786	low	predicted function based on sequence
-b4354	high	new evidence in Y-ome Updates
 b0001	high	see EcoCyc
 b0020	high	see EcoCyc
 b0034	high	see EcoCyc
@@ -11,7 +10,7 @@ b0040	high	see EcoCyc
 b1074	high	fix with complex info from EcoCyc
 b0089	high	EcoCyc assay evidence
 b4116	high	has regulated genes in RegulonDB
-b2163	low	EcoCyc: The genes that the YeiL transcriptional activator regulates have not been identified yet; RegulonDB no strong connections
+b2163	low	EcoCyc: The genes that the YeiL transcriptional activator regulates have not been identified yet; RegulonDB no strong connections (except self)
 b2952	low	EcoCyc
 b0598	high	EcoCyc
 b0162	high	EcoCyc / RegulonDB
@@ -30,7 +29,6 @@ b3003	high	https://ecocyc.org/gene?orgid=ECOLI&id=EG11292
 b3127	high	https://ecocyc.org/gene?orgid=ECOLI&id=EG12760
 b0545	low	few details
 b0081	high	see EcoCyc summary
-b2163	low	targets not identified for TF on EcoCyc or RegulonDB (except self)
 b0587	low	few details
 b0652	high	similarity prediction plus knowledge of complex in EcoCyc
 b0711	low	pxpBCA complex is not well characterized
@@ -159,7 +157,6 @@ b2715	excluded	EcoCyc pseudogene
 b2789	low	limited evidence
 b2796	high	see EcoCyc summary
 b2866	low	annotation inferred from sequence
-b2866	low	limited evidence
 b2867	low	limited evidence
 b2868	low	limited evidence
 b2895	low	limited evidence
