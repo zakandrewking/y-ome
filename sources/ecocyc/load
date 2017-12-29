@@ -95,8 +95,12 @@ for keyword in low_keywords_summary:
 for keyword in high_keywords_evidence:
     apply_keyword(df, keyword, 'evidence_html', True)
 
-# Phantom genes are excluded from y-ome description
+# Phantom genes and pseudogenes are excluded from y-ome description
 df.loc[df.is_phantom_gene | df.is_pseudogene, 'annotation_quality'] = 'excluded'
+
+# Insertion elements are high
+df['is_insertion_element'] = df.name.str.startswith('ins')
+df.loc[df.is_insertion_element, 'annotation_quality'] = 'high'
 
 # # Warn for genes that have automated & manual annotations
 # print('The following have automated and manual annotations')
@@ -115,6 +119,7 @@ df.loc[df.is_phantom_gene | df.is_pseudogene, 'annotation_quality'] = 'excluded'
 def bool_to_str(val): return 't' if val else 'f'
 df.is_pseudogene = df.is_pseudogene.map(bool_to_str)
 df.is_phantom_gene = df.is_phantom_gene.map(bool_to_str)
+df.is_insertion_element = df.is_insertion_element.map(bool_to_str)
 
 # Load knowledgebase
 session = Session()
@@ -126,7 +131,7 @@ load_knowledgebase(session, df, 'EcoCyc',
                                     'product_type', 'ec_number',
                                     'reaction_equation', 'is_pseudogene',
                                     'is_phantom_gene', 'evidence_html',
-                                    'component_html'],
+                                    'component_html', 'is_insertion_element'],
                    annotation_quality_column='annotation_quality')
 session.close()
 

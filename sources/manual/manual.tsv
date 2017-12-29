@@ -15,7 +15,7 @@ b2163	low	EcoCyc: The genes that the YeiL transcriptional activator regulates ha
 b2952	low	EcoCyc
 b0598	high	EcoCyc
 b0162	high	EcoCyc / RegulonDB
-b0240	high	see notes above
+b0240	high	see EcoCyc entry for crl gene (not crl_1 and crl_2)
 b0284	high	see EcoCyc complex
 b0285	high	see EcoCyc complex
 b0286	high	see EcoCyc complex
@@ -90,34 +90,153 @@ b1937	high	see EcoCyc summary
 b1947	high	see EcoCyc summary
 b1949	high	see EcoCyc summary
 b1954	high	regulatory role
-
-b0341	read	is co-expression under a clear condition + sequence similarity enough?
-b0426	read	EcoGene; Qiao, 2008
-b0268	read	are co-crystal structures enough to confirm enzyme activity?
-b0269	read	is complementation assay enough to confirm activity?
-b1072	read	https://ecocyc.org/gene?orgid=ECOLI&id=G357
-b1878	read	https://ecocyc.org/gene?orgid=ECOLI&id=G7027
-b2130	read	https://ecocyc.org/gene?orgid=ECOLI&id=EG12011
-b3679	read	10.15252/msb.20167150
-b3689	read	10.15252/msb.20167150
-b0362	read	10.1371/journal.pgen.1004120
-b0736	read	10.1021/sb3000782
-b1378	read	10.1021/sb3000782
-b1695	read	10.1021/sb3000782
-b2844	read	10.1021/sb3000782
-b2958	read	10.1074/jbc.M100464200
-b3150	read	10.1074/jbc.M100464200
-b3688	read	10.1074/jbc.M100464200
-b4216	read	10.1074/jbc.M100464200
-b0022	read	what does it mean to have a validated insertion element?
-b0265	read	what does it mean to have a validated insertion element?
-b0275	read	what does it mean to have a validated insertion element?
-b1370	read	what does it mean to have a validated insertion element?
-b0624	read	enough evidence?
-b0650	read	does a chaperone need known targets?
-b0792	read	is mutant growth enough to call this transporter activity?
-b0793	read	is mutant growth enough to call this transporter activity?
-b0794	read	is mutant growth enough to call this transporter activity?
-b1053	read	is mutant growth enough to call this transporter activity?
-b1065	read	is mutant growth enough to call this transporter activity?
-b0260	read	enough evidence of transporter activity?
+b1968	high	see EcoCyc summary
+b0568	low	few details
+b1985	high	sequence and experimental evidence
+b2027	low	few details
+b2062	high	see EcoCyc summary
+b2092	excluded	pseudogene
+b0341	low	no experimental evidence of transport function
+b0426	high	EcoGene; Qiao, 2008
+b0268	high	co-crystal structure
+b0269	high	complementation assay
+b2130	high	see EcoCyc summary
+b3679	low	few details; 10.15252/msb.20167150 not conclusive
+b3689	low	few details; 10.15252/msb.20167150 not conclusive
+b0736	high	EcoCyc and 10.1021/sb3000782
+b1695	high	EcoCyc and 10.1021/sb3000782
+b2844	high	see EcoCyc summary
+b2958	low	few details
+b3150	low	few details
+b3688	low	few details
+b4216	low	few details
+b2129	high	see EcoCyc summary
+b2131	high	see EcoCyc summary
+b2166	low	inferred from sequence
+b2178	low	no experimental evidence of transport activity
+b2177	low	no experimental evidence of transport activity
+b2179	low	no experimental evidence of transport activity
+b2180	low	no experimental evidence of transport activity
+b0022	high	experimentally validated IS element
+b0265	high	experimentally validated IS element
+b0275	high	insertion elements with high sequence similarity
+b1370	high	experimentally validated IS element
+b2208	low	mechanism not established
+b0624	high	see EcoCyc summary
+b0650	low	no activity toward a denatured protein substrate
+b0792	high	see EcoCyc complex summary
+b0793	high	see EcoCyc complex summary
+b0794	high	see EcoCyc complex summary
+b1053	high	see EcoCyc summary
+b1065	high	see EcoCyc summary
+b0260	high	see EcoCyc summary
+b2221	low	annotation inferred from sequence
+b2223	low	annotation inferred from sequence
+b2259	low	unclear role in E. coli
+b2313	low	unclear mechanism
+b2351	low	limited evidence
+b2367	low	limited evidence
+b2368	low	limited evidence
+b2383	low	lack of experimental evidence of PTS function
+b2386	low	lack of experimental evidence of PTS function
+b2387	low	lack of experimental evidence of PTS function
+b2479	high	see EcoCyc complex summary
+b2487	high	see EcoCyc complex summary
+b2481	high	see EcoCyc complex summary
+b2482	high	see EcoCyc complex summary
+b2483	high	see EcoCyc complex summary
+b2484	high	see EcoCyc complex summary
+b2485	high	see EcoCyc complex summary
+b2486	high	see EcoCyc complex summary
+b2488	high	see EcoCyc complex summary
+b2489	high	see EcoCyc complex summary
+b2570	low	few details
+b2622	high	see EcoCyc summary
+b2631	high	see EcoCyc summary
+b2682	high	see EcoCyc complex summary
+b2683	high	see EcoCyc complex summary
+b2715	excluded	EcoCyc pseudogene
+b2789	low	limited evidence
+b2796	high	see EcoCyc summary
+b2866	low	annotation inferred from sequence
+b2866	low	limited evidence
+b2867	low	limited evidence
+b2868	low	limited evidence
+b2895	low	limited evidence
+b2898	low	EcoCyc: true function still unknown
+b2934	low	limited evidence
+b2972	low	EcoCyc: physiological substrate has not been determined
+b2979	low	EcoCyc complex summary: physiological electron acceptor is unknown
+b4467	low	EcoCyc complex summary: physiological electron acceptor is unknown
+b4468	low	EcoCyc complex summary: physiological electron acceptor is unknown
+b2990	high	see EcoCyc summary
+b2994	high	see EcoCyc complex summary
+b2995	high	see EcoCyc complex summary
+b2996	high	see EcoCyc complex summary
+b2997	high	see EcoCyc complex summary
+b3049	low	limited evidence
+b3061	high	EcoCyc and 10.1099/00221287-139-7-1523
+b3062	high	EcoCyc and 10.1099/00221287-139-7-1523
+b3076	excluded	EcoCyc pseudogene
+b3106	low	limited evidence
+b3133	excluded	EcoCyc pseudogene
+b3138	excluded	EcoCyc pseudogene
+b3139	excluded	EcoCyc pseudogene
+b3180	high	see EcoCyc summary
+b3190	high	see EcoCyc summary
+b3191	high	see EcoCyc complex summary
+b3193	high	see EcoCyc complex summary
+b3194	high	see EcoCyc complex summary
+b3195	high	see EcoCyc complex summary
+b3243	high	see EcoCyc summary
+b3249	low	unclear mechanism
+b3290	high	see EcoCyc summary
+b3337	low	limited evidence
+b3370	low	limited evidence
+b3391	low	limited evidence
+b3392	low	limited evidence
+b3393	low	limited evidence
+b3406	high	see EcoCyc summary
+b3413	low	limited evidence
+b3490	low	few details
+b3503	high	see EcoCyc summary
+b3615	high	see EcoCyc summary
+b3624	high	see EcoCyc summary
+b3629	high	see EcoCyc summary
+b3691	low	limited evidence
+b3720	high	see EcoCyc summary
+b3793	high	see EcoCyc summary
+b3803	low	limited evidence
+b3834	low	unclear mechanism
+b3864	high	see EcoCyc summary
+b3891	low	unclear mechanism
+b3899	low	annotation inferred from sequence
+b3900	low	annotation inferred from sequence
+b3943	low	annotation inferred from sequence
+b3947	low	annotation inferred from sequence
+b3950	low	annotation inferred from sequence
+b3953	low	annotation inferred from sequence
+b4072	low	limited evidence
+b4080	high	see EcoCyc summary
+b4096	high	see EcoCyc complex summary
+b4099	high	see EcoCyc complex summary
+b4100	high	see EcoCyc complex summary
+b4101	high	see EcoCyc complex summary
+b4140	low	unclear mechanism
+b4148	high	see EcoCyc summary
+b4149	low	limited evidence
+b4159	high	see EcoCyc summary
+b4189	low	limited evidence
+b4252	low	limited evidence
+b4291	high	see EcoCyc complex summary
+b4292	high	see EcoCyc complex summary
+b4293	high	see EcoCyc summary
+b4345	high	see EcoCyc complex summary
+b4346	high	see EcoCyc complex summary
+b4351	high	see EcoCyc summary
+b4356	high	see EcoCyc summary
+b4413	low	limited evidence
+b4416	low	limited evidence
+b4417	high	see EcoCyc summary
+b4422	low	limited evidence
+b4423	low	annotation inferred from sequence
