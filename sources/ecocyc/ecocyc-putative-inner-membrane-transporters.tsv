@@ -1,0 +1,164 @@
+primary_name	gene_product
+araJ	putative major facilitator superfamily transport protein AraJ
+cvrA	putative K<sup>+</sup>:H<sup>+</sup> antiporter
+dcuD	putative C4-dicarboxylate uptake C family transporter DcuD
+ddpB	putative D,D-dipeptide ABC transporter
+ddpC	putative D,D-dipeptide ABC transporter
+ddpD	putative D,D-dipeptide ABC transporter
+ddpF	putative D,D-dipeptide ABC transporter
+dinF	DNA damage-inducible protein F
+eutH	putative inner membrane protein
+frvA	putative PTS enzyme II FrvAB
+frvB	putative PTS enzyme II FrvAB
+frwB	putative PTS enzyme II FrwCBDPtsA
+frwC	putative PTS enzyme II FrwCBDPtsA
+frwD	putative PTS enzyme II FrwCBDPtsA
+fryA	putative PTS enzyme II FryBCA
+fryB	putative PTS enzyme II FryBCA
+fryC	putative PTS enzyme II FryBCA
+ftsE	divisome protein complex FtsEX
+ftsX	divisome protein complex FtsEX
+glvB	putative PTS enzyme II component GlvB
+glvC	putative PTS enzyme II component GlvC
+hcaT	putative 3-phenylpropionate transporter
+hofC	inner membrane protein HofC
+hsrA	putative major facilitator superfamily transporter HsrA
+marC	inner membrane protein MarC
+mdlA	ABC transporter family protein MdlA
+mdlB	ABC transporter family protein MdlB
+mdtD	putative multidrug efflux pump MdtD
+modF	ABC family protein ModF
+nupX	putative nucleoside transporter
+rarD	putative drug/metabolite transporter superfamily transporter RarD
+sapB	putrescine ABC exporter
+sapC	putrescine ABC exporter
+sapD	putrescine ABC exporter
+sapF	putrescine ABC exporter
+setC	putative arabinose exporter
+sgcA	putative PTS enzyme II SgcBCA
+sgcB	putative PTS enzyme II SgcBCA
+sgcC	putative PTS enzyme II SgcBCA
+sugE	quaternary ammonium compound efflux pump
+tsgA	putative major facilitator superfamily transporter TsgA
+yaaJ	putative alanine/glycine:cation symporter family transporter YaaJ
+yaaU	putative major facilitator superfamily transporter YaaU
+yadG	putative transport complex, ABC superfamily
+yadH	putative transport complex, ABC superfamily
+yagG	putative xyloside transporter YagG
+yahN	putative amino acid exporter
+yajR	putative major facilitator superfamily transport protein YajR
+ybaE	putative ABC transporter periplasmic binding protein YbaE
+ybaL	putative monovalent cation:proton antiporter-2 family transporter YbaL
+ybaT	putative transporter YbaT
+ybbA	putative transport complex, ABC superfamily
+ybbP	putative transport complex, ABC superfamily
+ybbW	putative allantoin transporter
+ybbY	putative purine transporter
+ybeX	CorC-HlyC family protein YbeX
+ybhF	multidrug ABC exporter
+ybhI	putative tricarboxylate transporter
+ybhR	multidrug ABC exporter
+ybhS	multidrug ABC exporter
+ybiR	putative ion transporter superfamily protein YbiR
+ybiT	ABC transporter ATP-binding protein YbiT
+ybjJ	inner membrane protein YbjJ
+ybjL	putative transport protein YbjL
+ycaD	putative major facilitator superfamily transporter YcaD
+ycaM	putative glutamate:GABA antiporter family transporter YcaM
+yccA	modulator of FtsH protease
+ycfT	inner membrane protein YcfT
+ycjN	putative transport complex, ABC superfamily
+ycjO	putative transport complex, ABC superfamily
+ycjP	putative transport complex, ABC superfamily
+ycjV	putative transport complex, ABC superfamily
+ydaN	putative Zn<sup>2+</sup> exporter
+ydcO	putative transport protein YdcO
+ydcS	putative transport complex, ABC superfamily
+ydcT	putative transport complex, ABC superfamily
+ydcU	putative transport complex, ABC superfamily
+ydcV	putative transport complex, ABC superfamily
+yddA	ABC transporter family protein YddA
+yddB	putative TonB-dependent receptor
+ydeE	dipeptide exporter
+ydfJ	putative major facilitator superfamily transporter YdfJ
+ydgI	putative arginine:ornithine antiporter
+ydhC	putative major facilitator superfamily transporter YdhC
+ydhJ	HlyD_D23 family protein YdhJ
+ydhK	putative transporter YdhK
+ydhP	putative major facilitator superfamily transporter YdhP
+ydiM	putative exporter YdiM
+ydiN	putative aromatic acid:H<sup>+</sup> symporter family transporter YdiN
+ydjE	putative major facilitator superfamily transporter YdjE
+ydjK	putative major facilitator superfamily transporter YdjK
+ydjX	DedA family protein YdjX
+yeaV	putative betaine/carnitine/choline family transporter YeaV
+yebQ	putative major facilitator superfamily transporter YebQ
+yedA	putative drug/metabolite exporter family transporter YedA
+yeeA	putative aromatic acid exporter family transporter YeeA
+yeeE	inner membrane protein YeeE
+yegH	inner membrane protein YegH
+yegT	putative nucleoside:H<sup>+</sup> symporter family transporter YegT
+yfaV	putative major facilitator superfamily transporter YfaV
+yfbS	putative divalent anion:Na<sup>+</sup> symporter family transporter YfbS
+yfcJ	putative major facilitator superfamily transporter YfcJ
+yfdC	inner membrane protein YfdC
+yfdV	putative transport protein YfdV
+yfeO	putative transport protein YfeO
+yfgO	putative autoinducer-2 exporter family transporter YfgO
+ygaY_1	putative transporter YgaY, N-terminal fragment
+ygaY_2	putative transporter YgaY
+ygbN	putative gluconate:H<sup>+</sup> symporter family transporter YgbN
+ygcS	putative major facilitator superfamily transporter YgcS
+ygdQ	UPF0053 inner membrane protein YgdQ
+yggR	Type II/IV secretion system family protein
+yghD	putative secretion pathway protein, M-type protein, membrane anchored
+yghE	putative secretion pathway protein, L-type protein (pseudogene)
+yghF	putative secretion pathway protein, C-type protein
+ygiS	putative deoxycholate binding periplasmic protein
+ygjI	putative glutamate:GABA antiporter family transporter YgjI
+yhaO	putative D/L-serine transporter
+yhbE	inner membrane protein YhbE
+yhdP	AsmA2 domain-containing protein
+yhdW	putative transport complex, ABC superfamily
+yhdX	putative transport complex, ABC superfamily
+yhdY	putative transport complex, ABC superfamily
+yhdZ	putative transport complex, ABC superfamily
+yheS	ABC transporter ATP-binding protein YheS
+yhgE	putative transport protein YhgE
+yhhJ	ABC transporter family protein YhhJ
+yhhS	putative major facilitator superfamily transporter YhhS
+yhhT	putative autoinducer 2 exporter family transporter YhhT
+yhiD	inner membrane protein YhiD
+yhjE	putative major facilitator superfamily transporter YhjE
+yhjV	putative hydroxy/aromatic amino acid permease family transporter YhjV
+yhjX	putative pyruvate transporter
+yiaV	putative membrane fusion protein
+yibH	inner membrane protein YibH
+yicJ	putative xyloside transporter YicJ
+yidE	putative transport protein YidE
+yidK	putative sodium:solute symport family transporter YidK
+yifK	putative amino acid transporter family transporter YifK
+yihN	putative glycerophosphodiester uptake family transporter YihN
+yihP	putative 2,3-dihydroxypropane-1-sulfonate export protein
+yjbB	putative inorganic phosphate export protein
+yjcE	putative monovalent cation:proton antiporter-1 family transporter YjcE
+yjeM	putative glutamate:GABA antiporter family transporter YjeM
+yjhB	putative sialic acid transporter
+yjhF	KpLE2 phage-like element; putative gluconate:H<sup>+</sup> symporter family transporter YjhF
+yjiJ	putative major facilitator superfamily transporter YjiJ
+ykgG	DUF162 domain-containing lactate utilization protein YkgG
+ynfM	putative major facilitator superfamily transporter YnfM
+ynjC	putative transport complex, ABC superfamily
+ynjD	putative transport complex, ABC superfamily
+yohK	inner membrane protein YohK
+yojI	ABC transporter family protein / microcin J25 efflux protein
+yphD	putative transport complex, ABC superfamily
+yphE	putative transport complex, ABC superfamily
+yphF	putative transport complex, ABC superfamily
+ypjA	adhesin-like autotransporter YpjA
+yqcE	putative transport protein YqcE
+yqeG	putative hydroxy/aromatic amino acid permease family transporter YqeG
+yqgA	DUF554 domain-containing protein YqgA
+yraQ	permease family protein YraQ
+yrbG	putative transport protein YrbG
+ytfF	inner membrane protein YtfF
