@@ -4,6 +4,9 @@ import pandas as pd
 from yome import Session
 from yome.models import *
 from yome.util import to_df
+from os.path import abspath, dirname, join
+
+data_directory = join(abspath(dirname(__file__)), '..', 'data')
 
 session = Session()
 
@@ -40,7 +43,7 @@ final = final.drop(columns=['annotation_quality'])
 
 print(final['y_ome'].value_counts())
 
-final.to_csv('../data/y-ome-genes.tsv', sep='\t', index=False)
+final.to_csv(join(data_directory, 'y-ome-genes.tsv'), sep='\t', index=False)
 
 # output 2 -- all feature
 
@@ -54,6 +57,6 @@ features = to_df(
     .join(Knowledgebase)
     .join(KnowledgebaseFeature)
 )
-features.to_csv('../data/features.tsv', sep='\t', index=False)
+features.to_csv(join(data_directory, '../data/features.tsv'), sep='\t', index=False)
 
 session.close()

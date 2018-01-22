@@ -1,0 +1,4654 @@
+locus_id	primary_name	y_ome
+b0001	thrL	no
+b0002	thrA	no
+b0003	thrB	no
+b0004	thrC	no
+b0005	yaaX	yes
+b0006	yaaA	yes
+b0007	yaaJ	yes
+b0008	talB	no
+b0009	mog	no
+b0010	satP	no
+b0011	yaaW	yes
+b0012	mbiA	yes
+b0013	yaaI	yes
+b0014	dnaK	no
+b0015	dnaJ	no
+b0016	insL-1, insL1	no
+b0017		excluded
+b0018	mokC	yes
+b0019	nhaA	no
+b0020	nhaR	no
+b0021	insB-1, insB1	no
+b0022	insA-1, insA1, insA	no
+b0023	rpsT	no
+b0024	yaaY	yes
+b0025	ribF	no
+b0026	ileS	no
+b0027	lspA	no
+b0028	fkpB	no
+b0029	ispH	no
+b0030	rihC	no
+b0031	dapB	no
+b0032	carA	no
+b0033	carB	no
+b0034	caiF	no
+b0035	caiE	yes
+b0036	caiD	no
+b0037	caiC	no
+b0038	caiB	no
+b0039	caiA	no
+b0040	caiT	no
+b0041	fixA	yes
+b0042	fixB	yes
+b0043	fixC	yes
+b0044	fixX	yes
+b0045	yaaU	yes
+b0046	kefF	no
+b0047	kefC	no
+b0048	folA	no
+b0049	apaH	no
+b0050	apaG	yes
+b0051	rsmA	no
+b0052	pdxA	no
+b0053	surA	no
+b0054	lptD	no
+b0055	djlA	no
+b0056	yabP	yes
+b0057	yabQ	yes
+b0058	rluA	no
+b0059	rapA	no
+b0060	polB	no
+b0061	araD	no
+b0062	araA	no
+b0063	araB	no
+b0064	araC	no
+b0065	yabI	yes
+b0066	thiQ	no
+b0067	thiP	no
+b0068	tbpA, thiB	no
+b0069	sgrR	no
+b0070	setA	no
+b0071	leuD	no
+b0072	leuC	no
+b0073	leuB	no
+b0074	leuA	no
+b0075	leuL	yes
+b0076	leuO	no
+b0077	ilvI	no
+b0078	ilvH	no
+b0079	fruL	excluded
+b0080	cra	no
+b0081	mraZ	no
+b0082	rsmH	no
+b0083	ftsL	no
+b0084	ftsI	no
+b0085	murE	no
+b0086	murF	no
+b0087	mraY	no
+b0088	murD	no
+b0089	ftsW	no
+b0090	murG	no
+b0091	murC	no
+b0092	ddlB	no
+b0093	ftsQ	no
+b0094	ftsA	no
+b0095	ftsZ	no
+b0096	lpxC	no
+b0097	secM	no
+b0098	secA	no
+b0099	mutT	no
+b0100		excluded
+b0101	yacG	no
+b0102	zapD	no
+b0103	coaE	no
+b0104	guaC	no
+b0105		excluded
+b0106	hofC	yes
+b0107	hofB	yes
+b0108	ppdD	yes
+b0109	nadC	no
+b0110	ampD	no
+b0111	ampE	yes
+b0112	aroP	no
+b0113	pdhR	no
+b0114	aceE	no
+b0115	aceF	no
+b0116	lpd, lpdA	no
+b0117	yacH	yes
+b0118	acnB	no
+b0119	yacL	yes
+b0120	speD	no
+b0121	speE	no
+b0122	yacC	yes
+b0123	cueO	no
+b0124	gcd	no
+b0125	hpt	no
+b0126	can	no
+b0127	yadG	yes
+b0128	yadH	yes
+b0129	yadI	yes
+b0130	yadE	yes
+b0131	panD	no
+b0132	rpnC, yadD	yes
+b0133	panC	no
+b0134	panB	no
+b0135	yadC	excluded
+b0136	yadK	excluded
+b0137	yadL	excluded
+b0138	yadM	excluded
+b0139	htrE	excluded
+b0140	yadV	excluded
+b0141	yadN	excluded
+b0142	folK	no
+b0143	pcnB	no
+b0144	gluQ	no
+b0145	dksA	no
+b0146	sfsA	yes
+b0147	thpR, ligT	no
+b0148	hrpB	yes
+b0149	mrcB	no
+b0150	fhuA	no
+b0151	fhuC	no
+b0152	fhuD	no
+b0153	fhuB	no
+b0154	hemL	no
+b0155	clcA	no
+b0156	erpA	no
+b0157	yadS	yes
+b0158	btuF	no
+b0159	mtn, mtnN	no
+b0160	dgt	no
+b0161	degP	no
+b0162	cdaR	no
+b0163	yaeH	yes
+b0164	yaeI	no
+b0165		excluded
+b0166	dapD	no
+b0167	glnD	no
+b0168	map	no
+b0169	rpsB	no
+b0170	tsf	no
+b0171	pyrH	no
+b0172	frr	no
+b0173	dxr	no
+b0174	ispU	no
+b0175	cdsA	no
+b0176	rseP	no
+b0177	bamA	no
+b0178	skp	no
+b0179	lpxD	no
+b0180	fabZ	no
+b0181	lpxA	no
+b0182	lpxB	no
+b0183	rnhB	no
+b0184	dnaE	no
+b0185	accA	no
+b0186	ldcC	no
+b0187	yaeR	yes
+b0188	tilS	no
+b0189	rof	yes
+b0190	yaeQ	yes
+b0191	arfB	no
+b0192	nlpE	no
+b0193	yaeF	yes
+b0194	proS	no
+b0195	trmO, tsaA	no
+b0196	rcsF	no
+b0197	metQ	no
+b0198	metI	no
+b0199	metN	no
+b0200	gmhB	no
+b0201	rrsH	no
+b0202	ileV	no
+b0203	alaV	no
+b0204	rrlH	no
+b0205	rrfH	no
+b0206	aspU	no
+b0207	dkgB	no
+b0208	yafC	yes
+b0209	yafD	yes
+b0210	yafE	yes
+b0211	mltD	no
+b0212	gloB	no
+b0213	yafS	yes
+b0214	rnhA	no
+b0215	dnaQ	no
+b0216	aspV	no
+b0217	yafT	yes
+b0218	yafU, yafU'	excluded
+b0219	yafV	no
+b0220	ivy	no
+b0221	fadE	no
+b0222	lpcA, gmhA	no
+b0223	yafJ	yes
+b0224	yafK	yes
+b0225	yafQ	no
+b0226	dinJ	no
+b0227	yafL	yes
+b0228	rayT	no
+b0229	lfhA, lfhA'	excluded
+b0230	lafU, lafU'	excluded
+b0231	dinB	no
+b0232	yafN	no
+b0233	yafO	no
+b0234	yafP	yes
+b0235	ykfJ, ykfJ'	excluded
+b0236	prfH, prfH'	excluded
+b0237	pepD	no
+b0238	gpt	no
+b0239	frsA	no
+b0240	crl_1, crl_2, crl', crl	no
+b0241	phoE	no
+b0242	proB	no
+b0243	proA	no
+b0244	thrW	no
+b0245	ykfI	yes
+b0246	yafW	no
+b0247	ykfG	yes
+b0248	yafX	yes
+b0249	ykfF	yes
+b0250	ykfB	yes
+b0251	yafY	yes
+b0252	yafZ	yes
+b0253	ykfA	yes
+b0254	perR	yes
+b0255	insN-1, insN1	no
+b0256	insI-1, insI1	no
+b0257	insO-1, insO1	no
+b0258	ykfC, ykfC'	excluded
+b0259	insH-1, insH1	no
+b0260	mmuP	no
+b0261	mmuM	no
+b0262	afuC, fbpC	yes
+b0263	afuB, afuB'	excluded
+b0264	insB-2, insB2, insB1	no
+b0265	insA-2, insA2, insA	no
+b0266	yagB, yagB'	excluded
+b0267	yagA	yes
+b0268	yagE	no
+b0269	yagF	no
+b0270	yagG	yes
+b0271	yagH	yes
+b0272	yagI	yes
+b0273	argF	no
+b0274	insB-3, insB3, insB1	no
+b0275	insA-3, insA3, insA	no
+b0276	yagJ, yagJ'	excluded
+b0277	yagK	yes
+b0278	yagL	yes
+b0279	yagM	yes
+b0280	yagN	yes
+b0281	intF	yes
+b0282	yagP	yes
+b0283	paoD, yagQ	yes
+b0284	paoC, yagR	no
+b0285	paoB, yagS	no
+b0286	paoA, yagT	no
+b0287	yagU	yes
+b0288	ykgJ	yes
+b0289	ecpE	excluded
+b0290	ecpD	excluded
+b0291	ecpC	excluded
+b0292	ecpB	excluded
+b0293	ecpA	excluded
+b0294	ecpR	no
+b0295	ykgL	yes
+b0296	ykgM	yes
+b0297	eaeH, eaeH'	excluded
+b0298	insE-1, insE1	no
+b0299	insF-1, insF1	no
+b0300	ykgA, ykgA'	excluded
+b0301	rclC	yes
+b0303	rclB	yes
+b0304	rclA	yes
+b0305	rclR	no
+b0306	ykgE	yes
+b0307	ykgF	yes
+b0308	ykgG	yes
+b0309		excluded
+b0310	ykgH	yes
+b0311	betA	no
+b0312	betB	no
+b0313	betI	no
+b0314	betT	no
+b0315	pdeL, yahA	no
+b0316	yahB	yes
+b0317	yahC	yes
+b0318	yahD	yes
+b0319	yahE	yes
+b0320	yahF	yes
+b0321	yahG	yes
+b0322	yahH	yes
+b0323	yahI	yes
+b0324	yahJ	yes
+b0325	yahK	no
+b0326	yahL	yes
+b0327	yahM	yes
+b0328	yahN	yes
+b0329	yahO	yes
+b0330	prpR	no
+b0331	prpB	no
+b0333	prpC	no
+b0334	prpD	no
+b0335	prpE	no
+b0336	codB	no
+b0337	codA	no
+b0338	cynR	no
+b0339	cynT	no
+b0340	cynS	no
+b0341	cynX	yes
+b0342	lacA	no
+b0343	lacY	no
+b0344	lacZ	no
+b0345	lacI	no
+b0346	mhpR	no
+b0347	mhpA	no
+b0348	mhpB	no
+b0349	mhpC	no
+b0350	mhpD	no
+b0351	mhpF	no
+b0352	mhpE	no
+b0353	mhpT	no
+b0354	yaiL	yes
+b0355	frmB	no
+b0356	frmA	no
+b0357	frmR	no
+b0358	yaiO	yes
+b0359	yaiX_2	excluded
+b0360	insC-1, insC1	no
+b0361	insD-1, insD1	no
+b0362	yaiX_1	excluded
+b0363	yaiP	yes
+b0364	yaiS	yes
+b0365	tauA	no
+b0366	tauB	no
+b0367	tauC	no
+b0368	tauD	no
+b0369	hemB	no
+b0370	ykiB	excluded
+b0371	yaiT	yes
+b0372	insF-2, insF2, insF1	no
+b0373	insE-2, insE2, insE1	no
+b0374	yaiU	yes
+b0375	iprA, yaiV	yes
+b0376	ampH	no
+b0377	sbmA	no
+b0378	yaiW	no
+b0379	yaiY	yes
+b0380	yaiZ	yes
+b0381	ddlA	no
+b0382	iraP	no
+b0383	phoA	no
+b0384	psiF	yes
+b0385	dgcC, yaiC, adrA	no
+b0386	proC	no
+b0387	yaiI	yes
+b0388	aroL	no
+b0389	yaiA	yes
+b0390	aroM	yes
+b0391	ppnP, yaiE	no
+b0392	ykiA, ykiA'	excluded
+b0393	rdgC	no
+b0394	mak	no
+b0396	araJ	yes
+b0397	sbcC	no
+b0398	sbcD	no
+b0399	phoB	no
+b0400	phoR	no
+b0401	brnQ	no
+b0402	proY	no
+b0403	malZ	no
+b0404	acpH	no
+b0405	queA	no
+b0406	tgt	no
+b0407	yajC	no
+b0408	secD	no
+b0409	secF	no
+b0410	yajD	yes
+b0411	tsx	no
+b0412	yajI	yes
+b0413	nrdR	no
+b0414	ribD	no
+b0415	ribE	no
+b0416	nusB	no
+b0417	thiL	no
+b0418	pgpA	no
+b0419	yajO	no
+b0420	dxs	no
+b0421	ispA	no
+b0422	xseB	no
+b0423	thiI	no
+b0424	yajL	no
+b0425	panE	no
+b0426	yajQ	no
+b0427	yajR	no
+b0428	cyoE	no
+b0429	cyoD	no
+b0430	cyoC	no
+b0431	cyoB	no
+b0432	cyoA	no
+b0433	ampG	no
+b0434	yajG	yes
+b0435	bolA	no
+b0436	tig	no
+b0437	clpP	no
+b0438	clpX	no
+b0439	lon	no
+b0440	hupB	no
+b0441	ppiD	no
+b0442	ybaV	yes
+b0443	fadM	no
+b0444	queC	no
+b0445	ybaE	yes
+b0446	cof	no
+b0447	decR, ybaO	no
+b0448	mdlA	yes
+b0449	mdlB	yes
+b0450	glnK	no
+b0451	amtB	no
+b0452	tesB	no
+b0453	ybaY	yes
+b0454	atl, ybaZ	no
+b0455	ffs	no
+b0456	ybaA	yes
+b0457	pdeB, ylaB	yes
+b0458	ylaC	yes
+b0459	maa	no
+b0460	hha	no
+b0461	tomB	yes
+b0462	acrB	no
+b0463	acrA	no
+b0464	acrR	no
+b0465	mscK	no
+b0466	ybaM	yes
+b0467	priC	no
+b0468	ybaN	yes
+b0469	apt	no
+b0470	dnaX	no
+b0471	ybaB	yes
+b0472	recR	no
+b0473	htpG	no
+b0474	adk	no
+b0475	hemH	no
+b0476	aes	no
+b0477	gsk	no
+b0478	ybaL	yes
+b0479	fsr	no
+b0480	ushA	no
+b0481	ybaK	no
+b0482	ybaP	yes
+b0483	ybaQ	yes
+b0484	copA	no
+b0485	glsA, glsA1	no
+b0486	ybaT	yes
+b0487	cueR	no
+b0488	ybbJ	yes
+b0489	qmcA	yes
+b0490	fetA	yes
+b0491	fetB	yes
+b0492	ybbN	no
+b0493	ybbO	no
+b0494	tesA	no
+b0495	ybbA	yes
+b0496	ybbP	yes
+b0497	rhsD	yes
+b0498	ybbC	yes
+b0499	ylbH, rhsH', rhsH	excluded
+b0500	ybbD	yes
+b0501	ybbD', ybbD	excluded
+b0502	ylbG, ylbG'	excluded
+b0503	selU, mnmH	no
+b0504	allS	no
+b0505	allA	no
+b0506	allR	no
+b0507	gcl	no
+b0508	hyi	no
+b0509	glxR	no
+b0510	ybbV	yes
+b0511	ybbW	yes
+b0512	allB	no
+b0513	ybbY	yes
+b0514	glxK	no
+b0515	allE	no
+b0516	allC	no
+b0517	allD	no
+b0518	fdrA	yes
+b0520	ylbF	yes
+b0521	ybcF, arcC	yes
+b0522	purK	no
+b0523	purE	no
+b0524	lpxH	no
+b0525	ppiB	no
+b0526	cysS	no
+b0527	ybcI	yes
+b0528	ybcJ	yes
+b0529	folD	no
+b0530	sfmA	yes
+b0531	sfmC	yes
+b0532	sfmD	yes
+b0533	sfmH	yes
+b0534	sfmF	yes
+b0535	fimZ, sfmZ	yes
+b0536	argU	no
+b0537	intD	yes
+b0538		excluded
+b0539	ybcC, exoD', exoD	excluded
+b0540	insE-3, insE3, insE1	no
+b0541	insF-3, insF3, insF1	no
+b0542	renD, renD'	excluded
+b0543	emrE	no
+b0544	ybcK	yes
+b0545	ybcL	yes
+b0546	ybcM	yes
+b0547	ybcN	no
+b0548	ninE	yes
+b0549	ybcO	yes
+b0550	rusA	no
+b0551	ybcQ, quuD	yes
+b0552	insH-2, insH2, insH1	no
+b0553	nmpC, nmpC'	excluded
+b0554	essD	yes
+b0555	rrrD	no
+b0556	rzpD	yes
+b0557	borD	yes
+b0558	ybcV	yes
+b0559	ybcW	yes
+b0560	nohB, nohD	yes
+b0561	tfaD, tfaD'	excluded
+b0562	ybcY, ybcY'	excluded
+b0563	tfaX, tfaX'	excluded
+b0564	appY	no
+b0565	ompT	no
+b0566	envY	no
+b0567	ybcH	yes
+b0568	nfrA	yes
+b0569	nfrB	yes
+b0570	cusS	no
+b0571	cusR	no
+b0572	cusC	no
+b0573	cusF	no
+b0574	cusB	no
+b0575	cusA	no
+b0576	pheP	no
+b0577	ybdG	no
+b0578	nfsB	no
+b0579	ybdF	yes
+b0580	ybdJ	yes
+b0581	ybdK	no
+b0582	insL-2, insL2, insL1	no
+b0583	entD	no
+b0584	fepA	no
+b0585	fes	no
+b0586	entF	no
+b0587	fepE	yes
+b0588	fepC	no
+b0589	fepG	no
+b0590	fepD	no
+b0591	entS	no
+b0592	fepB	no
+b0593	entC	no
+b0594	entE	no
+b0595	entB	no
+b0596	entA	no
+b0597	entH	no
+b0598	cstA	no
+b0599	hcxA, ybdH	no
+b0600	ybdL	no
+b0601	ybdM	yes
+b0602	ybdN	yes
+b0603	ybdO	yes
+b0604	dsbG	no
+b0605	ahpC	no
+b0606	ahpF	no
+b0607	uspG	no
+b0608	ybdR	yes
+b0609		excluded
+b0610	rnk	no
+b0611	rna	no
+b0612	citT	no
+b0613	citG	no
+b0614	citX	no
+b0615	citF	no
+b0616	citE	no
+b0617	citD	no
+b0618	citC	no
+b0619	dpiB, citA	no
+b0620	dpiA, citB	no
+b0621	dcuC	no
+b0622	pagP	no
+b0623	cspE	no
+b0624	crcB, flc	no
+b0625	ybeM_1	excluded
+b0626	ybeM_2	excluded
+b0627	tatE	no
+b0628	lipA	no
+b0629	ybeF	yes
+b0630	lipB	no
+b0631	ybeD	yes
+b0632	dacA	no
+b0633	rlpA	no
+b0634	mrdB	no
+b0635	mrdA	no
+b0636	rlmH	no
+b0637	rsfS	no
+b0638	cobC	yes
+b0639	nadD	no
+b0640	holA	no
+b0641	lptE	no
+b0642	leuS	no
+b0643	ybeL	yes
+b0644	ybeQ	yes
+b0645	ybeR	yes
+b0646	djlB	yes
+b0647	ybeT	yes
+b0648	ybeU	yes
+b0649	djlC	yes
+b0650	hscC	yes
+b0651	rihA	no
+b0652	gltL	no
+b0653	gltK	no
+b0654	gltJ	no
+b0655	gltI	no
+b0656	insH-3, insH4, insH3, insH1	no
+b0657	lnt	no
+b0658	ybeX, corC	yes
+b0659	ybeY	no
+b0660	ybeZ	yes
+b0661	miaB	no
+b0662	ubiF	no
+b0664	glnX	no
+b0665	glnV	no
+b0666	metU	no
+b0668	glnW	no
+b0670	glnU	no
+b0672	leuW	no
+b0673	metT	no
+b0674	asnB	no
+b0675	umpH, nagD	no
+b0676	nagC	no
+b0677	nagA	no
+b0678	nagB	no
+b0679	nagE	no
+b0680	glnS	no
+b0681	chiP	no
+b0682	ybfN, chiQ	yes
+b0683	fur	no
+b0684	fldA	no
+b0685	ybfE	yes
+b0686	ybfF	no
+b0687	seqA	no
+b0688	pgm	no
+b0689	ybfP	yes
+b0690	ybfG	excluded
+b0691	ybfH, ybfG', ybfG	excluded
+b0692	potE	no
+b0693	speF	no
+b0694	kdpE	no
+b0695	kdpD	no
+b0696	kdpC	no
+b0697	kdpB	no
+b0698	kdpA	no
+b0699	ybfA	yes
+b0700	rhsC	yes
+b0701		excluded
+b0702	ybfB	yes
+b0703	ybfO, rhsO', rhsO	excluded
+b0704	ybfC	yes
+b0705	ybfL, ybfL'	excluded
+b0706	ybfD	yes
+b0707	ybgA	yes
+b0708	phr, phrB	no
+b0709	dtpD	no
+b0710	ybgI	no
+b0711	pxpB, ybgJ	yes
+b0712	pxpC, ybgK	yes
+b0713	pxpA, ybgL	yes
+b0714	nei	no
+b0715	abrB	yes
+b0716	ybgO	yes
+b0717	ybgP	yes
+b0718	ybgQ	yes
+b0719	ybgD	yes
+b0720	gltA	no
+b0721	sdhC	no
+b0722	sdhD	no
+b0723	sdhA	no
+b0724	sdhB	no
+b0725		excluded
+b0726	sucA	no
+b0727	sucB	no
+b0728	sucC	no
+b0729	sucD	no
+b0730	mngR	no
+b0731	mngA	no
+b0732	mngB	no
+b0733	cydA	no
+b0734	cydB	no
+b0735	ybgE	yes
+b0736	ybgC	no
+b0737	tolQ	no
+b0738	tolR	no
+b0739	tolA	no
+b0740	tolB	no
+b0741	pal	no
+b0742	cpoB, ybgF	no
+b0743	lysT	no
+b0744	valT	no
+b0745	lysW	no
+b0746	valZ	no
+b0747	lysY	no
+b0748	lysZ	no
+b0749	lysQ	no
+b0750	nadA	no
+b0751	pnuC	no
+b0752	zitB	no
+b0753	ybgS	yes
+b0754	aroG	no
+b0755	gpmA	no
+b0756	galM	no
+b0757	galK	no
+b0758	galT	no
+b0759	galE	no
+b0760	modF	yes
+b0761	modE	no
+b0762	acrZ	no
+b0763	modA	no
+b0764	modB	no
+b0765	modC	no
+b0766	ybhA	no
+b0767	pgl	no
+b0768	ybhD	yes
+b0769	ybhH	yes
+b0770	ybhI	yes
+b0771	ybhJ	yes
+b0772	ybhC	yes
+b0773	ybhB	yes
+b0774	bioA	no
+b0775	bioB	no
+b0776	bioF	no
+b0777	bioC	no
+b0778	bioD, bioD1	no
+b0779	uvrB	no
+b0780	ybhK	yes
+b0781	moaA	no
+b0782	moaB	no
+b0783	moaC	no
+b0784	moaD	no
+b0785	moaE	no
+b0786	ybhL	yes
+b0787	ybhM	yes
+b0788	ybhN	yes
+b0789	clsB	no
+b0790	ybhP	yes
+b0791	ybhQ	yes
+b0792	ybhR	no
+b0793	ybhS	no
+b0794	ybhF	no
+b0795	ybhG	yes
+b0796	cecR, ybiH	no
+b0797	rhlE	no
+b0798	ybiA	yes
+b0799	dinG	no
+b0800	ybiB	yes
+b0801	hcxB, ybiC	no
+b0802	ybiJ	yes
+b0803	ybiI	yes
+b0804	ybiX	yes
+b0805	fiu	no
+b0806	mcbA	yes
+b0807	rlmF	no
+b0808	ybiO	no
+b0809	glnQ	no
+b0810	glnP	no
+b0811	glnH	no
+b0812	dps	no
+b0813	rhtA	no
+b0814	ompX	yes
+b0815	opgE	no
+b0816	yliL	excluded
+b0817	mntR	no
+b0818	ybiR	yes
+b0819	ldtB, ybiS	no
+b0820	ybiT	yes
+b0821	ybiU	yes
+b0822	ybiV	no
+b0823	ybiW	yes
+b0824	ybiY	yes
+b0825	fsaA	no
+b0826	moeB	no
+b0827	moeA	no
+b0828	iaaA	no
+b0829	gsiA	no
+b0830	gsiB	no
+b0831	gsiC	no
+b0832	gsiD	no
+b0833	pdeI, yliE	yes
+b0834	dgcI, yliF	yes
+b0835	rimO	no
+b0836	bssR	yes
+b0837	yliI	no
+b0838	gstB	no
+b0839	dacC	no
+b0840	deoR	no
+b0841	ybjG	no
+b0842	mdfA	no
+b0843	ybjH	yes
+b0844	ybjI	no
+b0845	ybjJ	yes
+b0846	rcdA	no
+b0847	ybjL	yes
+b0848	ybjM	yes
+b0849	grxA	no
+b0850	ybjC	yes
+b0851	nfsA	no
+b0852	rimK	no
+b0853	ybjN	yes
+b0854	potF	no
+b0855	potG	no
+b0856	potH	no
+b0857	potI	no
+b0858	ybjO	yes
+b0859	rlmC	no
+b0860	artJ	no
+b0861	artM	no
+b0862	artQ	no
+b0863	artI	yes
+b0864	artP	no
+b0865	ybjP	yes
+b0866	ybjQ	yes
+b0867	amiD	no
+b0868	ybjS	yes
+b0869	ybjT	yes
+b0870	ltaE	no
+b0871	poxB	no
+b0872	hcr	no
+b0873	hcp	no
+b0874	lysO, ybjE	no
+b0875	aqpZ	no
+b0876	ybjD	yes
+b0877	ybjX	yes
+b0878	macA	no
+b0879	macB	no
+b0880	cspD	no
+b0881	clpS	no
+b0882	clpA	no
+b0883	serW	no
+b0884	infA	no
+b0885	aat	no
+b0886	cydC	no
+b0887	cydD	no
+b0888	trxB	no
+b0889	lrp	no
+b0890	ftsK	no
+b0891	lolA	no
+b0892	rarA	no
+b0893	serS	no
+b0894	dmsA	no
+b0895	dmsB	no
+b0896	dmsC	no
+b0897	ycaC	yes
+b0898	ycaD	yes
+b0899	ycaM	yes
+b0900	ycaN	yes
+b0901	ycaK	yes
+b0902	pflA	no
+b0903	pflB	no
+b0904	focA	no
+b0905	ycaO	no
+b0906	ycaP	yes
+b0907	serC	no
+b0908	aroA	no
+b0909	ycaL	yes
+b0910	cmk	no
+b0911	rpsA	no
+b0912	ihfB	no
+b0913	ycaI	yes
+b0914	msbA	no
+b0915	lpxK	no
+b0916	ycaQ	yes
+b0917	ycaR	yes
+b0918	kdsB	no
+b0919	ycbJ	yes
+b0920	elyC	yes
+b0921	cmoM, smtA	no
+b0922	mukF	no
+b0923	mukE	no
+b0924	mukB	no
+b0925	ldtD, ycbB	no
+b0926	ycbK	yes
+b0927	gloC, ycbL	no
+b0928	aspC	no
+b0929	ompF	no
+b0930	asnS	no
+b0931	pncB	no
+b0932	pepN	no
+b0933	ssuB	no
+b0934	ssuC	no
+b0935	ssuD	no
+b0936	ssuA	no
+b0937	ssuE	no
+b0938	elfA	no
+b0939	elfD	yes
+b0940	elfC	yes
+b0941	elfG	yes
+b0942	ycbU	yes
+b0943	ycbV	yes
+b0944	ycbF	yes
+b0945	pyrD	no
+b0946	zapC	no
+b0947	ycbX	yes
+b0948	rlmL	no
+b0949	uup	no
+b0950	pqiA	yes
+b0951	pqiB	yes
+b0952	pqiC, ymbA	yes
+b0953	rmf	no
+b0954	fabA	no
+b0955	ycbZ	yes
+b0956	matP	no
+b0957	ompA	no
+b0958	sulA	no
+b0959	sxy	no
+b0960	yccS	yes
+b0961	yccF	yes
+b0962	helD	no
+b0963	mgsA	no
+b0964	yccT	yes
+b0965	yccU	yes
+b0966	hspQ	yes
+b0967	rlmI	no
+b0968	yccX	no
+b0969	tusE	no
+b0970	yccA	no
+b0971	serT	no
+b0972	hyaA	no
+b0973	hyaB	no
+b0974	hyaC	no
+b0975	hyaD	yes
+b0976	hyaE	yes
+b0977	hyaF	yes
+b0978	appC, cbdA	no
+b0979	appB, cbdB	no
+b0980	appA	no
+b0981	etk	no
+b0982	etp	no
+b0983	gfcE	yes
+b0984	gfcD	yes
+b0985	gfcC	yes
+b0986	gfcB	yes
+b0987	gfcA	yes
+b0988	insB-4, insB4, insB1	no
+b0989	cspH	yes
+b0990	cspG	yes
+b0991	ymcE	yes
+b0992	yccM	yes
+b0993	torS	no
+b0994	torT	no
+b0995	torR	no
+b0996	torC	no
+b0997	torA	no
+b0998	torD	no
+b0999	cbpM	no
+b1000	cbpA	no
+b1001	yccE	yes
+b1002	agp	no
+b1003	yccJ	yes
+b1004	wrbA	no
+b1005	ycdF	excluded
+b1006	rutG	no
+b1007	rutF	no
+b1008	rutE	yes
+b1009	rutD	yes
+b1010	rutC	yes
+b1011	rutB	no
+b1012	rutA	no
+b1013	rutR	no
+b1014	putA	no
+b1015	putP	no
+b1016	efeU_1	excluded
+b1017	efeU_2	excluded
+b1018	efeO	no
+b1019	efeB	no
+b1020	phoH	yes
+b1021	pgaD	no
+b1022	pgaC	no
+b1023	pgaB	no
+b1024	pgaA	no
+b1025	dgcT, ycdT	no
+b1026	insF-4, insF4, insF1	no
+b1027	insE-4, insE4, insE1	no
+b1028	ymdE, ymdE'	excluded
+b1029	ycdU	yes
+b1032	serX	no
+b1033	ghrA	no
+b1034	ycdX	yes
+b1035	ycdY	no
+b1036	ycdZ	yes
+b1037	csgG	no
+b1038	csgF	no
+b1039	csgE	no
+b1040	csgD	no
+b1041	csgB	no
+b1042	csgA	no
+b1043	csgC	yes
+b1044	ymdA	yes
+b1045	ymdB	no
+b1046	clsC	no
+b1047	opgC, mdoC	no
+b1048	opgG, mdoG	no
+b1049	opgH, mdoH	no
+b1050	yceK	yes
+b1051	msyB	yes
+b1052		excluded
+b1053	mdtG	no
+b1054	lpxL	no
+b1055	yceA	yes
+b1056	yceI	yes
+b1057	yceJ	yes
+b1058	yceO	yes
+b1059	solA	no
+b1060	bssS	yes
+b1061	dinI	yes
+b1062	pyrC	no
+b1063	yceB	yes
+b1064	grxB	no
+b1065	mdtH	no
+b1066	rimJ	no
+b1067	yceH	yes
+b1068	yceM	yes
+b1069	murJ	no
+b1070	flgN	yes
+b1071	flgM	no
+b1072	flgA	yes
+b1073	flgB	no
+b1074	flgC	no
+b1075	flgD	yes
+b1076	flgE	no
+b1077	flgF	no
+b1078	flgG	no
+b1079	flgH	no
+b1080	flgI	no
+b1081	flgJ	yes
+b1082	flgK	no
+b1083	flgL	no
+b1084	rne	no
+b1085	yceQ	yes
+b1086	rluC	no
+b1087	yceF	no
+b1088	yceD	yes
+b1089	rpmF	no
+b1090	plsX	yes
+b1091	fabH	no
+b1092	fabD	no
+b1093	fabG	no
+b1094	acpP	no
+b1095	fabF	no
+b1096	pabC	no
+b1097	mltG, yceG	no
+b1098	tmk	no
+b1099	holB	no
+b1100	ycfH	yes
+b1101	ptsG	no
+b1102	fhuE	no
+b1103	hinT	no
+b1104	ycfL	yes
+b1105	lpoB	no
+b1106	thiK	no
+b1107	nagZ	no
+b1108	ycfP	yes
+b1109	ndh	no
+b1110	ycfJ	yes
+b1111	comR, ycfQ	no
+b1112	bhsA	no
+b1113	ldtC, ycfS	no
+b1114	mfd	no
+b1115	ycfT	yes
+b1116	lolC	no
+b1117	lolD	no
+b1118	lolE	no
+b1119	nagK	no
+b1120	cobB	no
+b1121	ycfZ	yes
+b1122	ymfA	yes
+b1123	potD	no
+b1124	potC	no
+b1125	potB	no
+b1126	potA	no
+b1127	pepT	no
+b1128	roxA	no
+b1129	phoQ	no
+b1130	phoP	no
+b1131	purB	no
+b1132	hflD	no
+b1133	mnmA	no
+b1134	nudJ	no
+b1135	rluE	no
+b1136	icd	no
+b1137	ymfD	yes
+b1138	ymfE	yes
+b1139	lit	no
+b1140	intE	yes
+b1141	xisE	yes
+b1142	ymfH	yes
+b1143	ymfI	yes
+b1144	ymfJ	yes
+b1145	ymfK, cohE	yes
+b1146	ymfT, croE	yes
+b1147	ymfL	yes
+b1148	ymfM	yes
+b1149	ymfN	yes
+b1150	ymfR	yes
+b1151	beeE, beeE'	excluded
+b1152	jayE, jayE'	excluded
+b1153	ymfQ	yes
+b1154	ycfK, stfP	yes
+b1155	tfaP, ymfS	yes
+b1156	tfaE	yes
+b1157	stfE, stfE'	excluded
+b1158	pinE	no
+b1159	mcrA	no
+b1160	iraM	no
+b1161	ycgX	yes
+b1162	bluR	no
+b1163	bluF	no
+b1164	ycgZ	yes
+b1165	ymgA	yes
+b1166	ariR	yes
+b1167	ymgC	yes
+b1168	pdeG, ycgG	yes
+b1169	ycgH_1	excluded
+b1170	ycgH_2	excluded
+b1171	ymgD	yes
+b1172	ymgG	yes
+b1173	ycgI	yes
+b1174	minE	no
+b1175	minD	no
+b1176	minC	no
+b1177	ycgJ	yes
+b1178	pliG	no
+b1179	ycgL	yes
+b1180	ycgM	yes
+b1181	ycgN	yes
+b1182	hlyE	no
+b1183	umuD	no
+b1184	umuC	no
+b1185	dsbB	no
+b1186	nhaB	no
+b1187	fadR	no
+b1188	ycgB	yes
+b1189	dadA	no
+b1190	dadX	no
+b1191	cvrA	yes
+b1192	ldcA	no
+b1193	emtA	no
+b1194	ycgR	no
+b1195	ymgE	yes
+b1196	ycgY	yes
+b1197	treA	no
+b1198	dhaM	no
+b1199	dhaL	no
+b1200	dhaK	no
+b1201	dhaR	no
+b1202	ycgV	yes
+b1203	ychF	no
+b1204	pth	no
+b1205	ychH	yes
+b1206	dauA	no
+b1207	prs	no
+b1208	ispE	no
+b1209	lolB	no
+b1210	hemA	no
+b1211	prfA	no
+b1212	prmC	no
+b1213	ychQ	yes
+b1214	ychA	yes
+b1215	kdsA	no
+b1216	chaA	no
+b1217	chaB	yes
+b1218	chaC	no
+b1219	ychN	yes
+b1220	ychO	yes
+b1221	narL	no
+b1222	narX	no
+b1223	narK	no
+b1224	narG	no
+b1225	narH	no
+b1226	narJ	no
+b1227	narI	no
+b1228	ychS	yes
+b1229	tpr	yes
+b1230	tyrV	no
+b1231	tyrT	no
+b1232	purU	no
+b1233	ychJ	yes
+b1234	rssA	yes
+b1235	rssB	no
+b1236	galU	no
+b1237	hns	no
+b1238	tdk	no
+b1239	ychG_2	excluded
+b1240	ychG_1	excluded
+b1241	adhE	no
+b1242	ychE	yes
+b1243	oppA	no
+b1244	oppB	no
+b1245	oppC	no
+b1246	oppD	no
+b1247	oppF	no
+b1248	yciU	yes
+b1249	clsA	no
+b1250	kch	no
+b1251	yciI	yes
+b1252	tonB	no
+b1253	yciA	no
+b1254	yciB	yes
+b1255	yciC	yes
+b1256	ompW	yes
+b1257	yciE	yes
+b1258	yciF	yes
+b1259	yciG	yes
+b1260	trpA	no
+b1261	trpB	no
+b1262	trpC	no
+b1263	trpD, trpGD	no
+b1264	trpE	no
+b1265	trpL	no
+b1266	yciV	no
+b1267	yciO	yes
+b1268	yciQ	yes
+b1269	rluB	no
+b1270	btuR	no
+b1271	yciK	yes
+b1272	sohB	yes
+b1273	yciN	yes
+b1274	topA	no
+b1275	cysB	no
+b1276	acnA	no
+b1277	ribA	no
+b1278	pgpB	no
+b1279	lapA, yciS	no
+b1280	lapB, yciM	no
+b1281	pyrF	no
+b1282	yciH	yes
+b1283	osmB	yes
+b1284	yciT	yes
+b1285	pdeR, gmr	no
+b1286	rnb	no
+b1287	yciW	yes
+b1288	fabI	no
+b1289	ycjD	yes
+b1290	sapF	no
+b1291	sapD	no
+b1292	sapC	no
+b1293	sapB	no
+b1294	sapA	yes
+b1295	ymjA	yes
+b1296	puuP	no
+b1297	puuA	no
+b1298	puuD	no
+b1299	puuR	no
+b1300	puuC	no
+b1301	puuB	no
+b1302	puuE	no
+b1303	pspF	no
+b1304	pspA	no
+b1305	pspB	no
+b1306	pspC	no
+b1307	pspD	yes
+b1308	pspE	no
+b1309	ycjM	yes
+b1310	ycjN	yes
+b1311	ycjO	yes
+b1312	ycjP	yes
+b1313	ycjQ	yes
+b1314	ycjR	yes
+b1315	ycjS	yes
+b1316	ycjT	yes
+b1317	ycjU	no
+b1318	ycjV	excluded
+b1319	ompG	no
+b1320	ycjW	yes
+b1321	ycjX	yes
+b1322	ycjF	yes
+b1323	tyrR	no
+b1324	tpx	no
+b1325	ycjG	no
+b1326	mpaA	no
+b1327	ycjY	yes
+b1328	pgrR	no
+b1329	mppA	no
+b1330	ynaI	no
+b1331	insH-4, insH6, insH4, insH1	no
+b1332	ynaJ	yes
+b1333	uspE	yes
+b1334	fnr	no
+b1335	ogt	no
+b1336	abgT	no
+b1337	abgB	no
+b1338	abgA	no
+b1339	abgR	yes
+b1340	smrA	yes
+b1341	dgcM, ydaM	no
+b1342	ydaN, zntB	no
+b1343	dbpA	no
+b1344	ttcA	no
+b1345	intR	yes
+b1346	xisR, ydaQ	yes
+b1347	ydaC, rcbA	yes
+b1348	ralR	no
+b1349	recT	no
+b1350	recE	no
+b1351	racC	yes
+b1352	kilR	no
+b1353	sieB	yes
+b1354		excluded
+b1355	ydaG	yes
+b1356	racR	yes
+b1357	ydaS	yes
+b1358	ydaT	yes
+b1359	ydaU	yes
+b1360	ydaV	yes
+b1361	ydaW, ydaW'	excluded
+b1362	rzpR, rzpR'	excluded
+b1363	trkG	no
+b1364		excluded
+b1365	ynaK	yes
+b1366	ydaY, ydaY'	excluded
+b1367		excluded
+b1368	ynaA, tmpR', tmpR	excluded
+b1369	lomR_1	excluded
+b1370	insH-5, insH25, insH5, insH1	no
+b1371	lomR_2	excluded
+b1372	stfR	yes
+b1373	tfaR	yes
+b1374	pinR	yes
+b1375	ynaE	yes
+b1376	uspF	yes
+b1377	ompN	no
+b1378	ydbK, pfo	no
+b1379	hslJ	yes
+b1380	ldhA	no
+b1381	ydbH	yes
+b1382	ynbE	yes
+b1383	ydbL	yes
+b1384	feaR	no
+b1385	feaB	no
+b1386	tynA	no
+b1387	paaZ	no
+b1388	paaA	no
+b1389	paaB	yes
+b1390	paaC	no
+b1391	paaD	yes
+b1392	paaE	no
+b1393	paaF	no
+b1394	paaG	no
+b1395	paaH	no
+b1396	paaI	no
+b1397	paaJ	no
+b1398	paaK	no
+b1399	paaX	no
+b1400	paaY	no
+b1401	ydbA_1	excluded
+b1402	insD-2, insD4, insD2, insD1	no
+b1403	insC-2, insC4, insC2, insC1	no
+b1404	insI-2, insI3, insI1	no
+b1405	ydbA_2	excluded
+b1406	pdxI, ydbC	no
+b1407	ydbD	yes
+b1408	ynbA	yes
+b1409	ynbB	yes
+b1410	ynbC	yes
+b1411	ynbD	yes
+b1412	azoR	no
+b1413	hrpA	no
+b1414	ydcF	yes
+b1415	aldA	no
+b1416	gapC_2	excluded
+b1417	gapC_1	excluded
+b1418	cybB	no
+b1419	ydcA	yes
+b1420	mokB	yes
+b1421	trg	no
+b1422	ydcI	no
+b1423	ydcJ	yes
+b1424	opgD, mdoD	no
+b1425		excluded
+b1426	ydcH	yes
+b1427	rimL	no
+b1428	ydcK	yes
+b1429	tehA	no
+b1430	tehB	no
+b1431	ydcL	yes
+b1432	insQ	no
+b1433	ydcO	yes
+b1434	sutR, ydcN	no
+b1435	ydcP	yes
+b1436	yncJ	yes
+b1437		excluded
+b1438	hicB	no
+b1439	ydcR	yes
+b1440	ydcS	no
+b1441	ydcT	yes
+b1442	ydcU	yes
+b1443	ydcV	yes
+b1444	patD, prr	no
+b1445	ortT, ydcX	no
+b1446	ydcY	yes
+b1447	ydcZ	yes
+b1448	mnaT	no
+b1449	curA	no
+b1450	mcbR	no
+b1451	yncD	yes
+b1452	yncE	yes
+b1453	ansP	yes
+b1454	yncG	yes
+b1455	yncH	yes
+b1456	rhsE, rhsE'	excluded
+b1457	ydcD	yes
+b1458	yncI	yes
+b1459	yncM, yncI', yncI	excluded
+b1460	ydcC	yes
+b1461	pptA	no
+b1462	yddH	yes
+b1463	nhoA	no
+b1464	yddE	yes
+b1465	narV	no
+b1466	narW	yes
+b1467	narY	no
+b1468	narZ	no
+b1469	narU	no
+b1470	yddJ	yes
+b1471	yddK, yddK'	excluded
+b1472	yddL, yddL'	excluded
+b1473	yddG	no
+b1474	fdnG	no
+b1475	fdnH	no
+b1476	fdnI	no
+b1477	yddM	yes
+b1478	adhP	no
+b1479	maeA	no
+b1480	sra	no
+b1481	bdm	yes
+b1482	osmC	no
+b1483	ddpF	yes
+b1484	ddpD	yes
+b1485	ddpC	yes
+b1486	ddpB	yes
+b1487	ddpA	yes
+b1488	ddpX	no
+b1489	dosP	no
+b1490	dosC	no
+b1491	yddW	yes
+b1492	gadC	no
+b1493	gadB	no
+b1494	pqqL	yes
+b1495	yddB	yes
+b1496	yddA	yes
+b1497	ydeM	yes
+b1498	ydeN	yes
+b1499	ydeO	no
+b1500	safA	no
+b1501	ydeP	yes
+b1502	ydeQ	yes
+b1503	ydeR	yes
+b1504	ydeS	yes
+b1505	ydeT, ydeT'	excluded
+b1506	yneL, yneL'	excluded
+b1507	hipA	no
+b1508	hipB	no
+b1509	ydeU	yes
+b1510	ydeK	yes
+b1511	lsrK	no
+b1512	lsrR	no
+b1513	lsrA	no
+b1514	lsrC	no
+b1515	lsrD	no
+b1516	lsrB	yes
+b1517	lsrF	no
+b1518	lsrG	no
+b1519	tam	no
+b1520	yneE	yes
+b1521	uxaB	no
+b1522	dgcF, yneF	yes
+b1523	yneG	yes
+b1524	glsB, glsA2	no
+b1525	sad	no
+b1526	yneJ	yes
+b1527	yneK	yes
+b1528	ydeA, sotB	no
+b1529	marC	yes
+b1530	marR	no
+b1531	marA	no
+b1532	marB	yes
+b1533	eamA	no
+b1534	ydeE	yes
+b1535	dgcZ, ydeH	no
+b1536	ydeI	yes
+b1537	ydeJ	yes
+b1538	dcp	no
+b1539	ydfG	no
+b1540	ydfH, rspR	no
+b1541	ydfZ	yes
+b1542	ydfI	yes
+b1543	ydfJ	no
+b1544	ydfK	yes
+b1545	pinQ	yes
+b1546	tfaQ	yes
+b1547	ydfN, stfQ	yes
+b1548	nohA, nohQ', nohQ	excluded
+b1549	ydfO	yes
+b1550	gnsB	yes
+b1551	ynfN	yes
+b1552	cspI	yes
+b1553	rzpQ	yes
+b1554	rrrQ	yes
+b1555	ydfR	yes
+b1556	essQ	yes
+b1557	cspB	no
+b1558	cspF	yes
+b1559	ydfT, quuQ	yes
+b1560	ydfU	yes
+b1561	rem	yes
+b1562	hokD	no
+b1563	relE	no
+b1564	relB	no
+b1565	ydfV	yes
+b1566	flxA	yes
+b1567	ydfW, intK', intK	excluded
+b1568	ydfX, ydfX'	excluded
+b1569	dicC	yes
+b1570	dicA	no
+b1571	ydfA	yes
+b1572	ydfB	yes
+b1573	ydfC	excluded
+b1574	dicF	no
+b1575	dicB	yes
+b1576	ydfD	yes
+b1577	ydfE, ydfE'	excluded
+b1578	insD-7, insD5', insD8, insD1	no
+b1579	intQ, intQ'	excluded
+b1580	rspB	yes
+b1581	rspA	yes
+b1582	ynfA	yes
+b1583	ynfB	yes
+b1584	speG	no
+b1585	ynfC	yes
+b1586	ynfD	yes
+b1587	ynfE	yes
+b1588	ynfF	yes
+b1589	ynfG	yes
+b1590	ynfH	no
+b1591	dmsD	no
+b1592	clcB	yes
+b1593	ynfK, bioD2	yes
+b1594	mlc	no
+b1595	ynfL	yes
+b1596	ynfM	yes
+b1597	asr	no
+b1598	ydgD	yes
+b1599	mdtI	no
+b1600	mdtJ	no
+b1601	tqsA	no
+b1602	pntB	no
+b1603	pntA	no
+b1604	ydgH	yes
+b1605	ydgI	yes
+b1606	folM	no
+b1607	ydgC	yes
+b1608	rstA	no
+b1609	rstB	no
+b1610	tus	no
+b1611	fumC	no
+b1612	fumA	no
+b1613	manA	no
+b1614	ydgA	yes
+b1615	uidC	yes
+b1616	uidB	no
+b1617	uidA	no
+b1618	uidR	no
+b1619	hdhA	no
+b1620	malI	no
+b1621	malX	no
+b1622	malY	no
+b1623	add	no
+b1624	ydgJ	yes
+b1625	cnu	no
+b1626	ydgK	yes
+b1627	rsxA	no
+b1628	rsxB	yes
+b1629	rsxC	yes
+b1630	rsxD	yes
+b1631	rsxG	yes
+b1632	rsxE	no
+b1633	nth	no
+b1634	dtpA	no
+b1635	gstA	no
+b1636	pdxY	no
+b1637	tyrS	no
+b1638	pdxH	no
+b1639	mliC	no
+b1640	anmK	no
+b1641	slyB	no
+b1642	slyA	no
+b1643	ydhI	yes
+b1644	ydhJ	yes
+b1645	ydhK	yes
+b1646	sodC	no
+b1647	ydhF	yes
+b1648	ydhL	yes
+b1649	nemR	no
+b1650	nemA	no
+b1651	gloA	no
+b1652	rnt	no
+b1653	lhr	yes
+b1654	grxD	no
+b1655	mepH	no
+b1656	sodB	no
+b1657	ydhP	yes
+b1658	purR	no
+b1659	ydhB	yes
+b1660	ydhC	yes
+b1661	cfa	no
+b1662	ribC	no
+b1663	mdtK	no
+b1664	ydhQ	yes
+b1665	valV	no
+b1666	valW	no
+b1667	ydhR	yes
+b1668	ydhS	yes
+b1669	ydhT	yes
+b1670	ydhU	yes
+b1671	ydhX	yes
+b1672	ydhW	yes
+b1673	ydhV	yes
+b1674	ydhY	yes
+b1675	fumD, ydhZ	no
+b1676	pykF	no
+b1677	lpp	no
+b1678	ldtE, ynhG	no
+b1679	sufE	no
+b1680	sufS	no
+b1681	sufD	no
+b1682	sufC	no
+b1683	sufB	no
+b1684	sufA	no
+b1685	ydiH	yes
+b1686	menI	no
+b1687	ydiJ	yes
+b1688	ydiK	yes
+b1689	ydiL	yes
+b1690	ydiM	yes
+b1691	ydiN	yes
+b1692	ydiB	no
+b1693	aroD	no
+b1694	ydiF	yes
+b1695	ydiO	no
+b1696	ydiP	yes
+b1697	ydiQ	yes
+b1698	ydiR	yes
+b1699	ydiS	yes
+b1700	ydiT	yes
+b1701	fadK	no
+b1702	ppsA	no
+b1703	ppsR	no
+b1704	aroH	no
+b1705	ydiE	yes
+b1706	ydiU	yes
+b1707	ydiV, rflP	no
+b1708	nlpC	yes
+b1709	btuD	no
+b1710	btuE	no
+b1711	btuC	no
+b1712	ihfA	no
+b1713	pheT	no
+b1714	pheS	no
+b1715	pheM	yes
+b1716	rplT	no
+b1717	rpmI	no
+b1718	infC	no
+b1719	thrS	no
+b1720	arpB_1	excluded
+b1721	arpB_2	excluded
+b1722	ydiY	yes
+b1723	pfkB	no
+b1724	ydiZ	yes
+b1725	yniA	yes
+b1726	yniB	yes
+b1727	hxpB, yniC	no
+b1728	ydjM	yes
+b1729	tcyP, ydjN	no
+b1730	ydjO	yes
+b1731	cedA	no
+b1732	katE	no
+b1733	chbG	no
+b1734	chbF	no
+b1735	chbR	no
+b1736	chbA	no
+b1737	chbC	no
+b1738	chbB	no
+b1739	osmE	yes
+b1740	nadE	no
+b1741	cho	no
+b1742	ves	yes
+b1743	spy	no
+b1744	astE	no
+b1745	astB	no
+b1746	astD	no
+b1747	astA	no
+b1748	astC	no
+b1749	xthA	no
+b1750	ydjX	yes
+b1751	ydjY	yes
+b1752	ydjZ	yes
+b1753	ynjA	yes
+b1754	ynjB	yes
+b1755	ynjC	yes
+b1756	ynjD	yes
+b1757	ynjE	no
+b1758	ynjF	yes
+b1759	nudG	no
+b1760	ynjH	yes
+b1761	gdhA	no
+b1762	ynjI	yes
+b1763	topB	no
+b1764	selD	no
+b1765	ydjA	yes
+b1766	sppA	no
+b1767	ansA	no
+b1768	pncA	no
+b1769	ydjE	yes
+b1770	ydjF	yes
+b1771	ydjG	no
+b1772	ydjH	yes
+b1773	ydjI	yes
+b1774	ydjJ	yes
+b1775	ydjK	yes
+b1776	ydjL	yes
+b1777	yeaC	yes
+b1778	msrB	no
+b1779	gapA	no
+b1780	yeaD	yes
+b1781	yeaE	no
+b1782	mipA	no
+b1783	yeaG	no
+b1784	yeaH	yes
+b1785	cdgI, yeaI	yes
+b1786	dgcJ, yeaJ	yes
+b1787	yeaK	no
+b1788	yoaI	yes
+b1789	yeaL	yes
+b1790	nimR, yeaM	no
+b1791	nimT, yeaN	no
+b1792	yeaO	yes
+b1793	yoaF	yes
+b1794	dgcP, yeaP	no
+b1795	yeaQ	yes
+b1796	yoaG	yes
+b1797	yeaR	yes
+b1798	leuE	no
+b1799	dmlR	no
+b1800	dmlA	no
+b1801	yeaV	yes
+b1802	yeaW	no
+b1803	yeaX	no
+b1804	rnd	no
+b1805	fadD	no
+b1806	yeaY	yes
+b1807	tsaB	no
+b1808	yoaA	yes
+b1809	yoaB	yes
+b1810	yoaC	yes
+b1811	yoaH	yes
+b1812	pabB	no
+b1813	nudL	no
+b1814	sdaA	no
+b1815	pdeD, yoaD, adrB	yes
+b1816	yoaE	yes
+b1817	manX	no
+b1818	manY	no
+b1819	manZ	no
+b1820	yobD	yes
+b1821	mntP	no
+b1822	rlmA	no
+b1823	cspC	no
+b1824	yobF	yes
+b1825	yebO	yes
+b1826	mgrB	no
+b1827	kdgR	no
+b1828	yebQ	yes
+b1829	htpX	no
+b1830	prc	no
+b1831	proQ	no
+b1832	msrC	no
+b1833	yebS	yes
+b1834	yebT	yes
+b1835	rsmF	no
+b1836	yebV	yes
+b1837	yebW	yes
+b1838	pphA	no
+b1839	yebY	yes
+b1840	yebZ	yes
+b1841	yobA	yes
+b1842	holE	no
+b1843	yobB	yes
+b1844	exoX	no
+b1845	ptrB	no
+b1846	yebE	yes
+b1847	yebF	yes
+b1848	yebG	yes
+b1849	purT	no
+b1850	eda	no
+b1851	edd	no
+b1852	zwf	no
+b1853	yebK, hexR	no
+b1854	pykA	no
+b1855	lpxM	no
+b1856	mepM	no
+b1857	znuA	no
+b1858	znuC	no
+b1859	znuB	no
+b1860	ruvB	no
+b1861	ruvA	no
+b1862	yebB	yes
+b1863	ruvC	no
+b1864	yebC	yes
+b1865	nudB	no
+b1866	aspS	no
+b1867	yecD	yes
+b1868	yecE	yes
+b1869	yecN	yes
+b1870	cmoA	no
+b1871	cmoB	no
+b1872	torZ	no
+b1873	torY	no
+b1874	cutC	yes
+b1875	yecM	yes
+b1876	argS	no
+b1877	yecT	yes
+b1878	flhE	yes
+b1879	flhA	no
+b1880	flhB	no
+b1881	cheZ	no
+b1882	cheY	no
+b1883	cheB	no
+b1884	cheR	no
+b1885	tap	no
+b1886	tar	no
+b1887	cheW	no
+b1888	cheA	no
+b1889	motB	no
+b1890	motA	no
+b1891	flhC	no
+b1892	flhD	no
+b1893	insB-5, insB8, insB5, insB1	no
+b1894	insA-5, insA8, insA5, insA	no
+b1895	uspC	no
+b1896	otsA	no
+b1897	otsB	no
+b1900	araG	no
+b1901	araF	no
+b1902	ftnB	yes
+b1903		excluded
+b1904	yecR	yes
+b1905	ftnA	no
+b1906	yecH	yes
+b1907	tyrP	no
+b1908	yecA	yes
+b1909	leuZ	no
+b1910	cysT	no
+b1911	glyW	no
+b1912	pgsA	no
+b1913	uvrC	no
+b1914	uvrY	no
+b1915	yecF	yes
+b1916	sdiA	no
+b1917	tcyN, yecC	no
+b1918	tcyL, yecS	no
+b1919	dcyD	no
+b1920	tcyJ, fliY	no
+b1921	fliZ	no
+b1922	fliA	no
+b1923	fliC	no
+b1924	fliD	no
+b1925	fliS	yes
+b1926	fliT	yes
+b1927	amyA	no
+b1928	yedD	yes
+b1929	yedE	yes
+b1930	yedF	yes
+b1931	yedK	yes
+b1932	yedL	yes
+b1933	yedN_3	excluded
+b1934	yedN_2	excluded
+b1935	yedM	excluded
+b1936	intG, intG'	excluded
+b1937	fliE	no
+b1938	fliF	no
+b1939	fliG	no
+b1940	fliH	no
+b1941	fliI	no
+b1942	fliJ	no
+b1943	fliK	yes
+b1944	fliL	no
+b1945	fliM	no
+b1946	fliN	no
+b1947	fliO	no
+b1948	fliP	no
+b1949	fliQ	no
+b1950	fliR	no
+b1951	rcsA	no
+b1952	dsrB	yes
+b1953	yodD	yes
+b1954	dsrA	no
+b1955	yedP	yes
+b1956	dgcQ, yedQ	yes
+b1957	yodC	yes
+b1958	yedI	yes
+b1959	yedA	yes
+b1960	vsr	no
+b1961	dcm	no
+b1962	yedJ	yes
+b1963	yedR	yes
+b1964	yedS_1	excluded
+b1965	yedS_2	excluded
+b1966	yedS_3	excluded
+b1967	hchA	no
+b1968	hprS, yedV	no
+b1969	hprR, yedW	no
+b1970	yedX, hiuH	no
+b1971	msrP, yedY	no
+b1972	msrQ, yedZ	no
+b1973	zinT	no
+b1974	yodB	yes
+b1975	serU	no
+b1976	mtfA	no
+b1977	asnT	no
+b1978	yeeJ	yes
+b1979	yeeL_2	excluded
+b1980	yeeL_1	excluded
+b1981	shiA	no
+b1982	amn	no
+b1983	yeeN	yes
+b1984	asnW	no
+b1985	yeeO	no
+b1986	asnU	no
+b1987	cbl	no
+b1988	nac	no
+b1989	asnV	no
+b1990	ldtA, erfK	no
+b1991	cobT	no
+b1992	cobS	no
+b1993	cobU	no
+b1994	insH-6, insH8, insH6, insH1	no
+b1995	yoeA_1	excluded
+b1996	insD-3, insD6, insD3, insD1	no
+b1997	insC-3, insC6, insC3, insC1	no
+b1998	yoeA_2	excluded
+b1999	yeeP, yeeP'	excluded
+b2000	flu	no
+b2001	yeeR	yes
+b2002	yeeS	yes
+b2003	yeeT	yes
+b2004	cbeA	no
+b2005	cbtA	no
+b2006	yeeW, yeeW'	excluded
+b2007	yeeX	yes
+b2008	yeeA	yes
+b2009	sbmC	no
+b2010	dacD	no
+b2011	sbcB	no
+b2012	yeeD	yes
+b2013	yeeE	yes
+b2014	plaP	no
+b2015	yeeY	yes
+b2016	yeeZ	yes
+b2017	yefM	no
+b2018	hisL	yes
+b2019	hisG	no
+b2020	hisD	no
+b2021	hisC	no
+b2022	hisB	no
+b2023	hisH	no
+b2024	hisA	no
+b2025	hisF	no
+b2026	hisI	no
+b2027	wzzB	yes
+b2028	ugd	no
+b2029	gnd	no
+b2030	insH-7, insH9, insH7, insH1	no
+b2031	wbbL_1	excluded
+b2032	wbbK	yes
+b2033	wbbJ	yes
+b2034	wbbI	no
+b2035	wbbH, rfc	yes
+b2036	glf	no
+b2037	rfbX, wzxB	no
+b2038	rfbC	no
+b2039	rfbA	no
+b2040	rfbD	no
+b2041	rfbB	no
+b2042	galF, wcaN	yes
+b2043	wcaM	yes
+b2044	wcaL	yes
+b2045	wcaK	yes
+b2046	wzxC	yes
+b2047	wcaJ	no
+b2048	cpsG, manB	no
+b2049	cpsB, manC	no
+b2050	wcaI	yes
+b2051	gmm, wcaH	no
+b2052	fcl, wcaG	no
+b2053	gmd	no
+b2054	wcaF	yes
+b2055	wcaE	yes
+b2056	wcaD	yes
+b2057	wcaC	yes
+b2058	wcaB	yes
+b2059	wcaA	yes
+b2060	wzc	no
+b2061	wzb	no
+b2062	wza	no
+b2063	yegH	yes
+b2064	asmA	yes
+b2065	dcd	no
+b2066	udk	no
+b2067	dgcE, yegE	yes
+b2068	alkA	no
+b2069	yegD	yes
+b2070	yegI	yes
+b2071	yegJ	yes
+b2072	yegK	yes
+b2073	yegL	yes
+b2074	mdtA	no
+b2075	mdtB	no
+b2076	mdtC	no
+b2077	mdtD, iceT	yes
+b2078	baeS	no
+b2079	baeR	no
+b2080	yegP	yes
+b2081	yegQ	yes
+b2082	ogrK	yes
+b2083	yegZ, yegZ'	excluded
+b2084		excluded
+b2085	yegR	yes
+b2086	yegS	no
+b2087	gatR_1	excluded
+b2088	insE-5, insE5, insE1	no
+b2089	insF-5, insF5, insF1	no
+b2090	gatR_2	excluded
+b2091	gatD	no
+b2092	gatC, gatC'	excluded
+b2093	gatB	no
+b2094	gatA	no
+b2095	gatZ	no
+b2096	gatY	no
+b2097	fbaB	no
+b2098	yegT	yes
+b2099	yegU	yes
+b2100	yegV	yes
+b2101	yegW	yes
+b2102	yegX	yes
+b2103	thiD	no
+b2104	thiM	no
+b2105	rcnR	no
+b2106	rcnA	no
+b2107	rcnB	no
+b2108	yehA	yes
+b2109	yehB	yes
+b2110	yehC	yes
+b2111	yehD	yes
+b2112	yehE	yes
+b2113	mrp	yes
+b2114	metG	no
+b2115	molR_1	excluded
+b2116	molR_2	excluded
+b2117	molR_3	excluded
+b2118	yehI	yes
+b2119	yehL	yes
+b2120	yehM	yes
+b2121	yehP	yes
+b2122	yehQ, yehQ'	excluded
+b2123	yehR	yes
+b2124	yehS	yes
+b2125	btsR, yehT	no
+b2126	btsS, yehU	no
+b2127	mlrA	no
+b2128	yehW	no
+b2129	yehX	no
+b2130	yehY	no
+b2131	osmF, yehZ	no
+b2132	bglX	no
+b2133	dld	no
+b2134	pbpG	no
+b2135	yohC	yes
+b2136	yohD	yes
+b2137	yohF	yes
+b2138	mdtQ	excluded
+b2139	yohH, mdtQ', mdtQ	excluded
+b2140	dusC	no
+b2141	yohJ	yes
+b2142	yohK	yes
+b2143	cdd	no
+b2144	sanA	yes
+b2145	yeiS	yes
+b2146	preT	no
+b2147	preA	no
+b2148	mglC	no
+b2149	mglA	no
+b2150	mglB	no
+b2151	galS	no
+b2152	yeiB	yes
+b2153	folE	no
+b2154	yeiG	no
+b2155	cirA	no
+b2156	lysP	no
+b2157	yeiE	yes
+b2158	yeiH	yes
+b2159	nfo	no
+b2160	yeiI	yes
+b2161	nupX	yes
+b2162	rihB	no
+b2163	yeiL	yes
+b2164	psuT	yes
+b2165	psuG	no
+b2166	psuK	yes
+b2167	fruA	no
+b2168	fruK	no
+b2169	fruB	no
+b2170	setB	no
+b2171	yeiP	yes
+b2172	yeiQ	yes
+b2173	yeiR	no
+b2174	lpxT	no
+b2175	mepS	no
+b2176	pdeN, rtn	yes
+b2177	yejA	yes
+b2178	yejB	yes
+b2179	yejE	yes
+b2180	yejF	yes
+b2181	yejG	yes
+b2182	bcr	no
+b2183	rsuA	no
+b2184	radD, yejH	yes
+b2185	rplY	no
+b2186	yejK	yes
+b2187	yejL	yes
+b2188	yejM	yes
+b2189	proL	no
+b2190	yejO, yejO'	excluded
+b2191		excluded
+b2192	insH-8, insH11, insH8, insH1	no
+b2193	narP	no
+b2194	ccmH	no
+b2195	ccmG, dsbE	no
+b2196	ccmF	no
+b2197	ccmE	no
+b2198	ccmD	no
+b2199	ccmC	no
+b2200	ccmB	no
+b2201	ccmA	no
+b2202	napC	no
+b2203	napB	no
+b2204	napH	no
+b2205	napG	no
+b2206	napA	no
+b2207	napD	no
+b2208	napF	yes
+b2209	eco	no
+b2210	mqo	no
+b2211	yojI	no
+b2212	alkB	no
+b2213	ada	no
+b2214	ftp, apbE	no
+b2215	ompC	no
+b2216	rcsD	no
+b2217	rcsB	no
+b2218	rcsC	no
+b2219	atoS	no
+b2220	atoC	no
+b2221	atoD	yes
+b2222	atoA	no
+b2223	atoE	yes
+b2224	atoB	no
+b2225	yfaP	yes
+b2226	yfaQ	yes
+b2227	yfaS_2	excluded
+b2228	yfaS_1	excluded
+b2229	yfaT	yes
+b2230	yfaA	yes
+b2231	gyrA	no
+b2232	ubiG	no
+b2233	yfaL	yes
+b2234	nrdA	no
+b2235	nrdB	no
+b2236	yfaE	no
+b2237	inaA	yes
+b2238	yfaH, yfaH'	excluded
+b2239	glpQ	no
+b2240	glpT	no
+b2241	glpA	no
+b2242	glpB	no
+b2243	glpC	no
+b2244	rpnE, yfaD	yes
+b2245	yfaU, rhmA	no
+b2246	yfaV, rhmT	yes
+b2247	rhmD	no
+b2248	yfaX, rhmR	yes
+b2249	yfaY	yes
+b2250	yfaZ	yes
+b2251	nudI	no
+b2252	ais	yes
+b2253	arnB	no
+b2254	arnC	no
+b2255	arnA	no
+b2256	arnD	yes
+b2257	arnT	no
+b2258	arnF	no
+b2259	pmrD	yes
+b2260	menE	no
+b2261	menC	no
+b2262	menB	no
+b2263	menH	no
+b2264	menD	no
+b2265	menF	no
+b2266	elaB	yes
+b2267	elaA	yes
+b2268	rbn	no
+b2269	elaD	no
+b2270	yfbK	yes
+b2271	yfbL	yes
+b2272	yfbM	yes
+b2273	yfbN	yes
+b2274	yfbO	yes
+b2275	yfbP	yes
+b2276	nuoN	no
+b2277	nuoM	no
+b2278	nuoL	no
+b2279	nuoK	no
+b2280	nuoJ	no
+b2281	nuoI	no
+b2282	nuoH	no
+b2283	nuoG	no
+b2284	nuoF	no
+b2285	nuoE	no
+b2286	nuoC	no
+b2287	nuoB	no
+b2288	nuoA	no
+b2289	lrhA	no
+b2290	alaA	no
+b2291	yfbR	no
+b2292	yfbS	yes
+b2293	hxpA, yfbT	no
+b2294	yfbU	yes
+b2295	yfbV	yes
+b2296	ackA	no
+b2297	pta	no
+b2298	yfcC	yes
+b2299	yfcD	yes
+b2300	yfcE	no
+b2301	yfcF	no
+b2302	yfcG	no
+b2303	folX	no
+b2304	yfcH	yes
+b2305	rpnB, yfcI	yes
+b2306	hisP	no
+b2307	hisM	no
+b2308	hisQ	no
+b2309	hisJ	no
+b2310	argT	no
+b2311	ubiX	no
+b2312	purF	no
+b2313	cvpA	yes
+b2314	dedD	no
+b2315	folC	no
+b2316	accD	no
+b2317	dedA	yes
+b2318	truA	no
+b2319	usg	yes
+b2320	pdxB	no
+b2321	flk	yes
+b2322	yfcJ	yes
+b2323	fabB	no
+b2324	mnmC	no
+b2325	yfcL	yes
+b2326	epmC	no
+b2327	yfcA	yes
+b2328	mepA	no
+b2329	aroC	no
+b2330	prmB	no
+b2331	smrB, yfcN	yes
+b2332	yfcO	yes
+b2333	yfcP	yes
+b2334	yfcQ	yes
+b2335	yfcR	yes
+b2336	yfcS	yes
+b2337	yfcU_2	excluded
+b2338	yfcU_1	excluded
+b2339	yfcV	yes
+b2340	sixA	no
+b2341	fadJ	no
+b2342	fadI	no
+b2343	yfcZ	yes
+b2344	fadL	no
+b2345	yfdF	yes
+b2346	mlaA	yes
+b2347	yfdC	yes
+b2348	argW	no
+b2349	intS	yes
+b2350	yfdG, gtrA	no
+b2351	yfdH, gtrB	yes
+b2352	yfdI, gtrS	yes
+b2353	tfaS, tfaS'	excluded
+b2354	yfdK	yes
+b2355	yfdL, yfdL'	excluded
+b2356	yfdM, yfdM'	excluded
+b2357	yfdN	yes
+b2358	yfdO, oweS', oweS	excluded
+b2359	yfdP	yes
+b2360	yfdQ	yes
+b2361	yfdR	no
+b2362	yfdS	yes
+b2363	yfdT	yes
+b2364	dsdC	no
+b2365	dsdX	no
+b2366	dsdA	no
+b2367	emrY	yes
+b2368	emrK	yes
+b2369	evgA	no
+b2370	evgS	no
+b2371	yfdE	no
+b2372	yfdV	yes
+b2373	oxc	no
+b2374	frc	no
+b2375	yfdX	yes
+b2376	ypdI	yes
+b2377	yfdY	yes
+b2378	lpxP	no
+b2379	alaC	no
+b2380	ypdA	no
+b2381	ypdB	no
+b2382	ypdC	yes
+b2383	fryA	yes
+b2384	ypdE	no
+b2385	ypdF	no
+b2386	fryC	yes
+b2387	fryB	yes
+b2388	glk	no
+b2389	yfeO	yes
+b2390	ypeC	yes
+b2392	mntH	no
+b2393	nupC	no
+b2394	insL-3, insL3, insL1	no
+b2395	pdeA, yfeA	yes
+b2396	alaX	no
+b2397	alaW	no
+b2398	yfeC	yes
+b2399	yfeD	yes
+b2400	gltX	no
+b2401	valU	no
+b2402	valX	no
+b2403	valY	no
+b2404	lysV	no
+b2405	xapR	no
+b2406	xapB	no
+b2407	xapA	no
+b2408	yfeN	yes
+b2409	yfeR	yes
+b2410	yfeH	yes
+b2411	ligA	no
+b2412	zipA	no
+b2413	cysZ	no
+b2414	cysK	no
+b2415	ptsH	no
+b2416	ptsI	no
+b2417	crr	no
+b2418	pdxK	no
+b2419	yfeK	yes
+b2420	yfeS	yes
+b2421	cysM	no
+b2422	cysA	no
+b2423	cysW	no
+b2424	cysU	no
+b2425	cysP	no
+b2426	ucpA	yes
+b2427	murR	no
+b2428	murQ	no
+b2429	murP	no
+b2430	yfeW	no
+b2431	yfeX	no
+b2432	yfeY	yes
+b2433	yfeZ	yes
+b2434	ypeA	yes
+b2435	amiA	no
+b2436	hemF	no
+b2437	eutR	yes
+b2438	eutK	yes
+b2439	eutL	yes
+b2440	eutC	no
+b2441	eutB	no
+b2442	intZ	yes
+b2443	yffL	yes
+b2444	yffM	yes
+b2445	yffN	yes
+b2446	yffO	yes
+b2447	yffP	yes
+b2448	yffQ	yes
+b2449	yffR	yes
+b2450	yffS	yes
+b2451	eutA	no
+b2452	eutH	yes
+b2453	eutG	yes
+b2454	eutJ	yes
+b2455	eutE	yes
+b2456	eutN	yes
+b2457	eutM	yes
+b2458	eutD	no
+b2459	eutT	yes
+b2460	eutQ	yes
+b2461	eutP	yes
+b2462	eutS	yes
+b2463	maeB	no
+b2464	talA	no
+b2465	tktB	no
+b2466	ypfG	yes
+b2467	nudK	no
+b2468	aegA	yes
+b2469	narQ	no
+b2470	acrD	no
+b2471	yffB	yes
+b2472	dapE	no
+b2473	ypfH	no
+b2474	tmcA	no
+b2475	ypfJ	yes
+b2476	purC	no
+b2477	bamC	no
+b2478	dapA	no
+b2479	gcvR	no
+b2480	bcp	no
+b2481	hyfA	no
+b2482	hyfB	no
+b2483	hyfC	no
+b2484	hyfD	no
+b2485	hyfE	no
+b2486	hyfF	no
+b2487	hyfG	no
+b2488	hyfH	no
+b2489	hyfI	no
+b2490	hyfJ	yes
+b2491	hyfR	no
+b2492	focB	yes
+b2493	yfgO, perM	yes
+b2494	bepA	no
+b2495	yfgD	yes
+b2496	hda	no
+b2497	uraA	no
+b2498	upp	no
+b2499	purM	no
+b2500	purN	no
+b2501	ppk	no
+b2502	ppx	no
+b2503	pdeF, yfgF	no
+b2504	yfgG	yes
+b2505	yfgH	yes
+b2506	yfgI	yes
+b2507	guaA	no
+b2508	guaB	no
+b2509	xseA	no
+b2510	yfgJ	yes
+b2511	der	no
+b2512	bamB	no
+b2513	yfgM	no
+b2514	hisS	no
+b2515	ispG	no
+b2516	rodZ	no
+b2517	rlmN	no
+b2518	ndk	no
+b2519	pbpC	no
+b2520	yfhM	no
+b2521	mstA, sseA	no
+b2522	sseB	yes
+b2523	pepB	no
+b2524	iscX	no
+b2525	fdx	no
+b2526	hscA	no
+b2527	hscB	no
+b2528	iscA	no
+b2529	iscU	no
+b2530	iscS	no
+b2531	iscR	no
+b2532	trmJ	no
+b2533	suhB	no
+b2534	yfhR	yes
+b2535	csiE	yes
+b2536	hcaT	yes
+b2537	hcaR	no
+b2538	hcaE	no
+b2539	hcaF	no
+b2540	hcaC	no
+b2541	hcaB	no
+b2542	hcaD	no
+b2543	yphA	yes
+b2544	yphB	yes
+b2545	yphC	yes
+b2546	yphD	yes
+b2547	yphE	yes
+b2548	yphF	yes
+b2549	yphG	yes
+b2550	yphH	yes
+b2551	glyA	no
+b2552	hmp	no
+b2553	glnB	no
+b2554	glrR	no
+b2555	qseG, yfhG	yes
+b2556	glrK	no
+b2557	purL	no
+b2558	mltF	no
+b2559	tadA	no
+b2560	pgpC	no
+b2561	yfhH	yes
+b2562	yfhL	yes
+b2563	acpS	no
+b2564	pdxJ	no
+b2565	recO	no
+b2566	era	no
+b2567	rnc	no
+b2568	lepB	no
+b2569	lepA	no
+b2570	rseC	yes
+b2571	rseB	no
+b2572	rseA	no
+b2573	rpoE	no
+b2574	nadB	no
+b2575	yfiC, trmN	no
+b2576	srmB	no
+b2577	yfiE	yes
+b2578	eamB	no
+b2579	grcA	no
+b2580	ung	no
+b2581	yfiF	yes
+b2582	trxC	no
+b2583	yfiP	yes
+b2584	patZ, pka	no
+b2585	pssA	no
+b2586	yfiM	yes
+b2587	kgtP	no
+b2588	rrfG	no
+b2589	rrlG	no
+b2590	gltW	no
+b2591	rrsG	no
+b2592	clpB	no
+b2593	pgeF, yfiH	no
+b2594	rluD	no
+b2595	bamD	no
+b2596		excluded
+b2597	raiA	no
+b2598	pheL	no
+b2599	pheA	no
+b2600	tyrA	no
+b2601	aroF	no
+b2602	yfiL	yes
+b2603	yfiR	yes
+b2604	dgcN, yfiN	no
+b2605	yfiB	yes
+b2606	rplS	no
+b2607	trmD	no
+b2608	rimM	no
+b2609	rpsP	no
+b2610	ffh	no
+b2611	ypjD	yes
+b2614	grpE	no
+b2615	nadK	no
+b2616	recN	no
+b2617	bamE	no
+b2618	yfjF, ratB	yes
+b2619	ratA	no
+b2620	smpB	no
+b2621	ssrA	no
+b2622	intA	no
+b2623	yfjH	yes
+b2624	alpA	yes
+b2625	yfjI	yes
+b2626	yfjJ	yes
+b2627	abpB, yfjK	yes
+b2628	abpA, yfjL	yes
+b2629	yfjM	yes
+b2630	rnlA	no
+b2631	rnlB	no
+b2632	yfjP	yes
+b2633	yfjQ	yes
+b2634	yfjR	yes
+b2635	ypjK	yes
+b2636	yfjS	yes
+b2637	yfjT	yes
+b2638	yfjU, yfjU'	excluded
+b2639	ypjM_3	excluded
+b2640	ypjM_2	excluded
+b2641	ypjM_1, yfjV', yfjV	excluded
+b2642	yfjW	yes
+b2643	yfjX	yes
+b2644	yfjY	yes
+b2645	yfjZ	yes
+b2646	ypjF	yes
+b2647	ypjA	yes
+b2648	pinH, pinH'	excluded
+b2649	ypjB	yes
+b2650	ypjC, ypjC'	excluded
+b2651		excluded
+b2652	ileY	no
+b2653		excluded
+b2659	csiD	no
+b2660	lhgO	no
+b2661	gabD	no
+b2662	gabT	no
+b2663	gabP	no
+b2664	csiR	no
+b2665	kbp, ygaU	no
+b2666	yqaE	yes
+b2667	ygaV	yes
+b2668	ygaP	no
+b2669	stpA	no
+b2670	alaE	no
+b2671	ygaC	yes
+b2672	ygaM	yes
+b2673	nrdH	no
+b2674	nrdI	no
+b2675	nrdE	no
+b2676	nrdF	no
+b2677	proV	no
+b2678	proW	no
+b2679	proX	no
+b2680	ygaY_1	excluded
+b2681	ygaY_2, ygaY', ygaY	excluded
+b2682	ygaZ	no
+b2683	ygaH	no
+b2684	mprA	no
+b2685	emrA	no
+b2686	emrB	no
+b2687	luxS	no
+b2688	gshA	no
+b2689	yqaA	yes
+b2690	yqaB	no
+b2691	argQ	no
+b2692	argZ	no
+b2693	argY	no
+b2694	argV	no
+b2695	serV	no
+b2696	csrA	no
+b2697	alaS	no
+b2698	recX	no
+b2699	recA	no
+b2700	pncC	no
+b2701	mltB	no
+b2702	srlA	no
+b2703	srlE	no
+b2704	srlB	no
+b2705	srlD	no
+b2706	gutM, srlM	no
+b2707	srlR	no
+b2708	gutQ, srlQ	no
+b2709	norR	no
+b2710	norV	no
+b2711	norW	no
+b2712	hypF	no
+b2713	hydN	yes
+b2714	ascG	no
+b2715	ascF	excluded
+b2716	ascB	no
+b2717	hycI	no
+b2718	hycH	no
+b2719	hycG	no
+b2720	hycF	no
+b2721	hycE	no
+b2722	hycD	no
+b2723	hycC	no
+b2724	hycB	no
+b2725	hycA	yes
+b2726	hypA	no
+b2727	hypB	no
+b2728	hypC	no
+b2729	hypD	no
+b2730	hypE	no
+b2731	fhlA	no
+b2732	ygbA	yes
+b2733	mutS	no
+b2734	pphB	no
+b2735	ygbI	yes
+b2736	ygbJ, ltnD	yes
+b2737	ygbK, otnK	yes
+b2738	ygbL, otnC	yes
+b2739	ygbM, otnI	yes
+b2740	ygbN	yes
+b2741	rpoS	no
+b2742	nlpD	no
+b2743	pcm	no
+b2744	umpG, surE	no
+b2745	truD	no
+b2746	ispF	no
+b2747	ispD	no
+b2748	ftsB	no
+b2749	ygbE	yes
+b2750	cysC	no
+b2751	cysN	no
+b2752	cysD	no
+b2753	iap	no
+b2754	cas2, ygbF	no
+b2755	cas1, ygbT	no
+b2756	casE	no
+b2757	casD	no
+b2758	casC	no
+b2759	casB	no
+b2760	casA	no
+b2761	cas3, ygcB	no
+b2762	cysH	no
+b2763	cysI	no
+b2764	cysJ	no
+b2765	queD	no
+b2766	ygcN	yes
+b2767	ygcO	yes
+b2768	ygcP	yes
+b2769	ygcQ	yes
+b2770	ygcR	yes
+b2771	ygcS	yes
+b2774	ygcW	yes
+b2775	yqcE	yes
+b2776	ygcE	yes
+b2777	queE	yes
+b2778	ygcG	yes
+b2779	eno	no
+b2780	pyrG	no
+b2781	mazG	no
+b2782	mazF	no
+b2783	mazE	no
+b2784	relA	no
+b2785	rlmD	no
+b2786	barA	no
+b2787	gudD	no
+b2788	gudX	yes
+b2789	gudP	yes
+b2790	yqcA	yes
+b2791	truC	no
+b2792	yqcC	yes
+b2793	syd	no
+b2794	queF	no
+b2795	ppnN, ygdH	no
+b2796	sdaC	no
+b2797	sdaB	no
+b2798	ygdG	no
+b2799	fucO	no
+b2800	fucA	no
+b2801	fucP	no
+b2802	fucI	no
+b2803	fucK	no
+b2804	fucU	no
+b2805	fucR	no
+b2806	rlmM	no
+b2807	ygdD	yes
+b2808	gcvA	no
+b2809	ygdI	yes
+b2810	csdA	no
+b2811	csdE	no
+b2812	tcdA	no
+b2813	mltA	no
+b2814	metZ	no
+b2815	metW	no
+b2816	metV	no
+b2817	amiC	no
+b2818	argA	no
+b2819	recD	no
+b2820	recB	no
+b2821	ptrA	no
+b2822	recC	no
+b2823	ppdC	yes
+b2824	ygdB	yes
+b2825	ppdB	yes
+b2826	ppdA	yes
+b2827	thyA	no
+b2828	lgt	no
+b2829	ptsP	no
+b2830	rppH	no
+b2831	mutH	no
+b2832	ygdQ	yes
+b2833	ygdR	yes
+b2834	tas	yes
+b2835	lplT	no
+b2836	aas	no
+b2837	galR	no
+b2838	lysA	no
+b2839	lysR	no
+b2840	ygeA	no
+b2841	araE	no
+b2842	kduD	no
+b2843	kduI	no
+b2844	yqeF	no
+b2845	yqeG	yes
+b2846	yqeH	yes
+b2847	yqeI	yes
+b2848	yqeJ	yes
+b2849	yqeK	yes
+b2850	ygeF, ygeF'	excluded
+b2851	ygeG	yes
+b2852	ygeH	yes
+b2853	ygeI	yes
+b2854	pbl, pbl'	excluded
+b2855	ygeK	yes
+b2856	ygeL, ygeK', ygeK	excluded
+b2857	ygeM	yes
+b2858	ygeN, ygeN'	excluded
+b2859	ygeO, ygeO'	excluded
+b2860	insD-4, insD8, insD4, insD1	no
+b2861	insC-4, insC8, insC4, insC1	no
+b2862	ygeP	yes
+b2863	ygeQ, ygeQ'	excluded
+b2864	glyU	no
+b2865	ygeR	yes
+b2866	xdhA	yes
+b2867	xdhB	yes
+b2868	xdhC	yes
+b2869	ygeV	yes
+b2870	ygeW	yes
+b2871	ygeX	no
+b2872	ygeY	yes
+b2873	hyuA	no
+b2874	yqeA	yes
+b2875	yqeB	yes
+b2876	yqeC	yes
+b2877	mocA	no
+b2878	ygfK	yes
+b2879	ssnA	yes
+b2880	ygfM	yes
+b2881	xdhD	yes
+b2882	xanQ	no
+b2883	guaD	no
+b2886	ygfS	yes
+b2887	ygfT	yes
+b2888	uacT	no
+b2889	idi	no
+b2890	lysS	no
+b2891	prfB	no
+b2892	recJ	no
+b2893	dsbC	no
+b2894	xerD	no
+b2895	fldB	yes
+b2896	ygfX, cptA	no
+b2897	sdhE	no
+b2898	ygfZ	yes
+b2899	yqfA	yes
+b2900	yqfB	yes
+b2901	bglA	no
+b2902	ygfF	yes
+b2903	gcvP	no
+b2904	gcvH	no
+b2905	gcvT	no
+b2906	ubiI	no
+b2907	ubiH	no
+b2908	pepP	no
+b2909	ygfB	yes
+b2910	zapA	no
+b2911	ssrS	no
+b2912	fau, ygfA	no
+b2913	serA	no
+b2914	rpiA	no
+b2915	yqfE, yqfE'	excluded
+b2916	argP	no
+b2917	scpA	no
+b2918	argK	no
+b2919	scpB	no
+b2920	scpC	no
+b2921	ygfI	yes
+b2922	yggE	yes
+b2923	argO	no
+b2924	mscS	no
+b2925	fbaA	no
+b2926	pgk	no
+b2927	epd	no
+b2928	yggC	yes
+b2929	fumE, yggD	no
+b2930	yggF	no
+b2933	cmtA	no
+b2934	cmtB	yes
+b2935	tktA	no
+b2936	loiP	no
+b2937	speB	no
+b2938	speA	no
+b2939	yqgB	yes
+b2940	yqgC	yes
+b2941	yqgD	yes
+b2942	metK	no
+b2943	galP	no
+b2944	yggI, sprT	yes
+b2945	endA	no
+b2946	rsmE	no
+b2947	gshB	no
+b2948	yqgE	yes
+b2949	yqgF	no
+b2950	yggR	yes
+b2951	yggS	no
+b2952	yggT	yes
+b2953	yggU	yes
+b2954	rdgB	no
+b2955	yggW	yes
+b2956	yggM	yes
+b2957	ansB	no
+b2958	yggN	yes
+b2959	yggL	yes
+b2960	trmI, trmB	no
+b2961	mutY	no
+b2962	yggX	yes
+b2963	mltC	no
+b2964	nupG	no
+b2965	speC	no
+b2966	yqgA	yes
+b2967	pheV	no
+b2968	yghD	yes
+b2969	yghE, yghE'	excluded
+b2970	yghF, yghF'	excluded
+b2971	yghG	yes
+b2972	pppA	yes
+b2975	glcA	no
+b2976	glcB	no
+b2977	glcG	yes
+b2979	glcD	yes
+b2980	glcC	no
+b2981	yghO, yghO'	excluded
+b2982	insH-9, insH15, insH9, insH1	no
+b2983	yghQ	yes
+b2984	yghR	yes
+b2985	yghS	yes
+b2986	yghT	yes
+b2987	pitB	no
+b2988	gss	no
+b2989	yghU	no
+b2990	hybG	no
+b2991	hybF	yes
+b2992	hybE	yes
+b2993	hybD	yes
+b2994	hybC	no
+b2995	hybB	no
+b2996	hybA	no
+b2997	hybO	no
+b2998	yghW	yes
+b2999	yghX_1	excluded
+b3000	yghX_2	excluded
+b3001	gpr	no
+b3002	yqhA	yes
+b3003	yghA	no
+b3004		excluded
+b3005	exbD	no
+b3006	exbB	no
+b3007		excluded
+b3008	metC	no
+b3009	yghB	no
+b3010	yqhC	no
+b3011	yqhD	no
+b3012	dkgA	no
+b3013	yqhG	yes
+b3014	yqhH	yes
+b3017	ftsP	no
+b3018	plsC	no
+b3019	parC	no
+b3020	ygiS	no
+b3021	mqsA	no
+b3022	mqsR	no
+b3023	ygiV	no
+b3024	ygiW	yes
+b3025	qseB	no
+b3026	qseC	no
+b3027	ygiZ	yes
+b3028	mdaB	no
+b3029	ygiN	yes
+b3030	parE	no
+b3031	yqiA	no
+b3032	cpdA	no
+b3033	yqiB	yes
+b3034	nudF	no
+b3035	tolC	no
+b3036	ygiA	yes
+b3037	ygiB	yes
+b3038	ygiC	yes
+b3039	ygiD	no
+b3040	zupT	no
+b3041	ribB	no
+b3042	ubiK, yqiC	yes
+b3043	ygiL	yes
+b3044	insC-5, insC9, insC5, insC1	no
+b3045	insD-5, insD9, insD5, insD1	no
+b3046	yqiG, yqiG'	excluded
+b3047	yqiH	yes
+b3048	yqiI	yes
+b3049	glgS	yes
+b3050	yqiJ	yes
+b3051	yqiK	yes
+b3052	rfaE, hldE	no
+b3053	glnE	no
+b3054	ygiF	no
+b3055	ygiM	yes
+b3056	cca	no
+b3057	bacA, uppP	no
+b3058	folB	no
+b3059	ygiH, plsY	yes
+b3060	ttdR	no
+b3061	ttdA	no
+b3062	ttdB	no
+b3063	ttdT	no
+b3064	tsaD	no
+b3065	rpsU	no
+b3066	dnaG	no
+b3067	rpoD	no
+b3068	mug	no
+b3069	ileX	no
+b3070	yqjH	no
+b3071	yqjI	no
+b3072	aer	no
+b3073	patA	no
+b3074	ygjH	yes
+b3075	ebgR	no
+b3076	ebgA	excluded
+b3077	ebgC	excluded
+b3078	ygjI	yes
+b3079	ygjJ	yes
+b3080	ygjK	no
+b3081	fadH	no
+b3082	higA	no
+b3083	higB	no
+b3084	rlmG	no
+b3085	ygjP	yes
+b3086	ygjQ	yes
+b3087	ygjR	yes
+b3088	alx	yes
+b3089	sstT	no
+b3090	ygjV	yes
+b3091	uxaA	no
+b3092	uxaC	no
+b3093	exuT	no
+b3094	exuR	no
+b3095	yqjA	no
+b3096	mzrA	no
+b3097	yqjC	yes
+b3098	yqjD	yes
+b3099	yqjE	yes
+b3100	yqjK	yes
+b3101	yqjF	yes
+b3102	yqjG	no
+b3103	yhaH	yes
+b3104	yhaI	yes
+b3105	yhaJ	no
+b3106	yhaK	yes
+b3107	yhaL	yes
+b3110	yhaO, dlsT	yes
+b3113	tdcF	yes
+b3114	tdcE	no
+b3115	tdcD	no
+b3116	tdcC	no
+b3117	tdcB	no
+b3118	tdcA	no
+b3119	tdcR	no
+b3120	yhaB	yes
+b3121	yhaC	yes
+b3123	rnpB	no
+b3124	garK	no
+b3125	garR	no
+b3126	garL	no
+b3127	garP	no
+b3128	garD	no
+b3129	prlF	no
+b3130	yhaV	no
+b3131	agaR	no
+b3132	kbaZ	no
+b3133	agaV	excluded
+b3134	agaW, agaW'	excluded
+b3135	agaA, agaA'	excluded
+b3136	agaS	yes
+b3137	kbaY	no
+b3138	agaB	excluded
+b3139	agaC	excluded
+b3140	agaD	excluded
+b3141	agaI	yes
+b3142	yraH	yes
+b3143	yraI	yes
+b3144	yraJ	yes
+b3145	yraK	yes
+b3146	rsmI	no
+b3147	lpoA	no
+b3148	yraN	yes
+b3149	diaA	no
+b3150	yraP	yes
+b3151	yraQ	yes
+b3152	yraR	yes
+b3153	yhbO	no
+b3154	yhbP	yes
+b3155	yhbQ	no
+b3156	yhbS	yes
+b3157	yhbT	yes
+b3158	yhbU	yes
+b3159	yhbV	yes
+b3160	yhbW	yes
+b3161	mtr	no
+b3162	deaD	no
+b3163	nlpI	no
+b3164	pnp	no
+b3165	rpsO	no
+b3166	truB	no
+b3167	rbfA	no
+b3168	infB	no
+b3169	nusA	no
+b3170	rimP	no
+b3171	metY	no
+b3172	argG	no
+b3173	yhbX	yes
+b3174	leuU	no
+b3175	secG	no
+b3176	glmM	no
+b3177	folP	no
+b3178	ftsH	no
+b3179	rlmE	no
+b3180	yhbY	no
+b3181	greA	no
+b3182	dacB	no
+b3183	obgE	no
+b3184	yhbE	yes
+b3185	rpmA	no
+b3186	rplU	no
+b3187	ispB	no
+b3188	sfsB	yes
+b3189	murA	no
+b3190	ibaG	no
+b3191	mlaB	no
+b3192	mlaC	yes
+b3193	mlaD	no
+b3194	mlaE	no
+b3195	mlaF	no
+b3196	yrbG	yes
+b3197	kdsD	no
+b3198	kdsC	no
+b3199	lptC	no
+b3200	lptA	no
+b3201	lptB	no
+b3202	rpoN	no
+b3203	hpf	no
+b3204	ptsN	no
+b3205	rapZ, yhbJ	no
+b3206	npr, ptsO	no
+b3207	yrbL	yes
+b3208	mtgA	no
+b3209	elbB	no
+b3210	arcB	no
+b3211	yhcC	yes
+b3212	gltB	no
+b3213	gltD	no
+b3214	gltF	yes
+b3215	yhcA	yes
+b3216	yhcD	yes
+b3217	yhcE_1	excluded
+b3218	insH-10, insH18, insH10, insH1	no
+b3219	yhcF	yes
+b3220	yhcG	yes
+b3221	yhcH	yes
+b3222	nanK	no
+b3223	nanE	yes
+b3224	nanT	no
+b3225	nanA	no
+b3226	nanR	no
+b3227	dcuD	yes
+b3228	sspB	no
+b3229	sspA	no
+b3230	rpsI	no
+b3231	rplM	no
+b3232	zapE	no
+b3233	yhcB	yes
+b3234	degQ	no
+b3235	degS	no
+b3236	mdh	no
+b3237	argR	no
+b3238	yhcN	yes
+b3239	yhcO	yes
+b3240	aaeB	no
+b3241	aaeA	no
+b3242	aaeX	yes
+b3243	aaeR	no
+b3244	tldD	yes
+b3247	rng	no
+b3248	yhdE	no
+b3249	mreD	yes
+b3250	mreC	no
+b3251	mreB	no
+b3252	csrD	no
+b3253	yhdH, acuI	no
+b3254		excluded
+b3255	accB	no
+b3256	accC	no
+b3257	yhdT	yes
+b3258	panF	no
+b3259	prmA	no
+b3260	dusB	no
+b3261	fis	no
+b3262	yhdJ	no
+b3263	yhdU	yes
+b3264	envR, acrS	no
+b3265	acrE	no
+b3266	acrF	no
+b3267	yhdV	yes
+b3268	yhdW, yhdW'	excluded
+b3269	yhdX	yes
+b3270	yhdY	yes
+b3271	yhdZ	yes
+b3272	rrfF	no
+b3273	thrV	no
+b3274	rrfD	no
+b3275	rrlD	no
+b3276	alaU	no
+b3277	ileU	no
+b3278	rrsD	no
+b3279	yrdA	yes
+b3280	yrdB	yes
+b3281	aroE	no
+b3282	tsaC	no
+b3283	yrdD	yes
+b3284	smg	yes
+b3287	def	no
+b3288	fmt	no
+b3289	rsmB	no
+b3290	trkA	no
+b3291	mscL	no
+b3292	zntR	no
+b3293	yhdN	yes
+b3294	rplQ	no
+b3295	rpoA	no
+b3296	rpsD	no
+b3297	rpsK	no
+b3298	rpsM	no
+b3299	rpmJ	no
+b3300	secY	no
+b3301	rplO	no
+b3302	rpmD	no
+b3303	rpsE	no
+b3304	rplR	no
+b3305	rplF	no
+b3306	rpsH	no
+b3307	rpsN	no
+b3308	rplE	no
+b3309	rplX	no
+b3310	rplN	no
+b3311	rpsQ	no
+b3312	rpmC	no
+b3313	rplP	no
+b3314	rpsC	no
+b3315	rplV	no
+b3316	rpsS	no
+b3317	rplB	no
+b3318	rplW	no
+b3319	rplD	no
+b3320	rplC	no
+b3321	rpsJ	no
+b3322	gspB	yes
+b3323	gspA	excluded
+b3324	gspC	excluded
+b3325	gspD	excluded
+b3326	gspE	excluded
+b3327	gspF	excluded
+b3328	gspG	excluded
+b3329	gspH	excluded
+b3330	gspI	excluded
+b3331	gspJ	excluded
+b3332	gspK	excluded
+b3333	gspL	excluded
+b3334	gspM	excluded
+b3335	gspO	no
+b3336	bfr	no
+b3337	bfd	yes
+b3338	chiA	no
+b3339	tufA	no
+b3340	fusA	no
+b3341	rpsG	no
+b3342	rpsL	no
+b3343	tusB	no
+b3344	tusC	no
+b3345	tusD	no
+b3346	yheO	yes
+b3347	fkpA	no
+b3348	slyX	yes
+b3349	slyD	no
+b3350	kefB	no
+b3351	kefG	yes
+b3352	yheS	yes
+b3353	yheT	yes
+b3354	yheU	yes
+b3355	prkB	yes
+b3356	yhfA	yes
+b3357	crp	no
+b3358	yhfK	yes
+b3359	argD	no
+b3360	pabA	no
+b3361	fic	yes
+b3362	yhfG	yes
+b3363	ppiA	no
+b3364	tsgA	yes
+b3365	nirB	no
+b3366	nirD	no
+b3367	nirC	no
+b3368	cysG	no
+b3369	yhfL	yes
+b3370	frlA	yes
+b3371	frlB	no
+b3374	frlD	no
+b3375	frlR	yes
+b3376	yhfS	yes
+b3377	yhfT	yes
+b3378	yhfU	yes
+b3379	php	yes
+b3380	yhfW	yes
+b3381	yhfX	yes
+b3382	yhfY	yes
+b3383	yhfZ	yes
+b3384	trpS	no
+b3385	gph	no
+b3386	rpe	no
+b3387	dam	no
+b3388	damX	no
+b3389	aroB	no
+b3390	aroK	no
+b3391	hofQ	yes
+b3392	hofP	yes
+b3393	hofO	yes
+b3394	hofN	yes
+b3395	hofM	yes
+b3396	mrcA	no
+b3397	nudE	no
+b3398	yrfF	yes
+b3399	yrfG	no
+b3400	hslR	no
+b3401	hslO	no
+b3402	yhgE	yes
+b3403	pck, pckA	no
+b3404	envZ	no
+b3405	ompR	no
+b3406	greB	no
+b3407	yhgF	yes
+b3408	feoA	no
+b3409	feoB	no
+b3410	feoC	yes
+b3411	rpnA, yhgA	no
+b3412	bioH	no
+b3413	yhgH, gntX	yes
+b3414	nfuA	no
+b3415	gntT	no
+b3416	malQ	no
+b3417	malP	no
+b3418	malT	no
+b3421	rtcB	no
+b3422	rtcR	no
+b3423	glpR, glpR'	no
+b3424	glpG	no
+b3425	glpE	no
+b3426	glpD	no
+b3427	yzgL, yzgL'	excluded
+b3428	glgP	no
+b3429	glgA	no
+b3430	glgC	no
+b3431	glgX	no
+b3432	glgB	no
+b3433	asd	no
+b3434	yhgN	yes
+b3437	gntK	no
+b3438	gntR	no
+b3439	yhhW	no
+b3440	yhhX	yes
+b3441	yhhY, aaaT	no
+b3442	yhhZ	yes
+b3443	yrhA, yrhA'	excluded
+b3444	insA-6, insA5, insA6, insA	no
+b3445	insB-6, insB5, insB6, insB1	no
+b3446	yrhB	yes
+b3447	ggt	no
+b3448	yhhA	yes
+b3449	ugpQ	no
+b3450	ugpC	no
+b3451	ugpE	no
+b3452	ugpA	no
+b3453	ugpB	no
+b3454	livF	no
+b3455	livG	no
+b3456	livM	no
+b3457	livH	no
+b3458	livK	no
+b3459	panZ, panM	no
+b3460	livJ	no
+b3461	rpoH	no
+b3462	ftsX	no
+b3463	ftsE	no
+b3464	ftsY	no
+b3465	rsmD	no
+b3466	yhhL	yes
+b3467	yhhM	yes
+b3468	yhhN	yes
+b3469	zntA	no
+b3470	tusA	no
+b3471	yhhQ	no
+b3472	dcrB	yes
+b3473	yhhS	yes
+b3474	yhhT	yes
+b3475	acpT	no
+b3476	nikA	no
+b3477	nikB	no
+b3478	nikC	no
+b3479	nikD	no
+b3480	nikE	no
+b3481	nikR	no
+b3482	rhsB	yes
+b3483	yhhH	yes
+b3484	yhhI	yes
+b3485	yhhJ	yes
+b3486	rbbA	no
+b3487	yhiI	yes
+b3488	yhiJ	yes
+b3489	yhiK	excluded
+b3490	yhiL	yes
+b3491	yhiM	yes
+b3492	yhiN	yes
+b3493	pitA	no
+b3494	uspB	yes
+b3495	uspA	no
+b3496	dtpB	no
+b3497	rsmJ	no
+b3498	prlC	no
+b3499	rlmJ	no
+b3500	gor	no
+b3501	arsR	no
+b3502	arsB	no
+b3503	arsC	no
+b3504	yhiS_2, yhiS_1, yhiS', yhiS	excluded
+b3505	insH-11, insH20, insH11, insH1	no
+b3506	slp	no
+b3507	dctR	yes
+b3508	yhiD	yes
+b3509	hdeB	no
+b3510	hdeA	no
+b3511	hdeD	yes
+b3512	gadE	no
+b3513	mdtE	no
+b3514	mdtF	no
+b3515	gadW	no
+b3516	gadX	no
+b3517	gadA	no
+b3518	ccp, yhjA	no
+b3519	treF	no
+b3520	yhjB	yes
+b3521	yhjC	yes
+b3522	yhjD	yes
+b3523	yhjE	yes
+b3524	yhjG	yes
+b3525	pdeH, yhjH	no
+b3526	kdgK	no
+b3527	yhjJ	yes
+b3528	dctA	no
+b3529	pdeK, yhjK	yes
+b3530	bcsC	yes
+b3531	bcsZ	no
+b3532	bcsB	no
+b3533	bcsA	no
+b3534	bcsQ, bcsQ'	excluded
+b3535	yhjR	yes
+b3536	bcsE	no
+b3537	bcsF	yes
+b3538	bcsG	yes
+b3539	yhjV	yes
+b3540	dppF	no
+b3541	dppD	no
+b3542	dppC	no
+b3543	dppB	no
+b3544	dppA	no
+b3545	proK	no
+b3546	eptB	no
+b3547	yhjX	yes
+b3548	yhjY	yes
+b3549	tag	no
+b3550	yiaC	yes
+b3551	bisC	no
+b3552	yiaD	yes
+b3553	ghrB	no
+b3554	yiaF	yes
+b3555	yiaG	yes
+b3556	cspA	no
+b3557	insJ	no
+b3558	insK	no
+b3559	glyS	no
+b3560	glyQ	no
+b3561	wecH	no
+b3562	yiaA	yes
+b3563	yiaB	yes
+b3564	xylB	no
+b3565	xylA	no
+b3566	xylF	no
+b3567	xylG	no
+b3568	xylH	no
+b3569	xylR	no
+b3570	bax	yes
+b3571	malS	no
+b3572	avtA	no
+b3573	ysaA	yes
+b3574	yiaJ	no
+b3575	yiaK, dlgD	no
+b3576	yiaL	yes
+b3577	yiaM	no
+b3578	yiaN	no
+b3579	yiaO	no
+b3580	lyxK, lyx	no
+b3581	sgbH	no
+b3582	sgbU	yes
+b3583	sgbE	no
+b3584	yiaT	yes
+b3585	yiaU	yes
+b3586	yiaV	yes
+b3587	yiaW	yes
+b3588	aldB	no
+b3589	yiaY	no
+b3590	selB	no
+b3591	selA	no
+b3592	yibF	yes
+b3593	rhsA	yes
+b3594	yibA	yes
+b3595	yibJ, rhsJ', rhsJ	excluded
+b3596	yibG	yes
+b3597	yibH	yes
+b3598	yibI	yes
+b3599	mtlA	no
+b3600	mtlD	no
+b3601	mtlR	no
+b3602	yibL	yes
+b3603	lldP	no
+b3604	lldR	no
+b3605	lldD	no
+b3606	trmL	no
+b3607	cysE	no
+b3608	gpsA	no
+b3609	secB	no
+b3610	grxC	no
+b3611	yibN	yes
+b3612	gpmM, gpmI	no
+b3613	envC	no
+b3614	yibQ	yes
+b3615	waaH, yibD	no
+b3616	tdh	no
+b3617	kbl	no
+b3618	htrL, yibB	yes
+b3619	rfaD, hldD	no
+b3620	waaF, rfaF	no
+b3621	waaC, rfaC	no
+b3622	waaL, rfaL	no
+b3623	waaU	no
+b3624	waaZ, rfaZ	no
+b3625	waaY, rfaY	no
+b3626	waaJ, waaR, rfaJ	no
+b3627	waaO, rfaI	no
+b3628	waaB, rfaB	no
+b3629	waaS, rfaS	no
+b3630	waaP, rfaP	no
+b3631	waaG, rfaG	no
+b3632	waaQ, rfaQ	no
+b3633	waaA	no
+b3634	coaD	no
+b3635	mutM	no
+b3636	rpmG	no
+b3637	rpmB	no
+b3638	yicR	yes
+b3639	dfp, coaBC	no
+b3640	dut	no
+b3641	slmA	no
+b3642	pyrE	no
+b3643	rph, rph'	no
+b3644	yicC	yes
+b3645	dinD	yes
+b3646	yicG	yes
+b3647	ligB	no
+b3648	gmk	no
+b3649	rpoZ	no
+b3650	spoT	no
+b3651	trmH	no
+b3652	recG	no
+b3653	gltS	no
+b3654	xanP	no
+b3655	yicH	yes
+b3656	yicI	no
+b3657	yicJ	yes
+b3658	selC	no
+b3659	setC	yes
+b3660	yicL	yes
+b3661	nlpA	yes
+b3662	nepI	no
+b3663	yicN	yes
+b3664	adeQ	no
+b3665	adeD, ade	no
+b3666	uhpT	no
+b3667	uhpC	no
+b3668	uhpB	no
+b3669	uhpA	no
+b3670	ilvN	no
+b3671	ilvB	no
+b3672	ivbL	no
+b3673	emrD	no
+b3674	yidF	yes
+b3675	yidG	yes
+b3676	yidH	yes
+b3677	yidI	yes
+b3678	yidJ	yes
+b3679	yidK	yes
+b3680	yidL	yes
+b3681	glvG	yes
+b3682	glvB	excluded
+b3683	glvC, glvC'	excluded
+b3684	yidP	yes
+b3685	yidE	yes
+b3686	ibpB	no
+b3687	ibpA	no
+b3688	yidQ	yes
+b3689	yidR	yes
+b3690	cbrA	yes
+b3691	dgoT	yes
+b3693	dgoK	no
+b3696	yidX	yes
+b3697	yidA	no
+b3698	yidB	yes
+b3699	gyrB	no
+b3700	recF	no
+b3701	dnaN	no
+b3702	dnaA	no
+b3703	rpmH	no
+b3704	rnpA	no
+b3705	yidC	no
+b3706	mnmE	no
+b3707	tnaC	yes
+b3708	tnaA	no
+b3709	tnaB	no
+b3710	mdtL	no
+b3711	yidZ	yes
+b3712	yieE	yes
+b3713	yieF, chrR	no
+b3714	adeP	no
+b3715	yieH	no
+b3716	cbrB	yes
+b3717	cbrC	yes
+b3718	yieK	yes
+b3719	yieL	yes
+b3720	bglH	no
+b3721	bglB	no
+b3722	bglF	no
+b3723	bglG	no
+b3724	phoU	no
+b3725	pstB	no
+b3726	pstA	no
+b3727	pstC	no
+b3728	pstS	no
+b3729	glmS	no
+b3730	glmU	no
+b3731	atpC	no
+b3732	atpD	no
+b3733	atpG	no
+b3734	atpA	no
+b3735	atpH	no
+b3736	atpF	no
+b3737	atpE	no
+b3738	atpB	no
+b3739	atpI	no
+b3740	rsmG	no
+b3741	mnmG	no
+b3742	mioC	no
+b3743	asnC	no
+b3744	asnA	no
+b3745	viaA	no
+b3746	ravA	no
+b3747	kup	no
+b3748	rbsD	no
+b3749	rbsA	no
+b3750	rbsC	no
+b3751	rbsB	no
+b3752	rbsK	no
+b3753	rbsR	no
+b3754	hsrA	yes
+b3755	yieP	yes
+b3756	rrsC	no
+b3757	gltU	no
+b3758	rrlC	no
+b3759	rrfC	no
+b3760	aspT	no
+b3761	trpT	no
+b3764	maoP, yifE	yes
+b3765	yifB	yes
+b3766	ilvL	no
+b3767	ilvG_1	excluded
+b3768	ilvG_2	excluded
+b3769	ilvM	no
+b3770	ilvE	no
+b3771	ilvD	no
+b3772	ilvA	no
+b3773	ilvY	no
+b3774	ilvC	no
+b3775	ppiC	no
+b3776	yifO	yes
+b3777	yifN, yifN'	excluded
+b3778	rep	no
+b3779	gpp, gppA	no
+b3780	rhlB	no
+b3781	trxA	no
+b3782	rhoL	yes
+b3783	rho	no
+b3784	rfe, wecA	no
+b3785	wzzE	no
+b3786	wecB	no
+b3787	wecC	no
+b3788	rffG	no
+b3789	rffH	no
+b3790	rffC, wecD	no
+b3791	wecE	no
+b3792	wzxE	no
+b3793	wzyE	no
+b3794	rffM, wecG	no
+b3795	yifK	yes
+b3796	argX	no
+b3797	hisR	no
+b3798	leuT	no
+b3799	proM	no
+b3800	aslB	yes
+b3801	aslA	no
+b3802	hemY	yes
+b3803	hemX	yes
+b3804	hemD	no
+b3805	hemC	no
+b3806	cyaA	no
+b3807	cyaY	no
+b3808	yzcX	yes
+b3809	dapF	no
+b3810	yigA	yes
+b3811	xerC	no
+b3812	yigB	no
+b3813	uvrD	no
+b3816	corA	no
+b3817	yigF	yes
+b3818	yigG	yes
+b3819	rarD	yes
+b3820	yigI	yes
+b3821	pldA	no
+b3822	recQ	no
+b3823	rhtC	no
+b3824	rhtB	no
+b3825	pldB	no
+b3826	yigL	no
+b3827	bioP, yigM	no
+b3828	metR	no
+b3829	metE	no
+b3830	ysgA	yes
+b3831	udp	no
+b3832	rmuC	yes
+b3833	ubiE	no
+b3834	ubiJ	yes
+b3835	ubiB	yes
+b3836	tatA	no
+b3838	tatB	no
+b3839	tatC	no
+b3842	rfaH	no
+b3843	ubiD	no
+b3844	fre	no
+b3845	fadA	no
+b3846	fadB	no
+b3847	pepQ	no
+b3848	yigZ	yes
+b3849	trkH	no
+b3850	hemG	no
+b3851	rrsA	no
+b3852	ileT	no
+b3853	alaT	no
+b3854	rrlA	no
+b3855	rrfA	no
+b3856	mobB	no
+b3857	mobA	no
+b3858	yihD	yes
+b3859	srkA	no
+b3860	dsbA	no
+b3861	yihF	yes
+b3862	yihG	yes
+b3863	polA	no
+b3864	spf	no
+b3865	yihA, engB	yes
+b3866	yihI	no
+b3867	hemN	no
+b3868	glnG	no
+b3869	glnL	no
+b3870	glnA	no
+b3871	bipA, typA	no
+b3872	yihL	yes
+b3873	yihM	yes
+b3874	yihN	yes
+b3875	ompL	yes
+b3876	yihO	no
+b3877	yihP	yes
+b3878	yihQ	no
+b3879	yihR	yes
+b3880	yihS	no
+b3881	yihT	no
+b3882	yihU	no
+b3883	yihV	no
+b3884	yihW	yes
+b3885	yihX	no
+b3886	yihY	yes
+b3887	dtd	no
+b3888	yiiD	yes
+b3889	yiiE	yes
+b3890	yiiF	yes
+b3891	fdhE	yes
+b3892	fdoI	no
+b3893	fdoH	no
+b3894	fdoG	no
+b3895	fdhD	no
+b3896	yiiG	yes
+b3897	frvR	yes
+b3898	frvX	yes
+b3899	frvB	yes
+b3900	frvA	yes
+b3901	rhaM	no
+b3902	rhaD	no
+b3903	rhaA	no
+b3904	rhaB	no
+b3905	rhaS	no
+b3906	rhaR	no
+b3907	rhaT	no
+b3908	sodA	no
+b3909	kdgT	no
+b3910	yiiM	yes
+b3911	cpxA	no
+b3912	cpxR	no
+b3915	fieF	no
+b3916	pfkA	no
+b3917	sbp	no
+b3918	cdh	no
+b3919	tpiA	no
+b3920	yiiQ	yes
+b3921	yiiR	yes
+b3922	yiiS	yes
+b3923	uspD	yes
+b3924	fpr	no
+b3925	glpX	no
+b3926	glpK	no
+b3927	glpF	no
+b3928	zapB	no
+b3929	rraA	no
+b3930	menA	no
+b3931	hslU	no
+b3932	hslV	no
+b3933	ftsN	no
+b3934	cytR	no
+b3935	priA	no
+b3936	rpmE	no
+b3937	yiiX	yes
+b3938	metJ	no
+b3939	metB	no
+b3940	metL	no
+b3941	metF	no
+b3942	katG	no
+b3943	yijE	yes
+b3944	yijF	yes
+b3945	gldA	no
+b3946	fsaB	no
+b3947	ptsA, frwA	yes
+b3949	frwC	yes
+b3950	frwB	yes
+b3951	pflD	yes
+b3952	pflC	yes
+b3953	frwD	yes
+b3954	yijO	yes
+b3955	eptC	no
+b3956	ppc	no
+b3957	argE	no
+b3958	argC	no
+b3959	argB	no
+b3960	argH	no
+b3961	oxyR	no
+b3962	sthA	no
+b3963	fabR	no
+b3964	yijD	yes
+b3965	trmA	no
+b3966	btuB	no
+b3967	murI	no
+b3968	rrsB	no
+b3969	gltT	no
+b3970	rrlB	no
+b3971	rrfB	no
+b3972	murB	no
+b3973	birA	no
+b3974	coaA	no
+b3975		excluded
+b3976	thrU	no
+b3977	tyrU	no
+b3978	glyT	no
+b3979	thrT	no
+b3980	tufB	no
+b3981	secE	no
+b3982	nusG	no
+b3983	rplK	no
+b3984	rplA	no
+b3985	rplJ	no
+b3986	rplL	no
+b3987	rpoB	no
+b3988	rpoC	no
+b3989	yjaZ, htrC	yes
+b3990	thiH	no
+b3991	thiG	no
+b3992	thiF	no
+b3993	thiE	no
+b3994	thiC	no
+b3995	rsd	no
+b3996	nudC	no
+b3997	hemE	no
+b3998	nfi	no
+b3999	yjaG	yes
+b4000	hupA	no
+b4001	yjaH	yes
+b4002	zraP	no
+b4003	zraS	no
+b4004	zraR	no
+b4005	purD	no
+b4006	purH	no
+b4007	rrsE	no
+b4008	gltV	no
+b4009	rrlE	no
+b4010	rrfE	no
+b4011	yjaA	yes
+b4012	yjaB	yes
+b4013	metA, metAS	no
+b4014	aceB	no
+b4015	aceA	no
+b4016	aceK	no
+b4017	arpA	yes
+b4018	iclR	no
+b4019	metH	no
+b4020	yjbB	yes
+b4021	pepE	no
+b4022	rluF	no
+b4023	yjbD	yes
+b4024	lysC	no
+b4025	pgi	no
+b4026	yjbE	yes
+b4027	yjbF	yes
+b4028	yjbG	yes
+b4029	yjbH	yes
+b4030	psiE	yes
+b4031	xylE	no
+b4032	malG	no
+b4033	malF	no
+b4034	malE	no
+b4035	malK	no
+b4036	lamB	no
+b4037	malM	yes
+b4038	yjbI, yjbI'	excluded
+b4039	ubiC	no
+b4040	ubiA	no
+b4041	plsB	no
+b4042	dgkA	no
+b4043	lexA	no
+b4044	dinF	yes
+b4045	yjbJ	yes
+b4046	zur	no
+b4047	yjbL	yes
+b4048	yjbM	yes
+b4049	dusA	no
+b4050	pspG	yes
+b4051	qorA	no
+b4052	dnaB	no
+b4053	alr	no
+b4054	tyrB	no
+b4055	aphA	no
+b4056	yjbQ	yes
+b4057	yjbR	yes
+b4058	uvrA	no
+b4059	ssb	no
+b4060	yjcB	yes
+b4061	pdeC, yjcC	yes
+b4062	soxS	no
+b4063	soxR	no
+b4064	ghxP	no
+b4065	yjcE	yes
+b4066	yjcF	yes
+b4067	actP	no
+b4068	yjcH	yes
+b4069	acs	no
+b4070	nrfA	no
+b4071	nrfB	no
+b4072	nrfC	yes
+b4073	nrfD	yes
+b4074	nrfE	yes
+b4075	nrfF	yes
+b4076	nrfG	yes
+b4077	gltP	no
+b4078	yjcO	yes
+b4079	fdhF	no
+b4080	mdtP	no
+b4081	mdtO	no
+b4082	mdtN	no
+b4083	yjcS	no
+b4084	alsK	no
+b4085	alsE	no
+b4086	alsC	no
+b4087	alsA	no
+b4088	alsB	no
+b4089	alsR, rpiR	no
+b4090	rpiB	no
+b4092	phnP	no
+b4093	phnO	no
+b4094	phnN	no
+b4095	phnM	no
+b4096	phnL	no
+b4097	phnK	yes
+b4098	phnJ	no
+b4099	phnI	no
+b4100	phnH	no
+b4101	phnG	no
+b4102	phnF	yes
+b4103	phnE_2, phnE	excluded
+b4104	phnE_1, phnE', phnE1, phnE	excluded
+b4105	phnD	excluded
+b4106	phnC	no
+b4107	yjdN, phnB	yes
+b4108	yjdM, phnA	yes
+b4109	crfC	no
+b4110	yjcZ	yes
+b4111	proP	no
+b4112	basS	no
+b4113	basR	no
+b4114	eptA	no
+b4115	adiC	no
+b4116	adiY	no
+b4117	adiA	no
+b4118	melR	no
+b4119	melA	no
+b4120	melB	no
+b4121	yjdF	yes
+b4122	fumB	no
+b4123	dcuB	no
+b4124	dcuR	no
+b4125	dcuS	no
+b4126	yjdI	yes
+b4127	yjdJ	yes
+b4128	ghoS	no
+b4129	lysU	no
+b4130	dtpC	no
+b4131	cadA	no
+b4132	cadB	no
+b4133	cadC	no
+b4134	pheU	no
+b4135	yjdC	yes
+b4136	dsbD	no
+b4137	cutA	no
+b4138	dcuA	no
+b4139	aspA	no
+b4140	fxsA	yes
+b4141	yjeH	no
+b4142	groS	no
+b4143	groL	no
+b4144	yjeI	yes
+b4145	yjeJ	yes
+b4146	epmB	no
+b4147	efp	no
+b4148	sugE	no
+b4149	blc	yes
+b4150	ampC	no
+b4151	frdD	no
+b4152	frdC	no
+b4153	frdB	no
+b4154	frdA	no
+b4155	epmA	no
+b4156	yjeM	yes
+b4157	yjeN	yes
+b4158	yjeO	yes
+b4159	mscM	no
+b4160	psd	no
+b4161	rsgA	no
+b4162	orn	no
+b4163	glyV	no
+b4164	glyX	no
+b4165	glyY	no
+b4166	queG	no
+b4167	yjeF, nnr	no
+b4168	tsaE	no
+b4169	amiB	no
+b4170	mutL	no
+b4171	miaA	no
+b4172	hfq	no
+b4173	hflX	no
+b4174	hflK	no
+b4175	hflC	no
+b4176	yjeT	yes
+b4177	purA	no
+b4178	nsrR	no
+b4179	rnr	no
+b4180	rlmB	no
+b4181	yjfI	yes
+b4182	yjfJ	yes
+b4183	yjfK	yes
+b4184	yjfL	yes
+b4185	yjfM	yes
+b4186	yjfC	yes
+b4187	aidB	no
+b4188	yjfN	yes
+b4189	bsmA	yes
+b4190	yjfP	no
+b4191	ulaR	no
+b4192	ulaG	no
+b4193	ulaA	no
+b4194	ulaB	no
+b4195	ulaC	no
+b4196	ulaD	no
+b4197	ulaE	no
+b4198	ulaF	no
+b4199	yjfY	yes
+b4200	rpsF	no
+b4201	priB	no
+b4202	rpsR	no
+b4203	rplI	no
+b4204	yjfZ	yes
+b4205	ytfA, ytfA'	excluded
+b4206	ytfB	yes
+b4207	fklB	no
+b4208	cycA	no
+b4209	ytfE	no
+b4210	ytfF	yes
+b4211	qorB	no
+b4212	ytfH	yes
+b4213	cpdB	no
+b4214	cysQ	no
+b4215	ytfI	yes
+b4216	ytfJ	yes
+b4217	ytfK	yes
+b4218	ytfL	yes
+b4219	msrA	no
+b4220	tamA	no
+b4221	tamB	no
+b4222	ytfP	yes
+b4223	yzfA	yes
+b4224	chpS	no
+b4225	chpB	no
+b4226	ppa	no
+b4227	ytfQ	no
+b4230	ytfT	yes
+b4231	yjfF	yes
+b4232	fbp	no
+b4233	mpl	no
+b4234	yjgA	yes
+b4235	pmbA	yes
+b4236	cybC, cybC'	excluded
+b4237	nrdG	no
+b4238	nrdD	no
+b4239	treC	no
+b4240	treB	no
+b4241	treR	no
+b4242	mgtA	no
+b4243	ridA	no
+b4244	pyrI	no
+b4245	pyrB	no
+b4246	pyrL	no
+b4247		excluded
+b4248	yjgH	yes
+b4249	bdcA	no
+b4250		excluded
+b4251	bdcR	yes
+b4252	tabA	yes
+b4253	yjgL	yes
+b4254	argI	no
+b4255	rraB	no
+b4256	yjgM	yes
+b4257	yjgN	yes
+b4258	valS	no
+b4259	holC	no
+b4260	pepA	no
+b4261	lptF	no
+b4262	lptG	no
+b4263	yjgR	yes
+b4264	idnR	no
+b4265	idnT	no
+b4266	idnO	no
+b4267	idnD	no
+b4268	idnK	no
+b4269	ahr	no
+b4270	leuX	no
+b4271	intB, intB'	excluded
+b4272	insC-6, insC11, insC6, insC1	no
+b4273	insD-6, insD11, insD6, insD1	no
+b4274	yjgW, yjgX'	excluded
+b4275	yjgX_2	excluded
+b4276	yjgX_1	excluded
+b4277	yjgZ	yes
+b4278	insG	no
+b4279	yjhB	yes
+b4280	yjhC	yes
+b4281	yjhD, yjhD'	excluded
+b4282	yjhE, yjhE'	excluded
+b4283	insN-2, insN2	no
+b4284	insI-3, insI4, insI1	no
+b4285	insO-2, insO2	no
+b4286	yjhV, yjhV'	excluded
+b4287	fecE	no
+b4288	fecD	no
+b4289	fecC	no
+b4290	fecB	no
+b4291	fecA	no
+b4292	fecR	no
+b4293	fecI	no
+b4294	insA-7, insA6, insA7, insA	no
+b4295	yjhU	yes
+b4296	yjhF	yes
+b4297	yjhG	no
+b4298	yjhH	yes
+b4299	yjhI	yes
+b4300	sgcR	yes
+b4301	sgcE	yes
+b4302	sgcA	yes
+b4303	sgcQ	yes
+b4304	sgcC	yes
+b4305	sgcX	yes
+b4306	yjhP	yes
+b4307	yjhQ	yes
+b4308	yjhR, yjhR'	excluded
+b4309	nanS	yes
+b4310	nanM	no
+b4311	nanC	no
+b4312	fimB	no
+b4313	fimE	no
+b4314	fimA	no
+b4315	fimI	yes
+b4316	fimC	no
+b4317	fimD	no
+b4318	fimF	no
+b4319	fimG	no
+b4320	fimH	no
+b4321	gntP	no
+b4322	uxuA	no
+b4323	uxuB	no
+b4324	uxuR	no
+b4325	yjiC	yes
+b4326	iraD	no
+b4327	hypT, yjiE	no
+b4328	iadA	no
+b4329	yjiG	yes
+b4330	yjiH	yes
+b4331	kptA	no
+b4332	yjiJ	yes
+b4333	yjiK	yes
+b4334	yjiL	yes
+b4335	yjiM	yes
+b4336	yjiN	yes
+b4337	mdtM	no
+b4338	rpnD, yjiP	yes
+b4339	yjiQ, yjiP', yjiP	excluded
+b4340	yjiR	yes
+b4341	yjiS	yes
+b4342	yjiT, yjiT'	excluded
+b4345	mcrC	no
+b4346	mcrB	no
+b4347	symE	yes
+b4348	hsdS	no
+b4349	hsdM	no
+b4350	hsdR	no
+b4351	mrr	no
+b4352	yjiA	no
+b4353	yjiX	yes
+b4354	yjiY, btsT	no
+b4355	tsr	no
+b4356	lgoT	no
+b4357	lgoR	yes
+b4358	lgoD	no
+b4359	opgB, mdoB	no
+b4360	yjjA	yes
+b4361	dnaC	no
+b4362	dnaT	no
+b4363	yjjB	yes
+b4364	yjjP	yes
+b4365	yjjQ	no
+b4366	bglJ	no
+b4367	fhuF	no
+b4368	leuV	no
+b4369	leuP	no
+b4370	leuQ	no
+b4371	rsmC	no
+b4372	holD	no
+b4373	rimI	no
+b4374	yjjG	no
+b4375	prfC	no
+b4376	osmY	no
+b4377	yjjU	yes
+b4378	yjjV	yes
+b4379	yjjW	yes
+b4380	yjjI	yes
+b4381	deoC	no
+b4382	deoA	no
+b4383	deoB	no
+b4384	deoD	no
+b4385	yjjJ	yes
+b4386	lplA	no
+b4387	ytjB	yes
+b4388	serB	no
+b4389	radA	no
+b4390	nadR	no
+b4391	ettA	no
+b4392	slt	no
+b4393	trpR	no
+b4394	yjjX	no
+b4395	ytjC, gpmB	yes
+b4396	rob	no
+b4397	creA	yes
+b4398	creB	no
+b4399	creC	no
+b4400	creD	yes
+b4401	arcA	no
+b4402	yjjY	yes
+b4403	yjtD, lasT	yes
+b4406	yaeP	yes
+b4407	thiS	no
+b4408	csrB	no
+b4409	blr	no
+b4410	ecnA	no
+b4411	ecnB	no
+b4412	hokC	no
+b4413	sokC	yes
+b4414	tff	yes
+b4415	hokE	yes
+b4416	rybA	yes
+b4417	rybB	no
+b4418	sraB, psrD	yes
+b4419	ldrA, ldrA; ldrC	yes
+b4420	rdlA	yes
+b4421	ldrB	yes
+b4422	rdlB	yes
+b4423	ldrC	yes
+b4424	rdlC	yes
+b4425	rttR	yes
+b4426	mcaS	no
+b4427	micC	no
+b4428	hokB	no
+b4429	sokB	yes
+b4430	rydB	no
+b4431	rprA	no
+b4432	ryeA	yes
+b4433	sdsR	no
+b4434	isrB	yes
+b4435	isrC	yes
+b4436	sibA	yes
+b4437	sibB	yes
+b4438	cyaR	yes
+b4439	micF	no
+b4440	ryfA	yes
+b4441	glmY	no
+b4442	micA	no
+b4443	gcvB	no
+b4444	omrA	no
+b4445	omrB	no
+b4446	sibC	yes
+b4447	sibD	yes
+b4448	sraF	excluded
+b4449	sraG, psrO	yes
+b4450	arcZ	no
+b4451	ryhB	no
+b4452	gadY	no
+b4453	ldrD	no
+b4454	rdlD	no
+b4455	hokA	yes
+b4456	glmZ	no
+b4457	csrC	no
+b4458	oxyS	no
+b4459	ryjA	yes
+b4460	araH	no
+b4461	yfjD	yes
+b4462	ygaQ, ygaQ'	excluded
+b4463	ygcU	yes
+b4464	ghxQ	no
+b4465	yggP	yes
+b4466	yghJ, sslE	yes
+b4467	glcF	yes
+b4468	glcE	yes
+b4469	ygiQ	yes
+b4470	yhaM	yes
+b4471	tdcG	no
+b4472	yhdP	yes
+b4473	smf	yes
+b4474	frlC	no
+b4475	rtcA	no
+b4476	gntU	no
+b4477	dgoA	no
+b4478	dgoD	no
+b4479	dgoR	yes
+b4480	hdfR	no
+b4481	rffT, wecF	no
+b4482	yigE	yes
+b4483	tatD	no
+b4484	cpxP	no
+b4485	ytfR	yes
+b4486	yjiV, yjiV'	excluded
+b4487	yjdP	yes
+b4488	ilvG', ilvG	excluded
+b4489	oriC	no
+b4490	efeU', efeU	excluded
+b4491	ycgH', ycgH	excluded
+b4492	ydbA', ydbA	excluded
+b4493	gapC', gapC	excluded
+b4494	arpB', arpB	excluded
+b4495	yedN', yedN	excluded
+b4496	yedS', yedS	excluded
+b4497	yeeL', yeeL	excluded
+b4498	gatR', gatR	excluded
+b4499	yehH', yehH	excluded
+b4500	yfaS', yfaS	excluded
+b4501	torI	no
+b4502	yeiW	yes
+b4503	yafF, yafF'	excluded
+b4504	ykfH	yes
+b4505	insX, insX', ykgN	no
+b4506	ykgO	yes
+b4508	ybcD, peaD', peaD	excluded
+b4509	ylcG	yes
+b4510	rzoD	yes
+b4511	ybdZ	no
+b4512	ybdD	yes
+b4513	kdpF	no
+b4514	ybfQ, ybfQ'	excluded
+b4515	cydX	no
+b4516	insA-4, insA4, insA	no
+b4517	gnsA	yes
+b4518	ymdF	yes
+b4519	icdC, icdC'	excluded
+b4520	ymgF	yes
+b4521	ymgH, ycgI', ycgI	excluded
+b4522	ymiA	yes
+b4523	yciX	yes
+b4524	ymjB, ycjV', ycjV	excluded
+b4525	ymjC, ymjC'	excluded
+b4526	ydaE	yes
+b4527	ydaF	yes
+b4528	rzoR	yes
+b4529	ydbJ	yes
+b4530	yncK_2	excluded
+b4531	yncK_1	excluded
+b4532	hicA	no
+b4533	ynfO	yes
+b4534	ynfP	excluded
+b4535	yniD	yes
+b4536	yobH	yes
+b4537	yecJ	yes
+b4538	yoeF, yoeF'	excluded
+b4539	yoeB	no
+b4540	wbbL_2	excluded
+b4541	yehK	yes
+b4542	yohO	yes
+b4543	ypaA, ypaA'	excluded
+b4544	arnE	no
+b4545	ypdJ, ypdJ'	excluded
+b4546	ypeB	yes
+b4547	ypfN	yes
+b4548	ypjJ	yes
+b4549	yhcE_2	excluded
+b4550	arfA	no
+b4551	yheV	yes
+b4552	yrhC, yrhC'	excluded
+b4553	ysaB	yes
+b4554	yibT	yes
+b4555	yicS	yes
+b4556	ysdC, glvG', glvG	excluded
+b4557	yidD	yes
+b4558	yifL	yes
+b4559	ghoT	no
+b4560	yjgX_3	excluded
+b4561	insM, insM'	no
+b4562	yjhW	excluded
+b4563	insB-7_1	no
+b4564	insB-7_2	no
+b4565	sgcB	yes
+b4566	topAI, yjhX	no
+b4567	yjjZ	yes
+b4568	ytjA	yes
+b4569	yhcE', yhcE	excluded
+b4570	lomR', lomR	excluded
+b4571	wbbL', wbbL	excluded
+b4572	ylbE	yes
+b4573	insZ', ychG, insZ	excluded
+b4575	yjgX	yes
+b4576	insB6', insB1	excluded
+b4577	sgrS	no
+b4578	insP', insP	excluded
+b4579	yaiX', yaiX	excluded
+b4580	yaiT', yaiT	excluded
+b4581	ybeM', ybeM, ybeH	excluded
+b4582	yoeA', yoeA	excluded
+b4585	chiX	no
+b4586	ykfM	yes
+b4587	insN', insN	excluded
+b4588	ylcH	yes
+b4589	ylcI	yes
+b4590	ybfK	yes
+b4591	ybhU	excluded
+b4592	appX, cbdX	yes
+b4593	ymgI	yes
+b4594	ymgJ	yes
+b4595	yciY	yes
+b4596	yciZ	yes
+b4597	rydC	no
+b4598	yncL	yes
+b4599	mgtS, yneM	yes
+b4600	ydfJ', ydfJ	excluded
+b4601	ydgU	yes
+b4602	ynhF	yes
+b4603	rseX	no
+b4604	yojO	yes
+b4605	ypaB	yes
+b4606	ypfM	yes
+b4607	ryfB	excluded
+b4608	ohsC	no
+b4609	ryfD	yes
+b4610	ygdT	yes
+b4611	sibE	yes
+b4612	yrhD	yes
+b4613	dinQ	yes
+b4614	sokA, sokA'	excluded
+b4615	yibV, yibV'	excluded
+b4616	istR-2, istR	no
+b4617	tisA	excluded
+b4618	tisB	no
+b4620	yjbT	yes
+b4621	yjbS	yes
+b4622	ytcA	yes
+b4623	insO', insO	excluded
+b4624	ryjB	yes
+b4625	symR	no
+b4626	ykfN', ykfN	excluded
+b4627	ykfL, ykfL'	excluded
+b4628	ykfK, ykfK'	excluded
+b4629	ptwF'	excluded
+b4630	ykgP', ykgP	excluded
+b4631	ykgQ, ykgQ'	excluded
+b4632	ylbI', ylbI	excluded
+b4633	xisD', xisD	excluded
+b4634	aaaD', aaaD	excluded
+b4635	pauD'	excluded
+b4636	ybfI', ybfI	excluded
+b4637	uof	no
+b4638	ttcC, ttcC'	excluded
+b4639	yeeH, yeeH'	excluded
+b4640	yoeG, yoeG'	excluded
+b4641	yoeH, yoeH'	excluded
+b4642	yoeD, yoeD'	excluded
+b4643	pawZ, pawZ'	excluded
+b4644	ypjI, ypjI'	excluded
+b4645	psaA, psaA'	excluded
+b4646	yrdE, yrdE'	excluded
+b4647	mokA, mokA'	excluded
+b4648	ysaC, ysaC'	excluded
+b4649	ysaD, ysaD'	excluded
+b4650	yibS, yibS'	excluded
+b4651	yibW, yibW'	excluded
+b4652	yibU, yibU'	excluded
+b4653	yicT, yicT'	excluded
+b4654	yjdQ, yjdQ'	excluded
+b4655	ythA	yes
+b4656	yjhY, yjhY'	excluded
+b4657	yjhZ, yjhZ'	excluded
+b4658	yghX', yghX	excluded
+b4659	yabP', yabP	excluded
+b4660	yhiL', yhiL	excluded
+b4661	yfcU', yfcU	excluded
+b4662	sgrT	yes
+b4663	azuC	yes
+b4664	ibsD	yes
+b4665	ibsC	no
+b4666	ibsE	yes
+b4667	ibsA	yes
+b4668	ibsB	yes
+b4669	ilvX	yes
+b4670	yjeV	yes
+b4671	ykgR	yes
+b4672	ymiB	yes
+b4673	ymjD, ymjD'	excluded
+b4674	ynbG	yes
+b4675	yoaJ	yes
+b4676	yoaK	yes
+b4677	yobI	yes
+b4678	yoeI	yes
+b4679	yohP	yes
+b4680	ypdK	yes
+b4682	yqcG	yes
+b4683	yqeL	yes
+b4684	yqfG	yes
+b4685	yrbN	yes
+b4686	yshB	yes
+b4687	shoB	yes
+b4688	ykgS, ykgS'	excluded
+b4689	rzoQ	yes
+b4690	eyeA	yes
+b4691	sroH	yes
+b4692	oweE', oweE	excluded
+b4693	aaaE', aaaE	excluded
+b4694	yagP', yagP	excluded
+b4695	ykgT', ykgT	excluded
+b4696	yneO', yneO	excluded
+b4697	yrdF, yrdF'	excluded
+b4698	mgrR	yes
+b4699	fnrS	no
+b4700	sokE	yes
+b4701	sokX	yes
+b4702	mgtL	yes
+b4703	pmrR	yes
+b4704	arrS	yes
+b4705	mntS	yes
+b4706	iroK	yes
+b4707	esrE	yes
+b4708	insI2, insI2', insI1	no
+b4709	insA9	no
+b4710	insB9	no
+b4711	insH21	no
+b4712	agrA	no
+b4713	agrB	no
+b4714	ralA	no
+b4715	ytiA	yes
+b4716	cpxQ	no
+b4717	micL	no
+b4718	gadF	no
+b4719	sdsN	no
+b4720	ytiC	yes
+b4721	ytiD	yes
+b4722	idlP	yes
+b4723	ymcF	yes
+b4724	ynfQ	yes
+b4725	rseD	yes

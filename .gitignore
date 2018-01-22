@@ -1,6 +1,3 @@
-# don't commit generated data tables
-data/
-
 settings.ini
 *.pyc
 .#*
