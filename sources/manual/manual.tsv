@@ -72,7 +72,7 @@ b1389	low	no experimental evidence
 b1438	high	see EcoCyc summary
 b1453	low	annotation inferred from sequence
 b1466	low	few details
-b1516	low	annotation inferred from sequence
+b1516	high	annotation inferred from sequence, but EcoCyc complex page describes experimental evidence in E. coli
 b1533	high	see EcoCyc summary
 b1562	high	experimental validation of killing ability
 b1574	high	see EcoCyc summary
