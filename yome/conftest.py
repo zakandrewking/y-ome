@@ -1,7 +1,7 @@
 from yome import Session, Base
 
 import pytest
-import os
+from os import remove
 import logging
 from sqlalchemy import create_engine
 from os.path import join, dirname, realpath
@@ -11,7 +11,10 @@ test_db_filepath = join(directory, '..', 'yome_test.db')
 
 @pytest.fixture(scope='session')
 def test_db(request):
-    os.remove(test_db_filepath)
+    try:
+        remove(test_db_filepath)
+    except FileNotFoundError:
+        pass
     engine = create_engine(f'sqlite:///{test_db_filepath}')
     Base.metadata.create_all(engine)
     Session.configure(bind=engine)
