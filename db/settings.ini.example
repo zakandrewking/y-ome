@@ -1,6 +1,0 @@
-[DATABASE]
-user = me
-password = pwd
-host = localhost
-port = 5432
-database = yome

@@ -1,13 +1,17 @@
-# -*- coding: utf-8 -*-
-
-from yome.models import (Base, config, Session, Gene, Synonym, Knowledgebase,
-                         KnowledgebaseGene, Dataset, DatasetGeneValue,
-                         DatasetGeneFeature)
+from yome.models import (
+    Base,
+    Session,
+    Gene,
+    Synonym,
+    Knowledgebase,
+    KnowledgebaseGene,
+    Dataset,
+    DatasetGeneValue,
+    DatasetGeneFeature,
+)
 
 import pytest
 
-def test_config():
-    assert config.get('DATABASE', 'user')
 
 def test_session(session):
     pass

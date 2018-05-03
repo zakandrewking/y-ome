@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from yome.models import (Gene, Synonym, Knowledgebase, KnowledgebaseGene,
                          KnowledgebaseFeature, Dataset, DatasetGeneValue,
                          DatasetGeneFeature)
@@ -22,7 +20,10 @@ def test_load_knowledgebase(session):
         'summary': 'sum',
         'missing': np.nan,
     }])
-    load_knowledgebase(session, df, 'UniProt',
+    load_knowledgebase(session, df, 'UniProt', locus_id_column='bnum',
+                       primary_name_column='name',
+                       synonyms_column='synonyms',
+                       annotation_quality_column='annotation_quality',
                        feature_columns=['description', 'summary', 'missing'])
     res = (
         session

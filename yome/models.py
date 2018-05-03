@@ -1,23 +1,23 @@
-# -*- coding: utf-8 -*-
-
-from sqlalchemy import (create_engine, Integer, String, Sequence, Column, Enum,
-                        ForeignKey, Float)
+from sqlalchemy import (
+    create_engine,
+    Integer,
+    String,
+    Sequence,
+    Column,
+    Enum,
+    ForeignKey,
+    Float,
+)
 from sqlalchemy.schema import UniqueConstraint
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from configparser import SafeConfigParser
 from os.path import join, dirname, realpath
 
-# Get settings
-config = SafeConfigParser()
 directory = dirname(realpath(__file__))
-config.read(join(directory, '..', 'settings.ini'))
-database_keys = ['user', 'password', 'host', 'port', 'database']
-settings = {k: config.get('DATABASE', k) for k in database_keys}
+db_filepath = join(directory, '..', 'yome.db')
 
 # Create the engine, Base, and Session
-engine = create_engine('postgresql://{user}:{password}@{host}:{port}/{database}'
-                       .format(**settings))
+engine = create_engine(f'sqlite:///{db_filepath}')
 Base = declarative_base(bind=engine)
 Session = sessionmaker(bind=engine)
 

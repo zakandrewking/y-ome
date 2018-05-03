@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 from yome.models import (Base, Gene, KnowledgebaseGene, Knowledgebase, Synonym,
                          KnowledgebaseFeature, Dataset, DatasetGeneValue,
                          DatasetGeneFeature)
