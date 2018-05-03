@@ -29,7 +29,8 @@ for feature in gb_file.features:
     d['name'] = feature.qualifiers['gene'][0]
     d['synonyms'] = [x.strip() for x in
                      feature.qualifiers['gene_synonym'][0].split(';')]
-    d['ec_numbers'] = feature.qualifiers.get('EC_number', [])
+    ec_number_list = feature.qualifiers.get('EC_number', None)
+    d['ec_numbers'] = None if ec_number_list is None else ','.join(ec_number_list)
     d['product'] = feature.qualifiers.get('product', [None])[0]
     d['function'] = feature.qualifiers.get('function', [None])[0]
 
@@ -41,7 +42,7 @@ df = pd.DataFrame(data_list)
 df['annotation_quality'] = 'tbd'
 
 # Genes with EC number are high
-df.loc[df.ec_numbers.apply(lambda x: len(x) > 0), 'annotation_quality'] = 'high'
+df.loc[~df.ec_numbers.isnull(), 'annotation_quality'] = 'high'
 
 # Load knowledgebase
 session = Session()
