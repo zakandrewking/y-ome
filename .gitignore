@@ -1,4 +1,4 @@
-*.db
+yome_test.db
 *.db-journal
 tmp-*
 settings.ini
