@@ -2,9 +2,7 @@
 
 cd "$(dirname "$0")"
 
-dropdb yome
-
-createdb yome \
+[ -e ../yome.db ] && rm ../yome.db \
     && ./create_tables \
     && ../sources/ecocyc/load \
     && ../sources/ecogene/load \

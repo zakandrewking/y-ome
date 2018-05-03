@@ -111,7 +111,7 @@ def html_to_text(text):
     https://stackoverflow.com/questions/753052/strip-html-from-strings-in-python
 
     """
-    soup = (text, 'lxml')
+    soup = BeautifulSoup(text, 'lxml')
     return soup.get_text()
 
 
