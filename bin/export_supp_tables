@@ -36,12 +36,12 @@ y_ome_genes = to_df(
 )
 
 final = y_ome_genes.merge(primary_names_grouped, how='outer')
-final['y_ome'] = final.annotation_quality.apply(
-    lambda x: 'yes' if x == 'low' else 'no' if x == 'high' else x
+final['category'] = final.annotation_quality.apply(
+    lambda x: 'y-ome' if x == 'low' else 'well-annotated' if x == 'high' else 'excluded'
 )
 final = final.drop(columns=['annotation_quality'])
 
-print(final['y_ome'].value_counts())
+print(final['category'].value_counts())
 
 final.to_csv(join(data_directory, 'y-ome-genes.tsv'), sep='\t', index=False)
 
