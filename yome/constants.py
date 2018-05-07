@@ -2,6 +2,7 @@ colors = {
     'red': '#DD4D42',
     'yellow': '#F1D333',
     'green': '#5B9378',
+    'green grey': '#B1CEC0',
     'blue': '#4A70BC',
     'blue grey': '#DEE6F3',
 }
