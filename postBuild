@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# Must be installed with a symlink this to access the committed database
+# Must be installed with a symlink to access the committed database
 pip install -e .
