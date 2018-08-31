@@ -1,0 +1,1080 @@
+"specphe.name"	"specphe.locusId"	"specphe.lrn"	"specphe.t"	"specphe.short"	"specphe.Group"	"specphe.Condition_1"	"specphe.Concentration_1"	"specphe.Units_1"	"specphe.Condition_2"	"specphe.Concentration_2"	"specphe.Units_2"
+"1"	"set1IT005"	16276	-1.26310607093899	-8.69458789552666	"D-Fructose (C)"	"carbon source"	"D-Fructose"	20	"mM"	NA	NA	NA
+"2"	"set1IT006"	16276	-1.61308949168388	-10.3238691931041	"D-Fructose (C)"	"carbon source"	"D-Fructose"	20	"mM"	NA	NA	NA
+"3"	"set1IT006"	16278	-1.51174451170212	-6.67135682094345	"D-Fructose (C)"	"carbon source"	"D-Fructose"	20	"mM"	NA	NA	NA
+"4"	"set1IT007"	1937020	-1.54945781729108	-7.45455488816952	"Sucrose (C)"	"carbon source"	"Sucrose"	20	"mM"	NA	NA	NA
+"5"	"set1IT009"	17479	-5.28876401898696	-11.8137037626437	"D-Maltose (C)"	"carbon source"	"D-Maltose monohydrate"	20	"mM"	NA	NA	NA
+"6"	"set1IT009"	17481	-2.93110222154605	-16.1945936269884	"D-Maltose (C)"	"carbon source"	"D-Maltose monohydrate"	20	"mM"	NA	NA	NA
+"7"	"set1IT009"	18060	-2.72344280406442	-11.1562577128298	"D-Maltose (C)"	"carbon source"	"D-Maltose monohydrate"	20	"mM"	NA	NA	NA
+"8"	"set1IT009"	18061	-3.20691018365908	-15.324733013969	"D-Maltose (C)"	"carbon source"	"D-Maltose monohydrate"	20	"mM"	NA	NA	NA
+"9"	"set1IT009"	18062	-2.91670548396126	-11.0439939386177	"D-Maltose (C)"	"carbon source"	"D-Maltose monohydrate"	20	"mM"	NA	NA	NA
+"10"	"set1IT009"	18063	-2.64109675342274	-9.83636345564522	"D-Maltose (C)"	"carbon source"	"D-Maltose monohydrate"	20	"mM"	NA	NA	NA
+"11"	"set1IT009"	1937014	-1.69897902018839	-7.20969718593778	"D-Maltose (C)"	"carbon source"	"D-Maltose monohydrate"	20	"mM"	NA	NA	NA
+"12"	"set1IT010"	17479	-4.72356253173999	-12.1977986491046	"D-Maltose (C)"	"carbon source"	"D-Maltose monohydrate"	20	"mM"	NA	NA	NA
+"13"	"set1IT010"	17481	-2.71259125470035	-16.594972297642	"D-Maltose (C)"	"carbon source"	"D-Maltose monohydrate"	20	"mM"	NA	NA	NA
+"14"	"set1IT010"	18060	-2.64399584053708	-10.7322081517339	"D-Maltose (C)"	"carbon source"	"D-Maltose monohydrate"	20	"mM"	NA	NA	NA
+"15"	"set1IT010"	18061	-2.81882764780651	-12.5922060860237	"D-Maltose (C)"	"carbon source"	"D-Maltose monohydrate"	20	"mM"	NA	NA	NA
+"16"	"set1IT010"	18062	-2.7073340539461	-11.0033624363474	"D-Maltose (C)"	"carbon source"	"D-Maltose monohydrate"	20	"mM"	NA	NA	NA
+"17"	"set1IT010"	18063	-3.05904245296295	-8.7820444685744	"D-Maltose (C)"	"carbon source"	"D-Maltose monohydrate"	20	"mM"	NA	NA	NA
+"18"	"set1IT010"	1937014	-1.80287315861001	-7.7698644923125	"D-Maltose (C)"	"carbon source"	"D-Maltose monohydrate"	20	"mM"	NA	NA	NA
+"19"	"set1IT011"	17625	-4.43457279744706	-16.0964402764243	"D-Xylose (C)"	"carbon source"	"D-Xylose"	20	"mM"	NA	NA	NA
+"20"	"set1IT011"	17626	-4.4396040684604	-15.427666955415	"D-Xylose (C)"	"carbon source"	"D-Xylose"	20	"mM"	NA	NA	NA
+"21"	"set1IT011"	17627	-2.04566188771981	-11.8310225145907	"D-Xylose (C)"	"carbon source"	"D-Xylose"	20	"mM"	NA	NA	NA
+"22"	"set1IT011"	17630	-4.03392673968995	-14.4066634043386	"D-Xylose (C)"	"carbon source"	"D-Xylose"	20	"mM"	NA	NA	NA
+"23"	"set1IT012"	17625	-3.78859703019516	-17.4065911681611	"D-Xylose (C)"	"carbon source"	"D-Xylose"	20	"mM"	NA	NA	NA
+"24"	"set1IT012"	17626	-4.26478973965068	-16.6243007956242	"D-Xylose (C)"	"carbon source"	"D-Xylose"	20	"mM"	NA	NA	NA
+"25"	"set1IT012"	17627	-2.08239251271969	-11.6002043751223	"D-Xylose (C)"	"carbon source"	"D-Xylose"	20	"mM"	NA	NA	NA
+"26"	"set1IT012"	17630	-3.31923732244169	-13.6253197260405	"D-Xylose (C)"	"carbon source"	"D-Xylose"	20	"mM"	NA	NA	NA
+"27"	"set1IT013"	14882	-4.59538300672724	-12.5472956532271	"D-Galactose (C)"	"carbon source"	"D-Galactose"	20	"mM"	NA	NA	NA
+"28"	"set1IT013"	16260	2.16323695857493	12.5403301151696	"D-Galactose (C)"	"carbon source"	"D-Galactose"	20	"mM"	NA	NA	NA
+"29"	"set1IT013"	16918	1.90457944110932	12.5641420796282	"D-Galactose (C)"	"carbon source"	"D-Galactose"	20	"mM"	NA	NA	NA
+"30"	"set1IT013"	17022	-2.60710956664322	-14.3441558293937	"D-Galactose (C)"	"carbon source"	"D-Galactose"	20	"mM"	NA	NA	NA
+"31"	"set1IT014"	14882	-4.83697336976976	-12.4699144658319	"D-Galactose (C)"	"carbon source"	"D-Galactose"	20	"mM"	NA	NA	NA
+"32"	"set1IT014"	16260	2.33591003917859	13.8529519718012	"D-Galactose (C)"	"carbon source"	"D-Galactose"	20	"mM"	NA	NA	NA
+"33"	"set1IT014"	16918	2.01161699851975	15.7988702327125	"D-Galactose (C)"	"carbon source"	"D-Galactose"	20	"mM"	NA	NA	NA
+"34"	"set1IT014"	17022	-3.164085656672	-14.7906659324321	"D-Galactose (C)"	"carbon source"	"D-Galactose"	20	"mM"	NA	NA	NA
+"35"	"set1IT015"	14743	-1.38417370584945	-5.58691848289927	"D-Ribose (C)"	"carbon source"	"D-Ribose"	20	"mM"	NA	NA	NA
+"36"	"set1IT015"	15996	-1.46791044057784	-5.99101784839354	"D-Ribose (C)"	"carbon source"	"D-Ribose"	20	"mM"	NA	NA	NA
+"37"	"set1IT015"	17418	-2.65150495516775	-13.1677161465641	"D-Ribose (C)"	"carbon source"	"D-Ribose"	20	"mM"	NA	NA	NA
+"38"	"set1IT015"	17808	-3.07595660785942	-10.4175209999849	"D-Ribose (C)"	"carbon source"	"D-Ribose"	20	"mM"	NA	NA	NA
+"39"	"set1IT015"	17928	-2.12542295582866	-10.0014508073088	"D-Ribose (C)"	"carbon source"	"D-Ribose"	20	"mM"	NA	NA	NA
+"40"	"set1IT016"	14472	-1.282763882856	-6.40571520727979	"D-Ribose (C)"	"carbon source"	"D-Ribose"	20	"mM"	NA	NA	NA
+"41"	"set1IT016"	17418	-2.80468087627353	-13.6342206727546	"D-Ribose (C)"	"carbon source"	"D-Ribose"	20	"mM"	NA	NA	NA
+"42"	"set1IT016"	17808	-2.96909031762196	-10.1133848878101	"D-Ribose (C)"	"carbon source"	"D-Ribose"	20	"mM"	NA	NA	NA
+"43"	"set1IT016"	17928	-2.16567316836282	-9.44239712947173	"D-Ribose (C)"	"carbon source"	"D-Ribose"	20	"mM"	NA	NA	NA
+"44"	"set1IT017"	15087	-1.35967655750242	-5.62421956350767	"L-Fucose (C)"	"carbon source"	"L-Fucose"	20	"mM"	NA	NA	NA
+"45"	"set1IT017"	16883	-1.9156368491251	-8.81405302535588	"L-Fucose (C)"	"carbon source"	"L-Fucose"	20	"mM"	NA	NA	NA
+"46"	"set1IT017"	16884	-4.14028989251867	-12.1463595191218	"L-Fucose (C)"	"carbon source"	"L-Fucose"	20	"mM"	NA	NA	NA
+"47"	"set1IT017"	16885	-1.0102960270386	-6.38996353228323	"L-Fucose (C)"	"carbon source"	"L-Fucose"	20	"mM"	NA	NA	NA
+"48"	"set1IT017"	16886	-1.63194912926072	-8.58887188478486	"L-Fucose (C)"	"carbon source"	"L-Fucose"	20	"mM"	NA	NA	NA
+"49"	"set1IT017"	16887	-1.80910987285543	-7.63962112672932	"L-Fucose (C)"	"carbon source"	"L-Fucose"	20	"mM"	NA	NA	NA
+"50"	"set1IT017"	16889	-1.8313857203639	-6.89689152174385	"L-Fucose (C)"	"carbon source"	"L-Fucose"	20	"mM"	NA	NA	NA
+"51"	"set1IT017"	17666	-1.14337211374377	-5.75854715783025	"L-Fucose (C)"	"carbon source"	"L-Fucose"	20	"mM"	NA	NA	NA
+"52"	"set1IT018"	15087	-1.67823455485348	-7.87382003445604	"L-Fucose (C)"	"carbon source"	"L-Fucose"	20	"mM"	NA	NA	NA
+"53"	"set1IT018"	15537	-2.27028416120348	-6.32447227399016	"L-Fucose (C)"	"carbon source"	"L-Fucose"	20	"mM"	NA	NA	NA
+"54"	"set1IT018"	16883	-1.87553290768353	-6.73608046933283	"L-Fucose (C)"	"carbon source"	"L-Fucose"	20	"mM"	NA	NA	NA
+"55"	"set1IT018"	16884	-4.14127955051231	-11.586399517331	"L-Fucose (C)"	"carbon source"	"L-Fucose"	20	"mM"	NA	NA	NA
+"56"	"set1IT018"	16885	-1.34339760383544	-7.92892954851358	"L-Fucose (C)"	"carbon source"	"L-Fucose"	20	"mM"	NA	NA	NA
+"57"	"set1IT018"	16886	-1.78451672649144	-10.5008505327142	"L-Fucose (C)"	"carbon source"	"L-Fucose"	20	"mM"	NA	NA	NA
+"58"	"set1IT018"	16887	-2.20323541974638	-8.64264036509525	"L-Fucose (C)"	"carbon source"	"L-Fucose"	20	"mM"	NA	NA	NA
+"59"	"set1IT018"	16889	-1.81824147993282	-8.00114783518987	"L-Fucose (C)"	"carbon source"	"L-Fucose"	20	"mM"	NA	NA	NA
+"60"	"set1IT019"	14349	-1.81260707744267	-5.16108263315516	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"61"	"set1IT019"	14720	-3.15681546982252	-10.5281811298534	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"62"	"set1IT019"	15090	-1.2671762780427	-5.62966746202446	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"63"	"set1IT019"	15188	2.28714553750819	11.984597863081	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"64"	"set1IT019"	15962	-1.47977409114249	-5.2691762962403	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"65"	"set1IT019"	16784	-1.99847908120229	-5.61698404213864	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"66"	"set1IT019"	17129	-1.74822724378416	-5.57207318907719	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"67"	"set1IT019"	17303	-2.21762322555973	-10.4022141387827	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"68"	"set1IT019"	17347	-1.2139076297784	-5.97434184112574	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"69"	"set1IT019"	17448	-1.08311872397512	-6.01636336981812	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"70"	"set1IT019"	18085	-1.40312843294427	-5.36371786318742	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"71"	"set1IT019"	18416	-1.87796151732582	-6.40577432162878	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"72"	"set1IT019"	1936971	-1.32432498859609	-10.4513620588908	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"73"	"set1IT020"	14349	-1.67707208092004	-5.16559175468438	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"74"	"set1IT020"	14538	-1.54010790364954	-7.83905877677484	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"75"	"set1IT020"	14720	-2.55993099273782	-11.5993790904656	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"76"	"set1IT020"	15090	-1.28691447073032	-5.61211774226286	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"77"	"set1IT020"	15188	2.41398357116292	12.1480896951189	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"78"	"set1IT020"	17129	-1.76783435287121	-6.0291043589613	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"79"	"set1IT020"	17303	-2.25099529586353	-10.5587526425076	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"80"	"set1IT020"	17347	-1.28496300077823	-6.48419552298512	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"81"	"set1IT020"	17448	-1.05519332647773	-5.25589335054062	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"82"	"set1IT020"	18416	-2.39717532969458	-5.79783026715546	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"83"	"set1IT020"	1936971	-1.36971341902747	-11.186843411747	"a-Ketoglutaric (C)"	"carbon source"	"a-Ketoglutaric acid disodium salt hydrate"	20	"mM"	NA	NA	NA
+"84"	"set1IT021"	17167	-1.55963925625397	-9.62936210919301	"D-Glucuronic Acid (C)"	"carbon source"	"D-Glucuronic Acid"	20	"mM"	NA	NA	NA
+"85"	"set1IT021"	17168	-1.24164936308783	-8.02264081222155	"D-Glucuronic Acid (C)"	"carbon source"	"D-Glucuronic Acid"	20	"mM"	NA	NA	NA
+"86"	"set1IT021"	17517	1.61350840219554	12.6174996229173	"D-Glucuronic Acid (C)"	"carbon source"	"D-Glucuronic Acid"	20	"mM"	NA	NA	NA
+"87"	"set1IT021"	17519	1.19000177344068	8.44181366169534	"D-Glucuronic Acid (C)"	"carbon source"	"D-Glucuronic Acid"	20	"mM"	NA	NA	NA
+"88"	"set1IT021"	17584	1.95790931249728	16.2527376977428	"D-Glucuronic Acid (C)"	"carbon source"	"D-Glucuronic Acid"	20	"mM"	NA	NA	NA
+"89"	"set1IT021"	17587	-4.57605908045112	-16.8332271105701	"D-Glucuronic Acid (C)"	"carbon source"	"D-Glucuronic Acid"	20	"mM"	NA	NA	NA
+"90"	"set1IT021"	18346	-4.33431221570813	-13.5654074200661	"D-Glucuronic Acid (C)"	"carbon source"	"D-Glucuronic Acid"	20	"mM"	NA	NA	NA
+"91"	"set1IT021"	1937025	1.49126132209272	12.7320695976297	"D-Glucuronic Acid (C)"	"carbon source"	"D-Glucuronic Acid"	20	"mM"	NA	NA	NA
+"92"	"set1IT022"	17167	-1.6728675921508	-10.2023412583393	"D-Glucuronic Acid (C)"	"carbon source"	"D-Glucuronic Acid"	20	"mM"	NA	NA	NA
+"93"	"set1IT022"	17168	-1.44490245385209	-9.64083502890598	"D-Glucuronic Acid (C)"	"carbon source"	"D-Glucuronic Acid"	20	"mM"	NA	NA	NA
+"94"	"set1IT022"	17515	1.53532895207162	10.5269362189241	"D-Glucuronic Acid (C)"	"carbon source"	"D-Glucuronic Acid"	20	"mM"	NA	NA	NA
+"95"	"set1IT022"	17517	1.56463742783658	12.8383588713731	"D-Glucuronic Acid (C)"	"carbon source"	"D-Glucuronic Acid"	20	"mM"	NA	NA	NA
+"96"	"set1IT022"	17519	1.24578073739467	8.50834224510587	"D-Glucuronic Acid (C)"	"carbon source"	"D-Glucuronic Acid"	20	"mM"	NA	NA	NA
+"97"	"set1IT022"	17584	1.95505450923588	16.3074699130332	"D-Glucuronic Acid (C)"	"carbon source"	"D-Glucuronic Acid"	20	"mM"	NA	NA	NA
+"98"	"set1IT022"	17587	-4.51132994251476	-17.4181174204436	"D-Glucuronic Acid (C)"	"carbon source"	"D-Glucuronic Acid"	20	"mM"	NA	NA	NA
+"99"	"set1IT022"	18346	-4.16973089444233	-13.5391965464741	"D-Glucuronic Acid (C)"	"carbon source"	"D-Glucuronic Acid"	20	"mM"	NA	NA	NA
+"100"	"set1IT022"	1937025	1.371847207316	11.4051537497927	"D-Glucuronic Acid (C)"	"carbon source"	"D-Glucuronic Acid"	20	"mM"	NA	NA	NA
+"101"	"set1IT023"	15087	-1.44970812131451	-6.87730661168808	"D-Gluconic Acid (C)"	"carbon source"	"D-Gluconic Acid sodium salt"	20	"mM"	NA	NA	NA
+"102"	"set1IT023"	15969	-1.65061846433005	-8.17764691143579	"D-Gluconic Acid (C)"	"carbon source"	"D-Gluconic Acid sodium salt"	20	"mM"	NA	NA	NA
+"103"	"set1IT023"	17498	-1.62490273421807	-6.2802136046652	"D-Gluconic Acid (C)"	"carbon source"	"D-Gluconic Acid sodium salt"	20	"mM"	NA	NA	NA
+"104"	"set1IT023"	1937013	-2.76972510484406	-15.4404841711359	"D-Gluconic Acid (C)"	"carbon source"	"D-Gluconic Acid sodium salt"	20	"mM"	NA	NA	NA
+"105"	"set1IT024"	15087	-1.50835771918916	-7.48992662778141	"D-Gluconic Acid (C)"	"carbon source"	"D-Gluconic Acid sodium salt"	20	"mM"	NA	NA	NA
+"106"	"set1IT024"	15969	-1.71331480755514	-8.39082529451878	"D-Gluconic Acid (C)"	"carbon source"	"D-Gluconic Acid sodium salt"	20	"mM"	NA	NA	NA
+"107"	"set1IT024"	1937013	-2.2792778755043	-14.5262035621943	"D-Gluconic Acid (C)"	"carbon source"	"D-Gluconic Acid sodium salt"	20	"mM"	NA	NA	NA
+"108"	"set1IT025"	17422	-1.87022823710682	-11.8997829341772	"D-Glucose-6-Phosphate (C)"	"carbon source"	"D-Glucose-6-Phosphate sodium salt"	20	"mM"	NA	NA	NA
+"109"	"set1IT025"	17726	-1.48346869349048	-9.53055158041193	"D-Glucose-6-Phosphate (C)"	"carbon source"	"D-Glucose-6-Phosphate sodium salt"	20	"mM"	NA	NA	NA
+"110"	"set1IT025"	17729	-1.18959297904993	-6.93766129641437	"D-Glucose-6-Phosphate (C)"	"carbon source"	"D-Glucose-6-Phosphate sodium salt"	20	"mM"	NA	NA	NA
+"111"	"set1IT026"	17422	-1.77837425917206	-11.8888907553266	"D-Glucose-6-Phosphate (C)"	"carbon source"	"D-Glucose-6-Phosphate sodium salt"	20	"mM"	NA	NA	NA
+"112"	"set1IT026"	17727	-1.17732065282312	-7.25224966195406	"D-Glucose-6-Phosphate (C)"	"carbon source"	"D-Glucose-6-Phosphate sodium salt"	20	"mM"	NA	NA	NA
+"113"	"set1IT027"	14343	-1.40303976662941	-5.20967206132228	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"114"	"set1IT027"	14720	-1.46547084303625	-5.44665703167116	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"115"	"set1IT027"	15638	-1.30984690157474	-6.21327840696395	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"116"	"set1IT027"	16014	-1.36238329360298	-8.37908808025243	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"117"	"set1IT027"	16874	-3.59964000624467	-5.89624296222847	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"118"	"set1IT027"	18043	-4.64912525915357	-7.75302359287201	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"119"	"set1IT027"	18044	1.45511377763167	5.66284833999809	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"120"	"set1IT027"	18097	-2.12100149277239	-9.86977253355119	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"121"	"set1IT027"	18169	1.10519553224532	6.98908626156259	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"122"	"set1IT027"	18215	-2.39968083380808	-6.51326922163096	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"123"	"set1IT027"	18417	-1.90287324303536	-9.19130042984003	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"124"	"set1IT027"	1937264	-1.4769677502032	-7.99234258303538	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"125"	"set1IT028"	14720	-1.40058170342052	-6.32125746762835	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"126"	"set1IT028"	15242	-1.9746834378671	-5.62867308853998	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"127"	"set1IT028"	15989	-1.59804404346256	-5.05790332633988	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"128"	"set1IT028"	16014	-1.12078540938071	-7.65715400634732	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"129"	"set1IT028"	16874	-3.11120959746496	-5.71705928119501	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"130"	"set1IT028"	17487	-1.52941235484309	-5.99004106100972	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"131"	"set1IT028"	18043	-4.65615701212782	-8.91368939382372	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"132"	"set1IT028"	18097	-1.68117419324134	-9.26941896227062	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"133"	"set1IT028"	18417	-1.83912780156165	-8.51438659768494	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"134"	"set1IT028"	1937204	-1.04891575754106	-6.00365294783589	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"135"	"set1IT028"	1937264	-1.19611731677347	-6.24818170477708	"acetate (C)"	"carbon source"	"Potassium acetate"	20	"mM"	NA	NA	NA
+"136"	"set1IT031"	14472	-1.98893224341623	-6.78624454405342	"D-Lactate (C)"	"carbon source"	"Sodium D-Lactate"	20	"mM"	NA	NA	NA
+"137"	"set1IT031"	16241	-1.43719332047233	-7.48373691638725	"D-Lactate (C)"	"carbon source"	"Sodium D-Lactate"	20	"mM"	NA	NA	NA
+"138"	"set1IT031"	17664	-3.36077322260163	-17.7652588491736	"D-Lactate (C)"	"carbon source"	"Sodium D-Lactate"	20	"mM"	NA	NA	NA
+"139"	"set1IT031"	17665	-1.56082125874652	-7.86852998461126	"D-Lactate (C)"	"carbon source"	"Sodium D-Lactate"	20	"mM"	NA	NA	NA
+"140"	"set1IT032"	14472	-1.78230318222473	-8.05378205978173	"D-Lactate (C)"	"carbon source"	"Sodium D-Lactate"	20	"mM"	NA	NA	NA
+"141"	"set1IT032"	15188	1.1337959326872	8.30501700302609	"D-Lactate (C)"	"carbon source"	"Sodium D-Lactate"	20	"mM"	NA	NA	NA
+"142"	"set1IT032"	16241	-1.31969575822586	-6.2672953702048	"D-Lactate (C)"	"carbon source"	"Sodium D-Lactate"	20	"mM"	NA	NA	NA
+"143"	"set1IT032"	17664	-3.34181977706843	-17.437457892005	"D-Lactate (C)"	"carbon source"	"Sodium D-Lactate"	20	"mM"	NA	NA	NA
+"144"	"set1IT032"	17665	-1.37274230018243	-5.70123028964962	"D-Lactate (C)"	"carbon source"	"Sodium D-Lactate"	20	"mM"	NA	NA	NA
+"145"	"set1IT035"	17664	-3.77259788349783	-18.1440997917453	"D,L-Lactate (C)"	"carbon source"	"Sodium D,L-Lactate"	20	"mM"	NA	NA	NA
+"146"	"set1IT035"	17665	-3.13761334155896	-10.9726979996072	"D,L-Lactate (C)"	"carbon source"	"Sodium D,L-Lactate"	20	"mM"	NA	NA	NA
+"147"	"set1IT036"	17664	-3.69103955815037	-17.8554708241297	"D,L-Lactate (C)"	"carbon source"	"Sodium D,L-Lactate"	20	"mM"	NA	NA	NA
+"148"	"set1IT036"	17665	-2.4453980688038	-9.18967151288536	"D,L-Lactate (C)"	"carbon source"	"Sodium D,L-Lactate"	20	"mM"	NA	NA	NA
+"149"	"set1IT037"	15989	-1.56331435119793	-5.16694304396033	"pyruvate (C)"	"carbon source"	"Sodium pyruvate"	20	"mM"	NA	NA	NA
+"150"	"set1IT037"	16233	-2.1704956471612	-7.60493364039045	"pyruvate (C)"	"carbon source"	"Sodium pyruvate"	20	"mM"	NA	NA	NA
+"151"	"set1IT037"	16234	-1.4298740610526	-7.77644494168488	"pyruvate (C)"	"carbon source"	"Sodium pyruvate"	20	"mM"	NA	NA	NA
+"152"	"set1IT037"	18378	-1.44295308566343	-11.9097163649498	"pyruvate (C)"	"carbon source"	"Sodium pyruvate"	20	"mM"	NA	NA	NA
+"153"	"set1IT038"	16233	-2.13972765683379	-8.10918705915543	"pyruvate (C)"	"carbon source"	"Sodium pyruvate"	20	"mM"	NA	NA	NA
+"154"	"set1IT038"	16234	-1.32363573802931	-7.43403316483413	"pyruvate (C)"	"carbon source"	"Sodium pyruvate"	20	"mM"	NA	NA	NA
+"155"	"set1IT038"	18378	-1.57101339913757	-13.4134778530824	"pyruvate (C)"	"carbon source"	"Sodium pyruvate"	20	"mM"	NA	NA	NA
+"156"	"set1IT039"	14699	-1.08474551603281	-6.13473388958544	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"157"	"set1IT039"	15320	1.66811840026495	5.74597812546971	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"158"	"set1IT039"	15322	1.27215593995352	6.37480122785876	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"159"	"set1IT039"	15323	1.37854495361949	7.2089938888235	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"160"	"set1IT039"	15600	-3.16096088556597	-5.93029889547988	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"161"	"set1IT039"	15962	-1.55071050200794	-5.11291075951858	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"162"	"set1IT039"	16257	-1.04992403411863	-6.50001876798838	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"163"	"set1IT039"	16260	-1.82210610740484	-6.57842437184276	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"164"	"set1IT039"	17303	-2.88030967593995	-11.3931953857699	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"165"	"set1IT039"	17466	-2.48160235238622	-8.42296867150597	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"166"	"set1IT039"	17589	-3.81482389137846	-14.3699436724912	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"167"	"set1IT039"	17907	-1.74211028832736	-10.4808950164945	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"168"	"set1IT039"	18152	-3.82489473867776	-15.2396528450186	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"169"	"set1IT039"	18153	-3.88945859228483	-12.8507993576349	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"170"	"set1IT040"	15320	1.48147575501514	5.54148844303219	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"171"	"set1IT040"	15322	1.20710015087229	6.58010297752884	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"172"	"set1IT040"	15600	-2.82173587783989	-6.61072205940576	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"173"	"set1IT040"	15733	-1.67666281236425	-5.0393859943558	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"174"	"set1IT040"	16260	-1.39713195169426	-5.3643953991537	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"175"	"set1IT040"	17303	-3.71786650423851	-12.4646817163097	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"176"	"set1IT040"	17466	-2.00714971180832	-7.62721266788224	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"177"	"set1IT040"	17589	-3.58360429360782	-15.7425537603144	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"178"	"set1IT040"	17907	-1.8503779607462	-11.6263714780464	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"179"	"set1IT040"	18152	-4.00927466839706	-15.974283812009	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"180"	"set1IT040"	18153	-3.9918729353757	-13.4079450618767	"succinate (C)"	"carbon source"	"Sodium succinate dibasic hexahydrate"	20	"mM"	NA	NA	NA
+"181"	"set1IT041"	14204	1.11760603335792	5.52359021354627	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"182"	"set1IT041"	14308	-3.5270445483205	-7.81902045082485	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"183"	"set1IT041"	14343	-1.09501252343427	-5.54929690335805	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"184"	"set1IT041"	14344	-1.27981333804058	-7.85844582501164	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"185"	"set1IT041"	14360	-1.58414503922036	-8.33033046029977	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"186"	"set1IT041"	14472	-1.29287788219212	-5.63310839786462	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"187"	"set1IT041"	14642	-3.09513288411167	-5.03152179326793	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"188"	"set1IT041"	14644	-3.74031739177258	-13.4691581087078	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"189"	"set1IT041"	14645	-4.69255793691133	-9.4976553140431	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"190"	"set1IT041"	14646	-1.36556224235629	-5.36963671772998	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"191"	"set1IT041"	15055	1.39600768539294	7.08826916328473	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"192"	"set1IT041"	15056	-1.44461035012871	-9.1743363781484	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"193"	"set1IT041"	15923	-1.7011553808494	-9.38388235753464	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"194"	"set1IT041"	16251	1.64256698203305	8.77998514007765	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"195"	"set1IT041"	16634	2.38670934384757	18.1661628606931	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"196"	"set1IT041"	16988	-1.74075881678707	-8.32298906016508	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"197"	"set1IT041"	17054	2.08147594844787	14.5587078398414	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"198"	"set1IT041"	17055	2.39892390028151	10.0462565332993	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"199"	"set1IT041"	17057	-2.71679378968529	-9.16035648093007	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"200"	"set1IT041"	17058	-4.33334198897696	-8.61148917019177	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"201"	"set1IT041"	17129	-1.76470328893354	-6.90165982609951	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"202"	"set1IT041"	17200	-2.202771958619	-6.24233498889675	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"203"	"set1IT041"	17342	1.52588045211042	11.1629374898945	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"204"	"set1IT041"	17351	-1.67429101769665	-10.7178152916912	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"205"	"set1IT041"	17412	2.28172449151443	13.3892213661528	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"206"	"set1IT041"	17438	-1.50775608858476	-7.97189240927061	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"207"	"set1IT041"	17466	-1.70821602754087	-9.57243781565807	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"208"	"set1IT041"	17515	-1.63156644172577	-7.13254022465784	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"209"	"set1IT041"	17664	-2.22594337792688	-12.402401149275	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"210"	"set1IT041"	17907	-2.18633195928679	-11.5357781432061	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"211"	"set1IT041"	17969	-2.67509241575091	-16.0995267780322	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"212"	"set1IT041"	18042	2.92261873545225	12.8851754099479	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"213"	"set1IT041"	18043	1.84466010262463	9.02467202983476	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"214"	"set1IT041"	18048	-2.85792976093776	-11.4767943309553	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"215"	"set1IT041"	18052	-1.36408846211244	-7.26075799053633	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"216"	"set1IT041"	18215	-1.88366371938346	-6.36377969747062	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"217"	"set1IT041"	18285	-1.63508911164659	-9.94364254845425	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"218"	"set1IT041"	18411	-1.6067315240432	-8.92491213057616	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"219"	"set1IT041"	1936903	-3.1287112459034	-10.6462665673746	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"220"	"set1IT041"	1936904	-3.06945751521205	-6.35223093593332	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"221"	"set1IT041"	1937264	-1.26244348932268	-7.32810274887812	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"222"	"set1IT042"	14308	-3.40544488075611	-7.41759393308729	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"223"	"set1IT042"	14344	-1.12515830127685	-6.34323873091036	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"224"	"set1IT042"	14360	-1.99682166985737	-10.6572809276447	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"225"	"set1IT042"	14472	-1.46577636696235	-5.49774502200419	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"226"	"set1IT042"	14644	-3.65807803195416	-12.5274347848646	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"227"	"set1IT042"	14645	-4.05363832674572	-9.39171146985222	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"228"	"set1IT042"	14646	-1.23830988006217	-5.67855818313437	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"229"	"set1IT042"	15056	-1.48599437384234	-9.15832958429394	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"230"	"set1IT042"	15369	-1.62684545657282	-8.09956512131798	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"231"	"set1IT042"	15923	-2.06782473150253	-11.061321881123	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"232"	"set1IT042"	16022	-1.26711574090782	-7.56238574530459	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"233"	"set1IT042"	16250	1.86892619888251	7.26139287747751	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"234"	"set1IT042"	16251	1.33415084747648	5.70740012595501	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"235"	"set1IT042"	16509	-1.72214862316945	-5.20043789580915	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"236"	"set1IT042"	16634	2.64243186061652	19.6703146544192	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"237"	"set1IT042"	16988	-1.41225844641865	-6.32564257333036	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"238"	"set1IT042"	17054	2.49610061670722	16.6731729140542	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"239"	"set1IT042"	17055	2.60855161331787	9.24565653929468	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"240"	"set1IT042"	17057	-4.25513980975944	-9.03585624894194	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"241"	"set1IT042"	17058	-3.83480539997941	-7.13931631711435	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"242"	"set1IT042"	17129	-1.93330668161789	-7.41893771281585	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"243"	"set1IT042"	17200	-1.98821403493803	-5.4786336197752	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"244"	"set1IT042"	17229	-1.27424510600126	-6.15799347123314	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"245"	"set1IT042"	17342	1.91421679132644	13.8379931307308	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"246"	"set1IT042"	17351	-1.52558208405686	-9.25380574342882	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"247"	"set1IT042"	17412	2.34859734056362	13.5940333503193	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"248"	"set1IT042"	17466	-1.6856378641791	-10.0260567858287	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"249"	"set1IT042"	17494	-1.15640962163425	-7.64987026309713	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"250"	"set1IT042"	17515	-1.50097624737093	-6.84438566037951	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"251"	"set1IT042"	17664	-2.09125069935791	-14.0121415550696	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"252"	"set1IT042"	17806	-1.18157616456253	-7.56367912235107	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"253"	"set1IT042"	17907	-2.12665695300783	-11.1838528457364	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"254"	"set1IT042"	17948	-1.93196126402733	-5.71127357556149	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"255"	"set1IT042"	17969	-2.46149568701368	-14.2664368763179	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"256"	"set1IT042"	18042	2.9677615584227	14.5617869311758	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"257"	"set1IT042"	18043	1.81143870366038	6.90320331915965	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"258"	"set1IT042"	18048	-2.9773986090076	-13.8991632515351	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"259"	"set1IT042"	18095	-1.50402684493119	-7.98561416656154	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"260"	"set1IT042"	18097	-2.28391862863587	-10.5740610516931	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"261"	"set1IT042"	18215	-1.92555442601957	-6.43075194234891	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"262"	"set1IT042"	18285	-1.6768502442869	-10.2172953855275	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"263"	"set1IT042"	18411	-1.68507462362406	-9.57308975101635	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"264"	"set1IT042"	18424	1.00316227851637	5.72576164853344	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"265"	"set1IT042"	1936903	-3.58482885088637	-9.21194738579953	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"266"	"set1IT042"	1936904	-4.35373186789457	-6.6184968619541	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"267"	"set1IT042"	1937264	-1.41656886892601	-7.61865647470755	"Glycolic Acid (C)"	"carbon source"	"Glycolic Acid"	20	"mM"	NA	NA	NA
+"268"	"set1IT043"	15935	-3.94262885014935	-8.61452215132487	"D-Mannitol (C)"	"carbon source"	"D-Mannitol"	20	"mM"	NA	NA	NA
+"269"	"set1IT044"	15935	-4.4471815863366	-9.74906775439752	"D-Mannitol (C)"	"carbon source"	"D-Mannitol"	20	"mM"	NA	NA	NA
+"270"	"set1IT045"	17166	-5.09407024454344	-15.9978560498938	"D-Galacturonic Acid (C)"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"271"	"set1IT045"	17167	-3.14222260213801	-12.6536994350075	"D-Galacturonic Acid (C)"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"272"	"set1IT045"	17168	-1.09559589057356	-7.60300581855018	"D-Galacturonic Acid (C)"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"273"	"set1IT045"	17587	-4.23252320094104	-17.3907417234652	"D-Galacturonic Acid (C)"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"274"	"set1IT046"	17166	-5.04698312164308	-15.8499796018274	"D-Galacturonic Acid (C)"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"275"	"set1IT046"	17167	-3.42158299855995	-14.444939017815	"D-Galacturonic Acid (C)"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"276"	"set1IT046"	17168	-1.10087682159844	-7.14620852875151	"D-Galacturonic Acid (C)"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"277"	"set1IT046"	17587	-3.87496703305063	-16.7834293317169	"D-Galacturonic Acid (C)"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"278"	"set1IT051"	16789	-5.36507149655847	-6.37274871447205	"D-Sorbitol (C)"	"carbon source"	"D-Sorbitol"	20	"mM"	NA	NA	NA
+"279"	"set1IT051"	17661	-4.1228806256401	-14.5101686678884	"D-Sorbitol (C)"	"carbon source"	"D-Sorbitol"	20	"mM"	NA	NA	NA
+"280"	"set1IT052"	16789	-4.70427327478004	-7.16361747431522	"D-Sorbitol (C)"	"carbon source"	"D-Sorbitol"	20	"mM"	NA	NA	NA
+"281"	"set1IT052"	17661	-4.31178184056836	-15.1749923043362	"D-Sorbitol (C)"	"carbon source"	"D-Sorbitol"	20	"mM"	NA	NA	NA
+"282"	"set1IT053"	14720	-1.51775477668674	-7.56568033358202	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"283"	"set1IT053"	14734	-1.42723640874739	-8.55811909140483	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"284"	"set1IT053"	15320	1.62832821154468	6.46046626495012	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"285"	"set1IT053"	15322	1.26715240686515	6.45301961421869	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"286"	"set1IT053"	15323	1.30696264084008	5.4379568506095	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"287"	"set1IT053"	15600	-2.58842221308937	-7.80732216581235	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"288"	"set1IT053"	16634	1.42484836144096	11.3266071605583	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"289"	"set1IT053"	16874	-1.84339581413827	-5.15409608951681	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"290"	"set1IT053"	17409	1.19781779758377	6.44488762419036	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"291"	"set1IT053"	17466	-1.5173905399314	-7.20359270922636	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"292"	"set1IT053"	17589	-4.20803702975399	-14.4044535560656	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"293"	"set1IT053"	17907	-2.13422454806297	-12.0937109955112	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"294"	"set1IT053"	17928	1.41164238068246	7.0287086132184	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"295"	"set1IT053"	18067	-1.04011265316169	-5.25789389847567	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"296"	"set1IT053"	18152	-4.24818270691797	-15.4096714801136	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"297"	"set1IT053"	18153	-4.36115619464938	-11.9144122900849	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"298"	"set1IT053"	18416	-1.89825407800816	-5.95617216339171	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"299"	"set1IT054"	14472	-1.40656975451007	-5.20200380549033	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"300"	"set1IT054"	14699	-1.29884448700234	-6.42497247655991	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"301"	"set1IT054"	14720	-1.34541255381049	-7.38139926317364	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"302"	"set1IT054"	14734	-1.36313721018253	-8.84342200987456	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"303"	"set1IT054"	15320	1.60767924114286	6.18393775570112	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"304"	"set1IT054"	15322	1.28213129536405	5.73865657401839	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"305"	"set1IT054"	15323	1.45785101991688	7.69439426812215	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"306"	"set1IT054"	15600	-2.77930053981891	-7.468333409385	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"307"	"set1IT054"	15962	-1.85645601810278	-5.67797118966698	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"308"	"set1IT054"	16022	-1.4029706628416	-9.38376305780904	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"309"	"set1IT054"	16260	-2.04348964301318	-6.02586693183247	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"310"	"set1IT054"	16634	1.38297827777967	10.8399811958205	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"311"	"set1IT054"	17409	1.35693776182212	6.87939911234569	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"312"	"set1IT054"	17466	-1.68433721759093	-7.29580907522292	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"313"	"set1IT054"	17589	-4.31208176464381	-14.2896562371697	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"314"	"set1IT054"	17907	-1.7814226947141	-11.1593346960709	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"315"	"set1IT054"	17928	1.37642057979531	7.18023529454529	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"316"	"set1IT054"	18027	1.38834797552823	5.72587054886159	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"317"	"set1IT054"	18082	-1.37688954331744	-7.28850793758052	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"318"	"set1IT054"	18152	-4.13917272022369	-15.78342171604	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"319"	"set1IT054"	18153	-4.10152065725434	-13.0834291787924	"L-Malic (C)"	"carbon source"	"L-Malic acid disodium salt monohydrate"	20	"mM"	NA	NA	NA
+"320"	"set1IT055"	18265	-2.42414305138024	-13.24102092932	"D-Trehalose (C)"	"carbon source"	"D-Trehalose dihydrate"	20	"mM"	NA	NA	NA
+"321"	"set1IT055"	18266	1.29631030227192	10.8973768274482	"D-Trehalose (C)"	"carbon source"	"D-Trehalose dihydrate"	20	"mM"	NA	NA	NA
+"322"	"set1IT056"	18265	-2.38919211578217	-13.9053210449277	"D-Trehalose (C)"	"carbon source"	"D-Trehalose dihydrate"	20	"mM"	NA	NA	NA
+"323"	"set1IT056"	18266	1.27031032456709	10.7834314144765	"D-Trehalose (C)"	"carbon source"	"D-Trehalose dihydrate"	20	"mM"	NA	NA	NA
+"324"	"set1IT057"	14222	-1.43671974617733	-11.2686991813103	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"325"	"set1IT057"	15188	-1.09993779098317	-5.26948345717767	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"326"	"set1IT057"	16469	-2.87274705783209	-7.06430059121833	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"327"	"set1IT057"	17515	8.1522847296293	50.3928056447188	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"328"	"set1IT057"	17517	8.49821264355642	64.7654643234133	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"329"	"set1IT057"	17519	4.89795284939438	11.7233234148151	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"330"	"set1IT057"	18005	-1.25870841087891	-9.31309456158969	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"331"	"set1IT057"	18191	-1.32292509613666	-6.78779878358453	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"332"	"set1IT057"	1937020	-1.43866029379125	-5.76232124216995	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"333"	"set1IT057"	1937025	5.90763434017017	51.8105322601667	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"334"	"set1IT058"	14222	-1.53562750142107	-11.6716887421085	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"335"	"set1IT058"	14734	-1.03721812757899	-6.95365851943973	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"336"	"set1IT058"	16469	-3.29194501311988	-7.73748205338655	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"337"	"set1IT058"	17315	-1.11665829595931	-7.69523155735098	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"338"	"set1IT058"	17515	8.17367810125499	56.1136533912346	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"339"	"set1IT058"	17517	8.46611823296663	67.5644450913464	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"340"	"set1IT058"	17519	4.85570647724849	11.877596903333	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"341"	"set1IT058"	17584	1.37938501132749	11.2571719920972	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"342"	"set1IT058"	18005	-1.31436633814564	-9.54706054445327	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"343"	"set1IT058"	18191	-1.4487295740846	-6.61383333416897	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"344"	"set1IT058"	18258	-1.37460466636199	-8.26144116557748	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"345"	"set1IT058"	1937020	-1.35198677905026	-5.76850321478404	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"346"	"set1IT058"	1937025	5.74457028512049	52.0447110422083	"D-Serine (C)"	"carbon source"	"D-Serine"	20	"mM"	NA	NA	NA
+"347"	"set1IT059"	15733	-2.01094356654181	-5.70446040964316	"casaminos (C)"	"carbon source"	"casamino acids"	2	"mg/mL"	NA	NA	NA
+"348"	"set1IT059"	15823	-2.08034383602575	-5.55467567156739	"casaminos (C)"	"carbon source"	"casamino acids"	2	"mg/mL"	NA	NA	NA
+"349"	"set1IT060"	14266	-1.28755911250774	-6.59046996367565	"casaminos (C)"	"carbon source"	"casamino acids"	2	"mg/mL"	NA	NA	NA
+"350"	"set1IT060"	15733	-1.77885564812007	-5.4399892081122	"casaminos (C)"	"carbon source"	"casamino acids"	2	"mg/mL"	NA	NA	NA
+"351"	"set1IT060"	15823	-2.60867802766843	-7.01322985523587	"casaminos (C)"	"carbon source"	"casamino acids"	2	"mg/mL"	NA	NA	NA
+"352"	"set1IT060"	15862	-1.17356807290755	-5.44148314994767	"casaminos (C)"	"carbon source"	"casamino acids"	2	"mg/mL"	NA	NA	NA
+"353"	"set1IT060"	17303	-1.64087869543807	-9.18835881978736	"casaminos (C)"	"carbon source"	"casamino acids"	2	"mg/mL"	NA	NA	NA
+"354"	"set1IT061"	14808	-5.18852512667857	-6.15103508161525	"NAG (C)"	"carbon source"	"N-Acetyl-D-Glucosamine"	20	"mM"	NA	NA	NA
+"355"	"set1IT061"	14809	-1.14401450077917	-7.70968238596807	"NAG (C)"	"carbon source"	"N-Acetyl-D-Glucosamine"	20	"mM"	NA	NA	NA
+"356"	"set1IT062"	14808	-4.78436558926926	-6.52230439999587	"NAG (C)"	"carbon source"	"N-Acetyl-D-Glucosamine"	20	"mM"	NA	NA	NA
+"357"	"set1IT062"	14809	-1.21877124998776	-8.59653309608183	"NAG (C)"	"carbon source"	"N-Acetyl-D-Glucosamine"	20	"mM"	NA	NA	NA
+"358"	"set1IT063"	14743	-2.06476488840768	-8.43878665648224	"D-Glucosamine Hydrochloride (C)"	"carbon source"	"D-Glucosamine Hydrochloride"	20	"mM"	NA	NA	NA
+"359"	"set1IT063"	14808	-5.64905859116725	-5.49093959443133	"D-Glucosamine Hydrochloride (C)"	"carbon source"	"D-Glucosamine Hydrochloride"	20	"mM"	NA	NA	NA
+"360"	"set1IT063"	15935	-3.92583094894639	-9.69457870813248	"D-Glucosamine Hydrochloride (C)"	"carbon source"	"D-Glucosamine Hydrochloride"	20	"mM"	NA	NA	NA
+"361"	"set1IT063"	16276	-1.13220234753289	-6.87618253344861	"D-Glucosamine Hydrochloride (C)"	"carbon source"	"D-Glucosamine Hydrochloride"	20	"mM"	NA	NA	NA
+"362"	"set1IT064"	14743	-1.34078231752436	-5.70499051946182	"D-Glucosamine Hydrochloride (C)"	"carbon source"	"D-Glucosamine Hydrochloride"	20	"mM"	NA	NA	NA
+"363"	"set1IT064"	14808	-4.79703918701459	-6.5395817298311	"D-Glucosamine Hydrochloride (C)"	"carbon source"	"D-Glucosamine Hydrochloride"	20	"mM"	NA	NA	NA
+"364"	"set1IT064"	15935	-3.65319357656493	-9.30321088856643	"D-Glucosamine Hydrochloride (C)"	"carbon source"	"D-Glucosamine Hydrochloride"	20	"mM"	NA	NA	NA
+"365"	"set1IT065"	15935	-2.35920422426865	-8.04378223912457	"D-Mannose (C)"	"carbon source"	"D-Mannose"	20	"mM"	NA	NA	NA
+"366"	"set1IT066"	15935	-3.14796324423672	-8.80197057261483	"D-Mannose (C)"	"carbon source"	"D-Mannose"	20	"mM"	NA	NA	NA
+"367"	"set1IT067"	17166	-1.87278680596176	-12.3864936483649	"D-Galacturonic Acid (C) MOPS"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"368"	"set1IT067"	17587	-1.95603906296167	-12.2125552876579	"D-Galacturonic Acid (C) MOPS"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"369"	"set1IT068"	17166	-1.87022213794751	-10.5149818220451	"D-Galacturonic Acid (C) MOPS"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"370"	"set1IT068"	17587	-1.98807722396009	-11.8141649966553	"D-Galacturonic Acid (C) MOPS"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"371"	"set1IT071"	15310	4.59095103578183	26.5555179355188	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"372"	"set1IT071"	15863	-3.04391152360876	-5.48594044413766	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"373"	"set1IT071"	15864	-3.19843843914352	-6.44626769290418	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"374"	"set1IT071"	15865	-3.87538398301134	-6.44874830491843	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"375"	"set1IT071"	15866	-4.14850563959349	-6.30806119384441	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"376"	"set1IT071"	15901	4.39319781239877	26.5428439208695	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"377"	"set1IT071"	15902	4.24124284682922	26.0304361234836	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"378"	"set1IT071"	16097	2.00405482066938	6.1583051619989	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"379"	"set1IT071"	16413	-1.14729302268592	-5.35667708585958	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"380"	"set1IT071"	16414	-1.34364615247011	-6.33525019901227	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"381"	"set1IT071"	16415	-1.02349753524057	-5.11074489129786	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"382"	"set1IT072"	15310	4.53188385076285	23.4107710395995	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"383"	"set1IT072"	15863	-3.43606916962703	-6.44548535397739	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"384"	"set1IT072"	15864	-2.20005161232609	-6.23601429242838	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"385"	"set1IT072"	15865	-3.38333025959228	-7.27824926141308	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"386"	"set1IT072"	15866	-3.67836300863165	-6.10415608707882	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"387"	"set1IT072"	15900	1.09554569761664	5.13899511329565	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"388"	"set1IT072"	15901	4.3119429283695	23.8931334025648	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"389"	"set1IT072"	15902	4.13449186603702	24.2424221634573	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"390"	"set1IT072"	16097	1.82047033213046	8.7378249139255	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"391"	"set1IT072"	16414	-1.42134469639181	-6.88112377034298	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"392"	"set1IT072"	16415	-1.36955151048578	-5.87584634042991	"L-Arginine (N)"	"nitrogen source"	"L-Arginine"	10	"mM"	NA	NA	NA
+"393"	"set1IT073"	18165	-3.12768750404349	-15.0055665522008	"L-Aspartic Acid (N)"	"nitrogen source"	"L-Aspartic Acid"	6	"mM"	NA	NA	NA
+"394"	"set1IT074"	18165	-2.96548774905432	-14.3915508996037	"L-Aspartic Acid (N)"	"nitrogen source"	"L-Aspartic Acid"	6	"mM"	NA	NA	NA
+"395"	"set1IT075"	14258	1.07526208293822	8.67816082259273	"L-Serine (N)"	"nitrogen source"	"L-Serine"	20	"mM"	NA	NA	NA
+"396"	"set1IT077"	15885	-2.93316165375553	-6.51406876461653	"L-Asparagine (N)"	"nitrogen source"	"L-Asparagine"	20	"mM"	NA	NA	NA
+"397"	"set1IT078"	15885	-4.41942678396945	-7.33076963280084	"L-Asparagine (N)"	"nitrogen source"	"L-Asparagine"	20	"mM"	NA	NA	NA
+"398"	"set1IT080"	17129	-1.42921137806924	-7.65694646083912	"L-Glutamine (N)"	"nitrogen source"	"L-Glutamine"	20	"mM"	NA	NA	NA
+"399"	"set1IT081"	14589	-2.64311009675727	-9.36190562749257	"Glycine (N)"	"nitrogen source"	"Glycine"	20	"mM"	NA	NA	NA
+"400"	"set1IT081"	15782	-1.35933820918737	-5.06644771331163	"Glycine (N)"	"nitrogen source"	"Glycine"	20	"mM"	NA	NA	NA
+"401"	"set1IT082"	14589	-2.85393032105619	-9.42136822956584	"Glycine (N)"	"nitrogen source"	"Glycine"	20	"mM"	NA	NA	NA
+"402"	"set1IT083"	16760	-1.55481032265024	-5.20175639908669	"L-Alanine (N)"	"nitrogen source"	"L-Alanine"	20	"mM"	NA	NA	NA
+"403"	"set1IT084"	16760	-1.68759118319962	-6.63460480187949	"L-Alanine (N)"	"nitrogen source"	"L-Alanine"	20	"mM"	NA	NA	NA
+"404"	"set1IT085"	15723	-1.24731681860045	-5.92154399180367	"D-Serine (N)"	"nitrogen source"	"D-Serine"	20	"mM"	NA	NA	NA
+"405"	"set1IT085"	16469	-3.60060697102184	-8.94001614885389	"D-Serine (N)"	"nitrogen source"	"D-Serine"	20	"mM"	NA	NA	NA
+"406"	"set1IT085"	17515	2.52394591768355	18.6494634102137	"D-Serine (N)"	"nitrogen source"	"D-Serine"	20	"mM"	NA	NA	NA
+"407"	"set1IT085"	17517	2.47909585176785	20.279503727756	"D-Serine (N)"	"nitrogen source"	"D-Serine"	20	"mM"	NA	NA	NA
+"408"	"set1IT085"	17519	1.50107795008482	8.00241495770778	"D-Serine (N)"	"nitrogen source"	"D-Serine"	20	"mM"	NA	NA	NA
+"409"	"set1IT085"	1937025	2.14153516100208	18.8087241459377	"D-Serine (N)"	"nitrogen source"	"D-Serine"	20	"mM"	NA	NA	NA
+"410"	"set1IT086"	15723	-1.48170076563167	-5.98061034009054	"D-Serine (N)"	"nitrogen source"	"D-Serine"	20	"mM"	NA	NA	NA
+"411"	"set1IT086"	16469	-3.84166574363782	-9.8440302134113	"D-Serine (N)"	"nitrogen source"	"D-Serine"	20	"mM"	NA	NA	NA
+"412"	"set1IT086"	17515	2.59984444929113	18.1940204838148	"D-Serine (N)"	"nitrogen source"	"D-Serine"	20	"mM"	NA	NA	NA
+"413"	"set1IT086"	17517	2.55607816813414	20.8859921724895	"D-Serine (N)"	"nitrogen source"	"D-Serine"	20	"mM"	NA	NA	NA
+"414"	"set1IT086"	17519	1.55307297251415	7.3974250568811	"D-Serine (N)"	"nitrogen source"	"D-Serine"	20	"mM"	NA	NA	NA
+"415"	"set1IT086"	1937025	2.12854804768145	16.9755648718463	"D-Serine (N)"	"nitrogen source"	"D-Serine"	20	"mM"	NA	NA	NA
+"416"	"set1IT087"	14589	-2.21635646647402	-8.16354065446065	"D-Alanine (N)"	"nitrogen source"	"D-Alanine"	20	"mM"	NA	NA	NA
+"417"	"set1IT087"	15311	-1.99682756674572	-8.13983037593943	"D-Alanine (N)"	"nitrogen source"	"D-Alanine"	20	"mM"	NA	NA	NA
+"418"	"set1IT088"	14589	-2.89142713862855	-10.321548918533	"D-Alanine (N)"	"nitrogen source"	"D-Alanine"	20	"mM"	NA	NA	NA
+"419"	"set1IT088"	15311	-3.25176293872051	-9.03411366387717	"D-Alanine (N)"	"nitrogen source"	"D-Alanine"	20	"mM"	NA	NA	NA
+"420"	"set1IT089"	15458	1.53537845677163	5.40155216818809	"Gly-DL-Asp (N)"	"nitrogen source"	"Gly-DL-Asp"	20	"mM"	NA	NA	NA
+"421"	"set1IT089"	16097	-1.77347615355768	-5.70490670784195	"Gly-DL-Asp (N)"	"nitrogen source"	"Gly-DL-Asp"	20	"mM"	NA	NA	NA
+"422"	"set1IT089"	17557	-1.52091288513916	-9.45274651727386	"Gly-DL-Asp (N)"	"nitrogen source"	"Gly-DL-Asp"	20	"mM"	NA	NA	NA
+"423"	"set1IT089"	17601	-1.08261019484	-6.62089446911544	"Gly-DL-Asp (N)"	"nitrogen source"	"Gly-DL-Asp"	20	"mM"	NA	NA	NA
+"424"	"set1IT089"	17602	-1.06842089670514	-5.63752247985878	"Gly-DL-Asp (N)"	"nitrogen source"	"Gly-DL-Asp"	20	"mM"	NA	NA	NA
+"425"	"set1IT089"	17603	-1.24022230269725	-6.8373633203679	"Gly-DL-Asp (N)"	"nitrogen source"	"Gly-DL-Asp"	20	"mM"	NA	NA	NA
+"426"	"set1IT089"	17604	-1.12987862775964	-6.08335185078586	"Gly-DL-Asp (N)"	"nitrogen source"	"Gly-DL-Asp"	20	"mM"	NA	NA	NA
+"427"	"set1IT089"	17605	-1.05486634688015	-7.39652289852386	"Gly-DL-Asp (N)"	"nitrogen source"	"Gly-DL-Asp"	20	"mM"	NA	NA	NA
+"428"	"set1IT089"	18082	-1.73205532125137	-9.43211077164077	"Gly-DL-Asp (N)"	"nitrogen source"	"Gly-DL-Asp"	20	"mM"	NA	NA	NA
+"429"	"set1IT090"	15458	1.27107969835131	5.5597103255263	"Gly-DL-Asp (N)"	"nitrogen source"	"Gly-DL-Asp"	20	"mM"	NA	NA	NA
+"430"	"set1IT090"	16097	-1.94109018831944	-6.34213333902379	"Gly-DL-Asp (N)"	"nitrogen source"	"Gly-DL-Asp"	20	"mM"	NA	NA	NA
+"431"	"set1IT090"	17557	-1.31069817876089	-8.46641956330977	"Gly-DL-Asp (N)"	"nitrogen source"	"Gly-DL-Asp"	20	"mM"	NA	NA	NA
+"432"	"set1IT090"	17601	-1.11159052842739	-6.73402117188824	"Gly-DL-Asp (N)"	"nitrogen source"	"Gly-DL-Asp"	20	"mM"	NA	NA	NA
+"433"	"set1IT090"	17603	-1.37313759789232	-7.51600489550956	"Gly-DL-Asp (N)"	"nitrogen source"	"Gly-DL-Asp"	20	"mM"	NA	NA	NA
+"434"	"set1IT090"	17604	-1.36013924544136	-7.14101722188824	"Gly-DL-Asp (N)"	"nitrogen source"	"Gly-DL-Asp"	20	"mM"	NA	NA	NA
+"435"	"set1IT090"	17605	-1.29989309887196	-8.7448087262444	"Gly-DL-Asp (N)"	"nitrogen source"	"Gly-DL-Asp"	20	"mM"	NA	NA	NA
+"436"	"set1IT090"	18082	-1.57916824897032	-7.9713537176006	"Gly-DL-Asp (N)"	"nitrogen source"	"Gly-DL-Asp"	20	"mM"	NA	NA	NA
+"437"	"set1IT091"	15458	1.93667839347177	5.89413381577414	"Gly-Glu (N)"	"nitrogen source"	"Gly-Glu"	20	"mM"	NA	NA	NA
+"438"	"set1IT091"	16995	1.3692374359822	9.43296351317638	"Gly-Glu (N)"	"nitrogen source"	"Gly-Glu"	20	"mM"	NA	NA	NA
+"439"	"set1IT091"	17603	-1.20094753032209	-7.09487142885355	"Gly-Glu (N)"	"nitrogen source"	"Gly-Glu"	20	"mM"	NA	NA	NA
+"440"	"set1IT091"	17604	-1.12131824413505	-5.15556535434805	"Gly-Glu (N)"	"nitrogen source"	"Gly-Glu"	20	"mM"	NA	NA	NA
+"441"	"set1IT091"	17605	-1.02874900414547	-7.60285646927892	"Gly-Glu (N)"	"nitrogen source"	"Gly-Glu"	20	"mM"	NA	NA	NA
+"442"	"set1IT092"	15458	2.03620747317522	5.00136343053963	"Gly-Glu (N)"	"nitrogen source"	"Gly-Glu"	20	"mM"	NA	NA	NA
+"443"	"set1IT092"	17602	-1.39003950810521	-7.43292120688794	"Gly-Glu (N)"	"nitrogen source"	"Gly-Glu"	20	"mM"	NA	NA	NA
+"444"	"set1IT092"	17603	-1.01064968713778	-6.11611410301956	"Gly-Glu (N)"	"nitrogen source"	"Gly-Glu"	20	"mM"	NA	NA	NA
+"445"	"set1IT092"	17604	-1.42423031044936	-6.84942015915219	"Gly-Glu (N)"	"nitrogen source"	"Gly-Glu"	20	"mM"	NA	NA	NA
+"446"	"set1IT092"	17605	-1.1153320749142	-7.57144513680459	"Gly-Glu (N)"	"nitrogen source"	"Gly-Glu"	20	"mM"	NA	NA	NA
+"447"	"set1IT093"	14563	-1.32668988742859	-6.47829824920199	"casaminos (N)"	"nitrogen source"	"casamino acids"	2	"mg/mL"	NA	NA	NA
+"448"	"set1IT094"	14563	-1.09095766004935	-6.72443654059943	"casaminos (N)"	"nitrogen source"	"casamino acids"	2	"mg/mL"	NA	NA	NA
+"449"	"set1IT095"	14353	-1.60796066644348	-5.37812912447115	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"450"	"set1IT095"	14589	-2.00341283322689	-7.0623671064701	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"451"	"set1IT095"	14699	-1.08574846280672	-6.44491284949988	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"452"	"set1IT095"	14973	-2.72146683361544	-8.09865832534758	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"453"	"set1IT095"	15417	-4.5852920636618	-10.68956452993	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"454"	"set1IT095"	15419	-5.18151712354792	-6.12888690518672	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"455"	"set1IT095"	15420	-5.27988802005593	-6.26459719835162	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"456"	"set1IT095"	15421	-5.46142186439649	-7.45625589165321	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"457"	"set1IT095"	15982	-1.35015209911462	-6.6535378222683	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"458"	"set1IT095"	16014	1.45437937487381	12.8207968289351	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"459"	"set1IT095"	16094	-1.55677853910333	-9.71599599928148	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"460"	"set1IT095"	16433	-1.55709910836162	-5.50573085201987	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"461"	"set1IT095"	16616	-2.36308616884024	-9.02825443525681	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"462"	"set1IT095"	16995	-1.34550358866917	-6.12949262764098	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"463"	"set1IT095"	17148	-1.35307332408367	-7.6319607344325	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"464"	"set1IT095"	17150	1.42206642806547	9.41669591491593	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"465"	"set1IT095"	17460	2.87143666652001	25.2871074198248	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"466"	"set1IT095"	17494	-2.04014435764192	-13.5980120606245	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"467"	"set1IT095"	17568	1.04039882254644	9.46599879893093	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"468"	"set1IT095"	17588	-1.49092708181859	-11.7126547373596	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"469"	"set1IT095"	17772	-1.03587565989914	-6.58881786193274	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"470"	"set1IT095"	18050	1.04319516615651	7.6235275519758	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"471"	"set1IT095"	18243	4.09113376740654	36.1342229142468	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"472"	"set1IT095"	18411	-2.58025279790122	-12.2323266360353	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"473"	"set1IT096"	14589	-2.00981915807886	-9.58788716018269	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"474"	"set1IT096"	14973	-2.04423226936326	-6.4957272777745	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"475"	"set1IT096"	15417	-4.9332409902791	-9.97794471951602	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"476"	"set1IT096"	15418	-5.33205942132082	-7.27082401800239	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"477"	"set1IT096"	15419	-4.36234141172756	-6.00920887790631	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"478"	"set1IT096"	15420	-5.04950849891188	-7.21672228898581	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"479"	"set1IT096"	16616	-1.90663112676686	-8.28126223119096	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"480"	"set1IT096"	17460	1.74965935572889	14.8314021214915	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"481"	"set1IT096"	17494	-1.60887159411715	-11.7442476209895	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"482"	"set1IT096"	18243	2.3443234594939	20.8473295796834	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"483"	"set1IT096"	18411	-2.33803073357273	-12.7676418513433	"Putrescine (N)"	"nitrogen source"	"Putrescine Dihydrochloride"	20	"mM"	NA	NA	NA
+"484"	"set2IT005"	17704	1.92135873794275	6.96363095168155	"Adenosine (N)"	"nitrogen source"	"Adenosine"	2	"mM"	NA	NA	NA
+"485"	"set2IT006"	17704	1.88737755201475	7.21878690735887	"Adenosine (N)"	"nitrogen source"	"Adenosine"	2	"mM"	NA	NA	NA
+"486"	"set2IT018"	16124	-2.79147591060419	-7.33258842291255	"Chlorite 0.4 mM"	"stress"	"Sodium Chlorite"	0.4	"mM"	NA	NA	NA
+"487"	"set2IT018"	1936996	1.2232069632684	9.28925284610975	"Chlorite 0.4 mM"	"stress"	"Sodium Chlorite"	0.4	"mM"	NA	NA	NA
+"488"	"set2IT019"	14597	-2.0090492576762	-5.38873279346702	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"489"	"set2IT019"	15028	2.40017613006132	11.0741179332358	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"490"	"set2IT019"	15345	5.10505869570528	9.19619709819675	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"491"	"set2IT019"	15454	5.11810503789442	17.1658025465832	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"492"	"set2IT019"	15746	-1.42755921983263	-5.19877092276489	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"493"	"set2IT019"	16276	1.57070014060538	9.98954003723623	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"494"	"set2IT019"	17187	2.75481091185732	5.22343555300838	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"495"	"set2IT019"	17328	-1.2147224285421	-5.37545079812209	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"496"	"set2IT019"	17428	2.57584885053355	6.50171580541058	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"497"	"set2IT019"	17470	-1.31778636281198	-7.17333322720612	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"498"	"set2IT019"	17529	-1.09187734687958	-5.50966335718424	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"499"	"set2IT019"	18265	2.95596927776183	21.1601579380759	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"500"	"set2IT019"	18311	1.45925958881223	8.81493078889301	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"501"	"set2IT019"	18312	1.46830641436074	7.94508221710814	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"502"	"set2IT019"	18313	1.62336580754025	11.4301510828258	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"503"	"set2IT019"	18314	1.85679520473516	11.7332732078574	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"504"	"set2IT019"	18315	1.3490916901961	9.17073735973224	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"505"	"set2IT019"	1936936	3.22796826601682	11.5438512184857	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"506"	"set2IT019"	1936996	9.24868339694122	67.882296587262	"Chlorite 1.25 mM"	"stress"	"Sodium Chlorite"	1.25	"mM"	NA	NA	NA
+"507"	"set2IT023"	14571	-2.06323465878387	-11.5149243422876	"Chloride 750 mM"	"stress"	"Sodium Chloride"	750	"mM"	NA	NA	NA
+"508"	"set2IT023"	15974	-1.50260040182422	-5.32135392656295	"Chloride 750 mM"	"stress"	"Sodium Chloride"	750	"mM"	NA	NA	NA
+"509"	"set2IT023"	16136	-2.55114010464341	-11.8561950995897	"Chloride 750 mM"	"stress"	"Sodium Chloride"	750	"mM"	NA	NA	NA
+"510"	"set2IT023"	16153	-1.587975291022	-7.21760624015911	"Chloride 750 mM"	"stress"	"Sodium Chloride"	750	"mM"	NA	NA	NA
+"511"	"set2IT023"	16154	-2.77028466651059	-7.44934898462632	"Chloride 750 mM"	"stress"	"Sodium Chloride"	750	"mM"	NA	NA	NA
+"512"	"set2IT023"	16162	-1.59552888157066	-5.29670150349441	"Chloride 750 mM"	"stress"	"Sodium Chloride"	750	"mM"	NA	NA	NA
+"513"	"set2IT023"	16164	-2.48764456404961	-10.3693157487014	"Chloride 750 mM"	"stress"	"Sodium Chloride"	750	"mM"	NA	NA	NA
+"514"	"set2IT023"	16167	-2.41917706635278	-5.23602993322563	"Chloride 750 mM"	"stress"	"Sodium Chloride"	750	"mM"	NA	NA	NA
+"515"	"set2IT023"	16168	-2.34315339805072	-6.61235221499619	"Chloride 750 mM"	"stress"	"Sodium Chloride"	750	"mM"	NA	NA	NA
+"516"	"set2IT023"	16170	-2.36506839354906	-9.05076418299566	"Chloride 750 mM"	"stress"	"Sodium Chloride"	750	"mM"	NA	NA	NA
+"517"	"set2IT023"	16530	-2.10263170205985	-7.15939472884163	"Chloride 750 mM"	"stress"	"Sodium Chloride"	750	"mM"	NA	NA	NA
+"518"	"set2IT023"	17864	-1.57216935602046	-5.08103302546483	"Chloride 750 mM"	"stress"	"Sodium Chloride"	750	"mM"	NA	NA	NA
+"519"	"set2IT026"	14211	1.81806289601366	6.79043231124294	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"520"	"set2IT026"	14293	2.31887480606443	9.86578153716832	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"521"	"set2IT026"	14294	1.59498611404946	6.37750297685739	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"522"	"set2IT026"	14531	2.34852509300077	15.1021116091775	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"523"	"set2IT026"	14556	3.22849791126444	14.3379668388205	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"524"	"set2IT026"	14571	-3.1977797943779	-5.7267351461166	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"525"	"set2IT026"	14579	1.37813084633034	9.22157776303215	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"526"	"set2IT026"	14770	-1.48938667396477	-5.97441410775861	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"527"	"set2IT026"	14808	1.93039222593996	5.39800877556239	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"528"	"set2IT026"	14944	2.07867797076484	7.18074579082806	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"529"	"set2IT026"	14945	-1.59460274336884	-5.42914852049347	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"530"	"set2IT026"	15002	-1.65821199200626	-5.56994510032952	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"531"	"set2IT026"	15026	-1.84941233768401	-5.07046977545046	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"532"	"set2IT026"	15027	-1.85924487066628	-8.69236316009241	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"533"	"set2IT026"	15053	6.12014586549663	29.3724532020771	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"534"	"set2IT026"	15358	1.89301616563116	8.77700071542075	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"535"	"set2IT026"	15725	5.78489478184185	14.4971206208406	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"536"	"set2IT026"	16146	1.09982015880575	5.30287791953978	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"537"	"set2IT026"	16149	-1.25722210928328	-7.83300128554533	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"538"	"set2IT026"	16265	-1.20749033057398	-5.38849487589874	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"539"	"set2IT026"	16295	1.52863654810909	9.489659412454	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"540"	"set2IT026"	16397	-2.40978019714407	-8.74238567120584	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"541"	"set2IT026"	16657	-1.33848238068491	-6.93201000544049	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"542"	"set2IT026"	16897	-2.35027372993656	-7.03079604944075	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"543"	"set2IT026"	16902	1.47891660324157	9.32825757190362	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"544"	"set2IT026"	17190	-1.85916575958534	-8.10469218635721	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"545"	"set2IT026"	17264	-1.83265364107668	-6.6235051267725	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"546"	"set2IT026"	17268	1.54029805144214	5.0564908310313	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"547"	"set2IT026"	17410	1.73881320149701	13.2445623159164	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"548"	"set2IT026"	17426	-1.45738980526541	-5.07719836082432	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"549"	"set2IT026"	17454	2.55419358797779	9.87768774667185	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"550"	"set2IT026"	17455	2.17982973824214	7.71531747667339	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"551"	"set2IT026"	17576	1.56011571543686	6.84413378174227	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"552"	"set2IT026"	17733	1.45796960198148	10.0190981013206	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"553"	"set2IT026"	17809	1.5620883786251	7.85170768836279	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"554"	"set2IT026"	17811	2.25755233365686	6.42496216464325	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"555"	"set2IT026"	17971	-1.54769348431493	-6.97655600110789	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"556"	"set2IT026"	18077	-1.47416837858033	-5.00724565097645	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"557"	"set2IT026"	18181	1.46481916483556	5.05777557158535	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"558"	"set2IT026"	18258	-1.10246263884564	-5.39754220051462	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"559"	"set2IT026"	18265	-1.28235538092489	-6.56938685205659	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"560"	"set2IT026"	18348	-1.16789203271127	-5.51321966353983	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"561"	"set2IT026"	18413	-3.26103710340387	-5.41777523584249	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"562"	"set2IT026"	1936986	1.35798085013399	8.9479152051477	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"563"	"set2IT026"	1937039	1.01717807029963	7.29163938967479	"Cephalothin 0.01 mg/ml"	"stress"	"Cephalothin sodium salt"	0.01	"mg/ml"	NA	NA	NA
+"564"	"set2IT030"	14307	-1.27109775623994	-5.81320910433361	"A22 0.08 mg/ml"	"stress"	"MreB Perturbing Compound A22"	0.08	"mg/ml"	NA	NA	NA
+"565"	"set2IT030"	17086	-2.94700907644487	-6.00604910460537	"A22 0.08 mg/ml"	"stress"	"MreB Perturbing Compound A22"	0.08	"mg/ml"	NA	NA	NA
+"566"	"set2IT030"	17170	-2.74606652660452	-9.21313487916464	"A22 0.08 mg/ml"	"stress"	"MreB Perturbing Compound A22"	0.08	"mg/ml"	NA	NA	NA
+"567"	"set2IT030"	17836	-1.11362694307892	-7.10419540429893	"A22 0.08 mg/ml"	"stress"	"MreB Perturbing Compound A22"	0.08	"mg/ml"	NA	NA	NA
+"568"	"set2IT033"	15002	-1.97114925422948	-5.26136848177948	"Doxycycline hyclate 0.001 mg/ml"	"stress"	"Doxycycline hyclate"	0.001	"mg/ml"	NA	NA	NA
+"569"	"set2IT033"	15535	-1.73158642867997	-5.40193206352534	"Doxycycline hyclate 0.001 mg/ml"	"stress"	"Doxycycline hyclate"	0.001	"mg/ml"	NA	NA	NA
+"570"	"set2IT033"	16657	-1.13538586274719	-5.78766243849127	"Doxycycline hyclate 0.001 mg/ml"	"stress"	"Doxycycline hyclate"	0.001	"mg/ml"	NA	NA	NA
+"571"	"set2IT033"	17264	-2.63759228505982	-6.80141220629475	"Doxycycline hyclate 0.001 mg/ml"	"stress"	"Doxycycline hyclate"	0.001	"mg/ml"	NA	NA	NA
+"572"	"set2IT033"	17836	-1.06440630329741	-6.1201061804094	"Doxycycline hyclate 0.001 mg/ml"	"stress"	"Doxycycline hyclate"	0.001	"mg/ml"	NA	NA	NA
+"573"	"set2IT037"	14540	-2.24866959430405	-9.4241137702678	"Nickel (II) chloride 1 mM"	"stress"	"Nickel (II) chloride hexahydrate"	1	"mM"	NA	NA	NA
+"574"	"set2IT037"	16402	1.18348365494912	6.98218599603027	"Nickel (II) chloride 1 mM"	"stress"	"Nickel (II) chloride hexahydrate"	1	"mM"	NA	NA	NA
+"575"	"set2IT037"	16603	-2.71706795981834	-5.02341878631839	"Nickel (II) chloride 1 mM"	"stress"	"Nickel (II) chloride hexahydrate"	1	"mM"	NA	NA	NA
+"576"	"set2IT037"	16620	3.13575333102801	22.7768154586118	"Nickel (II) chloride 1 mM"	"stress"	"Nickel (II) chloride hexahydrate"	1	"mM"	NA	NA	NA
+"577"	"set2IT037"	17219	1.57558608923532	10.2293206160217	"Nickel (II) chloride 1 mM"	"stress"	"Nickel (II) chloride hexahydrate"	1	"mM"	NA	NA	NA
+"578"	"set2IT037"	17864	4.59544993462703	35.7748005651531	"Nickel (II) chloride 1 mM"	"stress"	"Nickel (II) chloride hexahydrate"	1	"mM"	NA	NA	NA
+"579"	"set2IT037"	17954	2.18321089789054	17.4706439807577	"Nickel (II) chloride 1 mM"	"stress"	"Nickel (II) chloride hexahydrate"	1	"mM"	NA	NA	NA
+"580"	"set2IT037"	18077	-2.34307368932413	-8.01056053254141	"Nickel (II) chloride 1 mM"	"stress"	"Nickel (II) chloride hexahydrate"	1	"mM"	NA	NA	NA
+"581"	"set2IT037"	1936808	2.7183169231964	16.764017823897	"Nickel (II) chloride 1 mM"	"stress"	"Nickel (II) chloride hexahydrate"	1	"mM"	NA	NA	NA
+"582"	"set2IT037"	1937204	1.18008244114699	9.01980130445303	"Nickel (II) chloride 1 mM"	"stress"	"Nickel (II) chloride hexahydrate"	1	"mM"	NA	NA	NA
+"583"	"set2IT038"	16213	-1.67491398526979	-5.67150198997526	"Cobalt chloride 0.32 mM"	"stress"	"Cobalt chloride hexahydrate"	0.32	"mM"	NA	NA	NA
+"584"	"set2IT038"	16280	1.35694135583897	6.29848284491567	"Cobalt chloride 0.32 mM"	"stress"	"Cobalt chloride hexahydrate"	0.32	"mM"	NA	NA	NA
+"585"	"set2IT038"	17864	2.45527267967372	18.3202490361724	"Cobalt chloride 0.32 mM"	"stress"	"Cobalt chloride hexahydrate"	0.32	"mM"	NA	NA	NA
+"586"	"set2IT038"	17970	-1.45612108244077	-8.7962975908755	"Cobalt chloride 0.32 mM"	"stress"	"Cobalt chloride hexahydrate"	0.32	"mM"	NA	NA	NA
+"587"	"set2IT038"	17971	-1.46872720477927	-8.27887853724191	"Cobalt chloride 0.32 mM"	"stress"	"Cobalt chloride hexahydrate"	0.32	"mM"	NA	NA	NA
+"588"	"set2IT038"	18077	-1.62295214840478	-6.98283008501401	"Cobalt chloride 0.32 mM"	"stress"	"Cobalt chloride hexahydrate"	0.32	"mM"	NA	NA	NA
+"589"	"set2IT038"	18205	-1.87830047222485	-6.74279121101911	"Cobalt chloride 0.32 mM"	"stress"	"Cobalt chloride hexahydrate"	0.32	"mM"	NA	NA	NA
+"590"	"set2IT039"	15974	-2.95051102956643	-8.15638830972182	"copper (II) chloride 2 mM"	"stress"	"copper (II) chloride dihydrate"	2	"mM"	NA	NA	NA
+"591"	"set2IT040"	17130	1.88063116305153	11.1568017056478	"sodium fluoride 100 mM"	"stress"	"sodium fluoride"	100	"mM"	NA	NA	NA
+"592"	"set2IT040"	17527	1.72421652068667	8.84576697528462	"sodium fluoride 100 mM"	"stress"	"sodium fluoride"	100	"mM"	NA	NA	NA
+"593"	"set2IT040"	17806	-1.00817088770097	-6.97332307880879	"sodium fluoride 100 mM"	"stress"	"sodium fluoride"	100	"mM"	NA	NA	NA
+"594"	"set2IT040"	1937104	-1.26990766817441	-9.10204237363294	"sodium fluoride 100 mM"	"stress"	"sodium fluoride"	100	"mM"	NA	NA	NA
+"595"	"set2IT041"	15958	1.29560848961967	5.38032871917113	"Thallium(I) acetate 0.0625 mg/ml"	"stress"	"Thallium(I) acetate"	0.0625	"mg/ml"	NA	NA	NA
+"596"	"set2IT041"	17131	-1.21530273998809	-5.88007998957272	"Thallium(I) acetate 0.0625 mg/ml"	"stress"	"Thallium(I) acetate"	0.0625	"mg/ml"	NA	NA	NA
+"597"	"set2IT042"	14609	-5.029735510142	-6.85410083343858	"Cisplatin 0.025 mg/ml"	"stress"	"Cisplatin"	0.025	"mg/ml"	NA	NA	NA
+"598"	"set2IT042"	14904	-3.71921937416549	-7.85150121538996	"Cisplatin 0.025 mg/ml"	"stress"	"Cisplatin"	0.025	"mg/ml"	NA	NA	NA
+"599"	"set2IT042"	15082	1.00712213308472	5.45467848707541	"Cisplatin 0.025 mg/ml"	"stress"	"Cisplatin"	0.025	"mg/ml"	NA	NA	NA
+"600"	"set2IT042"	15236	-1.53210129321209	-6.10967654151093	"Cisplatin 0.025 mg/ml"	"stress"	"Cisplatin"	0.025	"mg/ml"	NA	NA	NA
+"601"	"set2IT042"	16027	-4.17940261551675	-7.42594145817628	"Cisplatin 0.025 mg/ml"	"stress"	"Cisplatin"	0.025	"mg/ml"	NA	NA	NA
+"602"	"set2IT042"	16293	-1.39028044774464	-6.28913855942166	"Cisplatin 0.025 mg/ml"	"stress"	"Cisplatin"	0.025	"mg/ml"	NA	NA	NA
+"603"	"set2IT042"	16972	-1.41491911702019	-6.91399892217039	"Cisplatin 0.025 mg/ml"	"stress"	"Cisplatin"	0.025	"mg/ml"	NA	NA	NA
+"604"	"set2IT042"	17024	-1.39002909628438	-5.14512327721346	"Cisplatin 0.025 mg/ml"	"stress"	"Cisplatin"	0.025	"mg/ml"	NA	NA	NA
+"605"	"set2IT042"	17759	-3.39353613114186	-11.3267090801591	"Cisplatin 0.025 mg/ml"	"stress"	"Cisplatin"	0.025	"mg/ml"	NA	NA	NA
+"606"	"set2IT042"	18086	-2.58534496198163	-15.2222573595412	"Cisplatin 0.025 mg/ml"	"stress"	"Cisplatin"	0.025	"mg/ml"	NA	NA	NA
+"607"	"set2IT042"	1936809	-2.10886573880682	-8.79277314205867	"Cisplatin 0.025 mg/ml"	"stress"	"Cisplatin"	0.025	"mg/ml"	NA	NA	NA
+"608"	"set2IT043"	14609	-5.45582688071761	-5.30205261378648	"Cisplatin 0.05 mg/ml"	"stress"	"Cisplatin"	0.05	"mg/ml"	NA	NA	NA
+"609"	"set2IT043"	14904	-4.18058111850429	-5.70708464865787	"Cisplatin 0.05 mg/ml"	"stress"	"Cisplatin"	0.05	"mg/ml"	NA	NA	NA
+"610"	"set2IT043"	15082	1.32494149774603	6.00712513550689	"Cisplatin 0.05 mg/ml"	"stress"	"Cisplatin"	0.05	"mg/ml"	NA	NA	NA
+"611"	"set2IT043"	15236	-2.35056174158974	-7.05835734071095	"Cisplatin 0.05 mg/ml"	"stress"	"Cisplatin"	0.05	"mg/ml"	NA	NA	NA
+"612"	"set2IT043"	16027	-4.88948743351164	-5.78969048542874	"Cisplatin 0.05 mg/ml"	"stress"	"Cisplatin"	0.05	"mg/ml"	NA	NA	NA
+"613"	"set2IT043"	16293	-1.72525236983294	-7.09850837166516	"Cisplatin 0.05 mg/ml"	"stress"	"Cisplatin"	0.05	"mg/ml"	NA	NA	NA
+"614"	"set2IT043"	16900	-1.73493518181316	-6.15969305261302	"Cisplatin 0.05 mg/ml"	"stress"	"Cisplatin"	0.05	"mg/ml"	NA	NA	NA
+"615"	"set2IT043"	17024	-1.62462763202047	-5.6675287860192	"Cisplatin 0.05 mg/ml"	"stress"	"Cisplatin"	0.05	"mg/ml"	NA	NA	NA
+"616"	"set2IT043"	17759	-4.18667021355075	-8.01511273774952	"Cisplatin 0.05 mg/ml"	"stress"	"Cisplatin"	0.05	"mg/ml"	NA	NA	NA
+"617"	"set2IT043"	18086	-3.37972218215377	-15.5497246130193	"Cisplatin 0.05 mg/ml"	"stress"	"Cisplatin"	0.05	"mg/ml"	NA	NA	NA
+"618"	"set2IT043"	18410	-1.84457054967843	-7.90357036626087	"Cisplatin 0.05 mg/ml"	"stress"	"Cisplatin"	0.05	"mg/ml"	NA	NA	NA
+"619"	"set2IT043"	1936809	-2.3069323734592	-8.76554644258008	"Cisplatin 0.05 mg/ml"	"stress"	"Cisplatin"	0.05	"mg/ml"	NA	NA	NA
+"620"	"set2IT044"	14206	-2.48256406428565	-11.2972796030996	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"621"	"set2IT044"	14597	-1.55140129933836	-5.24326227737879	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"622"	"set2IT044"	14904	-3.57404194707669	-5.43443580447842	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"623"	"set2IT044"	14924	-1.68315455231663	-5.47891150079037	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"624"	"set2IT044"	14971	1.4064543968881	5.46754381010191	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"625"	"set2IT044"	15072	-1.55504325830762	-5.70458694506235	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"626"	"set2IT044"	15236	-2.40804581882434	-5.85630503427535	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"627"	"set2IT044"	15354	2.440649915773	5.39736285044365	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"628"	"set2IT044"	15882	1.89832806149916	5.22280695185519	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"629"	"set2IT044"	15957	2.12364615583587	5.03605428059501	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"630"	"set2IT044"	16293	-1.64831700790508	-6.2170272222414	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"631"	"set2IT044"	16530	-2.06610784619507	-6.41078610361416	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"632"	"set2IT044"	16601	1.83401907678825	7.55334656951251	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"633"	"set2IT044"	16989	1.68851431397011	6.8639824656724	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"634"	"set2IT044"	17024	-1.68175651693826	-5.12506127481226	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"635"	"set2IT044"	17651	1.69217468252443	10.9586251246523	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"636"	"set2IT044"	17652	1.3443426287717	7.46187716317525	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"637"	"set2IT044"	17720	-1.3086534682682	-8.48979474485972	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"638"	"set2IT044"	17759	-4.0230382368608	-7.22543023367246	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"639"	"set2IT044"	17934	1.47108826474805	10.3895210345037	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"640"	"set2IT044"	18086	-4.28022863290243	-11.7019309511262	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"641"	"set2IT044"	18410	-1.63524328243186	-6.99856006443538	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"642"	"set2IT044"	1936809	-2.4336313749542	-7.72869682149434	"Cisplatin 0.1 mg/ml"	"stress"	"Cisplatin"	0.1	"mg/ml"	NA	NA	NA
+"643"	"set2IT046"	14153	-3.3881088112112	-9.1954015284536	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"644"	"set2IT046"	14154	2.05533785064559	8.8413813369899	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"645"	"set2IT046"	14201	-2.29458789115096	-6.98876841978428	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"646"	"set2IT046"	14349	-2.49118913775413	-6.01933962603278	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"647"	"set2IT046"	14537	1.6774621653906	7.6336324303582	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"648"	"set2IT046"	14579	-3.58314176139068	-7.61536829140432	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"649"	"set2IT046"	14587	1.19225505944939	6.07110228114723	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"650"	"set2IT046"	14908	2.02609928506359	7.46147134445517	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"651"	"set2IT046"	14944	-3.51563443484911	-5.33518915984544	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"652"	"set2IT046"	14967	-4.2507777636356	-7.0510213357254	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"653"	"set2IT046"	14971	1.85591492124723	6.51011920874065	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"654"	"set2IT046"	15002	-3.34338368075912	-6.68906177463897	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"655"	"set2IT046"	15074	-2.71408516232623	-6.60746490263155	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"656"	"set2IT046"	15075	-1.74524354042116	-7.65394884062175	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"657"	"set2IT046"	15076	-2.4707780162068	-5.77929518645018	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"658"	"set2IT046"	15169	-1.28140686676147	-7.18501090963366	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"659"	"set2IT046"	15338	1.07476652106849	5.40445804426812	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"660"	"set2IT046"	15358	1.6488150797823	6.02718676689967	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"661"	"set2IT046"	15369	-3.15197997076381	-6.27760309107841	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"662"	"set2IT046"	15750	3.1713364455047	9.58761833510784	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"663"	"set2IT046"	15882	2.2286287512533	7.16618218406178	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"664"	"set2IT046"	15923	1.38546844241267	5.89479704004787	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"665"	"set2IT046"	16145	1.46198111997783	8.33212532366404	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"666"	"set2IT046"	16146	-2.78953797062666	-7.82307921849915	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"667"	"set2IT046"	16148	-3.00629817631476	-9.81820634924273	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"668"	"set2IT046"	16149	-1.53504574173082	-8.95006751577058	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"669"	"set2IT046"	16601	2.3063690797887	10.5625502445206	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"670"	"set2IT046"	16657	-1.58825059117218	-6.28133648523972	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"671"	"set2IT046"	16774	1.55158057380531	7.30651968345469	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"672"	"set2IT046"	16989	2.58949021775703	11.6045103920647	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"673"	"set2IT046"	17146	2.33516346845236	8.78033525454677	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"674"	"set2IT046"	17170	3.71460107606891	13.8202056576576	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"675"	"set2IT046"	17190	-1.73663818735536	-6.07536106154382	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"676"	"set2IT046"	17220	-2.4017309446379	-10.8285029312006	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"677"	"set2IT046"	17268	-3.13003275766786	-8.44662226888547	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"678"	"set2IT046"	17297	-2.57889329431151	-5.11040976270215	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"679"	"set2IT046"	17426	-3.10825799955296	-7.13471952298201	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"680"	"set2IT046"	17451	-1.63276725102343	-8.79972324557106	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"681"	"set2IT046"	17459	-2.29845359614941	-14.5656934945231	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"682"	"set2IT046"	17464	1.29957858296293	6.53924621585832	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"683"	"set2IT046"	17479	2.07708497821797	14.7739861772897	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"684"	"set2IT046"	17493	1.40261163557137	6.88852367617398	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"685"	"set2IT046"	17559	-1.62485315976141	-8.08803708593376	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"686"	"set2IT046"	17651	1.8334427956993	11.9751435710679	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"687"	"set2IT046"	17652	1.74473090282967	11.4430763265527	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"688"	"set2IT046"	17683	-1.15637338776007	-5.74392904729075	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"689"	"set2IT046"	17685	-1.77069140347703	-6.00440732095241	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"690"	"set2IT046"	17733	1.75990633747851	10.625689409282	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"691"	"set2IT046"	17836	-1.72998036518735	-8.66441034568761	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"692"	"set2IT046"	17850	1.12780781350795	7.46695830352214	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"693"	"set2IT046"	17851	-1.54448735731137	-7.82803312208029	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"694"	"set2IT046"	17931	1.78419967300451	9.50649958251516	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"695"	"set2IT046"	17932	1.54793245177504	6.55820929991621	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"696"	"set2IT046"	17933	1.71339604648257	10.2585401339146	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"697"	"set2IT046"	17934	1.93407907826236	14.2955308562541	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"698"	"set2IT046"	17935	1.73106783805551	7.83363006958618	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"699"	"set2IT046"	17957	-1.50268721600799	-5.16046571868332	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"700"	"set2IT046"	17994	-2.33145117318947	-13.050719090524	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"701"	"set2IT046"	18187	-3.67590371206372	-13.3180753868641	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"702"	"set2IT046"	18312	-2.35983749629355	-8.22876000449467	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"703"	"set2IT046"	18313	-2.37533849722361	-10.3825633174996	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"704"	"set2IT046"	18314	-1.40850256239923	-5.4185644496942	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"705"	"set2IT046"	18392	1.66952414468454	6.68356304372521	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"706"	"set2IT046"	18404	-3.00054534710999	-7.15121147020487	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"707"	"set2IT046"	18405	-1.60301035740703	-5.38834742362388	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"708"	"set2IT046"	18417	-2.87773187945358	-7.760033933767	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"709"	"set2IT046"	1936971	-3.5433175239666	-13.4983114057398	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"710"	"set2IT046"	1937014	2.15014680475935	10.8160189823752	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"711"	"set2IT046"	1937204	-3.37722512538313	-8.90927835900924	"Benzalkonium Chloride 0.004 mg/ml"	"stress"	"Benzalkonium Chloride"	0.004	"mg/ml"	NA	NA	NA
+"712"	"set2IT047"	14201	-1.45252323511307	-5.58923408432287	"Aluminum chloride 5 mM"	"stress"	"Aluminum chloride hydrate"	5	"mM"	NA	NA	NA
+"713"	"set2IT047"	14307	-1.96951590792921	-7.23928587185599	"Aluminum chloride 5 mM"	"stress"	"Aluminum chloride hydrate"	5	"mM"	NA	NA	NA
+"714"	"set2IT047"	15055	1.69183986034618	7.62484939247865	"Aluminum chloride 5 mM"	"stress"	"Aluminum chloride hydrate"	5	"mM"	NA	NA	NA
+"715"	"set2IT047"	16359	-3.84915038763892	-9.23217772909148	"Aluminum chloride 5 mM"	"stress"	"Aluminum chloride hydrate"	5	"mM"	NA	NA	NA
+"716"	"set2IT047"	16483	1.72810246213342	7.0262482188457	"Aluminum chloride 5 mM"	"stress"	"Aluminum chloride hydrate"	5	"mM"	NA	NA	NA
+"717"	"set2IT047"	16601	2.10046350509815	12.2562530658052	"Aluminum chloride 5 mM"	"stress"	"Aluminum chloride hydrate"	5	"mM"	NA	NA	NA
+"718"	"set2IT047"	17278	3.43082896701255	19.1927122017941	"Aluminum chloride 5 mM"	"stress"	"Aluminum chloride hydrate"	5	"mM"	NA	NA	NA
+"719"	"set2IT047"	17472	-1.28179452737385	-9.40757909797323	"Aluminum chloride 5 mM"	"stress"	"Aluminum chloride hydrate"	5	"mM"	NA	NA	NA
+"720"	"set2IT047"	17557	1.35109540255252	9.08753509502941	"Aluminum chloride 5 mM"	"stress"	"Aluminum chloride hydrate"	5	"mM"	NA	NA	NA
+"721"	"set2IT047"	17559	-3.11396223913763	-11.6448872592002	"Aluminum chloride 5 mM"	"stress"	"Aluminum chloride hydrate"	5	"mM"	NA	NA	NA
+"722"	"set2IT047"	17690	-1.11936018224207	-5.14493731026531	"Aluminum chloride 5 mM"	"stress"	"Aluminum chloride hydrate"	5	"mM"	NA	NA	NA
+"723"	"set2IT047"	17851	2.04647761445746	14.196375564269	"Aluminum chloride 5 mM"	"stress"	"Aluminum chloride hydrate"	5	"mM"	NA	NA	NA
+"724"	"set2IT047"	17994	-2.13035279562931	-11.7105154918651	"Aluminum chloride 5 mM"	"stress"	"Aluminum chloride hydrate"	5	"mM"	NA	NA	NA
+"725"	"set2IT047"	18063	-1.73903228210925	-5.46100505240282	"Aluminum chloride 5 mM"	"stress"	"Aluminum chloride hydrate"	5	"mM"	NA	NA	NA
+"726"	"set2IT047"	18093	-1.38432659593541	-5.1769093298915	"Aluminum chloride 5 mM"	"stress"	"Aluminum chloride hydrate"	5	"mM"	NA	NA	NA
+"727"	"set2IT047"	18245	-1.70365236347805	-8.01244330210611	"Aluminum chloride 5 mM"	"stress"	"Aluminum chloride hydrate"	5	"mM"	NA	NA	NA
+"728"	"set2IT047"	18246	-1.34103667073499	-8.28676604544922	"Aluminum chloride 5 mM"	"stress"	"Aluminum chloride hydrate"	5	"mM"	NA	NA	NA
+"729"	"set2IT049"	14572	-1.40111571645323	-5.76651468435966	"Bacitracin 0.5 mg/ml"	"stress"	"Bacitracin"	0.5	"mg/ml"	NA	NA	NA
+"730"	"set2IT049"	14939	-2.03434040670357	-5.18951001717944	"Bacitracin 0.5 mg/ml"	"stress"	"Bacitracin"	0.5	"mg/ml"	NA	NA	NA
+"731"	"set2IT049"	15219	-2.87659727577359	-6.69952841104169	"Bacitracin 0.5 mg/ml"	"stress"	"Bacitracin"	0.5	"mg/ml"	NA	NA	NA
+"732"	"set2IT049"	15545	1.40191904642044	6.14917056462912	"Bacitracin 0.5 mg/ml"	"stress"	"Bacitracin"	0.5	"mg/ml"	NA	NA	NA
+"733"	"set2IT049"	16512	-1.32883975780548	-5.80145488615312	"Bacitracin 0.5 mg/ml"	"stress"	"Bacitracin"	0.5	"mg/ml"	NA	NA	NA
+"734"	"set2IT049"	16972	-1.390524921824	-7.02383232871468	"Bacitracin 0.5 mg/ml"	"stress"	"Bacitracin"	0.5	"mg/ml"	NA	NA	NA
+"735"	"set2IT049"	17451	-1.51389808593141	-9.97547183528814	"Bacitracin 0.5 mg/ml"	"stress"	"Bacitracin"	0.5	"mg/ml"	NA	NA	NA
+"736"	"set2IT049"	17614	-1.61516507443433	-9.01873245882597	"Bacitracin 0.5 mg/ml"	"stress"	"Bacitracin"	0.5	"mg/ml"	NA	NA	NA
+"737"	"set2IT049"	17746	-1.58524978716902	-5.13958633169485	"Bacitracin 0.5 mg/ml"	"stress"	"Bacitracin"	0.5	"mg/ml"	NA	NA	NA
+"738"	"set2IT049"	17967	-3.03590955302555	-6.91592521487086	"Bacitracin 0.5 mg/ml"	"stress"	"Bacitracin"	0.5	"mg/ml"	NA	NA	NA
+"739"	"set2IT049"	1936971	-4.16916291124451	-14.4834029555827	"Bacitracin 0.5 mg/ml"	"stress"	"Bacitracin"	0.5	"mg/ml"	NA	NA	NA
+"740"	"set2IT049"	1937010	-1.3263917226185	-5.66213570125654	"Bacitracin 0.5 mg/ml"	"stress"	"Bacitracin"	0.5	"mg/ml"	NA	NA	NA
+"741"	"set2IT050"	14153	-1.96092561605724	-7.09815356488613	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"742"	"set2IT050"	14292	1.38295268128827	6.20854022457933	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"743"	"set2IT050"	14293	1.630068047834	9.82787526237776	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"744"	"set2IT050"	14531	-1.49260091864378	-5.95235895790746	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"745"	"set2IT050"	14556	1.52162385591099	5.45475352957464	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"746"	"set2IT050"	14571	-1.75169378708687	-9.54204632867054	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"747"	"set2IT050"	14572	-2.72339778972926	-5.44381889174529	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"748"	"set2IT050"	14597	-1.87522361884369	-5.20188336176729	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"749"	"set2IT050"	14944	1.89705175649426	8.06725296855049	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"750"	"set2IT050"	14972	-1.68906963095089	-6.28383001744139	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"751"	"set2IT050"	14993	-1.23187231169267	-5.42270217032388	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"752"	"set2IT050"	15004	-2.20534055792388	-6.7208686535554	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"753"	"set2IT050"	15342	2.03246245241755	10.0454389183839	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"754"	"set2IT050"	15369	-1.72202450546401	-5.06810785987545	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"755"	"set2IT050"	15545	3.42571580743911	16.1484173839243	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"756"	"set2IT050"	15923	1.49417487779883	8.08229459284665	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"757"	"set2IT050"	15951	1.31028296151484	5.32457692291586	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"758"	"set2IT050"	15952	1.24171017628313	6.81303263144224	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"759"	"set2IT050"	16145	1.60887103932207	10.5912109232485	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"760"	"set2IT050"	16147	1.4041531803036	10.581795425667	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"761"	"set2IT050"	16183	-1.22796289202376	-5.48326720295823	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"762"	"set2IT050"	16184	-1.42224722871416	-5.49719955324735	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"763"	"set2IT050"	16295	-1.07283813923755	-5.07032998988346	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"764"	"set2IT050"	16426	1.71521844384386	5.40857385944538	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"765"	"set2IT050"	16450	1.25274510715093	5.77210572936157	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"766"	"set2IT050"	16512	-2.66663452777813	-6.08031753306829	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"767"	"set2IT050"	16657	-2.16725273626284	-8.34973791141917	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"768"	"set2IT050"	16926	1.01475459674074	8.54043745366102	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"769"	"set2IT050"	16945	1.05921712030264	6.36967493837149	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"770"	"set2IT050"	16972	-1.53610034592749	-5.51790779580046	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"771"	"set2IT050"	17220	-1.61993545164051	-8.46724838578925	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"772"	"set2IT050"	17227	1.35100353888217	5.28236926615522	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"773"	"set2IT050"	17264	1.54912735827638	9.13023669608239	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"774"	"set2IT050"	17268	-1.50747772486747	-5.52403507924447	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"775"	"set2IT050"	17351	1.63433864892863	11.6143039366206	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"776"	"set2IT050"	17451	-3.16804586269211	-12.2971588526838	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"777"	"set2IT050"	17459	-1.2934895647801	-9.24759283440465	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"778"	"set2IT050"	17576	1.01706605748146	5.11230857868906	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"779"	"set2IT050"	17614	-3.50761681353081	-9.53823358903214	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"780"	"set2IT050"	17746	-2.15955110534973	-6.2374629169071	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"781"	"set2IT050"	17747	1.52725558096862	6.28624825182913	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"782"	"set2IT050"	17759	-1.26152579089931	-6.58001707113032	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"783"	"set2IT050"	17851	1.52933834585356	10.0237960923551	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"784"	"set2IT050"	17994	-1.59100441173059	-10.2031225705346	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"785"	"set2IT050"	18002	-1.99004728446148	-8.07096829488293	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"786"	"set2IT050"	18050	-1.5057603682653	-6.92684015800129	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"787"	"set2IT050"	18246	-1.30289128616975	-8.96675067639587	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"788"	"set2IT050"	18383	1.67874822846347	14.2493799711349	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"789"	"set2IT050"	1936971	-3.8757387053825	-6.97873460730225	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"790"	"set2IT050"	1937059	-2.17224613976251	-7.28175735479858	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"791"	"set2IT050"	1937129	1.2107236104678	5.47437146804032	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"792"	"set2IT050"	1937132	-1.10224572188583	-5.21116559764936	"Bacitracin 1 mg/ml"	"stress"	"Bacitracin"	1	"mg/ml"	NA	NA	NA
+"793"	"set2IT052"	17747	1.55854763843397	6.80435540795123	"Fusidic 0.1 mg/ml"	"stress"	"Fusidic acid sodium salt"	0.1	"mg/ml"	NA	NA	NA
+"794"	"set2IT056"	14967	-3.48764648170004	-9.35531478282916	"Chloramphenicol 0.001 mg/ml"	"stress"	"Chloramphenicol"	0.001	"mg/ml"	NA	NA	NA
+"795"	"set2IT056"	15535	-2.85227327076627	-9.9487328274585	"Chloramphenicol 0.001 mg/ml"	"stress"	"Chloramphenicol"	0.001	"mg/ml"	NA	NA	NA
+"796"	"set2IT056"	15750	1.44202535670213	8.54287485282538	"Chloramphenicol 0.001 mg/ml"	"stress"	"Chloramphenicol"	0.001	"mg/ml"	NA	NA	NA
+"797"	"set2IT056"	16890	-1.12239609581613	-5.49068834818362	"Chloramphenicol 0.001 mg/ml"	"stress"	"Chloramphenicol"	0.001	"mg/ml"	NA	NA	NA
+"798"	"set2IT056"	17264	-1.99367151073613	-7.86806989913758	"Chloramphenicol 0.001 mg/ml"	"stress"	"Chloramphenicol"	0.001	"mg/ml"	NA	NA	NA
+"799"	"set2IT056"	18074	-1.43584504852055	-5.2046568520043	"Chloramphenicol 0.001 mg/ml"	"stress"	"Chloramphenicol"	0.001	"mg/ml"	NA	NA	NA
+"800"	"set2IT057"	14967	-2.2795726538137	-8.44875113518274	"Chloramphenicol 0.0025 mg/ml"	"stress"	"Chloramphenicol"	0.0025	"mg/ml"	NA	NA	NA
+"801"	"set2IT057"	15750	1.82508016752881	9.0009586205423	"Chloramphenicol 0.0025 mg/ml"	"stress"	"Chloramphenicol"	0.0025	"mg/ml"	NA	NA	NA
+"802"	"set2IT057"	17170	1.43070899493114	9.92933884985258	"Chloramphenicol 0.0025 mg/ml"	"stress"	"Chloramphenicol"	0.0025	"mg/ml"	NA	NA	NA
+"803"	"set2IT057"	17264	-1.83887384030863	-7.72312059002761	"Chloramphenicol 0.0025 mg/ml"	"stress"	"Chloramphenicol"	0.0025	"mg/ml"	NA	NA	NA
+"804"	"set2IT057"	18245	1.00011465922986	7.68927205936302	"Chloramphenicol 0.0025 mg/ml"	"stress"	"Chloramphenicol"	0.0025	"mg/ml"	NA	NA	NA
+"805"	"set2IT057"	18246	1.10417973080794	9.80044406917985	"Chloramphenicol 0.0025 mg/ml"	"stress"	"Chloramphenicol"	0.0025	"mg/ml"	NA	NA	NA
+"806"	"set2IT059"	15053	1.94375621406285	6.9651377941494	"Tetracycline 0.0004 mg/ml"	"stress"	"Tetracycline hydrochloride"	4e-04	"mg/ml"	NA	NA	NA
+"807"	"set2IT059"	15535	-2.24244915537563	-9.11577316795916	"Tetracycline 0.0004 mg/ml"	"stress"	"Tetracycline hydrochloride"	4e-04	"mg/ml"	NA	NA	NA
+"808"	"set2IT059"	1936988	-1.97910898482511	-6.04064026859927	"Tetracycline 0.0004 mg/ml"	"stress"	"Tetracycline hydrochloride"	4e-04	"mg/ml"	NA	NA	NA
+"809"	"set2IT060"	15053	3.75527357992075	12.6337439439033	"Tetracycline 0.0008 mg/ml"	"stress"	"Tetracycline hydrochloride"	8e-04	"mg/ml"	NA	NA	NA
+"810"	"set2IT060"	15535	-1.51843187072673	-6.72532461617149	"Tetracycline 0.0008 mg/ml"	"stress"	"Tetracycline hydrochloride"	8e-04	"mg/ml"	NA	NA	NA
+"811"	"set2IT060"	15725	2.22274626739972	7.71296119368742	"Tetracycline 0.0008 mg/ml"	"stress"	"Tetracycline hydrochloride"	8e-04	"mg/ml"	NA	NA	NA
+"812"	"set2IT060"	15750	1.80925652240777	8.95834652194097	"Tetracycline 0.0008 mg/ml"	"stress"	"Tetracycline hydrochloride"	8e-04	"mg/ml"	NA	NA	NA
+"813"	"set2IT060"	17811	1.22433275812274	5.29820557750869	"Tetracycline 0.0008 mg/ml"	"stress"	"Tetracycline hydrochloride"	8e-04	"mg/ml"	NA	NA	NA
+"814"	"set2IT062"	14153	-1.77175042929642	-8.07698675969051	"Spectinomycin 0.00625 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.00625	"mg/ml"	NA	NA	NA
+"815"	"set2IT062"	14908	1.62111429794297	7.83156279698378	"Spectinomycin 0.00625 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.00625	"mg/ml"	NA	NA	NA
+"816"	"set2IT062"	14967	4.47634279679341	33.5913319904098	"Spectinomycin 0.00625 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.00625	"mg/ml"	NA	NA	NA
+"817"	"set2IT062"	15535	-3.44703360993386	-9.44596954794291	"Spectinomycin 0.00625 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.00625	"mg/ml"	NA	NA	NA
+"818"	"set2IT062"	15882	1.83116881349914	7.39167575776103	"Spectinomycin 0.00625 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.00625	"mg/ml"	NA	NA	NA
+"819"	"set2IT062"	16145	-1.85317573404787	-11.0428629473163	"Spectinomycin 0.00625 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.00625	"mg/ml"	NA	NA	NA
+"820"	"set2IT062"	17043	1.38870649018508	10.3711032032162	"Spectinomycin 0.00625 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.00625	"mg/ml"	NA	NA	NA
+"821"	"set2IT062"	17479	-2.29892882966607	-10.3014001511822	"Spectinomycin 0.00625 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.00625	"mg/ml"	NA	NA	NA
+"822"	"set2IT062"	17651	1.64153274800594	13.6667771097786	"Spectinomycin 0.00625 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.00625	"mg/ml"	NA	NA	NA
+"823"	"set2IT062"	17652	1.54867581003445	11.9790801069255	"Spectinomycin 0.00625 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.00625	"mg/ml"	NA	NA	NA
+"824"	"set2IT062"	17932	1.4452152661627	10.0971340026779	"Spectinomycin 0.00625 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.00625	"mg/ml"	NA	NA	NA
+"825"	"set2IT062"	17933	1.40510114493363	10.3146466531946	"Spectinomycin 0.00625 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.00625	"mg/ml"	NA	NA	NA
+"826"	"set2IT062"	17934	1.58155955876152	13.7300199679272	"Spectinomycin 0.00625 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.00625	"mg/ml"	NA	NA	NA
+"827"	"set2IT062"	17935	1.59364686488903	10.6434265895748	"Spectinomycin 0.00625 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.00625	"mg/ml"	NA	NA	NA
+"828"	"set2IT062"	18402	-2.63414182773966	-6.33266670184091	"Spectinomycin 0.00625 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.00625	"mg/ml"	NA	NA	NA
+"829"	"set2IT062"	18404	-1.13256810672268	-5.5710263574477	"Spectinomycin 0.00625 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.00625	"mg/ml"	NA	NA	NA
+"830"	"set2IT063"	14153	-2.71247676172823	-9.38596443694152	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"831"	"set2IT063"	14154	2.19163092692228	13.7792301960156	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"832"	"set2IT063"	14816	1.13901791170335	6.01092290894214	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"833"	"set2IT063"	14908	2.27204983629893	11.1738503657331	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"834"	"set2IT063"	14967	7.882186287241	59.5081999772699	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"835"	"set2IT063"	15449	1.14877827858373	7.67382332497956	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"836"	"set2IT063"	15535	-3.86421201037532	-8.141240733462	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"837"	"set2IT063"	15882	2.37484383880634	9.73393433568264	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"838"	"set2IT063"	16145	-2.09068031279273	-10.8611752383496	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"839"	"set2IT063"	16601	1.6115389277872	9.37435103201507	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"840"	"set2IT063"	17043	2.13292560140466	15.3205875867826	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"841"	"set2IT063"	17268	1.53529779165736	5.49332000445768	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"842"	"set2IT063"	17315	-1.02943806551929	-6.2259444989319	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"843"	"set2IT063"	17351	-1.6308565409378	-8.33288913627059	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"844"	"set2IT063"	17479	-2.52235377835413	-9.6684516653938	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"845"	"set2IT063"	17651	2.1949035847969	17.3849913184746	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"846"	"set2IT063"	17652	2.2281610532471	18.8333324706533	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"847"	"set2IT063"	17722	-1.60401320344026	-7.74833173871303	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"848"	"set2IT063"	17931	1.79735983802301	12.3242258393404	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"849"	"set2IT063"	17932	2.1968256251217	15.7425233527129	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"850"	"set2IT063"	17933	1.91258985065747	14.3983332560581	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"851"	"set2IT063"	17934	2.29871910607669	19.91282554459	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"852"	"set2IT063"	17935	2.22915324196094	15.2489083966171	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"853"	"set2IT063"	18187	-1.59941744511947	-11.4146986980142	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"854"	"set2IT063"	18205	-1.52826118441938	-5.60349634881046	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"855"	"set2IT063"	18402	-2.88246743783822	-5.40385758749688	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"856"	"set2IT063"	18404	-1.63376796454194	-6.65701544127553	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"857"	"set2IT063"	18405	-1.17420374955164	-5.46089956861993	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"858"	"set2IT063"	1937014	1.37154666600293	6.95093226105208	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"859"	"set2IT063"	1937149	-1.02597949168826	-6.47341387698781	"Spectinomycin 0.0125 mg/ml"	"stress"	"Spectinomycin dihydrochloride pentahydrate"	0.0125	"mg/ml"	NA	NA	NA
+"860"	"set2IT064"	14571	-2.93533095983536	-13.7139064742537	"Carbenicillin 0.004 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.004	"mg/ml"	NA	NA	NA
+"861"	"set2IT064"	14572	-1.58183525269369	-5.22040392238836	"Carbenicillin 0.004 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.004	"mg/ml"	NA	NA	NA
+"862"	"set2IT064"	16569	-2.93356288204653	-10.9748784893758	"Carbenicillin 0.004 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.004	"mg/ml"	NA	NA	NA
+"863"	"set2IT064"	18413	-4.12567254466984	-9.93596353844858	"Carbenicillin 0.004 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.004	"mg/ml"	NA	NA	NA
+"864"	"set2IT065"	14293	1.10277525028056	6.54250924625484	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"865"	"set2IT065"	14531	1.28375361971808	8.95175532758698	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"866"	"set2IT065"	14571	-2.82755834815517	-12.1825203094795	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"867"	"set2IT065"	14572	-2.37533680185832	-6.77070262324164	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"868"	"set2IT065"	14597	1.3857069159221	8.25992955552349	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"869"	"set2IT065"	15053	5.84538431413149	17.4900370378187	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"870"	"set2IT065"	15354	1.47475606898202	6.10238116655836	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"871"	"set2IT065"	15545	1.38720318158352	5.66600517536696	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"872"	"set2IT065"	15725	2.61791896273547	9.51491966029474	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"873"	"set2IT065"	16568	5.52843421507389	12.9693912559597	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"874"	"set2IT065"	16569	-2.5298064239015	-9.96902705621299	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"875"	"set2IT065"	17086	2.71493706163375	16.7097051319357	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"876"	"set2IT065"	17297	-1.76472400768722	-5.12681804147099	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"877"	"set2IT065"	17410	2.05789863196229	15.968619435575	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"878"	"set2IT065"	17487	-1.48796906036413	-6.08970563332779	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"879"	"set2IT065"	17576	1.91840510303745	7.32269886229388	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"880"	"set2IT065"	17577	1.09363470337843	9.05572312266629	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"881"	"set2IT065"	17809	1.18885960424672	7.6821852601608	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"882"	"set2IT065"	17811	1.78519341477559	6.14626122432886	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"883"	"set2IT065"	18413	-4.01581194541894	-10.0090263770883	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"884"	"set2IT065"	18417	2.43132854353669	6.00486522883237	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"885"	"set2IT065"	1937039	1.13285539681097	7.34097477239569	"Carbenicillin 0.008 mg/ml"	"stress"	"Carbenicillin disodium salt"	0.008	"mg/ml"	NA	NA	NA
+"886"	"set2IT070"	14609	-1.89815833661584	-6.7372043108737	"methylglyoxal 0.008 vol%"	"stress"	"methylglyoxal"	0.008	"vol%"	NA	NA	NA
+"887"	"set2IT070"	15016	-5.28316298179116	-5.13999766159119	"methylglyoxal 0.008 vol%"	"stress"	"methylglyoxal"	0.008	"vol%"	NA	NA	NA
+"888"	"set2IT070"	16530	-2.93066688334759	-7.15180357480431	"methylglyoxal 0.008 vol%"	"stress"	"methylglyoxal"	0.008	"vol%"	NA	NA	NA
+"889"	"set2IT070"	17759	-1.45583602597548	-8.23427537479197	"methylglyoxal 0.008 vol%"	"stress"	"methylglyoxal"	0.008	"vol%"	NA	NA	NA
+"890"	"set2IT070"	17894	-1.88221857253839	-8.71791483500585	"methylglyoxal 0.008 vol%"	"stress"	"methylglyoxal"	0.008	"vol%"	NA	NA	NA
+"891"	"set2IT070"	18198	-1.13163345102591	-5.55846453614865	"methylglyoxal 0.008 vol%"	"stress"	"methylglyoxal"	0.008	"vol%"	NA	NA	NA
+"892"	"set2IT072"	14153	1.5334102994942	9.29896536734336	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"893"	"set2IT072"	14273	-2.34393582355634	-5.81384087091855	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"894"	"set2IT072"	14274	-1.36885238787405	-5.84491203516074	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"895"	"set2IT072"	14606	1.90904816006861	11.4809253661536	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"896"	"set2IT072"	14904	1.51435907580031	10.5772458808588	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"897"	"set2IT072"	14976	1.48499575901571	6.30713392709464	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"898"	"set2IT072"	15358	-2.33242013769814	-7.40909886470175	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"899"	"set2IT072"	15414	1.7782569339036	5.82381914489088	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"900"	"set2IT072"	16146	-1.37246007862248	-5.83328628980615	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"901"	"set2IT072"	16535	2.70781844899539	13.5087131817199	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"902"	"set2IT072"	16900	1.07085161775567	6.02444679849406	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"903"	"set2IT072"	17041	2.02968215893766	5.07615687804191	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"904"	"set2IT072"	17110	1.49122617758238	6.57485250952027	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"905"	"set2IT072"	17261	1.94108815804469	7.82401981022413	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"906"	"set2IT072"	17487	1.62969258302067	8.97185855838917	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"907"	"set2IT072"	17653	-1.28676103890472	-5.36127451011672	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"908"	"set2IT072"	17948	1.7080115789356	8.49980112772963	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"909"	"set2IT072"	18086	1.3013152510083	10.824858215841	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"910"	"set2IT072"	18404	1.12385488914194	7.21646099030738	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"911"	"set2IT072"	18414	1.16521365942847	5.59498944467616	"2-Furfuraldehyde 0.25 vol%"	"stress"	"2-Furfuraldehyde"	0.25	"vol%"	NA	NA	NA
+"912"	"set2IT075"	16124	-3.84716449988179	-7.25808501627346	"Vanillin 5 mM"	"stress"	"Vanillin"	5	"mM"	NA	NA	NA
+"913"	"set2IT077"	18405	-1.04910307290911	-5.21925526038442	"syringaldehyde 10 mM"	"stress"	"syringaldehyde"	10	"mM"	NA	NA	NA
+"914"	"set2IT081"	18285	1.3706079759591	10.4008722540275	"Cholin acetate 150 mM"	"stress"	"Cholin acetate"	150	"mM"	NA	NA	NA
+"915"	"set2IT083"	18285	1.42163369063706	11.0384210739684	"acetate 140 mM"	"stress"	"Sodium acetate"	140	"mM"	NA	NA	NA
+"916"	"set2IT085"	14679	-2.96904523421565	-11.7546397818113	"1-ethyl-3-methylimidazolium acetate 30 mM"	"stress"	"1-ethyl-3-methylimidazolium acetate"	30	"mM"	NA	NA	NA
+"917"	"set2IT085"	14971	1.92588323708172	10.8069036961663	"1-ethyl-3-methylimidazolium acetate 30 mM"	"stress"	"1-ethyl-3-methylimidazolium acetate"	30	"mM"	NA	NA	NA
+"918"	"set2IT085"	15158	2.68042287849912	11.8829485519146	"1-ethyl-3-methylimidazolium acetate 30 mM"	"stress"	"1-ethyl-3-methylimidazolium acetate"	30	"mM"	NA	NA	NA
+"919"	"set2IT085"	16252	-3.10326915141405	-5.4024092393067	"1-ethyl-3-methylimidazolium acetate 30 mM"	"stress"	"1-ethyl-3-methylimidazolium acetate"	30	"mM"	NA	NA	NA
+"920"	"set2IT085"	18383	-1.17618551098945	-8.37976262312094	"1-ethyl-3-methylimidazolium acetate 30 mM"	"stress"	"1-ethyl-3-methylimidazolium acetate"	30	"mM"	NA	NA	NA
+"921"	"set2IT086"	14679	-1.85431009821287	-10.1098224969994	"1-ethyl-3-methylimidazolium acetate 60 mM"	"stress"	"1-ethyl-3-methylimidazolium acetate"	60	"mM"	NA	NA	NA
+"922"	"set2IT086"	15158	1.3419646660539	8.49014806444133	"1-ethyl-3-methylimidazolium acetate 60 mM"	"stress"	"1-ethyl-3-methylimidazolium acetate"	60	"mM"	NA	NA	NA
+"923"	"set2IT087"	14679	-3.08734793932366	-11.049037443125	"1-ethyl-3-methylimidazolium chloride 40 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	40	"mM"	NA	NA	NA
+"924"	"set2IT087"	14967	-1.6141521401347	-7.03250578502791	"1-ethyl-3-methylimidazolium chloride 40 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	40	"mM"	NA	NA	NA
+"925"	"set2IT087"	14970	-3.13342196736831	-8.33157372134021	"1-ethyl-3-methylimidazolium chloride 40 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	40	"mM"	NA	NA	NA
+"926"	"set2IT087"	14971	3.76891629042492	19.6720361494155	"1-ethyl-3-methylimidazolium chloride 40 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	40	"mM"	NA	NA	NA
+"927"	"set2IT087"	15158	4.45892148106659	23.9277787787924	"1-ethyl-3-methylimidazolium chloride 40 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	40	"mM"	NA	NA	NA
+"928"	"set2IT087"	15245	-2.02786367474399	-6.15147568714546	"1-ethyl-3-methylimidazolium chloride 40 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	40	"mM"	NA	NA	NA
+"929"	"set2IT087"	15246	-2.02570465614472	-5.18154130831197	"1-ethyl-3-methylimidazolium chloride 40 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	40	"mM"	NA	NA	NA
+"930"	"set2IT087"	15248	-1.66609609781993	-5.49587163534776	"1-ethyl-3-methylimidazolium chloride 40 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	40	"mM"	NA	NA	NA
+"931"	"set2IT087"	15882	1.63288071303148	6.36611968243833	"1-ethyl-3-methylimidazolium chloride 40 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	40	"mM"	NA	NA	NA
+"932"	"set2IT087"	16174	-2.51495492164294	-5.10579873124018	"1-ethyl-3-methylimidazolium chloride 40 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	40	"mM"	NA	NA	NA
+"933"	"set2IT087"	17559	-1.29741210718315	-8.05918303852869	"1-ethyl-3-methylimidazolium chloride 40 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	40	"mM"	NA	NA	NA
+"934"	"set2IT087"	17651	1.37364703217787	10.7970497138144	"1-ethyl-3-methylimidazolium chloride 40 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	40	"mM"	NA	NA	NA
+"935"	"set2IT087"	17652	1.32532243162134	10.8372487281256	"1-ethyl-3-methylimidazolium chloride 40 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	40	"mM"	NA	NA	NA
+"936"	"set2IT087"	17931	1.09366879724974	8.17508745345608	"1-ethyl-3-methylimidazolium chloride 40 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	40	"mM"	NA	NA	NA
+"937"	"set2IT087"	17933	1.33124627190967	9.72278985183434	"1-ethyl-3-methylimidazolium chloride 40 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	40	"mM"	NA	NA	NA
+"938"	"set2IT087"	17934	1.30531516607343	11.4230142250973	"1-ethyl-3-methylimidazolium chloride 40 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	40	"mM"	NA	NA	NA
+"939"	"set2IT087"	18383	-1.53092863365529	-10.2573838455527	"1-ethyl-3-methylimidazolium chloride 40 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	40	"mM"	NA	NA	NA
+"940"	"set2IT088"	14556	1.84686564474725	7.77879746733146	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"941"	"set2IT088"	14679	-3.24223641612362	-10.8001487544466	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"942"	"set2IT088"	14967	-1.8124678251671	-6.95271013146216	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"943"	"set2IT088"	14970	-2.81527268847491	-7.48563461735231	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"944"	"set2IT088"	14971	5.84249781921524	31.193621824223	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"945"	"set2IT088"	15158	6.45073673309208	33.7213167555898	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"946"	"set2IT088"	15245	-1.88402856423169	-5.4235138662586	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"947"	"set2IT088"	15246	-2.45196504065545	-5.23211644120532	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"948"	"set2IT088"	15248	-2.20012923145045	-5.87185498486023	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"949"	"set2IT088"	15369	-2.30967036110736	-6.39637899313844	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"950"	"set2IT088"	15882	1.38984519520564	5.14676178982736	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"951"	"set2IT088"	16240	-1.13882390903016	-6.134945941863	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"952"	"set2IT088"	16530	-1.65363962453339	-5.89390666791357	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"953"	"set2IT088"	17559	-1.35673145148458	-7.83526154400515	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"954"	"set2IT088"	17651	1.20601094679904	9.87624536241481	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"955"	"set2IT088"	17851	-2.10047712197605	-8.48271387364124	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"956"	"set2IT088"	18383	-1.67592807510356	-10.4804463706963	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"957"	"set2IT088"	1936562	-1.97902391589913	-5.72802583454155	"1-ethyl-3-methylimidazolium chloride 80 mM"	"stress"	"1-ethyl-3-methylimidazolium chloride"	80	"mM"	NA	NA	NA
+"958"	"set2IT093"	15087	-1.71531626364576	-7.25420044258017	"D-Galacturonic Acid (C) MOPS"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"959"	"set2IT093"	17166	-4.48953251709335	-9.99212237662555	"D-Galacturonic Acid (C) MOPS"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"960"	"set2IT093"	17167	-3.4325185940132	-11.4208255975383	"D-Galacturonic Acid (C) MOPS"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"961"	"set2IT093"	17168	-1.4656289968205	-7.70904889390017	"D-Galacturonic Acid (C) MOPS"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"962"	"set2IT093"	17587	-3.85008325419382	-12.4785503161978	"D-Galacturonic Acid (C) MOPS"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"963"	"set2IT093"	1936527	-2.32367927461893	-7.00896429317164	"D-Galacturonic Acid (C) MOPS"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"964"	"set2IT094"	17422	-1.2794360907875	-8.1114891953127	"D-Glucose (C) MOPS"	"carbon source"	"D-Glucose"	22	"mM"	NA	NA	NA
+"965"	"set2IT095"	14743	-1.47681874481093	-5.34292075702523	"D-Galacturonic Acid (C) M9"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"966"	"set2IT095"	14882	-1.09643593003061	-5.78226782928334	"D-Galacturonic Acid (C) M9"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"967"	"set2IT095"	15087	-1.37215975095468	-5.93598593368896	"D-Galacturonic Acid (C) M9"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"968"	"set2IT095"	17166	-4.46870571717772	-9.51006971976158	"D-Galacturonic Acid (C) M9"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"969"	"set2IT095"	17167	-4.29487828389616	-9.5451787433626	"D-Galacturonic Acid (C) M9"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"970"	"set2IT095"	17168	-2.59306981872619	-10.3800412623115	"D-Galacturonic Acid (C) M9"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"971"	"set2IT095"	17587	-3.93648297971103	-12.5322825350546	"D-Galacturonic Acid (C) M9"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"972"	"set2IT095"	17948	-1.72283573411134	-5.73318928927645	"D-Galacturonic Acid (C) M9"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"973"	"set2IT095"	1936527	-1.89707819257151	-6.19666896573057	"D-Galacturonic Acid (C) M9"	"carbon source"	"D-Galacturonic Acid monohydrate"	20	"mM"	NA	NA	NA
+"974"	"set6IT049"	14265	1.35934863393522	11.7513287532775	"Nalidixic 0.006 mg/ml"	"stress"	"Nalidixic acid sodium salt"	0.006	"mg/ml"	NA	NA	NA
+"975"	"set6IT049"	14604	-1.22509429890504	-6.6513240488178	"Nalidixic 0.006 mg/ml"	"stress"	"Nalidixic acid sodium salt"	0.006	"mg/ml"	NA	NA	NA
+"976"	"set6IT049"	14924	2.36781520693458	17.5555975697003	"Nalidixic 0.006 mg/ml"	"stress"	"Nalidixic acid sodium salt"	0.006	"mg/ml"	NA	NA	NA
+"977"	"set6IT049"	14944	-1.77432087111819	-10.8987429528557	"Nalidixic 0.006 mg/ml"	"stress"	"Nalidixic acid sodium salt"	0.006	"mg/ml"	NA	NA	NA
+"978"	"set6IT049"	15002	-1.69231729167253	-8.13677110100839	"Nalidixic 0.006 mg/ml"	"stress"	"Nalidixic acid sodium salt"	0.006	"mg/ml"	NA	NA	NA
+"979"	"set6IT049"	15926	1.40658216128763	11.4401416841925	"Nalidixic 0.006 mg/ml"	"stress"	"Nalidixic acid sodium salt"	0.006	"mg/ml"	NA	NA	NA
+"980"	"set6IT049"	16119	-1.57126619965109	-7.88238117286178	"Nalidixic 0.006 mg/ml"	"stress"	"Nalidixic acid sodium salt"	0.006	"mg/ml"	NA	NA	NA
+"981"	"set6IT049"	16608	-2.34571172639892	-10.6798563673011	"Nalidixic 0.006 mg/ml"	"stress"	"Nalidixic acid sodium salt"	0.006	"mg/ml"	NA	NA	NA
+"982"	"set6IT049"	16774	-1.79915722937085	-10.1994487773333	"Nalidixic 0.006 mg/ml"	"stress"	"Nalidixic acid sodium salt"	0.006	"mg/ml"	NA	NA	NA
+"983"	"set6IT049"	16775	-1.54763480236694	-9.4986279665422	"Nalidixic 0.006 mg/ml"	"stress"	"Nalidixic acid sodium salt"	0.006	"mg/ml"	NA	NA	NA
+"984"	"set6IT049"	16972	-1.89330336369553	-11.922725640904	"Nalidixic 0.006 mg/ml"	"stress"	"Nalidixic acid sodium salt"	0.006	"mg/ml"	NA	NA	NA
+"985"	"set6IT049"	17264	-3.31908101098411	-17.8593076050964	"Nalidixic 0.006 mg/ml"	"stress"	"Nalidixic acid sodium salt"	0.006	"mg/ml"	NA	NA	NA
+"986"	"set6IT049"	1936809	-3.21566990579411	-17.1807775972215	"Nalidixic 0.006 mg/ml"	"stress"	"Nalidixic acid sodium salt"	0.006	"mg/ml"	NA	NA	NA
+"987"	"set6IT052"	16347	11.3080615034501	102.830930122884	"Phosphomycin 0.001 mg/ml"	"stress"	"Phosphomycin disodium salt"	0.001	"mg/ml"	NA	NA	NA
+"988"	"set6IT052"	17261	9.7271898249252	7.35447139992249	"Phosphomycin 0.001 mg/ml"	"stress"	"Phosphomycin disodium salt"	0.001	"mg/ml"	NA	NA	NA
+"989"	"set6IT052"	17965	5.51469385405422	51.8773928483003	"Phosphomycin 0.001 mg/ml"	"stress"	"Phosphomycin disodium salt"	0.001	"mg/ml"	NA	NA	NA
+"990"	"set6IT052"	18117	3.04232590112303	14.7604692638205	"Phosphomycin 0.001 mg/ml"	"stress"	"Phosphomycin disodium salt"	0.001	"mg/ml"	NA	NA	NA
+"991"	"set6IT052"	18129	10.1570952952322	16.5660477845466	"Phosphomycin 0.001 mg/ml"	"stress"	"Phosphomycin disodium salt"	0.001	"mg/ml"	NA	NA	NA
+"992"	"set6IT052"	18130	8.58495001701841	6.69093044469971	"Phosphomycin 0.001 mg/ml"	"stress"	"Phosphomycin disodium salt"	0.001	"mg/ml"	NA	NA	NA
+"993"	"set6IT054"	14519	-2.57541198140245	-10.6634598957616	"D-Cycloserine 0.1 mg/ml"	"stress"	"D-Cycloserine"	0.1	"mg/ml"	NA	NA	NA
+"994"	"set6IT054"	14937	-5.70535955975893	-10.8336519644165	"D-Cycloserine 0.1 mg/ml"	"stress"	"D-Cycloserine"	0.1	"mg/ml"	NA	NA	NA
+"995"	"set6IT054"	15755	-2.37154780374537	-10.7141019381755	"D-Cycloserine 0.1 mg/ml"	"stress"	"D-Cycloserine"	0.1	"mg/ml"	NA	NA	NA
+"996"	"set6IT054"	15867	-1.45997659835168	-5.02227896172529	"D-Cycloserine 0.1 mg/ml"	"stress"	"D-Cycloserine"	0.1	"mg/ml"	NA	NA	NA
+"997"	"set6IT054"	16397	-3.28148165218351	-16.7831273440147	"D-Cycloserine 0.1 mg/ml"	"stress"	"D-Cycloserine"	0.1	"mg/ml"	NA	NA	NA
+"998"	"set6IT054"	16484	-1.28861947960275	-7.78478346020512	"D-Cycloserine 0.1 mg/ml"	"stress"	"D-Cycloserine"	0.1	"mg/ml"	NA	NA	NA
+"999"	"set6IT054"	18081	-2.5385888893687	-12.0613636274982	"D-Cycloserine 0.1 mg/ml"	"stress"	"D-Cycloserine"	0.1	"mg/ml"	NA	NA	NA
+"1000"	"set6IT068"	14154	2.09602165428143	9.59433916096696	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1001"	"set6IT068"	14282	-1.26842602775995	-5.13819699807946	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1002"	"set6IT068"	14886	1.55232677692423	7.12380232840688	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1003"	"set6IT068"	14908	2.27121302596025	8.26580075197504	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1004"	"set6IT068"	15027	-1.41793224139672	-5.4174505263784	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1005"	"set6IT068"	15358	-1.41023385532738	-5.52313284048146	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1006"	"set6IT068"	15404	1.76254950466274	5.21336157173838	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1007"	"set6IT068"	15708	2.28230306143446	11.1691965811399	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1008"	"set6IT068"	15826	1.33860138020032	7.05913952187811	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1009"	"set6IT068"	16013	2.01747713274067	6.12246505904866	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1010"	"set6IT068"	16052	-2.89502681301445	-6.49669101333896	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1011"	"set6IT068"	16064	-3.46420739181871	-5.82756780008397	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1012"	"set6IT068"	16203	2.19074230443826	6.99189989508328	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1013"	"set6IT068"	17969	-1.4557942795798	-6.92060255181339	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1014"	"set6IT068"	18005	-1.36233192497083	-7.33370598528383	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1015"	"set6IT068"	18050	1.09645372279729	5.72510682414103	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1016"	"set6IT068"	18181	-1.90890410365363	-5.21427641871488	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1017"	"set6IT068"	18379	-2.01163465700035	-6.71503493531076	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1018"	"set6IT069"	14154	2.25005440088355	10.2264658648016	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1019"	"set6IT069"	14448	-3.15862128926547	-6.04084283920993	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1020"	"set6IT069"	14681	-1.36320276822057	-5.46905288177329	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1021"	"set6IT069"	14908	1.94025320318835	7.21080906594557	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1022"	"set6IT069"	15026	-2.34174615093731	-5.33711784668077	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1023"	"set6IT069"	15027	-2.18026874877736	-5.51428963742626	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1024"	"set6IT069"	15198	-5.24832020909023	-8.42667853018158	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1025"	"set6IT069"	15200	-5.99380359243935	-5.84458683864282	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1026"	"set6IT069"	15202	-5.13960197804236	-6.82925794910956	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1027"	"set6IT069"	15203	-5.54151390841647	-5.47781400678437	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1028"	"set6IT069"	15204	-5.23516267966604	-5.17422037984878	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1029"	"set6IT069"	15243	-2.44384151206992	-5.10136363574956	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1030"	"set6IT069"	15358	-2.19544490563476	-5.70605020481075	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1031"	"set6IT069"	15404	2.53817473489321	6.00779939802428	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1032"	"set6IT069"	15504	3.25936656517909	6.35840009582156	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1033"	"set6IT069"	15708	2.24000898588289	12.0489226923009	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1034"	"set6IT069"	15826	1.50221804142691	5.14841755000382	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1035"	"set6IT069"	15997	-4.97199565533159	-9.15547027225718	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1036"	"set6IT069"	15998	-5.67712019198863	-7.76771226246454	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1037"	"set6IT069"	16006	-5.28554042918234	-5.35265508396158	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1038"	"set6IT069"	16010	-5.97884532998759	-7.0491703019235	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1039"	"set6IT069"	16013	2.67347093752064	6.47486725490541	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1040"	"set6IT069"	16039	-4.5755343389527	-5.09963666697194	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1041"	"set6IT069"	16054	-5.41474089886429	-5.44798811298579	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1042"	"set6IT069"	16055	-4.84857338977609	-8.68160805503327	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1043"	"set6IT069"	16057	-4.89027691265831	-5.89234351337621	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1044"	"set6IT069"	16059	-5.95207365951127	-7.08982458569595	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1045"	"set6IT069"	16062	-5.93572913745798	-5.2453647218975	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1046"	"set6IT069"	16064	-5.47684874420479	-5.3394393001055	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1047"	"set6IT069"	16203	1.97234834271995	5.4339962272159	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1048"	"set6IT069"	16324	-4.47354200740926	-11.5165035695678	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1049"	"set6IT069"	17481	1.47831536242092	9.62023508494213	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1050"	"set6IT069"	17586	-4.10674557554696	-7.56041533586241	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1051"	"set6IT069"	17726	1.36418996684175	6.51675129479659	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1052"	"set6IT069"	17969	-2.31777034124254	-8.25821050554149	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1053"	"set6IT069"	18005	-1.48790879734235	-6.11074525398607	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1054"	"set6IT069"	18064	1.16288082135658	6.89317699720639	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1055"	"set6IT069"	18081	-4.19523279315289	-9.43336028141258	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1056"	"set6IT069"	18165	-1.80306850127897	-5.26424414458802	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1057"	"set6IT069"	18181	-3.0483741931377	-6.33279727012224	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1058"	"set6IT069"	18182	-2.08327987539983	-6.39019726398246	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1059"	"set6IT069"	18379	-3.78438119419543	-9.55160552403573	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1060"	"set6IT070"	14154	1.5551400260591	7.28477049533369	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1061"	"set6IT070"	14908	1.89297738970437	6.66569141626102	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1062"	"set6IT070"	15708	1.50093996305547	9.22025545572448	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1063"	"set6IT070"	15809	-1.40391094843647	-5.10615929816831	"outer cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1064"	"set6IT072"	15089	2.08118778712939	6.25088048854748	"inner cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1065"	"set6IT072"	15204	-1.59386693008034	-5.0176107715405	"inner cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1066"	"set6IT072"	16007	-1.70253254544847	-5.32665046063037	"inner cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1067"	"set6IT072"	16055	-2.24681860319119	-7.14639635659873	"inner cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1068"	"set6IT073"	15200	-1.26772244228832	-5.20017997135309	"inner cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1069"	"set6IT073"	15202	-1.45425744584807	-5.56109737744857	"inner cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1070"	"set6IT073"	15997	-1.43538872302841	-5.50959079723131	"inner cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1071"	"set6IT073"	16005	-1.0069086097052	-5.69863580291084	"inner cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1072"	"set6IT073"	16037	-1.42946566191916	-5.6549489082718	"inner cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1073"	"set6IT073"	16055	-1.64879392173839	-5.94679161524237	"inner cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1074"	"set6IT073"	16062	-1.45226534098828	-5.10523261754542	"inner cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1075"	"set6IT073"	16324	-1.44215277164234	-8.08608986205504	"inner cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1076"	"set6IT074"	14674	1.75173690160286	5.84563036713876	"inner cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1077"	"set6IT074"	18337	1.01409417579621	5.47444495780474	"inner cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1078"	"set6IT075"	15404	1.56607074079692	5.31577167548379	"inner cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
+"1079"	"set6IT075"	15708	1.60623967711486	8.3211280242852	"inner cut, LB soft agar motility assay"	"motility"	""	NA	""	NA	NA	NA
