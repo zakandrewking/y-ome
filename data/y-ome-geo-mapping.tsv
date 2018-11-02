@@ -71,13 +71,13 @@ wt_fru_crp	GSE64849	RNAseq_wt_fructose_NH4Cl_O2_*
 wt_glc_crp	GSE64849	RNAseq_wt_glucose_NH4Cl_O2_*
 wt_gln	?	?
 wt_glu	GSE65643	WT glucose *
-wt_gly	GSE97944	?
+wt_gly	GSE97944	GSE59760?
 wt_glyc_crp	GSE64849	RNAseq_wt_glycerol_NH4Cl_O2_*
 wt_lb	GSE59377	WT_LB
 wt_m9	GSE59377	WT_M9
 wt_ph5	GSE66482	WT pH5.5 *
 wt_pq	GSE65711	WT PQ *
-wt_thr	GSE59759	?
+wt_thr	GSE59760      Threonine*
 xyl_2_165	GSE97944	?
 xyl_3_165	GSE97944	?
 xyl_ale1	GSE97944	?
