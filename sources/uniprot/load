@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# Load genes from UniProt using the export file proteome_UP000000625_120817.tsv
+
 from yome import Session
 from yome.load import load_knowledgebase
 from yome.util import apply_keyword
@@ -25,7 +27,7 @@ rename = {
     'Features': 'features',
     'Miscellaneous [CC]': 'misc',
 }
-df = (pd.read_table(join(directory, 'proteome_UP000000625_120817.tsv'), sep='\t', header=0)
+df = (pd.read_table(join(directory, 'proteome_UP000000625_110618.tsv'), sep='\t', header=0)
       .rename(columns=rename))
 
 # Strip columns

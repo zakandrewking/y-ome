@@ -7,3 +7,6 @@ beautifulsoup4==4.6.0
 seaborn==0.8.1
 tqdm==4.23.2
 biopython==1.71
+
+# for me model loading
+# cobrame==0.0.9

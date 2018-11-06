@@ -37,7 +37,7 @@ y_ome_genes = to_df(
 
 final = y_ome_genes.merge(primary_names_grouped, how='outer')
 final['category'] = final.annotation_quality.apply(
-    lambda x: 'y-ome' if x == 'low' else 'well-annotated' if x == 'high' else 'excluded'
+    lambda x: 'y-ome' if x == 'low' else 'well-annotated' if x == 'high' else x
 )
 final = final.drop(columns=['annotation_quality'])
 

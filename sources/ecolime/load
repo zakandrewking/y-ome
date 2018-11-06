@@ -7,11 +7,11 @@ from yome.util import apply_keyword
 import pandas as pd
 from os.path import dirname, realpath, join
 import re
-from cobrame.io.jsonme import load_json_me
+from cobrame.io.json import load_reduced_json_me_model
 
 directory = realpath(dirname(__file__))
 
-me = load_json_me(join(directory, 'iJL1678b_benchmark.json'))
+me = load_reduced_json_me_model(join(directory, 'iJL1678b_benchmark.json'))
 locus_tags = {
     match.group(1) for match in
     (re.search(r'(b\d{4})\b', met.id) for met in me.metabolites)
