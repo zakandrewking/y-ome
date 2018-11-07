@@ -48,7 +48,7 @@ ecocyc_is_insertion = ecocyc_insertion[ecocyc_insertion.feature == 't']
 
 def calculate_yome(row_all):
     # Don't use ME-model or manual for these decisions
-    row = row_all.drop(['iJL1678b', 'Manual'])
+    row = row_all.drop(['iJL1678b', 'Manual', 'RefSeq'])
     manual = row_all['Manual']
 
     any_high =     any(x == 'high'     for x in row)
