@@ -118,8 +118,35 @@ def html_to_text(text):
     return soup.get_text()
 
 
-def report(session, locus_tag):
-    """Print a report of all features for a gene"""
+def report(session, name: str):
+    """Print a report of all features for a gene
+
+    session: SQLAlchemy session
+
+    name: A gene primary name or locus tag
+
+    """
+
+    # first find by locus_tag
+    count = session.query(Gene).filter(Gene.locus_id == name).count()
+    if count == 1:
+        locus_tag = name
+    elif count == 0:
+        # find by primary name
+        genes = (session
+                 .query(Gene)
+                 .distinct(Gene.id)
+                 .join(KnowledgebaseGene)
+                 .filter(KnowledgebaseGene.primary_name == name)).all()
+        if len(genes) == 1:
+            locus_tag = genes[0].locus_id
+        elif len(genes) == 0:
+            raise Exception(f'No genes with name {name}')
+        else:
+            raise Exception(f'Multiple genes with name {name}: {genes}')
+    if count >= 2:
+        raise Exception(f'Multiple genes with locus tag {name}')
+
     quality_df = to_df(
         session.query(KnowledgebaseGene.annotation_quality,
                       Knowledgebase.name.label('knowledgebase_name'))

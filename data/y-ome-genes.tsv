@@ -66,7 +66,7 @@ b0064	araC	well-annotated
 b0065	yabI	y-ome
 b0066	thiQ	well-annotated
 b0067	thiP	well-annotated
-b0068	tbpA, thiB	well-annotated
+b0068	thiB	well-annotated
 b0069	sgrR	well-annotated
 b0070	setA	well-annotated
 b0071	leuD	well-annotated
@@ -133,13 +133,13 @@ b0131	panD	well-annotated
 b0132	rpnC, yadD	y-ome
 b0133	panC	well-annotated
 b0134	panB	well-annotated
-b0135	yadC	excluded
-b0136	yadK	excluded
-b0137	yadL	excluded
-b0138	yadM	excluded
-b0139	htrE	excluded
-b0140	yadV	excluded
-b0141	yadN	excluded
+b0135	yadC	y-ome
+b0136	yadK	y-ome
+b0137	yadL	y-ome
+b0138	yadM	y-ome
+b0139	htrE	tbd
+b0140	yadV	y-ome
+b0141	yadN	y-ome
 b0142	folK	well-annotated
 b0143	pcnB	well-annotated
 b0144	gluQ	well-annotated
@@ -238,7 +238,7 @@ b0236	prfH, prfH'	excluded
 b0237	pepD	well-annotated
 b0238	gpt	well-annotated
 b0239	frsA	well-annotated
-b0240	crl_1, crl_2, crl', crl	well-annotated
+b0240	crl, crl'	well-annotated
 b0241	phoE	well-annotated
 b0242	proB	well-annotated
 b0243	proA	well-annotated
@@ -253,9 +253,9 @@ b0251	yafY	y-ome
 b0252	yafZ	y-ome
 b0253	ykfA	y-ome
 b0254	perR	y-ome
-b0255	insN-1, insN1	well-annotated
+b0255	insN1	y-ome
 b0256	insI-1, insI1	well-annotated
-b0257	insO-1, insO1	well-annotated
+b0257	insO1	y-ome
 b0258	ykfC, ykfC'	excluded
 b0259	insH-1, insH1	well-annotated
 b0260	mmuP	well-annotated
@@ -270,7 +270,7 @@ b0268	yagE	well-annotated
 b0269	yagF	well-annotated
 b0270	yagG	y-ome
 b0271	yagH	y-ome
-b0272	yagI, xynR	y-ome
+b0272	xynR, yagI	well-annotated
 b0273	argF	well-annotated
 b0274	insB-3, insB3, insB1	well-annotated
 b0275	insA-3, insA3, insA	well-annotated
@@ -287,11 +287,11 @@ b0285	paoB	well-annotated
 b0286	paoA	well-annotated
 b0287	yagU	y-ome
 b0288	ykgJ	y-ome
-b0289	ecpE	excluded
-b0290	ecpD	excluded
-b0291	ecpC	excluded
-b0292	ecpB	excluded
-b0293	ecpA	excluded
+b0289	ecpE	y-ome
+b0290	ecpD	y-ome
+b0291	ecpC	y-ome
+b0292	ecpB	y-ome
+b0293	ecpA	y-ome
 b0294	ecpR	well-annotated
 b0295	ykgL	y-ome
 b0296	ykgM	y-ome
@@ -355,10 +355,8 @@ b0355	frmB	well-annotated
 b0356	frmA	well-annotated
 b0357	frmR	well-annotated
 b0358	yaiO	y-ome
-b0359	yaiX_2	excluded
 b0360	insC-1, insC1	well-annotated
 b0361	insD-1, insD1	well-annotated
-b0362	yaiX_1	excluded
 b0363	yaiP	y-ome
 b0364	yaiS	y-ome
 b0365	tauA	well-annotated
@@ -367,10 +365,8 @@ b0367	tauC	well-annotated
 b0368	tauD	well-annotated
 b0369	hemB	well-annotated
 b0370	ykiB	excluded
-b0371	yaiT	y-ome
 b0372	insF-2, insF2, insF1	well-annotated
 b0373	insE-2, insE2, insE1	well-annotated
-b0374	yaiU	y-ome
 b0375	iprA, yaiV	y-ome
 b0376	ampH	well-annotated
 b0377	sbmA	well-annotated
@@ -397,7 +393,7 @@ b0398	sbcD	well-annotated
 b0399	phoB	well-annotated
 b0400	phoR	well-annotated
 b0401	brnQ	well-annotated
-b0402	proY	well-annotated
+b0402	proY	y-ome
 b0403	malZ	well-annotated
 b0404	acpH	well-annotated
 b0405	queA	well-annotated
@@ -422,7 +418,7 @@ b0423	thiI	well-annotated
 b0424	yajL	well-annotated
 b0425	panE	well-annotated
 b0426	yajQ	well-annotated
-b0427	yajR	well-annotated
+b0427	yajR	y-ome
 b0428	cyoE	well-annotated
 b0429	cyoD	well-annotated
 b0430	cyoC	well-annotated
@@ -487,7 +483,7 @@ b0488	ybbJ	y-ome
 b0489	qmcA	y-ome
 b0490	fetA	y-ome
 b0491	fetB	y-ome
-b0492	ybbN, cnoX	well-annotated
+b0492	cnoX, ybbN	well-annotated
 b0493	ybbO	well-annotated
 b0494	tesA	well-annotated
 b0495	ybbA	y-ome
@@ -495,8 +491,7 @@ b0496	ybbP	y-ome
 b0497	rhsD	y-ome
 b0498	ybbC	y-ome
 b0499	ylbH, rhsH', rhsH	excluded
-b0500	ybbD	y-ome
-b0501	ybbD', ybbD	excluded
+b0501	ybbD, ybbD'	excluded
 b0502	ylbG, ylbG'	excluded
 b0503	selU, mnmH	well-annotated
 b0504	allS	well-annotated
@@ -533,7 +528,7 @@ b0535	fimZ, sfmZ	y-ome
 b0536	argU	well-annotated
 b0537	intD	y-ome
 b0538		excluded
-b0539	ybcC, exoD', exoD	excluded
+b0539	exoD, exoD'	excluded
 b0540	insE-3, insE3, insE1	well-annotated
 b0541	insF-3, insF3, insF1	well-annotated
 b0542	renD, renD'	excluded
@@ -554,7 +549,7 @@ b0556	rzpD	y-ome
 b0557	borD	y-ome
 b0558	ybcV	y-ome
 b0559	ybcW	y-ome
-b0560	nohB, nohD	y-ome
+b0560	nohD	y-ome
 b0561	tfaD, tfaD'	excluded
 b0562	ybcY, ybcY'	excluded
 b0563	tfaX, tfaX'	excluded
@@ -619,8 +614,6 @@ b0621	dcuC	well-annotated
 b0622	pagP	well-annotated
 b0623	cspE	well-annotated
 b0624	crcB, flc	well-annotated
-b0625	ybeM_1	excluded
-b0626	ybeM_2	excluded
 b0627	tatE	well-annotated
 b0628	lipA	well-annotated
 b0629	ybeF	y-ome
@@ -672,7 +665,7 @@ b0678	nagB	well-annotated
 b0679	nagE	well-annotated
 b0680	glnS	well-annotated
 b0681	chiP	well-annotated
-b0682	ybfN, chiQ	y-ome
+b0682	chiQ	y-ome
 b0683	fur	well-annotated
 b0684	fldA	well-annotated
 b0685	ybfE	y-ome
@@ -680,8 +673,7 @@ b0686	ybfF	well-annotated
 b0687	seqA	well-annotated
 b0688	pgm	well-annotated
 b0689	ybfP	y-ome
-b0690	ybfG	excluded
-b0691	ybfH, ybfG', ybfG	excluded
+b0691	ybfG, ybfG'	excluded
 b0692	potE	well-annotated
 b0693	speF	well-annotated
 b0694	kdpE	well-annotated
@@ -1006,8 +998,6 @@ b1012	rutA	well-annotated
 b1013	rutR	well-annotated
 b1014	putA	well-annotated
 b1015	putP	well-annotated
-b1016	efeU_1	excluded
-b1017	efeU_2	excluded
 b1018	efeO	well-annotated
 b1019	efeB	well-annotated
 b1020	phoH	y-ome
@@ -1157,11 +1147,8 @@ b1165	ymgA	y-ome
 b1166	ariR	y-ome
 b1167	ymgC	y-ome
 b1168	pdeG, ycgG	y-ome
-b1169	ycgH_1	excluded
-b1170	ycgH_2	excluded
 b1171	ymgD	y-ome
 b1172	ymgG	y-ome
-b1173	ycgI	y-ome
 b1174	minE	well-annotated
 b1175	minD	well-annotated
 b1176	minC	well-annotated
@@ -1227,8 +1214,6 @@ b1235	rssB	well-annotated
 b1236	galU	well-annotated
 b1237	hns	well-annotated
 b1238	tdk	well-annotated
-b1239	ychG_2	excluded
-b1240	ychG_1	excluded
 b1241	adhE	well-annotated
 b1242	ychE	y-ome
 b1243	oppA	well-annotated
@@ -1297,14 +1282,14 @@ b1305	pspB	well-annotated
 b1306	pspC	well-annotated
 b1307	pspD	y-ome
 b1308	pspE	well-annotated
-b1309	ycjM	y-ome
+b1309	ycjM	well-annotated
 b1310	ycjN	y-ome
 b1311	ycjO	y-ome
 b1312	ycjP	y-ome
 b1313	ycjQ	y-ome
 b1314	ycjR	y-ome
 b1315	ycjS	y-ome
-b1316	ycjT	y-ome
+b1316	ycjT	well-annotated
 b1317	ycjU	well-annotated
 b1318	ycjV	excluded
 b1319	ompG	well-annotated
@@ -1330,12 +1315,12 @@ b1338	abgA	well-annotated
 b1339	abgR	y-ome
 b1340	smrA	y-ome
 b1341	dgcM, ydaM	well-annotated
-b1342	ydaN, zntB	well-annotated
+b1342	zntB, ydaN	well-annotated
 b1343	dbpA	well-annotated
 b1344	ttcA	well-annotated
 b1345	intR	y-ome
 b1346	xisR, ydaQ	y-ome
-b1347	ydaC, rcbA	y-ome
+b1347	rcbA, ydaC	y-ome
 b1348	ralR	well-annotated
 b1349	recT	well-annotated
 b1350	recE	well-annotated
@@ -1344,7 +1329,7 @@ b1352	kilR	well-annotated
 b1353	sieB	y-ome
 b1354		excluded
 b1355	ydaG	y-ome
-b1356	racR	y-ome
+b1356	racR	well-annotated
 b1357	ydaS	y-ome
 b1358	ydaT	y-ome
 b1359	ydaU	y-ome
@@ -1357,9 +1342,7 @@ b1365	ynaK	y-ome
 b1366	ydaY, ydaY'	excluded
 b1367		excluded
 b1368	ynaA, tmpR', tmpR	excluded
-b1369	lomR_1	excluded
 b1370	insH-5, insH25, insH5, insH1	well-annotated
-b1371	lomR_2	excluded
 b1372	stfR	y-ome
 b1373	tfaR	y-ome
 b1374	pinR	y-ome
@@ -1389,11 +1372,9 @@ b1397	paaJ	well-annotated
 b1398	paaK	well-annotated
 b1399	paaX	well-annotated
 b1400	paaY	well-annotated
-b1401	ydbA_1	excluded
 b1402	insD-2, insD4, insD2, insD1	well-annotated
 b1403	insC-2, insC4, insC2, insC1	well-annotated
 b1404	insI-2, insI3, insI1	well-annotated
-b1405	ydbA_2	excluded
 b1406	pdxI, ydbC	well-annotated
 b1407	ydbD	y-ome
 b1408	ynbA	y-ome
@@ -1404,8 +1385,6 @@ b1412	azoR	well-annotated
 b1413	hrpA	well-annotated
 b1414	ydcF	y-ome
 b1415	aldA	well-annotated
-b1416	gapC_2	excluded
-b1417	gapC_1	excluded
 b1418	cybB	well-annotated
 b1419	ydcA	y-ome
 b1420	mokB	y-ome
@@ -1423,7 +1402,7 @@ b1431	ydcL	y-ome
 b1432	insQ	well-annotated
 b1433	ydcO	y-ome
 b1434	sutR, ydcN	well-annotated
-b1435	ydcP, rlhA	tbd
+b1435	rlhA, ydcP	tbd
 b1436	yncJ	y-ome
 b1437		excluded
 b1438	hicB	well-annotated
@@ -1446,8 +1425,7 @@ b1454	yncG	y-ome
 b1455	yncH	y-ome
 b1456	rhsE, rhsE'	excluded
 b1457	ydcD	y-ome
-b1458	yncI	y-ome
-b1459	yncM, yncI', yncI	excluded
+b1459	yncI, yncI'	excluded
 b1460	ydcC	y-ome
 b1461	pptA	well-annotated
 b1462	yddH	y-ome
@@ -1458,7 +1436,7 @@ b1466	narW	y-ome
 b1467	narY	well-annotated
 b1468	narZ	well-annotated
 b1469	narU	well-annotated
-b1470	yddJ	y-ome
+b1470	yddJ	excluded
 b1471	yddK, yddK'	excluded
 b1472	yddL, yddL'	excluded
 b1473	yddG	well-annotated
@@ -1561,7 +1539,7 @@ b1569	dicC	y-ome
 b1570	dicA	well-annotated
 b1571	ydfA	y-ome
 b1572	ydfB	y-ome
-b1573	ydfC	excluded
+b1573	ydfC	y-ome
 b1574	dicF	well-annotated
 b1575	dicB	y-ome
 b1576	ydfD	y-ome
@@ -1580,7 +1558,7 @@ b1588	ynfF	tbd
 b1589	ynfG	y-ome
 b1590	ynfH	well-annotated
 b1591	dmsD	well-annotated
-b1592	clcB	y-ome
+b1592	clcB	tbd
 b1593	ynfK, bioD2	y-ome
 b1594	mlc	well-annotated
 b1595	ynfL	y-ome
@@ -1708,8 +1686,6 @@ b1716	rplT	well-annotated
 b1717	rpmI	well-annotated
 b1718	infC	well-annotated
 b1719	thrS	well-annotated
-b1720	arpB_1	excluded
-b1721	arpB_2	excluded
 b1722	ydiY	y-ome
 b1723	pfkB	well-annotated
 b1724	ydiZ	y-ome
@@ -1861,7 +1837,7 @@ b1869	yecN	y-ome
 b1870	cmoA	well-annotated
 b1871	cmoB	well-annotated
 b1872	torZ	well-annotated
-b1873	torY	well-annotated
+b1873	torY	tbd
 b1874	cutC	y-ome
 b1875	yecM	y-ome
 b1876	argS	well-annotated
@@ -1919,9 +1895,7 @@ b1929	yedE	y-ome
 b1930	yedF	y-ome
 b1931	yedK	y-ome
 b1932	yedL	y-ome
-b1933	yedN_3	excluded
-b1934	yedN_2	excluded
-b1935	yedM	excluded
+b1935	yedM	y-ome
 b1936	intG, intG'	excluded
 b1937	fliE	well-annotated
 b1938	fliF	well-annotated
@@ -1950,9 +1924,6 @@ b1960	vsr	well-annotated
 b1961	dcm	well-annotated
 b1962	yedJ	y-ome
 b1963	yedR	y-ome
-b1964	yedS_1	excluded
-b1965	yedS_2	excluded
-b1966	yedS_3	excluded
 b1967	hchA	well-annotated
 b1968	hprS, yedV	well-annotated
 b1969	hprR, yedW	well-annotated
@@ -1965,8 +1936,6 @@ b1975	serU	well-annotated
 b1976	mtfA	well-annotated
 b1977	asnT	well-annotated
 b1978	yeeJ	y-ome
-b1979	yeeL_2	excluded
-b1980	yeeL_1	excluded
 b1981	shiA	well-annotated
 b1982	amn	well-annotated
 b1983	yeeN	y-ome
@@ -1981,10 +1950,8 @@ b1991	cobT	well-annotated
 b1992	cobS	well-annotated
 b1993	cobU	well-annotated
 b1994	insH-6, insH8, insH6, insH1	well-annotated
-b1995	yoeA_1	excluded
 b1996	insD-3, insD6, insD3, insD1	well-annotated
 b1997	insC-3, insC6, insC3, insC1	well-annotated
-b1998	yoeA_2	excluded
 b1999	yeeP, yeeP'	excluded
 b2000	flu	well-annotated
 b2001	yeeR	y-ome
@@ -2017,13 +1984,12 @@ b2027	wzzB	y-ome
 b2028	ugd	well-annotated
 b2029	gnd	well-annotated
 b2030	insH-7, insH9, insH7, insH1	well-annotated
-b2031	wbbL_1	excluded
 b2032	wbbK	y-ome
 b2033	wbbJ	y-ome
 b2034	wbbI	well-annotated
 b2035	wbbH, rfc	y-ome
 b2036	glf	well-annotated
-b2037	rfbX, wzxB	well-annotated
+b2037	rfbX, wzxB	tbd
 b2038	rfbC	well-annotated
 b2039	rfbA	well-annotated
 b2040	rfbD	well-annotated
@@ -2032,7 +1998,7 @@ b2042	galF, wcaN	y-ome
 b2043	wcaM	y-ome
 b2044	wcaL	y-ome
 b2045	wcaK	y-ome
-b2046	wzxC	y-ome
+b2046	wzxC	tbd
 b2047	wcaJ	well-annotated
 b2048	cpsG, manB	well-annotated
 b2049	cpsB, manC	well-annotated
@@ -2058,7 +2024,7 @@ b2068	alkA	well-annotated
 b2069	yegD	y-ome
 b2070	yegI	y-ome
 b2071	yegJ	y-ome
-b2072	yegK	y-ome
+b2072	pphC, yegK	well-annotated
 b2073	yegL	y-ome
 b2074	mdtA	well-annotated
 b2075	mdtB	well-annotated
@@ -2073,10 +2039,8 @@ b2083	yegZ, yegZ'	excluded
 b2084		excluded
 b2085	yegR	y-ome
 b2086	yegS	well-annotated
-b2087	gatR_1	excluded
 b2088	insE-5, insE5, insE1	well-annotated
 b2089	insF-5, insF5, insF1	well-annotated
-b2090	gatR_2	excluded
 b2091	gatD	well-annotated
 b2092	gatC, gatC'	excluded
 b2093	gatB	well-annotated
@@ -2101,9 +2065,7 @@ b2111	yehD	y-ome
 b2112	yehE	y-ome
 b2113	mrp	y-ome
 b2114	metG	well-annotated
-b2115	molR_1	excluded
-b2116	molR_2	excluded
-b2117	molR_3	excluded
+b2115	yehF	y-ome
 b2118	yehI	y-ome
 b2119	yehL	y-ome
 b2120	yehM	y-ome
@@ -2124,8 +2086,7 @@ b2134	pbpG	well-annotated
 b2135	yohC	y-ome
 b2136	yohD	y-ome
 b2137	yohF	y-ome
-b2138	mdtQ	excluded
-b2139	yohH, mdtQ', mdtQ	excluded
+b2139	mdtQ, mdtQ'	excluded
 b2140	dusC	well-annotated
 b2141	yohJ	y-ome
 b2142	yohK	y-ome
@@ -2213,8 +2174,6 @@ b2223	atoE	y-ome
 b2224	atoB	well-annotated
 b2225	yfaP	y-ome
 b2226	yfaQ	y-ome
-b2227	yfaS_2	excluded
-b2228	yfaS_1	excluded
 b2229	yfaT	y-ome
 b2230	yfaA	y-ome
 b2231	gyrA	well-annotated
@@ -2323,8 +2282,6 @@ b2333	yfcP	y-ome
 b2334	yfcQ	y-ome
 b2335	yfcR	y-ome
 b2336	yfcS	y-ome
-b2337	yfcU_2	excluded
-b2338	yfcU_1	excluded
 b2339	yfcV	y-ome
 b2340	sixA	well-annotated
 b2341	fadJ	well-annotated
@@ -2336,9 +2293,9 @@ b2346	mlaA	tbd
 b2347	yfdC	y-ome
 b2348	argW	well-annotated
 b2349	intS	y-ome
-b2350	yfdG, gtrA	well-annotated
+b2350	yfdG, gtrA	tbd
 b2351	yfdH, gtrB	y-ome
-b2352	yfdI, gtrS	y-ome
+b2352	yfdI, gtrS	well-annotated
 b2353	tfaS, tfaS'	excluded
 b2354	yfdK	y-ome
 b2355	yfdL, yfdL'	excluded
@@ -2506,7 +2463,7 @@ b2517	rlmN	well-annotated
 b2518	ndk	well-annotated
 b2519	pbpC	well-annotated
 b2520	yfhM	well-annotated
-b2521	mstA, sseA	well-annotated
+b2521	sseA	well-annotated
 b2522	sseB	y-ome
 b2523	pepB	well-annotated
 b2524	iscX	well-annotated
@@ -2540,7 +2497,7 @@ b2551	glyA	well-annotated
 b2552	hmp	well-annotated
 b2553	glnB	well-annotated
 b2554	glrR	well-annotated
-b2555	qseG, yfhG	y-ome
+b2555	qseG, yfhG	well-annotated
 b2556	glrK	well-annotated
 b2557	purL	well-annotated
 b2558	mltF	well-annotated
@@ -2622,9 +2579,7 @@ b2635	ypjK	y-ome
 b2636	yfjS	y-ome
 b2637	yfjT	y-ome
 b2638	yfjU, yfjU'	excluded
-b2639	ypjM_3	excluded
-b2640	ypjM_2	excluded
-b2641	ypjM_1, yfjV', yfjV	excluded
+b2641	yfjV, yfjV'	excluded
 b2642	yfjW	y-ome
 b2643	yfjX	y-ome
 b2644	yfjY	y-ome
@@ -2658,8 +2613,7 @@ b2676	nrdF	well-annotated
 b2677	proV	well-annotated
 b2678	proW	well-annotated
 b2679	proX	well-annotated
-b2680	ygaY_1	excluded
-b2681	ygaY_2, ygaY', ygaY	excluded
+b2681	ygaY, ygaY'	excluded
 b2682	ygaZ	well-annotated
 b2683	ygaH	well-annotated
 b2684	mprA	well-annotated
@@ -2831,14 +2785,13 @@ b2851	ygeG	y-ome
 b2852	ygeH	y-ome
 b2853	ygeI	y-ome
 b2854	pbl, pbl'	excluded
-b2855	ygeK	y-ome
+b2855	ygeK	excluded
 b2856	ygeL, ygeK', ygeK	excluded
-b2857	ygeM	y-ome
 b2858	ygeN, ygeN'	excluded
 b2859	ygeO, ygeO'	excluded
 b2860	insD-4, insD8, insD4, insD1	well-annotated
 b2861	insC-4, insC8, insC4, insC1	well-annotated
-b2862	ygeP	y-ome
+b2862	ygeP	excluded
 b2863	ygeQ, ygeQ'	excluded
 b2864	glyU	well-annotated
 b2865	ygeR	y-ome
@@ -2968,8 +2921,6 @@ b2995	hybB	well-annotated
 b2996	hybA	well-annotated
 b2997	hybO	well-annotated
 b2998	yghW	y-ome
-b2999	yghX_1	excluded
-b3000	yghX_2	excluded
 b3001	gpr	well-annotated
 b3002	yqhA	y-ome
 b3003	yghA	well-annotated
@@ -3026,7 +2977,7 @@ b3055	ygiM	y-ome
 b3056	cca	well-annotated
 b3057	bacA, uppP	well-annotated
 b3058	folB	well-annotated
-b3059	ygiH, plsY	y-ome
+b3059	plsY	y-ome
 b3060	ttdR	well-annotated
 b3061	ttdA	well-annotated
 b3062	ttdB	well-annotated
@@ -3037,14 +2988,14 @@ b3066	dnaG	well-annotated
 b3067	rpoD	well-annotated
 b3068	mug	well-annotated
 b3069	ileX	well-annotated
-b3070	yqjH	well-annotated
-b3071	yqjI	well-annotated
+b3070	nfeF, yqjH	well-annotated
+b3071	nfeR, yqjI	well-annotated
 b3072	aer	well-annotated
 b3073	patA	well-annotated
 b3074	ygjH	y-ome
 b3075	ebgR	well-annotated
 b3076	ebgA	excluded
-b3077	ebgC	excluded
+b3077	ebgC	tbd
 b3078	ygjI	y-ome
 b3079	ygjJ	y-ome
 b3080	ygjK	well-annotated
@@ -3075,7 +3026,7 @@ b3104	yhaI	y-ome
 b3105	yhaJ	well-annotated
 b3106	yhaK	y-ome
 b3107	yhaL	y-ome
-b3110	yhaO, dlsT	y-ome
+b3110	cyuP, yhaO, dlsT	y-ome
 b3113	tdcF	y-ome
 b3114	tdcE	well-annotated
 b3115	tdcD	well-annotated
@@ -3102,7 +3053,7 @@ b3136	agaS	y-ome
 b3137	kbaY	well-annotated
 b3138	agaB	excluded
 b3139	agaC	excluded
-b3140	agaD	excluded
+b3140	agaD	well-annotated
 b3141	agaI	y-ome
 b3142	yraH	y-ome
 b3143	yraI	y-ome
@@ -3179,7 +3130,6 @@ b3213	gltD	well-annotated
 b3214	gltF	y-ome
 b3215	yhcA	y-ome
 b3216	yhcD	y-ome
-b3217	yhcE_1	excluded
 b3218	insH-10, insH18, insH10, insH1	well-annotated
 b3219	yhcF	y-ome
 b3220	yhcG	y-ome
@@ -3281,18 +3231,18 @@ b3319	rplD	well-annotated
 b3320	rplC	well-annotated
 b3321	rpsJ	well-annotated
 b3322	gspB	y-ome
-b3323	gspA	excluded
-b3324	gspC	excluded
-b3325	gspD	excluded
-b3326	gspE	excluded
-b3327	gspF	excluded
-b3328	gspG	excluded
-b3329	gspH	excluded
-b3330	gspI	excluded
-b3331	gspJ	excluded
-b3332	gspK	excluded
-b3333	gspL	excluded
-b3334	gspM	excluded
+b3323	gspA	y-ome
+b3324	gspC	tbd
+b3325	gspD	tbd
+b3326	gspE	tbd
+b3327	gspF	tbd
+b3328	gspG	tbd
+b3329	gspH	tbd
+b3330	gspI	tbd
+b3331	gspJ	tbd
+b3332	gspK	tbd
+b3333	gspL	tbd
+b3334	gspM	tbd
 b3335	gspO	well-annotated
 b3336	bfr	well-annotated
 b3337	bfd	y-ome
@@ -3354,7 +3304,7 @@ b3394	hofN	y-ome
 b3395	hofM	y-ome
 b3396	mrcA	well-annotated
 b3397	nudE	well-annotated
-b3398	yrfF	y-ome
+b3398	igaA, yrfF	y-ome
 b3399	yrfG	well-annotated
 b3400	hslR	well-annotated
 b3401	hslO	well-annotated
@@ -3441,8 +3391,7 @@ b3485	yhhJ	y-ome
 b3486	rbbA	well-annotated
 b3487	yhiI	y-ome
 b3488	yhiJ	y-ome
-b3489	yhiK	excluded
-b3490	yhiL	y-ome
+b3490		y-ome
 b3491	yhiM	y-ome
 b3492	yhiN	y-ome
 b3493	pitA	well-annotated
@@ -3456,7 +3405,7 @@ b3500	gor	well-annotated
 b3501	arsR	well-annotated
 b3502	arsB	well-annotated
 b3503	arsC	well-annotated
-b3504	yhiS_2, yhiS_1, yhiS', yhiS	excluded
+b3504	yhiS, yhiS'	excluded
 b3505	insH-11, insH20, insH11, insH1	well-annotated
 b3506	slp	well-annotated
 b3507	dctR	y-ome
@@ -3490,7 +3439,7 @@ b3534	bcsQ, bcsQ'	excluded
 b3535	yhjR	y-ome
 b3536	bcsE	well-annotated
 b3537	bcsF	y-ome
-b3538	bcsG	y-ome
+b3538	bcsG	tbd
 b3539	yhjV	y-ome
 b3540	dppF	well-annotated
 b3541	dppD	well-annotated
@@ -3575,7 +3524,7 @@ b3619	rfaD, hldD	well-annotated
 b3620	waaF, rfaF	well-annotated
 b3621	waaC, rfaC	well-annotated
 b3622	waaL, rfaL	well-annotated
-b3623	waaU	well-annotated
+b3623	waaU	tbd
 b3624	waaZ, rfaZ	well-annotated
 b3625	waaY, rfaY	well-annotated
 b3626	waaJ, waaR, rfaJ	well-annotated
@@ -3634,7 +3583,7 @@ b3678	yidJ	y-ome
 b3679	yidK	y-ome
 b3680	yidL	y-ome
 b3681	glvG	y-ome
-b3682	glvB	excluded
+b3682	glvB	y-ome
 b3683	glvC, glvC'	excluded
 b3684	yidP	y-ome
 b3685	yidE	y-ome
@@ -3714,8 +3663,6 @@ b3761	trpT	well-annotated
 b3764	maoP, yifE	y-ome
 b3765	yifB	y-ome
 b3766	ilvL	well-annotated
-b3767	ilvG_1	excluded
-b3768	ilvG_2	excluded
 b3769	ilvM	well-annotated
 b3770	ilvE	well-annotated
 b3771	ilvD	well-annotated
@@ -3723,7 +3670,6 @@ b3772	ilvA	well-annotated
 b3773	ilvY	well-annotated
 b3774	ilvC	well-annotated
 b3775	ppiC	well-annotated
-b3776	yifO	y-ome
 b3777	yifN, yifN'	excluded
 b3778	rep	well-annotated
 b3779	gpp, gppA	well-annotated
@@ -4000,7 +3946,7 @@ b4057	yjbR	y-ome
 b4058	uvrA	well-annotated
 b4059	ssb	well-annotated
 b4060	yjcB	y-ome
-b4061	pdeC, yjcC	y-ome
+b4061	pdeC, yjcC	well-annotated
 b4062	soxS	well-annotated
 b4063	soxR	well-annotated
 b4064	ghxP	well-annotated
@@ -4041,9 +3987,9 @@ b4099	phnI	well-annotated
 b4100	phnH	well-annotated
 b4101	phnG	well-annotated
 b4102	phnF	y-ome
-b4103	phnE_2, phnE	excluded
-b4104	phnE_1, phnE', phnE1, phnE	excluded
-b4105	phnD	excluded
+b4103	phnE	y-ome
+b4104	phnE', phnE1, phnE	excluded
+b4105	phnD	well-annotated
 b4106	phnC	well-annotated
 b4107	yjdN, phnB	y-ome
 b4108	yjdM, phnA	y-ome
@@ -4086,7 +4032,7 @@ b4144	yjeI	y-ome
 b4145	yjeJ	y-ome
 b4146	epmB	well-annotated
 b4147	efp	well-annotated
-b4148	sugE	well-annotated
+b4148	gdx, sugE	well-annotated
 b4149	blc	y-ome
 b4150	ampC	well-annotated
 b4151	frdD	well-annotated
@@ -4105,7 +4051,7 @@ b4163	glyV	well-annotated
 b4164	glyX	well-annotated
 b4165	glyY	well-annotated
 b4166	queG	well-annotated
-b4167	yjeF, nnr	well-annotated
+b4167	nnr	well-annotated
 b4168	tsaE	well-annotated
 b4169	amiB	well-annotated
 b4170	mutL	well-annotated
@@ -4126,7 +4072,7 @@ b4184	yjfL	y-ome
 b4185	yjfM	y-ome
 b4186	yjfC	y-ome
 b4187	aidB	well-annotated
-b4188	yjfN	y-ome
+b4188	yjfN	well-annotated
 b4189	bsmA	y-ome
 b4190	yjfP	well-annotated
 b4191	ulaR	well-annotated
@@ -4211,17 +4157,15 @@ b4271	intB, intB'	excluded
 b4272	insC-6, insC11, insC6, insC1	well-annotated
 b4273	insD-6, insD11, insD6, insD1	well-annotated
 b4274	yjgW, yjgX'	excluded
-b4275	yjgX_2	excluded
-b4276	yjgX_1	excluded
 b4277	yjgZ	y-ome
 b4278	insG	well-annotated
 b4279	yjhB	y-ome
 b4280	yjhC	y-ome
 b4281	yjhD, yjhD'	excluded
 b4282	yjhE, yjhE'	excluded
-b4283	insN-2, insN2	well-annotated
+b4283	insN2	y-ome
 b4284	insI-3, insI4, insI1	well-annotated
-b4285	insO-2, insO2	well-annotated
+b4285	insO2	y-ome
 b4286	yjhV, yjhV'	excluded
 b4287	fecE	well-annotated
 b4288	fecD	well-annotated
@@ -4245,7 +4189,7 @@ b4305	sgcX	y-ome
 b4306	yjhP	y-ome
 b4307	yjhQ	y-ome
 b4308	yjhR, yjhR'	excluded
-b4309	nanS	y-ome
+b4309	nanS	well-annotated
 b4310	nanM	well-annotated
 b4311	nanC	well-annotated
 b4312	fimB	well-annotated
@@ -4274,8 +4218,8 @@ b4334	yjiL	y-ome
 b4335	yjiM	y-ome
 b4336	yjiN	y-ome
 b4337	mdtM	well-annotated
-b4338	rpnD, yjiP	y-ome
-b4339	yjiQ, yjiP', yjiP	excluded
+b4338	yjiP	y-ome
+b4339	yjiP', yjiQ, yjiP	excluded
 b4340	yjiR	y-ome
 b4341	yjiS	y-ome
 b4342	yjiT, yjiT'	excluded
@@ -4288,7 +4232,7 @@ b4350	hsdR	well-annotated
 b4351	mrr	well-annotated
 b4352	yjiA	well-annotated
 b4353	yjiX	y-ome
-b4354	yjiY, btsT	well-annotated
+b4354	btsT, yjiY	well-annotated
 b4355	tsr	well-annotated
 b4356	lgoT	well-annotated
 b4357	lgoR	y-ome
@@ -4402,7 +4346,7 @@ b4466	yghJ, sslE	y-ome
 b4467	glcF	y-ome
 b4468	glcE	y-ome
 b4469	ygiQ	y-ome
-b4470	yhaM	y-ome
+b4470	cyuA, yhaM	y-ome
 b4471	tdcG	well-annotated
 b4472	yhdP	y-ome
 b4473	smf	y-ome
@@ -4420,26 +4364,26 @@ b4484	cpxP	well-annotated
 b4485	ytfR	y-ome
 b4486	yjiV, yjiV'	excluded
 b4487	yjdP	y-ome
-b4488	ilvG', ilvG	excluded
+b4488	ilvG, ilvG'	excluded
 b4489	oriC	well-annotated
-b4490	efeU', efeU	excluded
-b4491	ycgH', ycgH	excluded
-b4492	ydbA', ydbA	excluded
-b4493	gapC', gapC	excluded
-b4494	arpB', arpB	excluded
-b4495	yedN', yedN	excluded
-b4496	yedS', yedS	excluded
-b4497	yeeL', yeeL	excluded
-b4498	gatR', gatR	excluded
-b4499	yehH', yehF, yehH	excluded
-b4500	yfaS', yfaS	excluded
+b4490	efeU, efeU'	excluded
+b4491	ycgH, ycgH'	excluded
+b4492	ydbA, ydbA'	excluded
+b4493	gapC, gapC'	excluded
+b4494	arpB, arpB'	excluded
+b4495	yedN, yedN'	excluded
+b4496	yedS, yedS'	excluded
+b4497	yeeL, yeeL'	excluded
+b4498	gatR, gatR'	excluded
+b4499	yehH, yehH', yehF	excluded
+b4500	yfaS, yfaS'	excluded
 b4501	torI	well-annotated
 b4502	yeiW	y-ome
 b4503	yafF, yafF'	excluded
 b4504	ykfH	y-ome
 b4505	insX, insX', ykgN	well-annotated
 b4506	ykgO	y-ome
-b4508	ybcD, peaD', peaD	excluded
+b4508	peaD, peaD'	excluded
 b4509	ylcG	y-ome
 b4510	rzoD	y-ome
 b4511	ybdZ	well-annotated
@@ -4452,7 +4396,7 @@ b4517	gnsA	y-ome
 b4518	ymdF	y-ome
 b4519	icdC, icdC'	excluded
 b4520	ymgF	y-ome
-b4521	ymgH, ycgI', ycgI	excluded
+b4521	ycgI, ycgI'	excluded
 b4522	ymiA	y-ome
 b4523	yciX	y-ome
 b4524	ymjB, ycjV', ycjV	excluded
@@ -4461,17 +4405,14 @@ b4526	ydaE	y-ome
 b4527	ydaF	y-ome
 b4528	rzoR	y-ome
 b4529	ydbJ	y-ome
-b4530	yncK_2	excluded
-b4531	yncK_1	excluded
 b4532	hicA	well-annotated
 b4533	ynfO	y-ome
-b4534	ynfP	excluded
+b4534	ynfP	y-ome
 b4535	yniD	y-ome
 b4536	yobH	y-ome
 b4537	yecJ	y-ome
 b4538	yoeF, yoeF'	excluded
 b4539	yoeB	well-annotated
-b4540	wbbL_2	excluded
 b4541	yehK	y-ome
 b4542	yohO	y-ome
 b4543	ypaA, ypaA'	excluded
@@ -4480,7 +4421,6 @@ b4545	ypdJ, ypdJ'	excluded
 b4546	ypeB	y-ome
 b4547	ypfN	y-ome
 b4548	ypjJ	y-ome
-b4549	yhcE_2	excluded
 b4550	arfA	well-annotated
 b4551	yheV	y-ome
 b4552	yrhC, yrhC'	excluded
@@ -4491,31 +4431,29 @@ b4556	ysdC, glvG', glvG	excluded
 b4557	yidD	y-ome
 b4558	yifL	y-ome
 b4559	ghoT	well-annotated
-b4560	yjgX_3	excluded
 b4561	insM, insM'	well-annotated
-b4562	yjhW	excluded
-b4563	insB-7_1	well-annotated
-b4564	insB-7_2	well-annotated
 b4565	sgcB	y-ome
 b4566	topAI, yjhX	well-annotated
 b4567	yjjZ	y-ome
 b4568	ytjA	y-ome
-b4569	yhcE', yhcE	excluded
-b4570	lomR', lomR	excluded
-b4571	wbbL', wbbL	excluded
+b4569	yhcE, yhcE'	excluded
+b4570	lomR, lomR'	excluded
+b4571	wbbL, wbbL'	excluded
 b4572	ylbE	y-ome
-b4573	insZ', ychG, insZ	excluded
-b4575	yjgX	y-ome
-b4576	insB6', insB1	excluded
+b4573	insZ, insZ', ychG	well-annotated
+b4575	yjgX	excluded
+b4576	insB-7, insB6', insB1	well-annotated
 b4577	sgrS	well-annotated
-b4578	insP', insP	excluded
-b4579	yaiX', yaiX	excluded
-b4580	yaiT', yaiT	excluded
-b4581	ybeM', ybeM, ybeH	excluded
-b4582	yoeA', yoeA	excluded
+b4578	yncK, insP', insP	excluded
+b4579	yaiX, yaiX'	excluded
+b4580	yaiT, yaiT'	excluded
+b4581	ybeM, ybeM', ybeH	excluded
+b4582	yoeA, yoeA'	excluded
+b4583	phnE	excluded
+b4584	rpnD	excluded
 b4585	chiX	well-annotated
 b4586	ykfM	y-ome
-b4587	insN', insN	excluded
+b4587	insN, insN'	well-annotated
 b4588	ylcH	y-ome
 b4589	ylcI	y-ome
 b4590	ybfK	y-ome
@@ -4544,26 +4482,26 @@ b4612	yrhD	y-ome
 b4613	dinQ	y-ome
 b4614	sokA, sokA'	excluded
 b4615	yibV, yibV'	excluded
-b4616	istR-2, istR	well-annotated
+b4616	istR	well-annotated
 b4617	tisA	excluded
 b4618	tisB	well-annotated
 b4620	yjbT	y-ome
 b4621	yjbS	y-ome
 b4622	ytcA	y-ome
-b4623	insO', insO	excluded
+b4623	insO, insO'	well-annotated
 b4624	ryjB	y-ome
 b4625	symR	well-annotated
-b4626	ykfN', ykfN	excluded
+b4626	ykfN, ykfN'	excluded
 b4627	ykfL, ykfL'	excluded
 b4628	ykfK, ykfK'	excluded
 b4629	ptwF'	excluded
-b4630	ykgP', ykgP	excluded
+b4630	ykgP, ykgP'	excluded
 b4631	ykgQ, ykgQ'	excluded
-b4632	ylbI', ylbI	excluded
-b4633	xisD', xisD	excluded
-b4634	aaaD', aaaD	excluded
+b4632	ylbI, ylbI'	excluded
+b4633	xisD, xisD'	excluded
+b4634	aaaD, aaaD'	excluded
 b4635	pauD'	excluded
-b4636	ybfI', ybfI	excluded
+b4636	ybfI, ybfI'	excluded
 b4637	uof	well-annotated
 b4638	ttcC, ttcC'	excluded
 b4639	yeeH, yeeH'	excluded
@@ -4585,10 +4523,10 @@ b4654	yjdQ, yjdQ'	excluded
 b4655	ythA	y-ome
 b4656	yjhY, yjhY'	excluded
 b4657	yjhZ, yjhZ'	excluded
-b4658	yghX', yghX	excluded
+b4658	yghX, yghX'	excluded
 b4659	yabP', yabP	excluded
-b4660	yhiL', yhiL	excluded
-b4661	yfcU', yfcU	excluded
+b4660	yhiL, yhiL'	excluded
+b4661	yfcU, yfcU'	excluded
 b4662	sgrT	y-ome
 b4663	azuC	y-ome
 b4664	ibsD	y-ome
@@ -4618,17 +4556,17 @@ b4688	ykgS, ykgS'	excluded
 b4689	rzoQ	y-ome
 b4690	eyeA	y-ome
 b4691	sroH	y-ome
-b4692	oweE', oweE	excluded
-b4693	aaaE', aaaE	excluded
+b4692	oweE, oweE'	excluded
+b4693	aaaE, aaaE'	excluded
 b4694	yagP', yagP	excluded
 b4695	ykgT', ykgT	excluded
-b4696	yneO', yneO	excluded
+b4696	yneO, yneO'	excluded
 b4697	yrdF, yrdF'	excluded
 b4698	mgrR	y-ome
 b4699	fnrS	well-annotated
 b4700	sokE	y-ome
 b4701	sokX	y-ome
-b4702	mgtL	y-ome
+b4702	mgtL	well-annotated
 b4703	pmrR	y-ome
 b4704	arrS	y-ome
 b4705	mntS	y-ome

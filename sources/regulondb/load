@@ -13,11 +13,12 @@ directory = realpath(dirname(__file__))
 
 # Load data
 df = pd.read_table(join(directory, 'network_tf_gene.txt'), sep='\t',
-                   header=None, skiprows=16, index_col=False,
+                   header=None, skiprows=34, index_col=False,
                    names=['tf', 'target', 'effect', 'evidence', 'type'])
 
 # Split complex
-replace = {
+replace ={
+    'BCCP': ['accB'],
     'DinJ-YafQ': ['dinJ', 'yafQ'],
     'Dan': ['ttdR'],
     'H-NS': ['hns'],
@@ -38,6 +39,7 @@ replace = {
     'YedW': ['hprR'],
     'YefM-YoeB': ['yefM', 'yoeB'],
     'YehT': ['btsR'],
+    'YqjI': ['nfeR'],
 }
 def change(row, new):
     row.tf = new
