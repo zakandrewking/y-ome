@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# To install rpy2, you might need to do it from source:
+
+# ```
+# R> source("https://bioconductor.org/biocLite.R")
+# R> biocLite(c("impute", "preprocessCore", "GO.db", "AnnotationDbi"))
+# R> install.packages("WCGNA")
+
+# > pip install --no-cache --no-binary rpy2 rpy2
+# > pip install iterativeWGCNA
+# ```
+
+directory="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
+output=$directory/../data/wgcna-output-$(date "+%Y-%m-%d-%H:%M:%S")
+
+iterativeWGCNA -i $directory/../data/precise/tpm-log.tsv \
+               -o $output \
+               --enableWGCNAThreads \
+               -p minModuleSize=3
