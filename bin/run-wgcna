@@ -11,10 +11,12 @@
 # > pip install iterativeWGCNA
 # ```
 
+minModuleSize=5
+
 directory="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
-output=$directory/../data/wgcna-output-$(date "+%Y-%m-%d-%H:%M:%S")
+output=$directory/../data/wgcna-output-minmod$minModuleSize-$(date "+%Y-%m-%d-%H:%M:%S")
 
 iterativeWGCNA -i $directory/../data/precise/tpm-log.tsv \
                -o $output \
                --enableWGCNAThreads \
-               -p minModuleSize=3
+               -p minModuleSize=$minModuleSize
