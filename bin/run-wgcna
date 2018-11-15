@@ -11,7 +11,7 @@
 # > pip install iterativeWGCNA
 # ```
 
-minModuleSize=5
+minModuleSize=10
 
 directory="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 output=$directory/../data/wgcna-output-minmod$minModuleSize-$(date "+%Y-%m-%d-%H:%M:%S")

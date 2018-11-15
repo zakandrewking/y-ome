@@ -10,7 +10,7 @@ data_directory = join(abspath(dirname(__file__)), '..', 'data')
 
 session = Session()
 
-# output 1 -- list of b_numbers, primary_names, and is_y_ome
+# output 1 -- list of b_numbers, primary_names, and yome (boolean)
 
 primary_names = to_df(
     session.query(Gene.locus_id,
@@ -27,7 +27,7 @@ primary_names_grouped = (
     .reset_index()
 )
 
-y_ome_genes = to_df(
+yome_genes = to_df(
     session.query(Gene.locus_id,
                   KnowledgebaseGene.annotation_quality)
     .join(KnowledgebaseGene)
@@ -35,15 +35,15 @@ y_ome_genes = to_df(
     .filter(Knowledgebase.name == 'Y-ome')
 )
 
-final = y_ome_genes.merge(primary_names_grouped, how='outer')
-final['category'] = final.annotation_quality.apply(
-    lambda x: 'y-ome' if x == 'low' else 'well-annotated' if x == 'high' else x
+final = yome_genes.merge(primary_names_grouped, how='outer')
+final['yome'] = final.annotation_quality.apply(
+    lambda x: 'yes' if x == 'low' else 'no' if x == 'high' else x
 )
 final = final.drop(columns=['annotation_quality'])
 
-print(final['category'].value_counts())
+print(final['yome'].value_counts())
 
-final.to_csv(join(data_directory, 'y-ome-genes.tsv'), sep='\t', index=False)
+final.to_csv(join(data_directory, 'yome-genes.tsv'), sep='\t', index=False)
 
 # output 2 -- all feature
 
