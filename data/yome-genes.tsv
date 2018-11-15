@@ -137,7 +137,7 @@ b0135	yadC	yes
 b0136	yadK	yes
 b0137	yadL	yes
 b0138	yadM	yes
-b0139	htrE	tbd
+b0139	htrE	yes
 b0140	yadV	yes
 b0141	yadN	yes
 b0142	folK	no
@@ -281,7 +281,7 @@ b0279	yagM	yes
 b0280	yagN	yes
 b0281	intF	yes
 b0282	yagP	yes
-b0283	paoD	tbd
+b0283	paoD	no
 b0284	paoC	no
 b0285	paoB	no
 b0286	paoA	no
@@ -742,7 +742,7 @@ b0756	galM	no
 b0757	galK	no
 b0758	galT	no
 b0759	galE	no
-b0760	modF	tbd
+b0760	modF	yes
 b0761	modE	no
 b0762	acrZ	no
 b0763	modA	no
@@ -932,8 +932,8 @@ b0946	zapC	no
 b0947	ycbX	yes
 b0948	rlmL	no
 b0949	uup	no
-b0950	pqiA	tbd
-b0951	pqiB	tbd
+b0950	pqiA	yes
+b0951	pqiB	yes
 b0952	pqiC	yes
 b0953	rmf	no
 b0954	fabA	no
@@ -1402,7 +1402,7 @@ b1431	ydcL	yes
 b1432	insQ	no
 b1433	ydcO	yes
 b1434	sutR, ydcN	no
-b1435	rlhA, ydcP	tbd
+b1435	rlhA, ydcP	no
 b1436	yncJ	yes
 b1437		excluded
 b1438	hicB	no
@@ -1410,7 +1410,7 @@ b1439	ydcR	yes
 b1440	ydcS	no
 b1441	ydcT	yes
 b1442	ydcU	yes
-b1443	ydcV	tbd
+b1443	ydcV	yes
 b1444	patD, prr	no
 b1445	ortT, ydcX	tbd
 b1446	ydcY	yes
@@ -1554,11 +1554,11 @@ b1584	speG	no
 b1585	ynfC	yes
 b1586	ynfD	yes
 b1587	ynfE	yes
-b1588	ynfF	tbd
+b1588	ynfF	yes
 b1589	ynfG	yes
 b1590	ynfH	no
 b1591	dmsD	no
-b1592	clcB	tbd
+b1592	clcB	yes
 b1593	ynfK, bioD2	yes
 b1594	mlc	no
 b1595	ynfL	yes
@@ -1798,7 +1798,7 @@ b1830	prc	no
 b1831	proQ	no
 b1832	msrC	no
 b1833	yebS	yes
-b1834	yebT	tbd
+b1834	yebT	yes
 b1835	rsmF	no
 b1836	yebV	yes
 b1837	yebW	yes
@@ -1837,7 +1837,7 @@ b1869	yecN	yes
 b1870	cmoA	no
 b1871	cmoB	no
 b1872	torZ	no
-b1873	torY	tbd
+b1873	torY	no
 b1874	cutC	yes
 b1875	yecM	yes
 b1876	argS	no

@@ -294,3 +294,15 @@ b2350	low	EcoCyc: activity has not been verified in E. coli
 b2351	low	EcoCyc: activity has not been verified in E. coli
 b2352	low	EcoCyc: activity has not been verified in E. coli
 b0006	low	from "molecular mechanism of YaaA action remains unknown" [10.1128/JB.00001-11]
+b0139	low	see EcoCyc summary
+b0283	high	see EcoCyc and UniProt summaries
+b0760	low	see EcoCyc summary
+b0950	low	"substrate for transport is not known" - EcoCyc
+b0951	low	"substrate for transport is not known" - EcoCyc
+b0952	low	"substrate for transport is not known" - EcoCyc
+b1435	high	see UniProt function & evidence
+b1443	low	inconclusive evidence of function (EcoCyc, UniProt)
+b1588	low	see EcoCyc summary
+b1592	low	function inferred from sequence
+b1834	low	transporter with unknown substrate
+b1873	high	see EcoCyc summary
