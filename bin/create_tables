@@ -1,5 +1,0 @@
-#!/usr/bin/env python3
-
-from yome import Base
-
-Base.metadata.create_all()

@@ -10,11 +10,12 @@ import json
 from os.path import dirname, realpath, join
 import re
 import numpy as np
+import gzip
 
 directory = realpath(dirname(__file__))
 
 # Read genbank file
-with open(join(directory, 'NC_000913.3.gb'), 'r') as f:
+with gzip.open(join(directory, 'NC_000913.3.gb.gz'), 'rt') as f:
     gb_file = SeqIO.read(f, 'gb')
 
 data_list = []

@@ -4,7 +4,7 @@ b0002	thrA	no
 b0003	thrB	no
 b0004	thrC	no
 b0005	yaaX	yes
-b0006	yaaA	tbd
+b0006	yaaA	yes
 b0007	yaaJ	yes
 b0008	talB	no
 b0009	mog	no
@@ -2293,9 +2293,9 @@ b2346	mlaA	tbd
 b2347	yfdC	yes
 b2348	argW	no
 b2349	intS	yes
-b2350	yfdG, gtrA	tbd
+b2350	yfdG, gtrA	yes
 b2351	yfdH, gtrB	yes
-b2352	yfdI, gtrS	no
+b2352	yfdI, gtrS	yes
 b2353	tfaS, tfaS'	excluded
 b2354	yfdK	yes
 b2355	yfdL, yfdL'	excluded

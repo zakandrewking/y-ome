@@ -132,7 +132,6 @@ b2221	low	annotation inferred from sequence
 b2223	low	annotation inferred from sequence
 b2259	low	unclear role in E. coli
 b2313	low	unclear mechanism
-b2351	low	limited evidence
 b2367	low	limited evidence
 b2368	low	limited evidence
 b2383	low	lack of experimental evidence of PTS function
@@ -291,3 +290,7 @@ b1072	low	evidence is for Salmonella
 b1075	low	evidence is for Salmonella
 b1070	low	evidence is for Salmonella
 b1943	low	evidence is for Salmonella
+b2350	low	EcoCyc: activity has not been verified in E. coli
+b2351	low	EcoCyc: activity has not been verified in E. coli
+b2352	low	EcoCyc: activity has not been verified in E. coli
+b0006	low	from "molecular mechanism of YaaA action remains unknown" [10.1128/JB.00001-11]

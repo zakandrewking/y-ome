@@ -143,7 +143,8 @@ def report(session, name: str):
         elif len(genes) == 0:
             raise Exception(f'No genes with name {name}')
         else:
-            raise Exception(f'Multiple genes with name {name}: {genes}')
+            raise Exception(f'Multiple genes with name {name}. '
+                            'Try searching by locus tag.')
     if count >= 2:
         raise Exception(f'Multiple genes with locus tag {name}')
 

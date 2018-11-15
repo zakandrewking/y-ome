@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cd "$(dirname "$0")"
+
+[ -e ../yome.db ] && rm ../yome.db \
+    && ./create-tables \
+    && ../sources/ecocyc/load \
+    && ../sources/ecogene/load \
+    && ../sources/uniprot/load \
+    && ../sources/refseq/load \
+    && ../sources/regulondb/load \
+    && ../sources/ecolime/load \
+    && ../sources/manual/load \
+    && ./load-yome \
+    && ./export-supp-tables

@@ -1,0 +1,63 @@
+#!/usr/bin/env python3
+
+import pandas as pd
+from yome import Session
+from yome.models import *
+from yome.util import to_df
+from os.path import abspath, dirname, join
+
+data_directory = join(abspath(dirname(__file__)), '..', 'data')
+
+session = Session()
+
+# output 1 -- list of b_numbers, primary_names, and yome (boolean)
+
+primary_names = to_df(
+    session.query(Gene.locus_id,
+                  KnowledgebaseGene.primary_name)
+    .join(KnowledgebaseGene)
+    .filter(KnowledgebaseGene.primary_name != None)
+    .filter(KnowledgebaseGene.primary_name != Gene.locus_id)
+)
+primary_names_grouped = (
+    primary_names
+    .drop_duplicates()
+    .groupby('locus_id')
+    .agg(lambda x: ', '.join(x.values))
+    .reset_index()
+)
+
+yome_genes = to_df(
+    session.query(Gene.locus_id,
+                  KnowledgebaseGene.annotation_quality)
+    .join(KnowledgebaseGene)
+    .join(Knowledgebase)
+    .filter(Knowledgebase.name == 'Y-ome')
+)
+
+final = yome_genes.merge(primary_names_grouped, how='outer')
+final['yome'] = final.annotation_quality.apply(
+    lambda x: 'yes' if x == 'low' else 'no' if x == 'high' else x
+)
+final = final.drop(columns=['annotation_quality'])
+
+print(final['yome'].value_counts())
+
+final.to_csv(join(data_directory, 'yome-genes.tsv'), sep='\t', index=False)
+
+# output 2 -- all feature
+
+features = to_df(
+    session.query(Gene.locus_id,
+                  Knowledgebase.name,
+                  KnowledgebaseGene.primary_name,
+                  KnowledgebaseFeature.feature_type,
+                  KnowledgebaseFeature.feature)
+    .join(KnowledgebaseGene)
+    .join(Knowledgebase)
+    .join(KnowledgebaseFeature)
+)
+features.to_csv(join(data_directory, '../data/features.tsv.gz'), sep='\t',
+                index=False, compression='gzip')
+
+session.close()

@@ -16,20 +16,20 @@ set of Jupyter notebooks that contain the analyses described in the manuscript
 
 Within each source folder in `sources/`, there is a `load` script and a set of
 data files. These `load` scripts are run sequentially (as defined in
-`bin/load_db`) to populate the database with source-specific annotations, then
-the script `bin/load_yome` generates the final y-ome gene list. The particular
+`bin/load-db`) to populate the database with source-specific annotations, then
+the script `bin/load-yome` generates the final y-ome gene list. The particular
 rules for identifying and assessing annotations from the data sources are
 described in comments within these files and also within the Methods section of
 the manuscript.
 
-In addition, the script `bin/export_supp_tables` can be run after the database
-has been built to generate final data files in the `data/` directory:
+When the database loads successfully, `bin/load-db` updates the following data
+files in the `data/` directory:
 
 *data/y-ome-genes.tsv* - A tab-separated text file containing all genes from this
 analysis, their locus tags, primary name(s), and whether they are in the
 "y-ome", "well-annotated", or "excluded" category.
 
-*data/features.tsv* - A tab-separated text file containing all features extracted
+*data/features.tsv.gz* - A tab-separated text file containing all features extracted
 from the five knowledge bases. Each line contains a gene locus tag, the
 knowledge base name, the gene primary name(s), the feature type for that
 knowledge base, and the feature itself extracted as text.
@@ -51,7 +51,7 @@ install the `yome` package in `develop` mode:
 pip install -e .
 ```
 
-The `bin/load_db` script can be used to reload the database from the data in the
+The `bin/load-db` script can be used to reload the database from the data in the
 `sources` directory.
 
 # EcoCyc data

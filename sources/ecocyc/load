@@ -8,11 +8,12 @@ import pandas as pd
 import json
 from os.path import dirname, realpath, join
 import re
+import gzip
 
 directory = realpath(dirname(__file__))
 
 # Create dataframe from knowledgebase
-with open(join(directory, 'results.json'), 'r') as f:
+with gzip.open(join(directory, 'results.json.gz'), 'rt') as f:
     results = json.load(f)
 df = pd.DataFrame(results).rename(columns={'b_number': 'locus_tag'})
 

@@ -8,6 +8,7 @@ import pandas as pd
 import json
 from os.path import dirname, realpath, join
 import re
+import gzip
 
 directory = realpath(dirname(__file__))
 
@@ -52,7 +53,7 @@ for current, new_list in replace.items():
     df = df.loc[df.tf != current]
 
 # Load EcoCyc to get locus_tags
-with open(join(directory, '..', 'ecocyc', 'results.json'), 'r') as f:
+with gzip.open(join(directory, '..', 'ecocyc', 'results.json.gz'), 'rt') as f:
     results = json.load(f)
 name_dict = {x['name']: x['b_number'] for x in results
              if 'b_number' in x}
