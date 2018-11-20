@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
-print('Exporting y-ome and features tables')
-
 import pandas as pd
 from yome import Session
 from yome.models import *
 from yome.util import to_df
 from os.path import abspath, dirname, join
+
+print('Exporting y-ome and features tables')
 
 data_directory = join(abspath(dirname(__file__)), '..', 'data')
 

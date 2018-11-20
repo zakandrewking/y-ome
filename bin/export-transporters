@@ -1,0 +1,112 @@
+#!/usr/bin/env python3
+
+import json
+import pandas as pd
+import numpy as np
+from yome import Session
+from yome.models import *
+from yome.util import to_df, report
+import re
+from sqlalchemy import or_, and_
+from sqlalchemy.orm import aliased
+import itertools as it
+import seaborn as sns
+from os.path import abspath, dirname, join
+
+print('Exporting transporters tables')
+
+data_directory = join(abspath(dirname(__file__)), '..', 'data')
+sources_directory = join(abspath(dirname(__file__)), '..', 'sources')
+
+session = Session()
+
+# Load putative transporter list from ecocyc
+
+ec_putative_transporters = pd.read_table(join(sources_directory, 'ecocyc/ecocyc-putative-inner-membrane-transporters.tsv'), header=0)
+
+# Get db y-ome transporters
+
+transporter_summary_html_strings = [
+    'is a member of the Multi Antimicrobial Extrusion (MATE) Family of transporters',
+]
+transporter_strings = [
+    'transporter',
+    'antiporter',
+    'exporter',
+    'permease',
+    'transport protein',
+    'PTS enzyme',
+    'efflux pump',
+]
+
+Knowledgebase2 = aliased(Knowledgebase)
+KnowledgebaseGene2 = aliased(KnowledgebaseGene)
+KnowledgebaseFeature2 = aliased(KnowledgebaseFeature)
+
+
+transporters = to_df(
+    session.query(
+        Gene.locus_id,
+        KnowledgebaseGene.primary_name,
+        KnowledgebaseFeature.feature,
+        Knowledgebase2.name,
+        KnowledgebaseGene2.annotation_quality
+    )
+    .join(KnowledgebaseGene, KnowledgebaseGene.gene_id == Gene.id)
+    .join(Knowledgebase, Knowledgebase.id == KnowledgebaseGene.knowledgebase_id)
+    .join(KnowledgebaseFeature, KnowledgebaseFeature.knowledgebase_gene_id == KnowledgebaseGene.id)
+    .filter(or_(
+        and_(
+            or_(*[KnowledgebaseFeature.feature.ilike(f'%{x}%') for x in transporter_strings]),
+            KnowledgebaseFeature.feature_type.notin_(['summary_html']),
+        ),
+        and_(
+            or_(*[KnowledgebaseFeature.feature.ilike(f'%{x}%') for x in transporter_summary_html_strings]),
+            KnowledgebaseFeature.feature_type == 'summary_html',
+        ),
+    ))
+    .join(KnowledgebaseGene2, KnowledgebaseGene2.gene_id == Gene.id)
+    .join(Knowledgebase2, Knowledgebase2.id == KnowledgebaseGene2.knowledgebase_id)
+    .filter(Knowledgebase2.name == 'y-ome')
+    .filter(KnowledgebaseGene2.annotation_quality == 'low')
+)
+
+
+transporters_ar = (
+    transporters
+    .groupby('primary_name')
+    .agg(lambda x: list(x))
+    .drop(['locus_id', 'name', 'annotation_quality'], axis=1)
+)
+
+
+# Merge
+
+merged = transporters_ar.merge(ec_putative_transporters, how='outer',
+                               left_index=True, right_on='primary_name')
+
+# set up for export
+
+# NOTES
+# - b3682 / glvB excluded as pseudogene
+# - b1342 / ydaN evidence from EcoCyc makes this not in the y-ome "Assay of
+#   unpurified protein [Worlock02]"
+# - might want to pull some out like b4662 / sgrT
+
+yome_transporters = (
+    transporters
+    .groupby('locus_id')
+    .agg(lambda x: list(x))
+    .drop(['name', 'annotation_quality'], axis=1)
+    .reset_index()
+    .rename(columns={'locus_id': 'locus_tag', 'feature': 'matched_features'})
+)
+yome_transporters.primary_name = yome_transporters.primary_name.apply(lambda x: x[0])
+yome_transporters.matched_features = yome_transporters.matched_features.apply(lambda x: '; '.join(x))
+
+yome_transporters.to_csv(join(data_directory, 'yome-transporters.tsv'),
+                         sep='\t', index=False)
+
+session.close()
+
+print('Done')
