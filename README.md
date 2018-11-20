@@ -4,7 +4,7 @@ A y-ome is a collection of genes in an organism that lack experimental evidence
 of function. This repository contains the software and analysis related to this
 publication on the y-ome of _Escherichia coli_:
 
-*The Y-ome defines the thirty-four percent of Escherichia coli genes that lack
+*The y-ome defines the thirty-four percent of Escherichia coli genes that lack
 experimental evidence of function.* Sankha Ghatak, Zachary A. King, Anand
 Sastry, Bernhard O. Palsson. bioRxiv 328591. https://doi.org/10.1101/328591
 

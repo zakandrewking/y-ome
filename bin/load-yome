@@ -10,7 +10,7 @@ import re
 
 session = Session()
 
-# Get kbases with annotation scores to calculate the Y-ome
+# Get kbases with annotation scores to calculate the y-ome
 df = to_df(
     session.query(Gene.locus_id,
                   KnowledgebaseGene.primary_name,
@@ -83,15 +83,15 @@ df = df[~df.index.duplicated(keep='first')]
 df = df.drop('primary_name', axis=1).unstack()
 df.columns = df.columns.droplevel(0)
 
-# calculate Y-ome; don't rely on ME-model
+# calculate y-ome; don't rely on ME-model
 df['annotation_quality'] = df.apply(calculate_yome, axis=1)
 df = df.reset_index()
 
-load_knowledgebase(session, df, 'Y-ome',
+load_knowledgebase(session, df, 'y-ome',
                    locus_id_column='locus_id',
                    annotation_quality_column='annotation_quality')
 session.close()
 
 print()
-print('Y-ome')
+print('y-ome')
 print(df.annotation_quality.value_counts())

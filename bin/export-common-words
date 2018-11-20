@@ -1,0 +1,153 @@
+#!/usr/bin/env python3
+
+print('Exporting common words table')
+
+import json
+import pandas as pd
+import numpy as np
+from yome import Session
+from yome.models import *
+from yome.util import to_df, report
+import re
+from sqlalchemy import or_, and_
+from sqlalchemy.orm import aliased
+import itertools as it
+import functools as ft
+import seaborn as sns
+from collections import Counter
+from os.path import abspath, dirname, join
+
+data_directory = join(abspath(dirname(__file__)), '..', 'data')
+
+session = Session()
+
+# get all features, ignoring 't' and 'f'
+features = to_df(
+    session.query(
+        Gene.locus_id,
+        KnowledgebaseGene.primary_name,
+        KnowledgebaseFeature.feature_type,
+        KnowledgebaseFeature.feature,
+    )
+    .join(KnowledgebaseGene)
+    .join(Knowledgebase)
+    .join(KnowledgebaseFeature)
+    .filter(KnowledgebaseFeature.feature.notin_(['t', 'f', '']))
+    .filter(KnowledgebaseFeature.feature_type.notin_(['summary_html']))
+)
+
+# get y-ome list
+yome = to_df(
+    session.query(
+        Gene.locus_id,
+        KnowledgebaseGene.annotation_quality
+    )
+    .join(KnowledgebaseGene)
+    .join(Knowledgebase)
+    .filter(Knowledgebase.name == 'y-ome')
+)
+
+
+yome_high = yome[yome.annotation_quality == 'high']
+yome_low = yome[yome.annotation_quality == 'low']
+yome_excluded = yome[yome.annotation_quality == 'excluded']
+
+
+synonyms = {
+    'inner/outer/membrane/transmembrane': [
+        'inner', 'outer', 'membrane', 'transmembrane',
+    ],
+    'regulate(s)/regulated/regulator(y)/regulation/regulon': [
+        'regulate', 'regulates', 'regulated', 'regulator', 'regulatory',
+        'regulation', 'regulon',
+    ],
+    'transport/transporter/export/import': [
+        'transport', 'transporter', 'export', 'import',
+    ],
+    'peptide/polypeptide/protein(s)': ['polypeptide', 'peptide', 'protein', 'proteins'],
+    'transcription/transcriptional': ['transcriptional', 'transcription'],
+    'phage/prophage': ['phage', 'prophage'],
+    'binds/binding': ['binds', 'binding'],
+    'periplasm/periplasmic': ['periplasm', 'periplasmic'],
+    'oxidoreductase/reductase/reduce': ['reductase', 'oxidoreductase', 'reduce'],
+}
+synonyms_reverse = {}
+for k, v in synonyms.items():
+    for word in v:
+        synonyms_reverse[word] = k
+
+
+ignore = {
+    'superfamily', 'homolog', 'strand', 'expression', 'involved', 'conflict', 'first', 'uncharacterized', 'conserved',
+    'inference', 'operon', 'sequence', 'phenotype', 'mutant', 'predicted', 'classified', 'domain', 'family', 'unknown',
+    'function', 'putative', 'predicted', 'ecopubmed', 'chain', 'activity', 'purified', 'subunit', 'genes', 'related',
+    'factor', 'small', 'pubmed', 'assay', 'ecohamaprulemf', 'miscellaneous', 'which', 'required',
+    'paralogs', 'evidence', 'strain', 'expressed', 'formation', 'induced', 'deletion',
+    'probably', 'summary', 'based', 'specific', 'substrate', 'domains', 'overexpression', 'functional', 'residues',
+    'conditions', 'homologous', 'divergent', 'region', 'containing', 'known', 'characterized', 'class',
+    'residue', 'transfer', 'dependent', 'growth', 'defect', 'member', 'increase', 'product', 'system', 'terminal',
+    'paralog', 'structure', 'component', 'similar', 'other', 'associated', 'mutation', 'complex',
+}
+
+
+def word_map(word):
+    new_word = re.subn(r'[^a-zA-Z]', '', word)[0].lower()
+    return synonyms_reverse.get(new_word, new_word)
+
+def word_filter(word):
+    return len(word) >= 5 and len(word) < 60 and word not in ignore
+
+
+# get all unique words from query
+all_words = [item for sublist in features.feature.values for item in sublist.split()]
+
+
+# filter out short and non-ASCII words
+filtered_words = list(filter(word_filter, map(word_map, all_words)))
+
+
+# only check common words
+most_common = [word for word, count in Counter(filtered_words).most_common() if count > 50]
+
+# count unique genes matching words
+features_agg = features.loc[:, ['locus_id', 'feature']].groupby('locus_id').agg(lambda x: ' '.join(x)).reset_index()
+
+
+# subset by yome groups
+features_agg_yome_high = features_agg[features_agg.locus_id.isin(yome_high.locus_id)]
+features_agg_yome_low = features_agg[features_agg.locus_id.isin(yome_low.locus_id)]
+features_agg_yome_excluded = features_agg[features_agg.locus_id.isin(yome_excluded.locus_id)]
+
+def count_matches(features_df, word):
+    word_list = synonyms.get(word, [word])
+    return features_df.feature.apply(lambda feature: any(word in feature for word in word_list)).sum()
+
+words_df_common = pd.DataFrame(most_common, columns=['word'])
+words_df_common.loc[:, 'count_high'] = words_df_common.loc[:, 'word'].apply(ft.partial(count_matches, features_agg_yome_high))
+words_df_common.loc[:, 'count_low'] = words_df_common.loc[:, 'word'].apply(ft.partial(count_matches, features_agg_yome_low))
+words_df_common.loc[:, 'count_excluded'] = words_df_common.loc[:, 'word'].apply(ft.partial(count_matches, features_agg_yome_excluded))
+
+
+cols = ['count_low', 'count_high', 'count_excluded']
+new_cols = [
+    f'y-ome (n={len(yome_low)})',
+    f'Well-annotated (n={len(yome_high)})',
+    f'Excluded (n={len(yome_excluded)})',
+]
+words_df_common_sort = (
+    words_df_common
+    .set_index('word')
+    .loc[:, cols]
+    .sort_values(cols, ascending=False)
+    .rename(columns=dict(zip(cols, new_cols)))
+)
+
+# stop at 'phosphate'
+ind = words_df_common_sort.index.get_loc('aerobic')
+words_df_common_sort_shortlist = words_df_common_sort.iloc[:(ind + 1)]
+
+words_df_common_sort_shortlist.to_csv(join(data_directory, 'common-words.tsv'), sep='\t')
+
+session.close()
+
+print('Done')

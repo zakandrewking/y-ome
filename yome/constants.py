@@ -16,7 +16,7 @@ colors_by_number = {
 hatches_by_number = {
     0: '',    # excluded
     1: '\\',  # tbd
-    2: '//',  # Y-ome
+    2: '//',  # y-ome
     3: '..',  # high
     -1: '',   # Not present
 }

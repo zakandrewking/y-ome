@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+print('Exporting y-ome and features tables')
+
 import pandas as pd
 from yome import Session
 from yome.models import *
@@ -32,7 +34,7 @@ yome_genes = to_df(
                   KnowledgebaseGene.annotation_quality)
     .join(KnowledgebaseGene)
     .join(Knowledgebase)
-    .filter(Knowledgebase.name == 'Y-ome')
+    .filter(Knowledgebase.name == 'y-ome')
 )
 
 final = yome_genes.merge(primary_names_grouped, how='outer')
@@ -61,3 +63,5 @@ features.to_csv(join(data_directory, '../data/features.tsv.gz'), sep='\t',
                 index=False, compression='gzip')
 
 session.close()
+
+print('Done')

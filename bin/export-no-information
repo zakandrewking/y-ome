@@ -1,0 +1,145 @@
+#!/usr/bin/env python3
+
+print('Exporting no-information table')
+
+import json
+import pandas as pd
+from yome import Session
+from yome.models import *
+from yome.util import to_df, report
+import re
+from os.path import abspath, dirname, join
+from sqlalchemy import exists
+from sqlalchemy.orm import aliased
+
+data_directory = join(abspath(dirname(__file__)), '..', 'data')
+
+session = Session()
+
+KnowledgebaseGene2 = aliased(KnowledgebaseGene)
+Knowledgebase2 = aliased(Knowledgebase)
+KnowledgebaseFeature2 = aliased(KnowledgebaseFeature)
+
+# Genes with no info in EcoCyc
+no_info = (
+    session.query(Gene.locus_id.label('locus_tag'),
+                  KnowledgebaseGene.id.label('knowledgebase_gene_id'),
+                  KnowledgebaseGene.primary_name.label('ecocyc_primary_name'),
+                  Knowledgebase,
+                  KnowledgebaseFeature.feature)
+    .join(KnowledgebaseGene)
+    .join(Knowledgebase)
+    .join(KnowledgebaseFeature)
+    .filter(Knowledgebase.name == 'EcoCyc')
+    .filter(KnowledgebaseFeature.feature_type == 'summary_html')
+    .filter(KnowledgebaseFeature.feature.like('%No information about this%'))
+)
+
+# Make a subquery
+no_info_sub = no_info.subquery('no_info_sub')
+
+# Genes that do not start with y in EcoCyc and have no information
+no_info_not_start_y = (
+    no_info.filter(~KnowledgebaseGene.primary_name.like('y%'))
+)
+
+# Genes with no info in EcoCyc that are not ranked "high" in another db
+no_info_and_not_high = (
+    no_info
+    .filter(
+        ~session.query(KnowledgebaseGene2, Knowledgebase2)
+        .filter(KnowledgebaseGene2.gene_id == Gene.id)
+        .join(Knowledgebase2, Knowledgebase2.id == KnowledgebaseGene2.knowledgebase_id)
+        .filter(KnowledgebaseGene2.annotation_quality == 'high')
+        .exists()
+    )
+)
+
+# Genes with no info in EcoCyc that are ranked "high" in another db
+no_info_and_high = (
+    no_info
+    .filter(
+        session.query(KnowledgebaseGene2, Knowledgebase2)
+        .filter(KnowledgebaseGene2.gene_id == Gene.id)
+        .join(Knowledgebase2, Knowledgebase2.id == KnowledgebaseGene2.knowledgebase_id)
+        .filter(KnowledgebaseGene2.annotation_quality == 'high')
+        .exists()
+    )
+)
+
+# Examples of no_info_and_not_high
+no_info_and_not_high_examples = (
+    session.query(Gene.locus_id,
+                  KnowledgebaseGene.id,
+                  KnowledgebaseGene2.primary_name,
+                  KnowledgebaseGene2.annotation_quality,
+                  Knowledgebase2.name,
+                  KnowledgebaseFeature2.feature_type,
+                  KnowledgebaseFeature2.feature)
+    .filter(Gene.locus_id == no_info_sub.c.locus_tag)
+    .filter(KnowledgebaseGene.id == no_info_sub.c.knowledgebase_gene_id)
+    .join(KnowledgebaseGene2, KnowledgebaseGene2.gene_id == Gene.id)
+    .join(Knowledgebase2, Knowledgebase2.id == KnowledgebaseGene2.knowledgebase_id)
+    .join(KnowledgebaseFeature2, KnowledgebaseFeature2.knowledgebase_gene_id == KnowledgebaseGene2.id)
+    .filter(Knowledgebase2.name != 'EcoCyc')
+    .filter(Knowledgebase2.name != 'y-ome')
+)
+
+df = to_df(no_info_and_not_high_examples, ['locus_tag', 'ig1', 'name', 'annotation_quality', 'kbase', 'feature_type', 'feature']).drop('ig1', axis=1)
+
+# ## Filter out phrases for other databases
+phrases = [
+    ('EcoGene', r'.* family protein$'),
+    ('EcoGene', r'.* family\.?$'),
+    ('EcoGene', r'Null'),
+    ('EcoGene', r'Putative enzyme; Not classified'),
+    ('EcoGene', r'Phenotype; Not classified'),
+    ('EcoGene', r'Putative factor; Not classified'),
+    ('EcoGene', r'.*uncharacterized protein.*'),
+    ('EcoGene', r'.*pseudogene.*'),
+    ('EcoGene', r'.*function unknown.*'),
+    ('EcoGene', r'.*Phage or Prophage Related.*'),
+    ('EcoGene', r'^t|f$'),
+    ('EcoGene', r'Orf; Not classified'),
+    ('UniProt', r'^$'),
+    ('UniProt', r'Chain \(1\)'),
+    ('UniProt', r'^\d\.0$'),
+    ('UniProt', r'^\d$'),
+    ('UniProt', r'^Putative uncharacterized'),
+    ('UniProt', r'^Putative protein'),
+    ('UniProt', r'^Uncharacterized protein'),
+    ('UniProt', r'^Protein .{4}$'),
+    ('UniProt', r'^UPF\d{4} Protein .{4}$'),
+    ('UniProt', r'FUNCTION: Not yet known\.'),
+    ('UniProt', r'^t|f$'),
+    ('RefSeq', r' family protein$'),
+    ('RefSeq', r'^{}$'),
+    ('RefSeq', r'^t|f$'),
+    ('RefSeq', r'uncharacterized protein'),
+    ('RefSeq', r'putative enzyme; Not classified'),
+    ('RefSeq', r'putative regulator; Not classified'),
+    ('RefSeq', r'orf; Not classified'),
+    ('RefSeq', r'putative factor; Not classified'),
+]
+ignore_feature_types = [
+    ('UniProt', 'upid')
+]
+df_filtered = df
+for kbase, reg in phrases:
+    df_filtered = df_filtered[~((df_filtered.kbase == kbase) & df_filtered.feature.str.contains(reg, flags=re.IGNORECASE))]
+for kbase, feature_type in ignore_feature_types:
+    df_filtered = df_filtered[~((df_filtered.kbase == kbase) & (df_filtered.feature_type == feature_type))]
+
+# Find no info genes that are not in the filtered list
+no_info_not_in_filtered = no_info.filter(Gene.locus_id.notin_(df_filtered.loc[:, 'locus_tag']))
+
+# double check numbers add up
+assert(no_info.count() == no_info_not_in_filtered.count() + len(df_filtered.locus_tag.unique()))
+
+no_info_not_in_filtered_df = to_df(no_info_not_in_filtered)
+out = no_info_not_in_filtered_df.loc[:, ['locus_tag', 'ecocyc_primary_name']].sort_values('locus_tag')
+out.to_csv(join(data_directory, 'no-information.tsv'), sep='\t', index=False)
+
+session.close()
+
+print('Done')
