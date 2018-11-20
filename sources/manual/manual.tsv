@@ -1,39 +1,48 @@
 locus_tag	annotation_quality	notes
-b1461	high	see literature validation (correct in UniProt)
-b0129	low	few details
-b1786	low	predicted function based on sequence
 b0001	high	see EcoCyc
+b0006	low	from "molecular mechanism of YaaA action remains unknown" [10.1128/JB.00001-11]
 b0020	high	see EcoCyc
+b0022	high	experimentally validated IS element
 b0034	high	see EcoCyc
 b0037	high	see EcoCyc
 b0040	high	see EcoCyc
-b1074	high	fix with complex info from EcoCyc
+b0081	high	see EcoCyc summary
 b0089	high	EcoCyc assay evidence
-b4116	high	has regulated genes in RegulonDB
-b2163	low	EcoCyc: The genes that the YeiL transcriptional activator regulates have not been identified yet; RegulonDB no strong connections (except self)
-b2952	low	EcoCyc
-b0598	high	EcoCyc
+b0129	low	few details
+b0139	low	see EcoCyc summary
 b0162	high	EcoCyc / RegulonDB
 b0240	high	see EcoCyc entry for crl gene (not crl_1 and crl_2)
+b0260	high	see EcoCyc summary
+b0261	high	pretty clear explanation on EcoCyc (https://ecocyc.org/gene?orgid=ECOLI&id=G6136) and EcoGene (http://www.ecogene.org/gene/EG13343). Miscategorized because the descriptions say "putative".
+b0265	high	experimentally validated IS element
+b0268	high	co-crystal structure
+b0269	high	complementation assay
+b0275	high	insertion elements with high sequence similarity
+b0283	high	see EcoCyc and UniProt summaries
 b0284	high	see EcoCyc complex
 b0285	high	see EcoCyc complex
 b0286	high	see EcoCyc complex
 b0287	low	few details
 b0301	low	few details
+b0341	low	no experimental evidence of transport function
+b0426	high	EcoGene; Qiao, 2008
 b0461	low	few details
 b0479	high	see EcoCyc
-b4354	high	New evidence, now BtsT: http://jb.asm.org/content/early/2017/10/18/JB.00599-17.abstract
-b0261	high	pretty clear explanation on EcoCyc (https://ecocyc.org/gene?orgid=ECOLI&id=G6136) and EcoGene (http://www.ecogene.org/gene/EG13343). Miscategorized because the descriptions say "putative".
-b2302	high	https://ecocyc.org/gene?orgid=ECOLI&id=G7194
-b3003	high	https://ecocyc.org/gene?orgid=ECOLI&id=EG11292
-b3127	high	https://ecocyc.org/gene?orgid=ECOLI&id=EG12760
 b0545	low	few details
-b0081	high	see EcoCyc summary
+b0568	low	few details
 b0587	low	few details
+b0598	high	EcoCyc
+b0624	high	see EcoCyc summary
+b0650	low	no activity toward a denatured protein substrate
 b0652	high	similarity prediction plus knowledge of complex in EcoCyc
 b0711	low	pxpBCA complex is not well characterized
 b0712	low	pxpBCA complex is not well characterized
 b0713	low	pxpBCA complex is not well characterized
+b0736	high	EcoCyc and 10.1021/sb3000782
+b0760	low	see EcoCyc summary
+b0792	high	see EcoCyc complex summary
+b0793	high	see EcoCyc complex summary
+b0794	high	see EcoCyc complex summary
 b0798	low	few details
 b0808	high	clear evidence on EcoCyc
 b0814	low	lots of interesting details on EcoCyc but not clear mechanistic function
@@ -41,22 +50,28 @@ b0832	high	part of well annotated complex
 b0920	low	few details
 b0934	high	EcoCyc complex has details
 b0936	high	EcoCyc complex has details
+b0950	low	"substrate for transport is not known" - EcoCyc
+b0951	low	"substrate for transport is not known" - EcoCyc
+b0952	low	"substrate for transport is not known" - EcoCyc
 b0998	high	see EcoCyc summary
 b1034	low	few details
 b1035	high	experimental evidence of chaperone activity
 b1038	high	see EcoCyc summary
 b1047	high	see EcoCyc summary
+b1053	high	see EcoCyc summary
+b1065	high	see EcoCyc summary
 b1069	high	see EcoCyc summary
+b1070	low	evidence is for Salmonella
 b1071	high	see EcoCyc summary
+b1072	low	evidence is for Salmonella
 b1073	high	EcoCyc complex has details
+b1074	high	fix with complex info from EcoCyc
+b1075	low	evidence is for Salmonella
 b1076	high	EcoCyc complex has details
 b1077	high	EcoCyc complex has details
 b1080	high	EcoCyc complex has details
 b1082	high	EcoCyc complex has details
 b1083	high	EcoCyc complex has details
-b3361	low	no experimental validation of toxin/antitoxin activity
-b3362	low	no experimental validation of toxin/antitoxin activity
-b2144	low	few details
 b1088	low	few details
 b1112	high	experimental study of effect on copper uptake
 b1132	high	interacts with lambda phage protein
@@ -68,83 +83,81 @@ b1306	high	see EcoCyc summary
 b1307	low	few details
 b1333	low	few details
 b1352	high	experimental and sequence evidence that this is a kil gene
+b1370	high	experimentally validated IS element
 b1389	low	no experimental evidence
+b1435	high	see UniProt function & evidence
 b1438	high	see EcoCyc summary
+b1443	low	inconclusive evidence of function (EcoCyc, UniProt)
+b1445	low	unknown mechanism
 b1453	low	annotation inferred from sequence
+b1461	high	see literature validation (correct in UniProt)
 b1466	low	few details
 b1516	high	annotation inferred from sequence, but EcoCyc complex page describes experimental evidence in E. coli
 b1533	high	see EcoCyc summary
 b1562	high	experimental validation of killing ability
 b1574	high	see EcoCyc summary
+b1588	low	see EcoCyc summary
 b1590	high	experimental evidence of growth rescue
+b1592	low	function inferred from sequence
 b1627	high	see EcoCyc summary
 b1632	high	see EcoCyc summary
+b1695	high	EcoCyc and 10.1021/sb3000782
 b1707	high	see EcoCyc summary
+b1786	low	predicted function based on sequence
 b1802	high	see EcoCyc summary
 b1803	high	see EcoCyc summary
 b1821	high	see EcoCyc summary
+b1834	low	transporter with unknown substrate
+b1873	high	see EcoCyc summary
 b1879	high	see EcoCyc summary
 b1937	high	see EcoCyc summary
+b1943	low	evidence is for Salmonella
 b1947	high	see EcoCyc summary
 b1949	high	see EcoCyc summary
 b1954	high	regulatory role
 b1968	high	see EcoCyc summary
-b0568	low	few details
 b1985	high	sequence and experimental evidence
+b2027	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
 b2027	low	few details
+b2035	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
+b2037	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
+b2037	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
+b2046	low	no direct evidence of function
 b2062	high	see EcoCyc summary
 b2092	excluded	pseudogene
-b0341	low	no experimental evidence of transport function
-b0426	high	EcoGene; Qiao, 2008
-b0268	high	co-crystal structure
-b0269	high	complementation assay
-b2130	high	see EcoCyc summary
-b3679	low	few details; 10.15252/msb.20167150 not conclusive
-b3689	low	few details; 10.15252/msb.20167150 not conclusive
-b0736	high	EcoCyc and 10.1021/sb3000782
-b1695	high	EcoCyc and 10.1021/sb3000782
-b2844	high	see EcoCyc summary
-b2958	low	few details
-b3150	low	few details
-b3688	low	few details
-b4216	low	few details
 b2129	high	see EcoCyc summary
+b2130	high	see EcoCyc summary
 b2131	high	see EcoCyc summary
+b2144	low	few details
+b2163	low	EcoCyc: The genes that the YeiL transcriptional activator regulates have not been identified yet; RegulonDB no strong connections (except self)
 b2166	low	inferred from sequence
-b2178	low	no experimental evidence of transport activity
 b2177	low	no experimental evidence of transport activity
+b2178	low	no experimental evidence of transport activity
 b2179	low	no experimental evidence of transport activity
 b2180	low	no experimental evidence of transport activity
-b0022	high	experimentally validated IS element
-b0265	high	experimentally validated IS element
-b0275	high	insertion elements with high sequence similarity
-b1370	high	experimentally validated IS element
 b2208	low	mechanism not established
-b0624	high	see EcoCyc summary
-b0650	low	no activity toward a denatured protein substrate
-b0792	high	see EcoCyc complex summary
-b0793	high	see EcoCyc complex summary
-b0794	high	see EcoCyc complex summary
-b1053	high	see EcoCyc summary
-b1065	high	see EcoCyc summary
-b0260	high	see EcoCyc summary
 b2221	low	annotation inferred from sequence
 b2223	low	annotation inferred from sequence
 b2259	low	unclear role in E. coli
+b2302	high	https://ecocyc.org/gene?orgid=ECOLI&id=G7194
 b2313	low	unclear mechanism
+b2346	high	see EcoCyc summary
+b2350	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
+b2351	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
+b2352	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
 b2367	low	limited evidence
 b2368	low	limited evidence
 b2383	low	lack of experimental evidence of PTS function
 b2386	low	lack of experimental evidence of PTS function
 b2387	low	lack of experimental evidence of PTS function
 b2479	high	see EcoCyc complex summary
-b2487	high	see EcoCyc complex summary
 b2481	high	see EcoCyc complex summary
 b2482	high	see EcoCyc complex summary
 b2483	high	see EcoCyc complex summary
 b2484	high	see EcoCyc complex summary
 b2485	high	see EcoCyc complex summary
 b2486	high	see EcoCyc complex summary
+b2487	high	see EcoCyc complex summary
 b2488	high	see EcoCyc complex summary
 b2489	high	see EcoCyc complex summary
 b2570	low	few details
@@ -155,39 +168,59 @@ b2683	high	see EcoCyc complex summary
 b2715	excluded	EcoCyc pseudogene
 b2789	low	limited evidence
 b2796	high	see EcoCyc summary
+b2844	high	see EcoCyc summary
 b2866	low	annotation inferred from sequence
 b2867	low	limited evidence
 b2868	low	limited evidence
 b2895	low	limited evidence
 b2898	low	EcoCyc: true function still unknown
 b2934	low	limited evidence
+b2952	low	EcoCyc
+b2958	low	few details
 b2972	low	EcoCyc: physiological substrate has not been determined
 b2979	low	EcoCyc complex summary: physiological electron acceptor is unknown
-b4467	low	EcoCyc complex summary: physiological electron acceptor is unknown
-b4468	low	EcoCyc complex summary: physiological electron acceptor is unknown
 b2990	high	see EcoCyc summary
 b2994	high	see EcoCyc complex summary
 b2995	high	see EcoCyc complex summary
 b2996	high	see EcoCyc complex summary
 b2997	high	see EcoCyc complex summary
+b3003	high	https://ecocyc.org/gene?orgid=ECOLI&id=EG11292
 b3049	low	limited evidence
 b3061	high	EcoCyc and 10.1099/00221287-139-7-1523
 b3062	high	EcoCyc and 10.1099/00221287-139-7-1523
 b3076	excluded	EcoCyc pseudogene
+b3077	low	"Exact function not known." - UniProt
 b3106	low	limited evidence
+b3127	high	https://ecocyc.org/gene?orgid=ECOLI&id=EG12760
 b3133	excluded	EcoCyc pseudogene
 b3138	excluded	EcoCyc pseudogene
 b3139	excluded	EcoCyc pseudogene
+b3144	low	limited evidence
+b3150	low	few details
 b3180	high	see EcoCyc summary
 b3190	high	see EcoCyc summary
 b3191	high	see EcoCyc complex summary
+b3192	high	see EcoCyc summary
 b3193	high	see EcoCyc complex summary
 b3194	high	see EcoCyc complex summary
 b3195	high	see EcoCyc complex summary
 b3243	high	see EcoCyc summary
 b3249	low	unclear mechanism
 b3290	high	see EcoCyc summary
+b3324	low	function proposed based on homology
+b3325	low	function proposed based on homology
+b3326	low	function proposed based on homology
+b3327	low	function proposed based on homology
+b3328	low	function proposed based on homology
+b3329	low	function proposed based on homology
+b3330	low	function proposed based on homology
+b3331	low	function proposed based on homology
+b3332	low	function proposed based on homology
+b3333	low	function proposed based on homology
+b3334	low	function proposed based on homology
 b3337	low	limited evidence
+b3361	low	no experimental validation of toxin/antitoxin activity
+b3362	low	no experimental validation of toxin/antitoxin activity
 b3370	low	limited evidence
 b3391	low	limited evidence
 b3392	low	limited evidence
@@ -196,11 +229,19 @@ b3406	high	see EcoCyc summary
 b3413	low	limited evidence
 b3490	low	few details
 b3503	high	see EcoCyc summary
+b3536	high	both function and regulation are understood (EcoCyc)
+b3537	high	both function and regulation are understood (EcoCyc)
+b3538	high	both function and regulation are understood (EcoCyc)
 b3615	high	see EcoCyc summary
+b3623	high	multiple lines of evidence for function
 b3624	high	see EcoCyc summary
 b3629	high	see EcoCyc summary
+b3679	low	few details; 10.15252/msb.20167150 not conclusive
+b3688	low	few details
+b3689	low	few details; 10.15252/msb.20167150 not conclusive
 b3691	low	limited evidence
 b3720	high	see EcoCyc summary
+b3739	low	function unclear
 b3793	high	see EcoCyc summary
 b3803	low	limited evidence
 b3834	low	unclear mechanism
@@ -208,6 +249,7 @@ b3864	high	see EcoCyc summary
 b3891	low	unclear mechanism
 b3899	low	annotation inferred from sequence
 b3900	low	annotation inferred from sequence
+b3923	low	associated with stress response, but functional mechanism unknown
 b3943	low	annotation inferred from sequence
 b3947	low	annotation inferred from sequence
 b3950	low	annotation inferred from sequence
@@ -218,11 +260,13 @@ b4096	high	see EcoCyc complex summary
 b4099	high	see EcoCyc complex summary
 b4100	high	see EcoCyc complex summary
 b4101	high	see EcoCyc complex summary
+b4116	high	has regulated genes in RegulonDB
 b4140	low	unclear mechanism
 b4148	high	see EcoCyc summary
 b4149	low	limited evidence
 b4159	high	see EcoCyc summary
 b4189	low	limited evidence
+b4216	low	few details
 b4252	low	limited evidence
 b4291	high	see EcoCyc complex summary
 b4292	high	see EcoCyc complex summary
@@ -230,6 +274,7 @@ b4293	high	see EcoCyc summary
 b4345	high	see EcoCyc complex summary
 b4346	high	see EcoCyc complex summary
 b4351	high	see EcoCyc summary
+b4354	high	New evidence, now BtsT: http://jb.asm.org/content/early/2017/10/18/JB.00599-17.abstract
 b4356	high	see EcoCyc summary
 b4413	low	limited evidence
 b4416	low	limited evidence
@@ -256,11 +301,14 @@ b4454	high	see EcoCyc summary
 b4456	high	see EcoCyc summary
 b4457	high	see EcoCyc summary
 b4458	high	see EcoCyc summary
+b4467	low	EcoCyc complex summary: physiological electron acceptor is unknown
+b4468	low	EcoCyc complex summary: physiological electron acceptor is unknown
 b4489	high	see EcoCyc summary
 b4511	high	see EcoCyc summary
 b4532	high	see EcoCyc summary
 b4585	high	see EcoCyc summary
 b4597	high	see EcoCyc summary
+b4599	high	multiple lines of evidence for function
 b4608	high	see EcoCyc summary
 b4611	low	limited evidence
 b4616	high	see EcoCyc summary
@@ -285,51 +333,3 @@ b4722	low	limited evidence
 b4723	low	limited evidence
 b4724	low	limited evidence
 b4725	low	limited evidence
-b3144	low	limited evidence
-b1072	low	evidence is for Salmonella
-b1075	low	evidence is for Salmonella
-b1070	low	evidence is for Salmonella
-b1943	low	evidence is for Salmonella
-b0006	low	from "molecular mechanism of YaaA action remains unknown" [10.1128/JB.00001-11]
-b0139	low	see EcoCyc summary
-b0283	high	see EcoCyc and UniProt summaries
-b0760	low	see EcoCyc summary
-b0950	low	"substrate for transport is not known" - EcoCyc
-b0951	low	"substrate for transport is not known" - EcoCyc
-b0952	low	"substrate for transport is not known" - EcoCyc
-b1435	high	see UniProt function & evidence
-b1443	low	inconclusive evidence of function (EcoCyc, UniProt)
-b1588	low	see EcoCyc summary
-b1592	low	function inferred from sequence
-b1834	low	transporter with unknown substrate
-b1873	high	see EcoCyc summary
-b1445	low	unknown mechanism
-b2046	low	no direct evidence of function
-b2346	high	see EcoCyc summary
-b3077	low	"Exact function not known." - UniProt
-b3192	high	see EcoCyc summary
-b3324	low	function proposed based on homology
-b3325	low	function proposed based on homology
-b3326	low	function proposed based on homology
-b3327	low	function proposed based on homology
-b3328	low	function proposed based on homology
-b3329	low	function proposed based on homology
-b3330	low	function proposed based on homology
-b3331	low	function proposed based on homology
-b3332	low	function proposed based on homology
-b3333	low	function proposed based on homology
-b3334	low	function proposed based on homology
-b3536	high	both function and regulation are understood (EcoCyc)
-b3537	high	both function and regulation are understood (EcoCyc)
-b3538	high	both function and regulation are understood (EcoCyc)
-b3623	high	multiple lines of evidence for function
-b3739	low	function unclear
-b3923	low	associated with stress response, but functional mechanism unknown
-b4599	high	multiple lines of evidence for function
-b2027	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
-b2035	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
-b2037	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
-b2037	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
-b2350	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
-b2351	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
-b2352	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
