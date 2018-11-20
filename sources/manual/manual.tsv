@@ -1,6 +1,6 @@
 locus_tag	annotation_quality	notes
 b0001	high	see EcoCyc
-b0006	low	from "molecular mechanism of YaaA action remains unknown" [10.1128/JB.00001-11]
+b0006	low	from 'molecular mechanism of YaaA action remains unknown' [10.1128/JB.00001-11]
 b0020	high	see EcoCyc
 b0022	high	experimentally validated IS element
 b0034	high	see EcoCyc
@@ -13,7 +13,7 @@ b0139	low	see EcoCyc summary
 b0162	high	EcoCyc / RegulonDB
 b0240	high	see EcoCyc entry for crl gene (not crl_1 and crl_2)
 b0260	high	see EcoCyc summary
-b0261	high	pretty clear explanation on EcoCyc (https://ecocyc.org/gene?orgid=ECOLI&id=G6136) and EcoGene (http://www.ecogene.org/gene/EG13343). Miscategorized because the descriptions say "putative".
+b0261	high	pretty clear explanation on EcoCyc (https://ecocyc.org/gene?orgid=ECOLI&id=G6136) and EcoGene (http://www.ecogene.org/gene/EG13343). Miscategorized because the descriptions say 'putative'.
 b0265	high	experimentally validated IS element
 b0268	high	co-crystal structure
 b0269	high	complementation assay
@@ -50,9 +50,9 @@ b0832	high	part of well annotated complex
 b0920	low	few details
 b0934	high	EcoCyc complex has details
 b0936	high	EcoCyc complex has details
-b0950	low	"substrate for transport is not known" - EcoCyc
-b0951	low	"substrate for transport is not known" - EcoCyc
-b0952	low	"substrate for transport is not known" - EcoCyc
+b0950	low	'substrate for transport is not known' - EcoCyc
+b0951	low	'substrate for transport is not known' - EcoCyc
+b0952	low	'substrate for transport is not known' - EcoCyc
 b0998	high	see EcoCyc summary
 b1034	low	few details
 b1035	high	experimental evidence of chaperone activity
@@ -118,9 +118,7 @@ b1954	high	regulatory role
 b1968	high	see EcoCyc summary
 b1985	high	sequence and experimental evidence
 b2027	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
-b2027	low	few details
 b2035	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
-b2037	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
 b2037	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
 b2046	low	no direct evidence of function
 b2062	high	see EcoCyc summary
@@ -189,7 +187,7 @@ b3049	low	limited evidence
 b3061	high	EcoCyc and 10.1099/00221287-139-7-1523
 b3062	high	EcoCyc and 10.1099/00221287-139-7-1523
 b3076	excluded	EcoCyc pseudogene
-b3077	low	"Exact function not known." - UniProt
+b3077	low	'Exact function not known.' - UniProt
 b3106	low	limited evidence
 b3127	high	https://ecocyc.org/gene?orgid=ECOLI&id=EG12760
 b3133	excluded	EcoCyc pseudogene
@@ -204,6 +202,7 @@ b3192	high	see EcoCyc summary
 b3193	high	see EcoCyc complex summary
 b3194	high	see EcoCyc complex summary
 b3195	high	see EcoCyc complex summary
+b3233	low	function unknown
 b3243	high	see EcoCyc summary
 b3249	low	unclear mechanism
 b3290	high	see EcoCyc summary

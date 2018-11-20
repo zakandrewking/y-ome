@@ -56,7 +56,10 @@ df.loc[:, 'annotation_quality'] = 'tbd'
 
 # Define keywords
 low_keywords_description = [
-    'possibly', 'predicted', 'hypothetical', 'putative', 'conserved',
+    'possibly',
+    'predicted',
+    'hypothetical',
+    'putative',
     'uncharacterized protein',
 ]
 # don't use: 'family protein' (see mrdB)
