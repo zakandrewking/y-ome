@@ -1412,7 +1412,7 @@ b1441	ydcT	yes
 b1442	ydcU	yes
 b1443	ydcV	yes
 b1444	patD, prr	no
-b1445	ortT, ydcX	tbd
+b1445	ortT, ydcX	yes
 b1446	ydcY	yes
 b1447	ydcZ	yes
 b1448	mnaT	no
@@ -1987,9 +1987,9 @@ b2030	insH-7, insH9, insH7, insH1	no
 b2032	wbbK	yes
 b2033	wbbJ	yes
 b2034	wbbI	no
-b2035	wbbH, rfc	yes
+b2035	wbbH, rfc	no
 b2036	glf	no
-b2037	rfbX, wzxB	tbd
+b2037	rfbX, wzxB	no
 b2038	rfbC	no
 b2039	rfbA	no
 b2040	rfbD	no
@@ -1998,7 +1998,7 @@ b2042	galF, wcaN	yes
 b2043	wcaM	yes
 b2044	wcaL	yes
 b2045	wcaK	yes
-b2046	wzxC	tbd
+b2046	wzxC	yes
 b2047	wcaJ	no
 b2048	cpsG, manB	no
 b2049	cpsB, manC	no
@@ -2289,13 +2289,13 @@ b2342	fadI	no
 b2343	yfcZ	yes
 b2344	fadL	no
 b2345	yfdF	yes
-b2346	mlaA	tbd
+b2346	mlaA	no
 b2347	yfdC	yes
 b2348	argW	no
 b2349	intS	yes
-b2350	yfdG, gtrA	yes
-b2351	yfdH, gtrB	yes
-b2352	yfdI, gtrS	yes
+b2350	yfdG, gtrA	no
+b2351	yfdH, gtrB	no
+b2352	yfdI, gtrS	no
 b2353	tfaS, tfaS'	excluded
 b2354	yfdK	yes
 b2355	yfdL, yfdL'	excluded
@@ -2995,7 +2995,7 @@ b3073	patA	no
 b3074	ygjH	yes
 b3075	ebgR	no
 b3076	ebgA	excluded
-b3077	ebgC	tbd
+b3077	ebgC	yes
 b3078	ygjI	yes
 b3079	ygjJ	yes
 b3080	ygjK	no
@@ -3105,7 +3105,7 @@ b3188	sfsB	yes
 b3189	murA	no
 b3190	ibaG	no
 b3191	mlaB	no
-b3192	mlaC	tbd
+b3192	mlaC	no
 b3193	mlaD	no
 b3194	mlaE	no
 b3195	mlaF	no
@@ -3232,17 +3232,17 @@ b3320	rplC	no
 b3321	rpsJ	no
 b3322	gspB	yes
 b3323	gspA	yes
-b3324	gspC	tbd
-b3325	gspD	tbd
-b3326	gspE	tbd
-b3327	gspF	tbd
-b3328	gspG	tbd
-b3329	gspH	tbd
-b3330	gspI	tbd
-b3331	gspJ	tbd
-b3332	gspK	tbd
-b3333	gspL	tbd
-b3334	gspM	tbd
+b3324	gspC	yes
+b3325	gspD	yes
+b3326	gspE	yes
+b3327	gspF	yes
+b3328	gspG	yes
+b3329	gspH	yes
+b3330	gspI	yes
+b3331	gspJ	yes
+b3332	gspK	yes
+b3333	gspL	yes
+b3334	gspM	yes
 b3335	gspO	no
 b3336	bfr	no
 b3337	bfd	yes
@@ -3438,8 +3438,8 @@ b3533	bcsA	no
 b3534	bcsQ, bcsQ'	excluded
 b3535	yhjR	yes
 b3536	bcsE	no
-b3537	bcsF	yes
-b3538	bcsG	tbd
+b3537	bcsF	no
+b3538	bcsG	no
 b3539	yhjV	yes
 b3540	dppF	no
 b3541	dppD	no
@@ -3524,7 +3524,7 @@ b3619	rfaD, hldD	no
 b3620	waaF, rfaF	no
 b3621	waaC, rfaC	no
 b3622	waaL, rfaL	no
-b3623	waaU	tbd
+b3623	waaU	no
 b3624	waaZ, rfaZ	no
 b3625	waaY, rfaY	no
 b3626	waaJ, waaR, rfaJ	no
@@ -3637,7 +3637,7 @@ b3735	atpH	no
 b3736	atpF	no
 b3737	atpE	no
 b3738	atpB	no
-b3739	atpI	tbd
+b3739	atpI	yes
 b3740	rsmG	no
 b3741	mnmG	no
 b3742	mioC	no
@@ -3809,7 +3809,7 @@ b3919	tpiA	no
 b3920	yiiQ	yes
 b3921	yiiR	yes
 b3922	yiiS	yes
-b3923	uspD	tbd
+b3923	uspD	yes
 b3924	fpr	no
 b3925	glpX	no
 b3926	glpK	no
@@ -4465,7 +4465,7 @@ b4595	yciY	yes
 b4596	yciZ	yes
 b4597	rydC	no
 b4598	yncL	yes
-b4599	mgtS, yneM	tbd
+b4599	mgtS, yneM	no
 b4600	ydfJ', ydfJ	excluded
 b4601	ydgU	yes
 b4602	ynhF	yes

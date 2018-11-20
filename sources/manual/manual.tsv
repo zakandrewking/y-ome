@@ -290,9 +290,6 @@ b1072	low	evidence is for Salmonella
 b1075	low	evidence is for Salmonella
 b1070	low	evidence is for Salmonella
 b1943	low	evidence is for Salmonella
-b2350	low	EcoCyc: activity has not been verified in E. coli
-b2351	low	EcoCyc: activity has not been verified in E. coli
-b2352	low	EcoCyc: activity has not been verified in E. coli
 b0006	low	from "molecular mechanism of YaaA action remains unknown" [10.1128/JB.00001-11]
 b0139	low	see EcoCyc summary
 b0283	high	see EcoCyc and UniProt summaries
@@ -306,3 +303,33 @@ b1588	low	see EcoCyc summary
 b1592	low	function inferred from sequence
 b1834	low	transporter with unknown substrate
 b1873	high	see EcoCyc summary
+b1445	low	unknown mechanism
+b2046	low	no direct evidence of function
+b2346	high	see EcoCyc summary
+b3077	low	"Exact function not known." - UniProt
+b3192	high	see EcoCyc summary
+b3324	low	function proposed based on homology
+b3325	low	function proposed based on homology
+b3326	low	function proposed based on homology
+b3327	low	function proposed based on homology
+b3328	low	function proposed based on homology
+b3329	low	function proposed based on homology
+b3330	low	function proposed based on homology
+b3331	low	function proposed based on homology
+b3332	low	function proposed based on homology
+b3333	low	function proposed based on homology
+b3334	low	function proposed based on homology
+b3536	high	both function and regulation are understood (EcoCyc)
+b3537	high	both function and regulation are understood (EcoCyc)
+b3538	high	both function and regulation are understood (EcoCyc)
+b3623	high	multiple lines of evidence for function
+b3739	low	function unclear
+b3923	low	associated with stress response, but functional mechanism unknown
+b4599	high	multiple lines of evidence for function
+b2027	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
+b2035	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
+b2037	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
+b2037	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
+b2350	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
+b2351	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
+b2352	high	o-antigen related, and o-antigen is not produced by K12 MG1655, so no phenotypic effect
