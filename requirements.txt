@@ -5,8 +5,9 @@ pytest==3.5.1
 xlrd==1.1.0
 beautifulsoup4==4.6.0
 seaborn==0.8.1
-tqdm==4.23.2
 biopython==1.71
+lxml==4.2.5
 
 # for me model loading
+# cobra==0.5.11
 # cobrame==0.0.9
