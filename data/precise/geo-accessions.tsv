@@ -1,123 +1,123 @@
-sample_id	condition	GEO
-base__wt_glc__1	base__wt_glc	GSE65643
-base__wt_glc__2	base__wt_glc	GSE65643
-fur__wt_dpd__1	fur__wt_dpd	GSE54900
-fur__wt_dpd__2	fur__wt_dpd	GSE54900
-fur__wt_fe__1	fur__wt_fe	GSE54900
-fur__wt_fe__2	fur__wt_fe	GSE54900
-fur__delfur_dpd__1	fur__delfur_dpd	GSE54900
-fur__delfur_dpd__2	fur__delfur_dpd	GSE54900
-fur__delfur_fe2__1	fur__delfur_fe2	GSE54900
-fur__delfur_fe2__2	fur__delfur_fe2	GSE54900
-acid__wt_ph5__1	acid__wt_ph5	GSE66482
-acid__wt_ph5__2	acid__wt_ph5	GSE66482
-acid__delgadx_ph5__1	acid__delgadx_ph5	GSE66482
-acid__delgadx_ph5__2	acid__delgadx_ph5	GSE66482
-acid__delgadw_ph5__1	acid__delgadw_ph5	GSE66482
-acid__delgadw_ph5__2	acid__delgadw_ph5	GSE66482
-acid__delgade_ph5__1	acid__delgade_ph5	GSE66482
-acid__delgade_ph5__2	acid__delgade_ph5	GSE66482
-oxidative__wt_pq__1	oxidative__wt_pq	GSE65711
-oxidative__wt_pq__2	oxidative__wt_pq	GSE65711
-oxidative__deloxyr_pq__1	oxidative__deloxyr_pq	GSE65711
-oxidative__deloxyr_pq__2	oxidative__deloxyr_pq	GSE65711
-oxidative__delsoxr_pq__1	oxidative__delsoxr_pq	GSE65711
-oxidative__delsoxr_pq__2	oxidative__delsoxr_pq	GSE65711
-oxidative__delsoxs_pq__1	oxidative__delsoxs_pq	GSE65711
-oxidative__delsoxs_pq__2	oxidative__delsoxs_pq	GSE65711
-omics__wt_gly__1	omics__wt_gly	GSE59760
-omics__wt_gly__2	omics__wt_gly	GSE59760
-omics__wt_thr__1	omics__wt_thr	GSE59760
-omics__wt_thr__2	omics__wt_thr	GSE59760
-omics__bw_ac__1	omics__bw_ac	GSE59759
-omics__bw_ac__2	omics__bw_ac	GSE59759
-omics__bw_fum__1	omics__bw_fum	GSE59759
-omics__bw_fum__2	omics__bw_fum	GSE59759
-omics__bw_glc__1	omics__bw_glc	GSE59759
-omics__bw_glc__2	omics__bw_glc	GSE59759
-omics__bw_pyr__1	omics__bw_pyr	GSE59759
-omics__bw_pyr__2	omics__bw_pyr	GSE59759
-ompr__wt_nacl__1	ompr__wt_nacl	GSE88980
-ompr__bw_delompr_nacl__1	ompr__bw_delompr_nacl	GSE88980
-ompr__bw_delompr_nacl__2	ompr__bw_delompr_nacl	GSE88980
-minspan__wt_ade__1	minspan__wt_ade	GSE48324
-minspan__wt_glc__1	minspan__wt_glc	GSE48324
-minspan__wt_glc__2	minspan__wt_glc	GSE48324
-minspan__wt_glc__3	minspan__wt_glc	GSE48324
-minspan__wt_glc_anaero__1	minspan__wt_glc_anaero	GSE48324
-minspan__wt_glc_anaero__2	minspan__wt_glc_anaero	GSE48324
-minspan__wt_trp__1	minspan__wt_trp	GSE48324
-minspan__bw_delcra_glc__1	minspan__bw_delcra_glc	GSE48324
-minspan__bw_delcra_trp__1	minspan__bw_delcra_trp	GSE48324
-minspan__bw_delmntr__1	minspan__bw_delmntr	GSE48324
-minspan__bw_delnac_ade__1	minspan__bw_delnac_ade	GSE48324
-minspan__bw_delnac_glc__1	minspan__bw_delnac_glc	GSE48324
-cra_crp__wt_ac__1	cra_crp__wt_ac	GSE65643
-cra_crp__wt_ac__2	cra_crp__wt_ac	GSE65643
-cra_crp__wt_fru__1	cra_crp__wt_fru	GSE65643
-cra_crp__wt_fru__2	cra_crp__wt_fru	GSE65643
-cra_crp__delcra_ac__1	cra_crp__delcra_ac	GSE65643
-cra_crp__delcra_ac__2	cra_crp__delcra_ac	GSE65643
-cra_crp__delcra_fru__1	cra_crp__delcra_fru	GSE65643
-cra_crp__delcra_fru__2	cra_crp__delcra_fru	GSE65643
-cra_crp__delcra_glc__1	cra_crp__delcra_glc	GSE65643
-cra_crp__delcra_glc__2	cra_crp__delcra_glc	GSE65643
-rpoB__wt_031__1	rpoB__wt_031	GSE59377
-rpoB__wt_044__1	rpoB__wt_044	GSE59377
-rpoB__wt_lb__1	rpoB__wt_lb	GSE59377
-rpoB__wt_lb__2	rpoB__wt_lb	GSE59377
-rpoB__rpoBE546V_031__1	rpoB__rpoBE546V_031	GSE59377
-rpoB__rpoBE546V_044__1	rpoB__rpoBE546V_044	GSE59377
-rpoB__rpoBE546V_lb__1	rpoB__rpoBE546V_lb	GSE59377
-rpoB__rpoBE546V_lb__2	rpoB__rpoBE546V_lb	GSE59377
-rpoB__rpoBE546V_glc__1	rpoB__rpoBE546V_glc	GSE59377
-rpoB__rpoBE672K_glc__1	rpoB__rpoBE672K_glc	GSE59377
-rpoB__rpoBE672K_glc__2	rpoB__rpoBE672K_glc	GSE59377
-rpoB__rpoBE672K_lb__1	rpoB__rpoBE672K_lb	GSE59377
-rpoB__rpoBE672K_lb__2	rpoB__rpoBE672K_lb	GSE59377
-crp__wt_fru__1	crp__wt_fru	GSE64849
-crp__wt_glyc__1	crp__wt_glyc	GSE64849
-crp__wt_glyc__2	crp__wt_glyc	GSE64849
-crp__delar1_glyc__1	crp__delar1_glyc	GSE64849
-crp__delar1_glyc__2	crp__delar1_glyc	GSE64849
-crp__delar1ar2_glyc__1	crp__delar1ar2_glyc	GSE64849
-crp__delar1ar2_glyc__2	crp__delar1ar2_glyc	GSE64849
-crp__delar1ar2_glyc__3	crp__delar1ar2_glyc	GSE64849
-crp__delar2_glyc__1	crp__delar2_glyc	GSE64849
-crp__delar2_glyc__2	crp__delar2_glyc	GSE64849
-crp__delar2_glyc__3	crp__delar2_glyc	GSE64849
-crp__delcrp_fru__1	crp__delcrp_fru	GSE64849
-crp__delcrp_fru__2	crp__delcrp_fru	GSE64849
-crp__delcrp_fru__3	crp__delcrp_fru	GSE64849
-crp__delcrp_glc__1	crp__delcrp_glc	GSE64849
-crp__delcrp_glc__2	crp__delcrp_glc	GSE64849
-crp__delcrp_glc__3	crp__delcrp_glc	GSE64849
-crp__delcrp_glyc__1	crp__delcrp_glyc	GSE64849
-crp__delcrp_glyc__2	crp__delcrp_glyc	GSE64849
-crp__delcrp_glyc__3	crp__delcrp_glyc	GSE64849
-glu__glu_ale3__1	glu__glu_ale3	GSE61327
-glu__glu_ale4__1	glu__glu_ale4	GSE61327
-glu__glu_ale5__1	glu__glu_ale5	GSE61327
-glu__glu_ale6__1	glu__glu_ale6	GSE61327
-glu__glu_ale8__1	glu__glu_ale8	GSE61327
-glu__glu_ale9__1	glu__glu_ale9	GSE61327
-glu__glu_ale10__1	glu__glu_ale10	GSE61327
-ssw__wt_ac__1	ssw__wt_ac	GSE97944
-ssw__wt_glc__1	ssw__wt_glc	GSE97944
-ssw__wt_glyc__1	ssw__wt_glyc	GSE97944
-ssw__wt_xyl__1	ssw__wt_xyl	GSE97944
-ssw__glc_ale1__1	ssw__glc_ale1	GSE97944
-ssw__glc_ale2__1	ssw__glc_ale2	GSE97944
-ssw__glc_ale3__1	ssw__glc_ale3	GSE97944
-ssw__glyc_ale1__1	ssw__glyc_ale1	GSE97944
-ssw__glyc_ale2__1	ssw__glyc_ale2	GSE97944
-ssw__xyl_ale1__1	ssw__xyl_ale1	GSE97944
-ssw__xyl_ale2__1	ssw__xyl_ale2	GSE97944
-ssw__xyl_ale3__1	ssw__xyl_ale3	GSE97944
-ssw__glc_ac_ac2__1	ssw__glc_ac_ac2	GSE97944
-ssw__glc_ac_glc1__1	ssw__glc_ac_glc1	GSE97944
-ssw__glc_ac_glc2__1	ssw__glc_ac_glc2	GSE97944
-ssw__glc_glyc_glc__1	ssw__glc_glyc_glc	GSE97944
-ssw__glc_glyc_glyc__1	ssw__glc_glyc_glyc	GSE97944
-ssw__glc_xyl_glc__1	ssw__glc_xyl_glc	GSE97944
-ssw__glc_xyl_xyl__1	ssw__glc_xyl_xyl	GSE97944
+sample_id	GEO	Strain Description	organism	Base Media	Carbon Source (g/L)	Nitrogen Source (g/L)	Electron Acceptor	Trace Element Mixture	Supplement	Temperature (C)	pH	Antibiotic	Culture Type	Growth Rate (1/hr)	Sequencing Machine	DOI
+base__wt_glc__1	GSE65643	Escherichia coli K-12 MG1655	MG1655	M9	glucose(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch		MiSeq	doi.org/10.1101/080929
+base__wt_glc__2	GSE65643	Escherichia coli K-12 MG1655	MG1655	M9	glucose(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch		MiSeq	doi.org/10.1101/080929
+fur__wt_dpd__1	GSE54900	Escherichia coli K-12 MG1655	MG1655	M9	glucose(2)	NH4Cl(1)	O2		DPD(0.2mM)	37	7.0		Batch	0.0	MiSeq	doi.org/10.1038/ncomms5910
+fur__wt_dpd__2	GSE54900	Escherichia coli K-12 MG1655	MG1655	M9	glucose(2)	NH4Cl(1)	O2		DPD(0.2mM)	37	7.0		Batch	0.0	MiSeq	doi.org/10.1038/ncomms5910
+fur__wt_fe__1	GSE54900	Escherichia coli K-12 MG1655	MG1655	M9	glucose(2)	NH4Cl(1)	O2		FeCl2(0.1mM)	37	7.0		Batch	1.060606061	MiSeq	doi.org/10.1038/ncomms5910
+fur__wt_fe__2	GSE54900	Escherichia coli K-12 MG1655	MG1655	M9	glucose(2)	NH4Cl(1)	O2		FeCl2(0.1mM)	37	7.0		Batch	1.060606061	MiSeq	doi.org/10.1038/ncomms5910
+fur__delfur_dpd__1	GSE54900	Escherichia coli K-12 MG1655 del_fur	MG1655	M9	glucose(2)	NH4Cl(1)	O2		DPD(0.2mM)	37	7.0	Kanamycin	Batch	0.0	MiSeq	doi.org/10.1038/ncomms5910
+fur__delfur_dpd__2	GSE54900	Escherichia coli K-12 MG1655 del_fur	MG1655	M9	glucose(2)	NH4Cl(1)	O2		DPD(0.2mM)	37	7.0	Kanamycin	Batch	0.0	MiSeq	doi.org/10.1038/ncomms5910
+fur__delfur_fe2__1	GSE54900	Escherichia coli K-12 MG1655 del_fur	MG1655	M9	glucose(2)	NH4Cl(1)	O2		FeCl2(0.1mM)	37	7.0	Kanamycin	Batch	0.6194690270000001	MiSeq	doi.org/10.1038/ncomms5910
+fur__delfur_fe2__2	GSE54900	Escherichia coli K-12 MG1655 del_fur	MG1655	M9	glucose(2)	NH4Cl(1)	O2		FeCl2(0.1mM)	37	7.0	Kanamycin	Batch	0.6194690270000001	MiSeq	doi.org/10.1038/ncomms5910
+acid__wt_ph5__1	GSE66482	Escherichia coli K-12 MG1655	MG1655	M9	glucose(2)	NH4Cl(1)	O2			37	5.5		Batch		MiSeq	doi.org/10.1038/ncomms8970
+acid__wt_ph5__2	GSE66482	Escherichia coli K-12 MG1655	MG1655	M9	glucose(2)	NH4Cl(1)	O2			37	5.5		Batch		MiSeq	doi.org/10.1038/ncomms8970
+acid__delgadx_ph5__1	GSE66482	Escherichia coli K-12 MG1655 del_gadX	MG1655	M9	glucose(2)	NH4Cl(1)	O2			37	5.5	Kanamycin	Batch		MiSeq	doi.org/10.1038/ncomms8970
+acid__delgadx_ph5__2	GSE66482	Escherichia coli K-12 MG1655 del_gadX	MG1655	M9	glucose(2)	NH4Cl(1)	O2			37	5.5	Kanamycin	Batch		MiSeq	doi.org/10.1038/ncomms8970
+acid__delgadw_ph5__1	GSE66482	Escherichia coli K-12 MG1655 del_gadW	MG1655	M9	glucose(2)	NH4Cl(1)	O2			37	5.5	Kanamycin	Batch		MiSeq	doi.org/10.1038/ncomms8970
+acid__delgadw_ph5__2	GSE66482	Escherichia coli K-12 MG1655 del_gadW	MG1655	M9	glucose(2)	NH4Cl(1)	O2			37	5.5	Kanamycin	Batch		MiSeq	doi.org/10.1038/ncomms8970
+acid__delgade_ph5__1	GSE66482	Escherichia coli K-12 MG1655 del_gadE	MG1655	M9	glucose(2)	NH4Cl(1)	O2			37	5.5	Kanamycin	Batch		MiSeq	doi.org/10.1038/ncomms8970
+acid__delgade_ph5__2	GSE66482	Escherichia coli K-12 MG1655 del_gadE	MG1655	M9	glucose(2)	NH4Cl(1)	O2			37	5.5	Kanamycin	Batch		MiSeq	doi.org/10.1038/ncomms8970
+oxidative__wt_pq__1	GSE65711	Escherichia coli K-12 MG1655	MG1655	M9	glucose(2)	NH4Cl(1)	O2		PQ(250uM)	37	7.0		Batch	0.0	MiSeq	doi.org/10.1016/j.celrep.2015.07.043
+oxidative__wt_pq__2	GSE65711	Escherichia coli K-12 MG1655	MG1655	M9	glucose(2)	NH4Cl(1)	O2		PQ(250uM)	37	7.0		Batch	0.0	MiSeq	doi.org/10.1016/j.celrep.2015.07.043
+oxidative__deloxyr_pq__1	GSE65711	Escherichia coli K-12 MG1655 del_oxyR	MG1655	M9	glucose(2)	NH4Cl(1)	O2		PQ(250uM)	37	7.0	Kanamycin	Batch	0.0	MiSeq	doi.org/10.1016/j.celrep.2015.07.043
+oxidative__deloxyr_pq__2	GSE65711	Escherichia coli K-12 MG1655 del_oxyR	MG1655	M9	glucose(2)	NH4Cl(1)	O2		PQ(250uM)	37	7.0	Kanamycin	Batch	0.0	MiSeq	doi.org/10.1016/j.celrep.2015.07.043
+oxidative__delsoxr_pq__1	GSE65711	Escherichia coli K-12 MG1655 del_soxR	MG1655	M9	glucose(2)	NH4Cl(1)	O2		PQ(250uM)	37	7.0	Kanamycin	Batch	0.0	MiSeq	doi.org/10.1016/j.celrep.2015.07.043
+oxidative__delsoxr_pq__2	GSE65711	Escherichia coli K-12 MG1655 del_soxR	MG1655	M9	glucose(2)	NH4Cl(1)	O2		PQ(250uM)	37	7.0	Kanamycin	Batch	0.0	MiSeq	doi.org/10.1016/j.celrep.2015.07.043
+oxidative__delsoxs_pq__1	GSE65711	Escherichia coli K-12 MG1655 del_soxS	MG1655	M9	glucose(2)	NH4Cl(1)	O2		PQ(250uM)	37	7.0	Kanamycin	Batch	0.0	MiSeq	doi.org/10.1016/j.celrep.2015.07.043
+oxidative__delsoxs_pq__2	GSE65711	Escherichia coli K-12 MG1655 del_soxS	MG1655	M9	glucose(2)	NH4Cl(1)	O2		PQ(250uM)	37	7.0	Kanamycin	Batch	0.0	MiSeq	doi.org/10.1016/j.celrep.2015.07.043
+omics__wt_gly__1	GSE59760	Escherichia coli K-12 MG1655	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture	glycine(10mM)	37	7.0		Batch		MiSeq	doi.org/10.1038/ncomms13091
+omics__wt_gly__2	GSE59760	Escherichia coli K-12 MG1655	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture	glycine(10mM)	37	7.0		Batch		MiSeq	doi.org/10.1038/ncomms13091
+omics__wt_thr__1	GSE59760	Escherichia coli K-12 MG1655	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture	threonine(10mM)	37	7.0		Batch		MiSeq	doi.org/10.1038/ncomms13091
+omics__wt_thr__2	GSE59760	Escherichia coli K-12 MG1655	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture	threonine(10mM)	37	7.0		Batch		MiSeq	doi.org/10.1038/ncomms13091
+omics__bw_ac__1	GSE59759	Escherichia coli BW25113	BW25113	M9	acetate(3.5)	NH4Cl(1)	O2	aebersold trace element mixture	thiamine(1.4mM),FeCl3(60uM)	37	7.0		Batch	0.203	MiSeq	doi.org/10.1038/ncomms13091
+omics__bw_ac__2	GSE59759	Escherichia coli BW25113	BW25113	M9	acetate(3.5)	NH4Cl(1)	O2	aebersold trace element mixture	thiamine(1.4mM),FeCl3(60uM)	37	7.0		Batch	0.203	MiSeq	doi.org/10.1038/ncomms13091
+omics__bw_fum__1	GSE59759	Escherichia coli BW25113	BW25113	M9	fumarate(2.8)	NH4Cl(1)	O2	aebersold trace element mixture	thiamine(1.4mM),FeCl3(60uM)	37	7.0		Batch	0.309	MiSeq	doi.org/10.1038/ncomms13091
+omics__bw_fum__2	GSE59759	Escherichia coli BW25113	BW25113	M9	fumarate(2.8)	NH4Cl(1)	O2	aebersold trace element mixture	thiamine(1.4mM),FeCl3(60uM)	37	7.0		Batch	0.309	MiSeq	doi.org/10.1038/ncomms13091
+omics__bw_glc__1	GSE59759	Escherichia coli BW25113	BW25113	M9	glucose(5)	NH4Cl(1)	O2	aebersold trace element mixture	thiamine(1.4mM),FeCl3(60uM)	37	7.0		Batch	0.6075	MiSeq	doi.org/10.1038/ncomms13091
+omics__bw_glc__2	GSE59759	Escherichia coli BW25113	BW25113	M9	glucose(5)	NH4Cl(1)	O2	aebersold trace element mixture	thiamine(1.4mM),FeCl3(60uM)	37	7.0		Batch	0.6075	MiSeq	doi.org/10.1038/ncomms13091
+omics__bw_pyr__1	GSE59759	Escherichia coli BW25113	BW25113	M9	pyruvate(3.3)	NH4Cl(1)	O2	aebersold trace element mixture	thiamine(1.4mM),FeCl3(60uM)	37	7.0		Batch	0.3726	MiSeq	doi.org/10.1038/ncomms13091
+omics__bw_pyr__2	GSE59759	Escherichia coli BW25113	BW25113	M9	pyruvate(3.3)	NH4Cl(1)	O2	aebersold trace element mixture	thiamine(1.4mM),FeCl3(60uM)	37	7.0		Batch	0.3726	MiSeq	doi.org/10.1038/ncomms13091
+ompr__wt_nacl__1	GSE88980	Escherichia coli K-12 MG1655	MG1655	M9	glucose(2)	NH4Cl(1)	O2		NaCl(0.3M)	37	7.0		Batch	0.0	MiSeq	doi.org/10.1038/s41598-017-02110-7
+ompr__bw_delompr_nacl__1	GSE88980	Escherichia coli K-12 BW25113 del_ompR	BW25113	M9	glucose(2)	NH4Cl(1)	O2		NaCl(0.3M)	37	7.0	Kanamycin	Batch	0.0	MiSeq	doi.org/10.1038/s41598-017-02110-7
+ompr__bw_delompr_nacl__2	GSE88980	Escherichia coli K-12 BW25113 del_ompR	BW25113	M9	glucose(2)	NH4Cl(1)	O2		NaCl(0.3M)	37	7.0	Kanamycin	Batch	0.0	MiSeq	doi.org/10.1038/s41598-017-02110-7
+minspan__wt_ade__1	GSE48324	Escherichia coli K-12 MG1655	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture	adenine (10 mM)	37	7.0		Batch		GAIIX	doi.org/10.15252/msb.20145243
+minspan__wt_glc__1	GSE48324	Escherichia coli K-12 MG1655	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch		GAIIX	doi.org/10.15252/msb.20145243
+minspan__wt_glc__2	GSE48324	Escherichia coli K-12 MG1655	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch		GAIIX	doi.org/10.15252/msb.20145243
+minspan__wt_glc__3	GSE48324	Escherichia coli K-12 MG1655	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch		GAIIX	doi.org/10.15252/msb.20145243
+minspan__wt_glc_anaero__1	GSE48324	Escherichia coli K-12 MG1655	MG1655	M9	glucose(4)	NH4Cl(1)		sauer trace element mixture		37	7.0		Batch		GAIIX	doi.org/10.15252/msb.20145243
+minspan__wt_glc_anaero__2	GSE48324	Escherichia coli K-12 MG1655	MG1655	M9	glucose(4)	NH4Cl(1)		sauer trace element mixture		37	7.0		Batch		GAIIX	doi.org/10.15252/msb.20145243
+minspan__wt_trp__1	GSE48324	Escherichia coli K-12 MG1655	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture	L-tryptophan (20 mg/L)	37	7.0		Batch		GAIIX	doi.org/10.15252/msb.20145243
+minspan__bw_delcra_glc__1	GSE48324	Escherichia coli BW25113 del_cra	BW25113	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		GAIIX	doi.org/10.15252/msb.20145243
+minspan__bw_delcra_trp__1	GSE48324	Escherichia coli BW25113 del_cra	BW25113	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture	L-tryptophan (20 mg/L)	37	7.0	Kanamycin	Batch		GAIIX	doi.org/10.15252/msb.20145243
+minspan__bw_delmntr__1	GSE48324	Escherichia coli BW25113 del_mntR	BW25113	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		GAIIX	doi.org/10.15252/msb.20145243
+minspan__bw_delnac_ade__1	GSE48324	Escherichia coli BW25113 del_nac	BW25113	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture	adenine (10 mM)	37	7.0	Kanamycin	Batch		GAIIX	doi.org/10.15252/msb.20145243
+minspan__bw_delnac_glc__1	GSE48324	Escherichia coli BW25113 del_nac	BW25113	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		GAIIX	doi.org/10.15252/msb.20145243
+cra_crp__wt_ac__1	GSE65643	Escherichia coli K-12 MG1655	MG1655	M9	acetate(2)	NH4Cl(1)	O2	aebersold trace element mixture		37	7.0		Batch	0.25	MiSeq	doi.org/10.1101/080929
+cra_crp__wt_ac__2	GSE65643	Escherichia coli K-12 MG1655	MG1655	M9	acetate(2)	NH4Cl(1)	O2	aebersold trace element mixture		37	7.0		Batch	0.25	MiSeq	doi.org/10.1101/080929
+cra_crp__wt_fru__1	GSE65643	Escherichia coli K-12 MG1655	MG1655	M9	fructose(2)	NH4Cl(1)	O2	aebersold trace element mixture		37	7.0		Batch	0.53	MiSeq	doi.org/10.1101/080929
+cra_crp__wt_fru__2	GSE65643	Escherichia coli K-12 MG1655	MG1655	M9	fructose(2)	NH4Cl(1)	O2	aebersold trace element mixture		37	7.0		Batch	0.53	MiSeq	doi.org/10.1101/080929
+cra_crp__delcra_ac__1	GSE65643	Escherichia coli K-12 MG1655 del_cra	MG1655	M9	acetate(2)	NH4Cl(1)	O2	aebersold trace element mixture		37	7.0	Kanamycin	Batch	0.08	MiSeq	doi.org/10.1101/080929
+cra_crp__delcra_ac__2	GSE65643	Escherichia coli K-12 MG1655 del_cra	MG1655	M9	acetate(2)	NH4Cl(1)	O2	aebersold trace element mixture		37	7.0	Kanamycin	Batch	0.08	MiSeq	doi.org/10.1101/080929
+cra_crp__delcra_fru__1	GSE65643	Escherichia coli K-12 MG1655 del_cra	MG1655	M9	fructose(2)	NH4Cl(1)	O2	aebersold trace element mixture		37	7.0	Kanamycin	Batch	0.69	MiSeq	doi.org/10.1101/080929
+cra_crp__delcra_fru__2	GSE65643	Escherichia coli K-12 MG1655 del_cra	MG1655	M9	fructose(2)	NH4Cl(1)	O2	aebersold trace element mixture		37	7.0	Kanamycin	Batch	0.69	MiSeq	doi.org/10.1101/080929
+cra_crp__delcra_glc__1	GSE65643	Escherichia coli K-12 MG1655 del_cra	MG1655	M9	glucose(2)	NH4Cl(1)	O2	aebersold trace element mixture		37	7.0	Kanamycin	Batch	0.67	MiSeq	doi.org/10.1101/080929
+cra_crp__delcra_glc__2	GSE65643	Escherichia coli K-12 MG1655 del_cra	MG1655	M9	glucose(2)	NH4Cl(1)	O2	aebersold trace element mixture		37	7.0	Kanamycin	Batch	0.67	MiSeq	doi.org/10.1101/080929
+rpoB__wt_031__1	GSE59377	Escherichia coli K-12 MG1655	MG1655	M9	glucose(4)	NH4Cl(1)	O2			37	7.0		Chemostat		MiSeq	doi.org/10.1016/j.cels.2016.04.003
+rpoB__wt_044__1	GSE59377	Escherichia coli K-12 MG1655	MG1655	M9	glucose(4)	NH4Cl(1)	O2			37	7.0		Chemostat		MiSeq	doi.org/10.1016/j.cels.2016.04.003
+rpoB__wt_lb__1	GSE59377	Escherichia coli K-12 MG1655	MG1655	LB			O2			37	7.0		Batch	1.42	MiSeq	doi.org/10.1016/j.cels.2016.04.003
+rpoB__wt_lb__2	GSE59377	Escherichia coli K-12 MG1655	MG1655	LB			O2			37	7.0		Batch	1.42	MiSeq	doi.org/10.1016/j.cels.2016.04.003
+rpoB__rpoBE546V_031__1	GSE59377	Escherichia coli K-12 MG1655 rpoBE546V	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Chemostat		MiSeq	doi.org/10.1016/j.cels.2016.04.003
+rpoB__rpoBE546V_044__1	GSE59377	Escherichia coli K-12 MG1655 rpoBE546V	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Chemostat		MiSeq	doi.org/10.1016/j.cels.2016.04.003
+rpoB__rpoBE546V_lb__1	GSE59377	Escherichia coli K-12 MG1655 rpoBE546V	MG1655	LB			O2			37	7.0	Kanamycin	Batch	1.34	MiSeq	doi.org/10.1016/j.cels.2016.04.003
+rpoB__rpoBE546V_lb__2	GSE59377	Escherichia coli K-12 MG1655 rpoBE546V	MG1655	LB			O2			37	7.0	Kanamycin	Batch	1.34	MiSeq	doi.org/10.1016/j.cels.2016.04.003
+rpoB__rpoBE546V_glc__1	GSE59377	Escherichia coli K-12 MG1655 rpoBE546V	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch	0.85	MiSeq	doi.org/10.1016/j.cels.2016.04.003
+rpoB__rpoBE672K_glc__1	GSE59377	Escherichia coli K-12 MG1655 rpoBE672K	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch	0.88	MiSeq	doi.org/10.1016/j.cels.2016.04.003
+rpoB__rpoBE672K_glc__2	GSE59377	Escherichia coli K-12 MG1655 rpoBE672K	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch	0.88	MiSeq	doi.org/10.1016/j.cels.2016.04.003
+rpoB__rpoBE672K_lb__1	GSE59377	Escherichia coli K-12 MG1655 rpoBE672K	MG1655	LB			O2			37	7.0	Kanamycin	Batch	1.4	MiSeq	doi.org/10.1016/j.cels.2016.04.003
+rpoB__rpoBE672K_lb__2	GSE59377	Escherichia coli K-12 MG1655 rpoBE672K	MG1655	LB			O2			37	7.0	Kanamycin	Batch	1.4	MiSeq	doi.org/10.1016/j.cels.2016.04.003
+crp__wt_fru__1	GSE64849	Escherichia coli K-12 MG1655	MG1655	M9	fructose(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch		MiSeq	doi.org/10.1101/069021
+crp__wt_glyc__1	GSE64849	Escherichia coli K-12 MG1655	MG1655	M9	glycerol(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch		MiSeq	doi.org/10.1101/069021
+crp__wt_glyc__2	GSE64849	Escherichia coli K-12 MG1655	MG1655	M9	glycerol(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch		MiSeq	doi.org/10.1101/069021
+crp__delar1_glyc__1	GSE64849	Escherichia coli K-12 MG1655 crp_delAr1	MG1655	M9	glycerol(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		MiSeq	doi.org/10.1101/069021
+crp__delar1_glyc__2	GSE64849	Escherichia coli K-12 MG1655 crp_delAr1	MG1655	M9	glycerol(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		MiSeq	doi.org/10.1101/069021
+crp__delar1ar2_glyc__1	GSE64849	Escherichia coli K-12 MG1655 crp_delAr1delAr2	MG1655	M9	glycerol(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		MiSeq	doi.org/10.1101/069021
+crp__delar1ar2_glyc__2	GSE64849	Escherichia coli K-12 MG1655 crp_delAr1delAr2	MG1655	M9	glycerol(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		MiSeq	doi.org/10.1101/069021
+crp__delar1ar2_glyc__3	GSE64849	Escherichia coli K-12 MG1655 crp_delAr1delAr2	MG1655	M9	glycerol(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		MiSeq	doi.org/10.1101/069021
+crp__delar2_glyc__1	GSE64849	Escherichia coli K-12 MG1655 crp_delAr2	MG1655	M9	glycerol(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		MiSeq	doi.org/10.1101/069021
+crp__delar2_glyc__2	GSE64849	Escherichia coli K-12 MG1655 crp_delAr2	MG1655	M9	glycerol(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		MiSeq	doi.org/10.1101/069021
+crp__delar2_glyc__3	GSE64849	Escherichia coli K-12 MG1655 crp_delAr2	MG1655	M9	glycerol(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		MiSeq	doi.org/10.1101/069021
+crp__delcrp_fru__1	GSE64849	Escherichia coli K-12 MG1655 del_crp	MG1655	M9	fructose(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		MiSeq	doi.org/10.1101/069021
+crp__delcrp_fru__2	GSE64849	Escherichia coli K-12 MG1655 del_crp	MG1655	M9	fructose(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		MiSeq	doi.org/10.1101/069021
+crp__delcrp_fru__3	GSE64849	Escherichia coli K-12 MG1655 del_crp	MG1655	M9	fructose(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		MiSeq	doi.org/10.1101/069021
+crp__delcrp_glc__1	GSE64849	Escherichia coli K-12 MG1655 del_crp	MG1655	M9	glucose(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		MiSeq	doi.org/10.1101/069021
+crp__delcrp_glc__2	GSE64849	Escherichia coli K-12 MG1655 del_crp	MG1655	M9	glucose(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		MiSeq	doi.org/10.1101/069021
+crp__delcrp_glc__3	GSE64849	Escherichia coli K-12 MG1655 del_crp	MG1655	M9	glucose(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		MiSeq	doi.org/10.1101/069021
+crp__delcrp_glyc__1	GSE64849	Escherichia coli K-12 MG1655 del_crp	MG1655	M9	glycerol(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		MiSeq	doi.org/10.1101/069021
+crp__delcrp_glyc__2	GSE64849	Escherichia coli K-12 MG1655 del_crp	MG1655	M9	glycerol(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		MiSeq	doi.org/10.1101/069021
+crp__delcrp_glyc__3	GSE64849	Escherichia coli K-12 MG1655 del_crp	MG1655	M9	glycerol(2)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0	Kanamycin	Batch		MiSeq	doi.org/10.1101/069021
+glu__glu_ale3__1	GSE61327	Escherichia coli GLU.3.412.1	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	1.01	MiSeq	doi.org/10.1128/AEM.02246-14
+glu__glu_ale4__1	GSE61327	Escherichia coli GLU.4.403.1	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.98	MiSeq	doi.org/10.1128/AEM.02246-14
+glu__glu_ale5__1	GSE61327	Escherichia coli GLU.5.288.1	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	1.01	MiSeq	doi.org/10.1128/AEM.02246-14
+glu__glu_ale6__1	GSE61327	Escherichia coli GLU.6.406.1	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	1.0	MiSeq	doi.org/10.1128/AEM.02246-14
+glu__glu_ale8__1	GSE61327	Escherichia coli GLU.8.380.1	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.99	MiSeq	doi.org/10.1128/AEM.02246-14
+glu__glu_ale9__1	GSE61327	Escherichia coli GLU.9.433.1	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	1.01	MiSeq	doi.org/10.1128/AEM.02246-14
+glu__glu_ale10__1	GSE61327	Escherichia coli GLU.10.418.1	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	1.02	MiSeq	doi.org/10.1128/AEM.02246-14
+ssw__wt_ac__1	GSE97944	Escherichia coli K-12 MG1655	MG1655	M9	acetate(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.27	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__wt_glc__1	GSE97944	Escherichia coli K-12 MG1655	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.73	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__wt_glyc__1	GSE97944	Escherichia coli K-12 MG1655	MG1655	M9	glycerol(2.5)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.45	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__wt_xyl__1	GSE97944	Escherichia coli K-12 MG1655	MG1655	M9	xylose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.55	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__glc_ale1__1	GSE97944	Escherichia coli C13.1.133.1	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.964	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__glc_ale2__1	GSE97944	Escherichia coli C13.1.134.1	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.989	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__glc_ale3__1	GSE97944	Escherichia coli C13.6.133.1	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.967	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__glyc_ale1__1	GSE97944	Escherichia coli SSW_GLY.1.45.1	MG1655	M9	glycerol(2.5)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.732	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__glyc_ale2__1	GSE97944	Escherichia coli SSW_GLY.2.45.1	MG1655	M9	glycerol(2.5)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.758	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__xyl_ale1__1	GSE97944	Escherichia coli SSW_XYL.1.20.1	MG1655	M9	xylose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.7609999999999999	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__xyl_ale2__1	GSE97944	Escherichia coli SSW_XYL.2.20.1	MG1655	M9	xylose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.735	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__xyl_ale3__1	GSE97944	Escherichia coli SSW_XYL.3.20.1	MG1655	M9	xylose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.705	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__glc_ac_ac2__1	GSE97944	Escherichia coli SSW_GLU_AC.9.92.4	MG1655	M9	acetate(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.386	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__glc_ac_glc1__1	GSE97944	Escherichia coli SSW_GLU_AC.9.92.3	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.893	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__glc_ac_glc2__1	GSE97944	Escherichia coli SSW_GLU_AC.9.92.4	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.902	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__glc_glyc_glc__1	GSE97944	Escherichia coli SSW_GLU_GLY.4.165.2	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.932	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__glc_glyc_glyc__1	GSE97944	Escherichia coli SSW_GLU_GLY.4.165.2	MG1655	M9	glycerol(2.5)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.845	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__glc_xyl_glc__1	GSE97944	Escherichia coli SSW_GLU_XYL.2.165.1	MG1655	M9	glucose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.956	MiSeq	doi.org/10.1128/AEM.00410-17
+ssw__glc_xyl_xyl__1	GSE97944	Escherichia coli SSW_GLU_XYL.2.165.1	MG1655	M9	xylose(4)	NH4Cl(1)	O2	sauer trace element mixture		37	7.0		Batch	0.745	MiSeq	doi.org/10.1128/AEM.00410-17
