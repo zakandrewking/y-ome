@@ -1,15 +1,15 @@
-word	y-ome (n=1601)	Well-annotated (n=2802)	Excluded (n=220)
-peptide/polypeptide/protein(s)	1565	2570	153
+word	y-ome (n=1600)	Well-annotated (n=2803)	Excluded (n=220)
+peptide/polypeptide/protein(s)	1564	2571	153
 inner/outer/membrane/transmembrane	502	751	30
-binds/binding	419	1479	21
-regulate(s)/regulated/regulator(y)/regulation/regulon	368	896	21
+binds/binding	418	1480	21
+regulate(s)/regulated/regulator(y)/regulation/regulon	367	897	21
 transport/transporter/export/import	295	688	35
 enzyme	271	1588	12
 signal	267	264	18
 initiation	253	409	24
 phage/prophage	186	185	64
 oxidoreductase/reductase/reduce	139	361	4
-transcription/transcriptional	124	381	13
+transcription/transcriptional	123	382	13
 promoter	119	204	4
 periplasm/periplasmic	113	356	3
 lipoprotein	98	88	5

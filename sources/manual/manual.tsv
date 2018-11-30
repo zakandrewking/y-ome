@@ -127,6 +127,7 @@ b2129	high	see EcoCyc summary
 b2130	high	see EcoCyc summary
 b2131	high	see EcoCyc summary
 b2144	low	few details
+b2157	high	function described in https://doi.org/10.1093/nar/gky752
 b2163	low	EcoCyc: The genes that the YeiL transcriptional activator regulates have not been identified yet; RegulonDB no strong connections (except self)
 b2166	low	inferred from sequence
 b2177	low	no experimental evidence of transport activity
