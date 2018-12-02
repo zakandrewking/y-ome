@@ -34,7 +34,7 @@ ecocyc_evidence_has_assay = ecocyc_evidence[ecocyc_evidence.feature.str.contains
                                             | ecocyc_evidence.feature.str.contains('reaction blocked in mutant', flags=re.IGNORECASE)
                                             | ecocyc_evidence.feature.str.contains('traceable author statement to experimental support', flags=re.IGNORECASE)]
 
-# high quality EcoCyc evidence should override everything, e.g. b0089 / ftsW
+# find insertions
 ecocyc_insertion = to_df(
     session.query(Gene.locus_id,
                   KnowledgebaseFeature.feature)

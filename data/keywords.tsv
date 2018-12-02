@@ -1,0 +1,26 @@
+source	type	keyword	location
+EcoCyc	low	possibly	description
+EcoCyc	low	predicted	description
+EcoCyc	low	hypothetical	description
+EcoCyc	low	putative	description
+EcoCyc	low	uncharacterized protein	description
+EcoCyc	low	No information about this	summary
+EcoCyc	high	assay	evidence
+EcoCyc	high	traceable author statement to experimental support	evidence
+EcoCyc	high	reaction blocked in mutant	evidence
+EcoCyc	high (override)	assay	evidence
+EcoCyc	high (override)	reaction blocked in mutant	evidence
+EcoCyc	high (override)	traceable author statement to experimental support	evidence
+EcoGene	low	physiological	description
+EcoGene	low	role	description
+EcoGene	low	unknown	description
+EcoGene	low	uncharacterized	description
+EcoGene	low	putative	description
+EcoGene	low	function unknown	description
+EcoGene	low	putative	protein
+EcoGene	low	uncharacterized	protein
+UniProt	low	probable	protein
+UniProt	low	uncharacterized	protein
+UniProt	low	putative	protein
+UniProt	low	unknown	function
+UniProt	low	not known	function

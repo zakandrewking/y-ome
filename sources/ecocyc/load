@@ -84,9 +84,6 @@ df.loc[~df.component_html.isnull(), 'annotation_quality'] = 'high'
 # Genes with reaction_equation
 df.loc[~df.reaction_equation.isnull(), 'annotation_quality'] = 'high'
 
-# Genes with EC number are high
-df.loc[~df.ec_number.isnull(), 'annotation_quality'] = 'high'
-
 # Apply keyword annotations; description
 for keyword in low_keywords_description:
     apply_keyword(df, keyword, 'description', False)

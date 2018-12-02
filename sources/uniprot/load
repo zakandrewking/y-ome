@@ -77,8 +77,8 @@ for keyword in low_keywords_protein:
 for keyword in low_keywords_function:
     apply_keyword(df, keyword, 'function', False)
 
-# Genes with EC number not necessarily high. Some (e.g. yadI) have ec info event
-# with minimal annotation
+# Genes with EC number not necessarily high. Some (e.g. yadI) have ec info
+# even with minimal annotation
 # df.loc[~df.ec_number.isnull(), 'annotation_quality'] = 'high'
 
 # Import knowledgebase

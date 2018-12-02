@@ -43,7 +43,6 @@ low_keywords_description = [
 low_keywords_protein = [
     'putative', 'uncharacterized'
 ]
-low_keywords_comments = []
 
 # Apply keyword annotations; description
 for keyword in low_keywords_description:
@@ -52,10 +51,6 @@ for keyword in low_keywords_description:
 # Apply keyword annotations; protein
 for keyword in low_keywords_protein:
     apply_keyword(df, keyword, 'protein', False)
-
-# Apply keyword annotations; comments
-for keyword in low_keywords_comments:
-    apply_keyword(df, keyword, 'comments', False)
 
 # Define pseudogenes (must be a string type)
 def is_pseudogene_cat(row):

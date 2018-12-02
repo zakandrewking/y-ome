@@ -42,9 +42,6 @@ df = pd.DataFrame(data_list)
 # Add annotation_quality
 df['annotation_quality'] = 'tbd'
 
-# Genes with EC number are high
-# df.loc[~df.ec_numbers.isnull(), 'annotation_quality'] = 'high'
-
 # Load knowledgebase
 session = Session()
 load_knowledgebase(session, df, 'RefSeq',
