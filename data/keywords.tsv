@@ -1,4 +1,4 @@
-source	type	keyword	location
+source	type	keyword (or regular expression, for no-information type)	location
 EcoCyc	low	possibly	description
 EcoCyc	low	predicted	description
 EcoCyc	low	hypothetical	description
@@ -24,3 +24,35 @@ UniProt	low	uncharacterized	protein
 UniProt	low	putative	protein
 UniProt	low	unknown	function
 UniProt	low	not known	function
+EcoCyc	no-information	No information about this	any
+EcoGene	no-information	.* family protein$	any
+EcoGene	no-information	.* family\.?$	any
+EcoGene	no-information	Null	any
+EcoGene	no-information	Putative enzyme; Not classified	any
+EcoGene	no-information	Phenotype; Not classified	any
+EcoGene	no-information	Putative factor; Not classified	any
+EcoGene	no-information	.*uncharacterized protein.*	any
+EcoGene	no-information	.*pseudogene.*	any
+EcoGene	no-information	.*function unknown.*	any
+EcoGene	no-information	.*Phage or Prophage Related.*	any
+EcoGene	no-information	^t|f$	any
+EcoGene	no-information	Orf; Not classified	any
+UniProt	no-information	^$	any
+UniProt	no-information	Chain \(1\)	any
+UniProt	no-information	^\d\.0$	any
+UniProt	no-information	^\d$	any
+UniProt	no-information	^Putative uncharacterized	any
+UniProt	no-information	^Putative protein	any
+UniProt	no-information	^Uncharacterized protein	any
+UniProt	no-information	^Protein .{4}$	any
+UniProt	no-information	^UPF\d{4} Protein .{4}$	any
+UniProt	no-information	FUNCTION: Not yet known\.	any
+UniProt	no-information	^t|f$	any
+RefSeq	no-information	 family protein$	any
+RefSeq	no-information	^{}$	any
+RefSeq	no-information	^t|f$	any
+RefSeq	no-information	uncharacterized protein	any
+RefSeq	no-information	putative enzyme; Not classified	any
+RefSeq	no-information	putative regulator; Not classified	any
+RefSeq	no-information	orf; Not classified	any
+RefSeq	no-information	putative factor; Not classified	any
