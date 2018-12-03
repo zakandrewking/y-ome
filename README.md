@@ -25,14 +25,25 @@ the manuscript.
 When the database loads successfully, `bin/load-db` updates the following data
 files in the `data/` directory:
 
-*data/y-ome-genes.tsv* - A tab-separated text file containing all genes from this
+*data/yome-genes.tsv* - A tab-separated text file containing all genes from this
 analysis, their locus tags, primary name(s), and whether they are in the
 "y-ome", "well-annotated", or "excluded" category.
 
-*data/features.tsv.gz* - A tab-separated text file containing all features extracted
-from the five knowledge bases. Each line contains a gene locus tag, the
-knowledge base name, the gene primary name(s), the feature type for that
+*data/features.tsv.gz* - A tab-separated text file containing all features
+extracted from the five knowledge bases. Each line contains a gene locus tag,
+the knowledge base name, the gene primary name(s), the feature type for that
 knowledge base, and the feature itself extracted as text.
+
+*data/no-information.tsv* - A tab-separated text file containing a list of genes
+for which no information could be found in the five knowledge bases, with locus
+tags and EcoCyc primary names.
+
+*data/common-words.tsv* - The most common words found in knowledge bases
+features for y-ome genes. The counts indicate the number of unique y-ome genes
+for which each phrase appears. Similar words are grouped into sets.
+
+*data/yome-transporters.tsv* - A list of y-ome genes with indication in the knowledge
+bases that they might be transporters.
 
 # Run the workflow in Binder
 
@@ -40,6 +51,12 @@ Click the following link to launch the y-ome workflow in Binder. This will give
 you a fully interactive Jupyter Lab session:
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/zakandrewking/y-ome/master?urlpath=lab/tree/notebooks)
+
+# View annotation and features for a y-ome gene
+
+When you run the Binder server, you can run the notebook called "annotation
+report.ipynb" to quickly generate an overview of all the annotations for a given
+gene in the database. Just follow the instructions in the notebook.
 
 # Installation
 
