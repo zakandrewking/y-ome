@@ -41,7 +41,7 @@ final = yome_genes.merge(primary_names_grouped, how='outer')
 final['yome'] = final.annotation_quality.apply(
     lambda x: 'yes' if x == 'low' else 'no' if x == 'high' else x
 )
-final = final.drop(columns=['annotation_quality'])
+final = final.drop(columns=['annotation_quality']).rename(columns={'locus_id': 'locus_tag'})
 
 print(final['yome'].value_counts())
 
@@ -59,8 +59,14 @@ features = to_df(
     .join(Knowledgebase)
     .join(KnowledgebaseFeature)
 )
-features.to_csv(join(data_directory, '../data/features.tsv.gz'), sep='\t',
-                index=False, compression='gzip')
+
+# rename columns & drop newlines
+features_export = features.rename(columns={'locus_id': 'locus_tag'})
+features_export.feature = features_export.feature.replace(r'\n', ' ', regex=True)
+
+# save
+features_export.to_csv(join(data_directory, '../data/features.tsv.gz'),
+                       sep='\t', index=False, compression='gzip')
 
 session.close()
 
