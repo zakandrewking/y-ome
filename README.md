@@ -1,12 +1,13 @@
-# Generating a y-ome
-
 A y-ome is a collection of genes in an organism that lack experimental evidence
 of function. This repository contains the software and analysis related to this
 publication on the y-ome of _Escherichia coli_:
 
-*The y-ome defines the thirty-four percent of Escherichia coli genes that lack
-experimental evidence of function.* Sankha Ghatak, Zachary A. King, Anand
-Sastry, Bernhard O. Palsson. bioRxiv 328591. https://doi.org/10.1101/328591
+Sankha Ghatak, Zachary A King, Anand Sastry, Bernhard O Palsson, *The y-ome 
+defines the 35% of Escherichia coli genes that lack experimental evidence of 
+function*, Nucleic Acids Research, Volume 47, Issue 5, 18 March 2019, Pages 
+2446–2454, https://doi.org/10.1093/nar/gkz030
+
+# Generating a y-ome
 
 This repository includes a SQLite database (`yome.db`), scripts for populating
 the database (`bin/`), a Python package for querying the database (`yome/`), a
